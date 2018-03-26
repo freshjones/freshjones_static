@@ -40,5 +40,5 @@ gulp.task('watch', ['browsersync'], function ()
 // Gulp default task
 gulp.task('build', ['html','images','css','js']);
 
-gulp.task('default', []);
+gulp.task('default', ['build']);
 
