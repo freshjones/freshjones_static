@@ -13,7 +13,7 @@ gulp.task('browsersync', function() {
 });
 
 gulp.task('html', function() {
-    gulp.src('./src/*.html')
+    gulp.src('./src/**/*.html')
         .pipe(gulp.dest('./dist'));
 });
 
@@ -21,7 +21,6 @@ gulp.task('css', function () {
    gulp.src('./src/css/main.css')
        .pipe(gulp.dest('./dist/css'))
 });
-
 
 gulp.task('watch', ['browsersync'], function () 
 {
