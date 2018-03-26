@@ -1,0 +1,11 @@
+{
+  "name": "freshjones_static",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "serve": "^6.5.3"
+  }
+}
