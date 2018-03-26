@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start" : "yarn serve ./src"
+  },
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
