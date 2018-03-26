@@ -4,11 +4,17 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start" : "yarn serve ./src"
+    "start": "yarn serve ./dist"
   },
   "devDependencies": {
     "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
+    "gulp-file-include": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "node-sass": "^4.8.3",
     "serve": "^6.5.3"
   }
 }
