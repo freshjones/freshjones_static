@@ -1,0 +1,10 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block title %}
+FreshJones - Services
+{% endblock %}
+
+{% block main %}
+<h1>Services</h1>
+{% endblock %}

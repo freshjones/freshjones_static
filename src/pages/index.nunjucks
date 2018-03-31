@@ -1,0 +1,10 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block header %}
+  {{header.active()}}
+{% endblock %}
+
+{% block main %}  
+  <h1>Nice</h1>
+{% endblock %}

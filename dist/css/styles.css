@@ -1,3 +1,11 @@
+.bold {
+  font-weight: 600;
+}
+
+.white {
+  color: #fff;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -7,8 +15,20 @@ html, body {
   padding: 0;
 }
 
+body {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
 html {
   height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #3fa208;
 }
 
 .container {
@@ -53,11 +73,79 @@ header .container {
   padding: 0;
 }
 
-.logo span {
+.wordmark {
   font-family: 'Open Sans',arial,sans-serif;
   font-weight: 300;
   font-size: 26px;
   color: #333;
+}
+
+footer section {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 20px 0;
+}
+
+.footer {
+  display: flex;
+  color: #999;
+  justify-content: space-between;
+}
+
+.footer li {
+  padding: 5px 0;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #999;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer .wordmark {
+  margin-bottom: 20px;
+  line-height: 1;
+  color: #fff;
+}
+
+.wordmark span:first-child {
+  color: #3fa208;
+}
+
+.copyright {
+  display: flex;
+  color: #999;
+  font-size: 12px;
+  justify-content: flex-end;
+}
+
+.copyright li {
+  padding: 0 10px;
+}
+
+.certifications {
+  height: 110px;
+  background: #cccccc;
+}
+
+.certifications img {
+  height: 100%;
+}
+
+.certifications > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*# sourceMappingURL=maps/styles.css.map */

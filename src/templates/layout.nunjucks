@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}FreshJones - Full Service Design and Marketing Agency in Western Massachusetts{% endblock %}</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/images/favicon.ico" type="image/vnd.microsoft.icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+</head>
+<body>
+  {% import 'macros/header.nunjucks' as header %}
+  <header>{% block header %}{{header.active()}}{% endblock %}</header>
+  <main>{% block main %}{% endblock %}</main>
+  <footer>{% block footer %}{% include 'partials/footer.nunjucks' %}{% endblock %}</footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

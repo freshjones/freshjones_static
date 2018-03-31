@@ -1,0 +1,10 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block title %}
+404 - Page Not Found
+{% endblock %}
+
+{% block main %}
+  <h1>Ooops! this page doesn't exist.</h1>
+{% endblock %}
