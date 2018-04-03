@@ -10,10 +10,14 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
 </head>
 <body>
-  {% import 'macros/header.nunjucks' as header %}
-  <header>{% block header %}{{header.active()}}{% endblock %}</header>
-  <main>{% block main %}{% endblock %}</main>
+  {% include 'partials/mobile-nav.nunjucks' %}
+  <main>
+    {% import 'macros/header.nunjucks' as header %}
+    {% block header %}{{header.active()}}{% endblock %}
+    {% block main %}{% endblock %}
+  </main>
   <footer>{% block footer %}{% include 'partials/footer.nunjucks' %}{% endblock %}</footer>
-  <script src="js/main.js"></script>
+  <script src="/js/vendor.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>

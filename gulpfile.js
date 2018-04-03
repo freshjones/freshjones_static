@@ -1,6 +1,8 @@
 'use strict';
 
 var gulp              = require('gulp');
+var concat            = require("gulp-concat");
+var uglify            = require('gulp-uglify');
 var nunjucksRender    = require('gulp-nunjucks-render');
 var htmlmin           = require('gulp-htmlmin');
 var sass              = require('gulp-sass');
@@ -41,15 +43,41 @@ gulp.task('images', function() {
         .pipe(gulp.dest('./dist/images'));
 });
 
+gulp.task('js', function () 
+{
+  gulp.src('./src/js/**/*.js')
+    .pipe(concat('main.js'))
+    .pipe(gulp.dest('./dist/js'))
+    .pipe(browserSync.stream({match: '**/*.js'}));
+});
+
+gulp.task('js-vendor', function () 
+{
+  gulp.src(['./node_modules/jquery/dist/jquery.min.js'])
+    .pipe(concat('vendor.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('./dist/js'));
+});
+
 gulp.task('minify', function() {
   return gulp.src('./dist/**/*.html')
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('watch', ['nunjucks', 'images', 'scss', 'browsersync'], function () 
+gulp.task('uglify', function () 
+{
+  gulp.src('./dist/js/main.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('./dist/js'));
+});
+
+gulp.task('build', ['minify', 'uglify']);
+
+gulp.task('watch', ['nunjucks', 'images', 'scss', 'js', 'browsersync'], function () 
 {
   gulp.watch(['./src/**/*.+(html|nunjucks)'], ['nunjucks','images']).on('change', reload);
+  gulp.watch(['./src/js/**/*.js'], ['js']);
   gulp.watch(['./src/scss/**/*.scss'], ['scss']);
 });
 

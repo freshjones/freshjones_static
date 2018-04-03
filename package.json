@@ -4,16 +4,20 @@
   "main": "index.js",
   "scripts": {
     "start": "yarn serve ./dist",
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "build": "gulp build"
   },
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
     "gulp-htmlmin": "^4.0.0",
     "gulp-nunjucks-render": "^2.2.2",
     "gulp-sass": "^3.2.1",
     "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "jquery": "^3.3.1",
     "node-sass": "^4.8.3",
     "serve": "^6.5.3"
   }

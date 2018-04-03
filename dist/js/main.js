@@ -1,0 +1,1 @@
+!function(o){o(function(){o(".menu-toggle, .mobile-nav .toggle").on("click",function(){o("body").toggleClass("show-mobile-nav")})})}(jQuery);
