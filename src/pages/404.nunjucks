@@ -5,6 +5,10 @@
 404 - Page Not Found
 {% endblock %}
 
+{% block header %}
+  {{header.active('404')}}
+{% endblock %}
+
 {% block main %}
   <h1>Ooops! this page doesn't exist.</h1>
 {% endblock %}

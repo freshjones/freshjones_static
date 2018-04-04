@@ -1,0 +1,30 @@
+
+.menu-toggle
+{
+  display: flex;
+  height: 19px;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 28px;
+  cursor: pointer;
+}
+
+.menu-toggle span
+{
+  height: 3px;
+  width: 28px;
+  display: block;
+  background: #3fa208;
+  border-radius: 6px;
+}
+
+@include breakpoint($medium) { 
+  
+
+  .menu-toggle
+  {
+    display:none;
+  }
+  
+
+}

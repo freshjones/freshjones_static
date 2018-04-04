@@ -1,10 +1,55 @@
 <!-- index.nunjucks -->
 {% extends "layout.nunjucks" %}
 
-{% block header %}
-  {{header.active()}}
-{% endblock %}
-
 {% block main %}  
-  <h1>Nice</h1>
+  <section class="hero">
+    <div class="hero-content">
+      <div class="container">
+        <div class="head">Growth By Design</div>
+        <!-- <div class="subhead">FreshJones Creative is an integrated branding and web agency. We design experiences that deepen the relationship between your audience and your business.</div> -->
+      </div>
+    </div>
+    <div class="hero-background">
+      <div></div>
+    </div>
+  </section>
+  <section>
+      <div class="container">
+        <div>
+          <h1>FreshJones is a full service creative agency and digital marketing firm in Western Massachusetts.</h1>
+          <p>We work with all types of small/medium businesses both regionally and nationally. We focus on one thing: delivering results.</p>
+        </div>
+      </div>
+  </section>
+  <section>
+      <div class="container">
+        <div>
+          <h2>Our 3 step approach to growing a business</h2>
+          <p>Today, your customers want to engage with your business in person, over the phone, on your website, through social media and across mobile – be it your app, mobile site or through SMS. Not only that, the process needs to be seamless across all the different channels.</p>
+        </div>
+        <div>
+          <ul class="list-none flex justify-between">
+            <li>Web + Mobile</li>
+            <li>Brand + Creative</li>
+            <li>Marketing + Sales</li>
+          </ul>
+        </div>
+      </div>
+  </section>
+  <section>
+      <div class="container">
+        <div>
+          <h2>Why FreshJones</h2>
+        </div>
+        <div>
+          <ul class="list-none">
+            <li>Integrated approach</li>
+            <li>Our Size</li>
+            <li>Our Experience</li>
+            <li>Our Drive</li>
+            <li>Our Principles</li>
+          </ul>
+        </div>
+      </div>
+  </section>
 {% endblock %}

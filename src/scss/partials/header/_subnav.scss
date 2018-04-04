@@ -1,0 +1,55 @@
+.subnav-panel
+{
+  opacity: 0; 
+  visibility: hidden;
+  position:absolute;
+  width:100%;
+  left:0;
+  background:#fff;
+  border:solid 1px #ccc;
+  transition: opacity 200ms, visibility 200ms;
+}
+
+.subnav-panel > div
+{
+  width: 90%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subnav-panel ul
+{
+  display:flex;
+  margin:20px;
+  padding: 0;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.subnav-panel ul ul
+{
+  display:block;
+}
+
+.subnav-panel a {
+    display: flex;
+    align-items: flex-center;
+    margin: 0;
+    padding: 5px 0;
+    text-transform: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: initial;
+}
+
+
+@include breakpoint($medium) 
+{ 
+  .subnav-panel-active
+  {
+     opacity: 1; 
+     visibility: visible;
+  }
+}

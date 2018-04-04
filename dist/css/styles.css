@@ -12,6 +12,20 @@
   padding: 0;
 }
 
+.list-heading {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -41,9 +55,15 @@ a {
   margin-right: auto;
 }
 
-main .content {
+main {
   margin-top: 120px;
   margin-bottom: 20px;
+}
+
+@media (min-width: 980px) {
+  main {
+    margin-top: 140px;
+  }
 }
 
 header {
@@ -53,7 +73,6 @@ header {
   z-index: 100;
   background-color: white;
   top: 0px;
-  border-bottom: 1px solid #ccc;
 }
 
 header .container {
@@ -61,6 +80,38 @@ header .container {
   align-items: center;
   justify-content: space-between;
   height: 70px;
+}
+
+@media (min-width: 980px) {
+  header {
+    height: 120px;
+  }
+  header .container {
+    height: 90px;
+  }
+}
+
+.menu-toggle {
+  display: flex;
+  height: 19px;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 28px;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  height: 3px;
+  width: 28px;
+  display: block;
+  background: #3fa208;
+  border-radius: 6px;
+}
+
+@media (min-width: 980px) {
+  .menu-toggle {
+    display: none;
+  }
 }
 
 .logo {
@@ -92,38 +143,137 @@ header .wordmark {
   display: none;
 }
 
-.menu-toggle {
-  display: flex;
-  height: 19px;
-  justify-content: space-between;
-  flex-direction: column;
-  width: 28px;
-  cursor: pointer;
-}
-
-.menu-toggle span {
-  height: 3px;
-  width: 28px;
-  display: block;
-  background: #3fa208;
-  border-radius: 6px;
+@media (min-width: 768px) {
+  header .wordmark {
+    display: block;
+  }
 }
 
 nav {
   display: none;
 }
 
-header .phone {
+nav ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30px;
+  margin: 25px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 0 0 40px;
+}
+
+nav a {
+  display: flex;
+  align-items: flex-center;
+  margin: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+nav a svg {
+  height: auto;
+  width: 10px;
+  margin-left: 5px;
+  fill: green;
+}
+
+nav a:hover,
+nav a.active {
+  color: #3fa208;
+}
+
+@media (min-width: 980px) {
+  nav {
+    display: block;
+  }
+}
+
+.subnav-panel {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background: #fff;
+  border: solid 1px #ccc;
+  transition: opacity 200ms, visibility 200ms;
+}
+
+.subnav-panel > div {
+  width: 90%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subnav-panel ul {
+  display: flex;
+  margin: 20px;
+  padding: 0;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.subnav-panel ul ul {
+  display: block;
+}
+
+.subnav-panel a {
+  display: flex;
+  align-items: flex-center;
+  margin: 0;
+  padding: 5px 0;
+  text-transform: none;
+  color: #000;
   font-size: 14px;
+  font-weight: normal;
+  line-height: initial;
+}
+
+@media (min-width: 980px) {
+  .subnav-panel-active {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+header .contact-info {
+  height: 30px;
+  font-size: 16px;
   color: #fff;
   background: #3fa208;
 }
 
-header .phone a {
+header .contact-info ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+header .contact-info ul,
+header .contact-info li {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .contact-info li {
+  margin: 0 0 0 10px;
+  display: none;
+}
+
+header .contact-info li.phone {
+  display: flex;
+}
+
+header .contact-info a {
   color: #fff;
   display: block;
   height: inherit;
@@ -132,14 +282,36 @@ header .phone a {
   flex-flow: nowrap;
 }
 
-header .phone span {
+header .contact-info span {
   white-space: nowrap;
 }
 
-header .phone img {
+header .contact-info svg {
   width: auto;
   height: 100%;
   padding: 8px;
+  fill: white;
+}
+
+@media (min-width: 980px) {
+  header .contact-info {
+    background: #fff;
+    color: #666;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+  }
+  header .contact-info .container {
+    justify-content: flex-end;
+  }
+  header .contact-info a {
+    color: #999;
+  }
+  header .contact-info svg {
+    fill: #3fa208;
+  }
+  header .contact-info li {
+    display: flex;
+  }
 }
 
 .mobile-nav {
@@ -203,22 +375,9 @@ body.show-mobile-nav .mobile-nav .toggle {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-@media (min-width: 980px) {
-  .wordmark {
-    display: none;
-  }
-  nav {
-    display: block;
-  }
-  .menu-toggle {
-    display: none;
-  }
-}
-
 footer section {
   display: flex;
   justify-content: center;
-  background-color: #333;
   padding: 20px 0;
 }
 
@@ -242,13 +401,13 @@ footer a {
 }
 
 footer a:hover {
-  color: #fff;
+  color: #3fa208;
 }
 
 footer .wordmark {
   margin-bottom: 10px;
   line-height: 1;
-  color: #fff;
+  color: #000;
 }
 
 .wordmark span:first-child {
@@ -280,6 +439,12 @@ footer .wordmark {
   height: auto;
 }
 
+@media (min-width: 768px) {
+  .certifications > div > div {
+    width: 20%;
+  }
+}
+
 @media (min-width: 980px) {
   .footer {
     display: flex;
@@ -292,12 +457,71 @@ footer .wordmark {
   .copyright li {
     padding: 0 10px;
   }
-  .certifications {
-    height: 110px;
+  .certifications > div > div {
+    height: 70px;
   }
   .certifications img {
     height: 100%;
+    width: auto;
   }
+}
+
+.hero {
+  min-height: 400px;
+  padding: 0px;
+  position: relative;
+  background-color: #f3f3f3;
+}
+
+.hero-content {
+  position: absolute;
+  z-index: 20;
+  width: 100%;
+  min-height: 400px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content .head {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.hero-content .subhead {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  color: #3fa208;
+}
+
+.hero-background {
+  min-height: 400px;
+  bottom: 0px;
+  position: absolute;
+  z-index: 10;
+  top: 0px;
+  width: 100%;
+}
+
+.hero-background > div {
+  background: #000;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=maps/styles.css.map */

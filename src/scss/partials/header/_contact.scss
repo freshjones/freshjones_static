@@ -1,0 +1,87 @@
+
+header .contact-info
+{
+  height:30px;
+  font-size:16px;
+  color:#fff;
+  background:$green;
+}
+header .contact-info ul
+{
+  margin-top:0;
+  margin-bottom:0;
+  padding-left:0;
+}
+header .contact-info ul,
+header .contact-info li
+{
+  height:inherit;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+header .contact-info li
+{
+  margin:0 0 0 10px;
+  display:none;
+}
+
+header .contact-info li.phone
+{
+  display:flex;
+}
+
+header .contact-info a
+{
+  color:#fff;
+  display:block;
+  height:inherit;
+  display:flex;
+  align-items:center;
+  flex-flow: nowrap;
+}
+
+header .contact-info span
+{
+  white-space: nowrap;
+}
+
+header .contact-info svg
+{
+  width: auto;
+  height: 100%;
+  padding:8px;
+  fill:white;
+}
+
+
+@include breakpoint($medium) { 
+  
+  header .contact-info
+  {
+    background:#fff;
+    color:#666;
+    font-size:14px;
+    border-bottom:1px solid #ccc;
+  }
+
+  header .contact-info .container
+  {
+    justify-content:flex-end;
+  }
+
+  header .contact-info a
+  {
+    color:#999;
+  }
+
+  header .contact-info svg
+  {
+    fill:$green;
+  }
+  header .contact-info li
+  {
+    display:flex;
+  }
+}

@@ -1,0 +1,42 @@
+
+.logo
+{
+  width: auto;
+  height: 100%;
+  display: flex;
+  padding:15px;
+  margin:0;
+  align-items: flex-end;
+  text-decoration: none;
+}
+
+.logo img
+{
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wordmark
+{
+  font-family: 'Open Sans',arial,sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  color: #333;
+}
+
+header .wordmark {
+  display:none;
+}
+
+
+@include breakpoint($small) { 
+  
+   header .wordmark
+  {
+    display:block;
+  }
+
+}

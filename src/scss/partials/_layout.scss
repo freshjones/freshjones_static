@@ -6,7 +6,13 @@
   margin-right: auto;
 }
 
-main .content{
+main {
   margin-top:120px;
   margin-bottom:20px;
+}
+
+@include breakpoint($medium) { 
+  main {
+    margin-top:140px;
+  }
 }

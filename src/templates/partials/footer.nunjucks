@@ -21,7 +21,7 @@
       </li>
       <li>
         <ul>
-          <li class="bold white">Web + Mobile</li>
+          <li class="list-heading">Web + Mobile</li>
           <li><a href="/website-design-and-developent">Web Design &amp; Development</a></li>
           <li><a href="/mobile-application-development">Mobile Apps</a></li>
           <li><a href="/cloud-hosting-and-management">Cloud Hosting and Management</a></li>
@@ -31,7 +31,7 @@
       </li>
       <li>
         <ul>
-          <li class="bold white">Marketing + Sales</li>
+          <li class="list-heading">Marketing + Sales</li>
           <li><a href="/website-design-and-developent">Strategic Planning</a></li>
           <li><a href="/website-design-and-developent">Search Engine Optimization (SEO)</a></li>
           <li><a href="/website-design-and-developent">Local Search</a></li>
@@ -45,7 +45,7 @@
       </li>
       <li>
         <ul>
-          <li class="bold white">Brand + Creative</li>
+          <li class="list-heading">Brand + Creative</li>
           <li><a href="/website-design-and-developent">Campaign Development</a></li>
           <li><a href="/website-design-and-developent">Sales Support Collateral</a></li>
           <li><a href="/website-design-and-developent">Outdoor Advertising</a></li>

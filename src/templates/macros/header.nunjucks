@@ -1,7 +1,27 @@
 {% macro active(activePage='home') %}
   <header>
-    <div class="phone">
-      <a href="tel:1-413-475-1810"><img alt="FreshJones" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDE4MC45IDE4MCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTgwLjkgMTgwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojRkZGRkZGO30NCjwvc3R5bGU+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNDAuOSwwYzcuNiwxMi41LDE1LjMsMjQuOSwyMi45LDM3LjRjMy42LDUuOSwzLjQsOC4zLTEuNiwxMy4xYy00LjMsNC4xLTkuMSw3LjgtMTMuNiwxMS43DQoJYy02LjEsNS41LTcuMSw3LjktMy4yLDE1LjFjMy43LDYuOCw3LjksMTMuNiwxMywxOS4zYzEzLjUsMTUsMjkuMywyNy42LDQ2LjIsMzguNmM3LjEsNC42LDkuMyw0LjEsMTQuNy0yLjQNCgljMy41LTQuMiw2LjctOC43LDEwLjQtMTIuOGM0LjgtNS41LDcuNi01LjksMTMuOC0yLjJjMTIuNSw3LjMsMjQuOSwxNC43LDM3LjMsMjJjMCwyLjMsMCw0LjcsMCw3Yy01LjQsMTQuOS0xNS4yLDI1LjUtMzAuNSwzMC43DQoJYy0yLjUsMC44LTUsMS42LTcuNSwyLjNjLTQuNywwLTkuMywwLTE0LDBjLTQuNi0xLjItOS4zLTIuMy0xMy44LTMuOEM4NC4yLDE2Niw1OS42LDE0Ni40LDM4LDEyM0MyMS4yLDEwNC45LDkuOSw4My43LDMuNCw1OS44DQoJQy0zLjksMzIuOSw1LjgsMTYuMSwyNy4zLDMuMUMyOS4yLDIsMzEuMSwxLDMyLjksMEMzNS42LDAsMzguMiwwLDQwLjksMHoiLz4NCjwvc3ZnPg==" /><span>1-413-475-1810</span></a>
+    <div class="contact-info">
+      <ul class="container">
+        <li class="phone">
+        <a href="tel:1-413-475-1810"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 180.9 180" style="enable-background:new 0 0 180.9 180;" xml:space="preserve">
+  <path d="M40.9,0c7.6,12.5,15.3,24.9,22.9,37.4c3.6,5.9,3.4,8.3-1.6,13.1c-4.3,4.1-9.1,7.8-13.6,11.7c-6.1,5.5-7.1,7.9-3.2,15.1
+    c3.7,6.8,7.9,13.6,13,19.3c13.5,15,29.3,27.6,46.2,38.6c7.1,4.6,9.3,4.1,14.7-2.4c3.5-4.2,6.7-8.7,10.4-12.8
+    c4.8-5.5,7.6-5.9,13.8-2.2c12.5,7.3,24.9,14.7,37.3,22c0,2.3,0,4.7,0,7c-5.4,14.9-15.2,25.5-30.5,30.7c-2.5,0.8-5,1.6-7.5,2.3
+    c-4.7,0-9.3,0-14,0c-4.6-1.2-9.3-2.3-13.8-3.8C84.2,166,59.6,146.4,38,123C21.2,104.9,9.9,83.7,3.4,59.8
+    C-3.9,32.9,5.8,16.1,27.3,3.1C29.2,2,31.1,1,32.9,0C35.6,0,38.2,0,40.9,0z"/>
+  </svg><span>(413) 475-1810</span></a>
+        </li>
+        <li class="email">
+        <a href="mailto:chloe@freshjones.com"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 180.9 180" style="enable-background:new 0 0 180.9 180;" xml:space="preserve">
+<g>
+  <polygon points="0.8,27.4 88.8,87.8 180.9,27.4  "/>
+  <polygon points="180.2,41.3 89.5,101.8 0.8,42.4 0.8,149 180.9,149 180.9,40.8  "/>
+</g>
+</svg><span>hello@freshjones.com</span></a>
+        </li>
+      </ul>
     </div>
     <div class="container">
       <a class="logo" href="/">
@@ -11,8 +31,20 @@
       <div class="menu-toggle">
         <span></span><span></span><span></span>
       </div>
-      {% import 'macros/nav.nunjucks' as nav %}
-      <nav>{{nav.active( activePage )}}</nav>
+      <nav>
+        <ul>
+          <a href="/" class="{%if activePage == 'home' %}active{% endif %}">Home</a>
+          <!-- <li><a href="/solutions" class="{%if activePage == 'solutions' %}active{% endif %}">Solutions</a></li> -->
+          <li class="show-subnav"><a href="/services" class="{%if activePage == 'services' %}active{% endif %}">Services <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 160.3 99.7" style="enable-background:new 0 0 160.3 99.7;" xml:space="preserve"><polygon points="80.1,60.6 19.6,0 0,19.6 80.1,99.7 160.3,19.6 140.7,0 "/></svg></a>
+            <div class="subnav-panel">
+              <div>{% include 'partials/services-subnav.nunjucks' %}</div>
+            </div>
+          </li>
+          <li><a href="/about" class="{%if activePage == 'about' %}active{% endif %}">About</a></li>
+          <li><a href="/blog" class="{%if activePage == 'blog' %}active{% endif %}">Blog</a></li>
+          <li><a href="/contact" class="{%if activePage == 'contact' %}active{% endif %}">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 {% endmacro %}

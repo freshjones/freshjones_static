@@ -14,9 +14,7 @@
   <main>
     {% import 'macros/header.nunjucks' as header %}
     {% block header %}{{header.active()}}{% endblock %}
-    <div class="content container">
-      {% block main %}{% endblock %}
-    </div>
+    {% block main %}{% endblock %}
   </main>
   <footer>{% block footer %}{% include 'partials/footer.nunjucks' %}{% endblock %}</footer>
   <script src="/js/vendor.js"></script>
