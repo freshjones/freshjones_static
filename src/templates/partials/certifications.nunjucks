@@ -1,8 +1,8 @@
 <section class="certifications">
   <div class="container">
-    <img src="/images/hubspot-inbound-certified.png">
-    <img src="/images/hubspot-inbound-sales-certified.png">
-    <img src="/images/google-ad-words-certified.png">
-    <img src="/images/clickminded-seo-certified.png">
+    <div><img src="/images/hubspot-inbound-certified.png"></div>
+    <div><img src="/images/hubspot-inbound-sales-certified.png"></div>
+    <div><img src="/images/google-ad-words-certified.png"></div>
+    <div><img src="/images/clickminded-seo-certified.png"></div>
   </div>
 </section>
