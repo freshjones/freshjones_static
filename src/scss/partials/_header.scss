@@ -90,6 +90,7 @@ header .phone a
   height:inherit;
   display:flex;
   align-items:center;
+  flex-flow: nowrap;
 }
 
 header .phone img
