@@ -93,6 +93,11 @@ header .phone a
   flex-flow: nowrap;
 }
 
+header .phone span
+{
+  white-space: nowrap;
+}
+
 header .phone img
 {
   width: auto;
