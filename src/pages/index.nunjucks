@@ -3,6 +3,7 @@
 
 {% block main %}  
   <section class="hero">
+    {{ notes.notes('Hero','Visual Interest', 'keep user interested') }}
     <div class="hero-content">
       <div class="container">
         <div class="head">Growth By Design</div>
@@ -14,36 +15,116 @@
     </div>
   </section>
   <section>
+      {{ notes.notes('Intro','Explain who FreshJones is', 'introduce FreshJones') }}
       <div class="container">
         <div>
-          <h1>FreshJones is a full service creative agency and digital marketing firm in Western Massachusetts.</h1>
-          <p>We work with all types of small/medium businesses both regionally and nationally. We focus on one thing: delivering results.</p>
+          <h1>FreshJones is a full service creative agency and digital marketing firm in Western Massachusetts. We work with all types of small/medium businesses both regionally and nationally. We focus on one thing: delivering results.</h1>
         </div>
       </div>
   </section>
   <section>
+      {{ notes.notes('Integrated Marketing','Explain benefits of integrated marketing', 'Get people to buy marketing retainer service') }}
+      <div class="container flex flex-split">
+        <div class="">
+          <h2>Why Think Integrated</h2>
+          <p>B2B companies require a different kind of marketing agency. A team that leads with strategy, data and insight – and follows through with compelling, results-focused execution. A partner who gets smart quickly about complex technologies, products and services – and translates them into visibility-raising brand messaging.</p>
+          <p>Our roster of technology clients is global – from Silicon Valley to Switzerland, New York to the Netherlands. We complement and supplement internal marketing teams, helping raise visibility, showcase credibility and generate qualified leads. Simply put, we get tech.</p>
+          <p>Trying to do more with less? Watch our short video to learn why Altitude's “View from 30,000 Feet” is the most efficient and effective way to develop a successful B2B marketing plan.</p>
+        </div>
+        <div class="">
+          <div class="video-thumbnail">
+            <img src="/images/integrated-video-mock.jpg" />
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="fadein">
+      {{ notes.notes('Solutions','', '') }}
       <div class="container">
         <div>
-          <h2>Our 3 step approach to growing a business</h2>
-          <p>Today, your customers want to engage with your business in person, over the phone, on your website, through social media and across mobile – be it your app, mobile site or through SMS. Not only that, the process needs to be seamless across all the different channels.</p>
+          <h2>Solutions</h2>
         </div>
         <div>
-          <ul class="list-none flex justify-between">
-            <li>Web + Mobile</li>
-            <li>Brand + Creative</li>
-            <li>Marketing + Sales</li>
+          <ul class="list-none">
+            <li>Manufacturing</li>
+            <li>Higher-education</li>
+            <li>Non-profit</li>
+            <li>Financial Services</li>
+            <li>Science and Technology</li>
+            <li>Retail and Distribution </li>
           </ul>
         </div>
       </div>
   </section>
-  <section>
+  <section class="fadein">
+      {{ notes.notes('Services','', 'Get people to click through to services') }}
+      <div class="container">
+        <div>
+          <h2>Our Services</h2>
+        </div>
+        <div>
+          <ul class="list-none">
+            <li>Integrated approach</li>
+            <li>Our Size</li>
+            <li>Our Experience</li>
+          </ul>
+        </div>
+      </div>
+  </section>
+  <section class="fadein">
+      {{ notes.notes('Web + Mobile','', 'Get people to click through to web and mobile') }}
+      <div class="container">
+        <div>
+          <h2>Web + Mobile</h2>
+        </div>
+        <div>
+          <ul class="list-none">
+            <li>Integrated approach</li>
+            <li>Our Size</li>
+            <li>Our Experience</li>
+          </ul>
+        </div>
+      </div>
+  </section>
+  <section class="fadein">
+      {{ notes.notes('Marketing and Sales','', 'Get people to click through to web and mobile') }}
+      <div class="container">
+        <div>
+          <h2>Marketing + Sales</h2>
+        </div>
+        <div>
+          <ul class="list-none">
+            <li>Integrated approach</li>
+            <li>Our Size</li>
+            <li>Our Experience</li>
+          </ul>
+        </div>
+      </div>
+  </section>
+  <section class="fadein">
+      {{ notes.notes('Branding + Creative','', 'Get people to click through to web and mobile') }}
+      <div class="container">
+        <div>
+          <h2>Branding + Creative</h2>
+        </div>
+        <div>
+          <ul class="list-none">
+            <li>Integrated approach</li>
+            <li>Our Size</li>
+            <li>Our Experience</li>
+          </ul>
+        </div>
+      </div>
+  </section>
+  <section class="fadein">
+      {{ notes.notes('Why FreshJones','Explain why someone should work with us', 'Get people comfortable with how we work') }}
       <div class="container">
         <div>
           <h2>Why FreshJones</h2>
         </div>
         <div>
           <ul class="list-none">
-            <li>Integrated approach</li>
+            <li>Our Approach</li>
             <li>Our Size</li>
             <li>Our Experience</li>
             <li>Our Drive</li>
@@ -52,4 +133,17 @@
         </div>
       </div>
   </section>
+  <section class="bg-light-gray fadein">
+      {{ notes.notes('CTA','Set up lead qualifying phone calls', 'Conversions') }}
+      <div class="container flex flex-split">
+        <div>
+          <h2>Interested in talking? Let's schedule a call.</h2>
+          <p>We love working with growing companies. Whether your business is in the research phase, consideration phase or in the "I need it done yesterday phase" we want to hear from you. Let’s begin with a discovery call to discuss your needs.</p>
+        </div>
+        <div>
+          {% include 'partials/cta/schedule-consultation.nunjucks' %}
+        </div>
+      </div>
+  </section>
+
 {% endblock %}

@@ -1,0 +1,53 @@
+label
+{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+input
+{
+    border: solid 1px #ccc;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+}
+
+form > div
+{
+      margin-bottom: 10px;
+}
+
+button, input {
+    overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+    font: inherit;
+    margin: 0;
+}
+
+[type="checkbox"], [type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    width:auto;
+}
+
+[type="submit"]
+{
+  background: #3fa208;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Open Sans',arial,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  letter-spacing: .5px;
+  line-height: 48px;
+  padding: 0 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-top: 20px;
+}

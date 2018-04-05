@@ -17,12 +17,17 @@ gulp.task('browsersync', function() {
     });
 });
 
+var nunjucksEnv = function(env) {
+  env.addGlobal('showNotes', true)
+}
+
 gulp.task('nunjucks', function() {
   // Gets .html and .nunjucks files in pages
   return gulp.src('./src/pages/**/*.+(html|nunjucks)')
   // Renders template with nunjucks
   .pipe(nunjucksRender({
-      path: ['./src/templates']
+      path: ['./src/templates'],
+      manageEnv: nunjucksEnv
     }))
   // output files in app folder
   .pipe(gulp.dest('./dist'))

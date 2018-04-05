@@ -1,0 +1,14 @@
+{% macro notes(title,purpose,goal) %}
+  {% if showNotes === true %}
+  <div class="internal-notes">
+    <div class="icon">?</div>
+    <div class="contents">
+      <ul>
+        {% if title %}<li><span class="title">Section:</span><br/>{{ title }}</li>{% endif %}
+        {% if purpose %}<li><span class="title">Purpose:</span><br/>{{ purpose }}</li>{% endif %}
+        {% if goal %}<li><span class="title">Goal:</span><br/>{{ goal }}</li>{% endif %}
+      </ul>
+    </div>
+  </div>
+  {% endif %}
+{% endmacro %}

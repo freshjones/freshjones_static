@@ -1,0 +1,39 @@
+<form>
+  <div>
+    <label>Name</label>
+    <input name="name" placeholder="Full Name" type="text" required>
+  </div>
+  <div>
+    <label>Email</label>
+    <input name="email" placeholder="Email Address" type="email" required>
+  </div>
+  <div>
+    <label>Telephone</label>
+    <input name="tel" pattern="[\(]?\d{3}[\)]?[ ]?\d{3}[\-| ]?\d{4}" placeholder="Phone Number (999) 999-9999" type="tel" required>
+  </div>
+  <div>
+    <label>Company</label>
+    <input name="company" placeholder="Company Name" type="text" required>
+  </div>
+  <div>
+    <div>Let's Talk About:</div>
+    <div class="flex justify-between">
+      <div>
+        <label><input name="digital-marketing" value="on" type="checkbox"> Web + Mobile</label>
+      </div>
+      <div>
+        <label>
+          <input name="digital-marketing" value="on" type="checkbox"> Marketing + Sales
+        </label>
+      </div>
+      <div>
+        <label>
+          <input name="digital-marketing" value="on" type="checkbox"> Brand + Creative
+        </label>
+      </div>
+    </div>
+  </div>
+  <div>
+    <input name="Submit" value="Schedule My Consultation" type="submit">
+  </div>
+</form>

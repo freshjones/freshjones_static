@@ -18,12 +18,24 @@
   margin-bottom: 10px;
 }
 
-.flex {
-  display: flex;
-}
-
 .justify-between {
   justify-content: space-between;
+}
+
+.bg-light-gray {
+  background-color: #EFEFEF;
+}
+
+@media (min-width: 980px) {
+  .flex {
+    display: flex;
+  }
+  .flex-split {
+    align-items: flex-start;
+  }
+  .flex-split > div {
+    width: 50%;
+  }
 }
 
 * {
@@ -40,12 +52,46 @@ html, body {
 body {
   font-family: sans-serif;
   font-size: 16px;
-  line-height: 1.35;
+  line-height: 1.5;
 }
 
 a {
   text-decoration: none;
   color: #3fa208;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+section {
+  position: relative;
+}
+
+main section {
+  opacity: 0;
+  transition: opacity 1s, transform 500ms;
+  transform: translate3d(0, 50px, 0);
+}
+
+main section.visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+h1, h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 38px;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 300;
 }
 
 .container {
@@ -57,7 +103,11 @@ a {
 
 main {
   margin-top: 120px;
-  margin-bottom: 20px;
+}
+
+section .container {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 @media (min-width: 980px) {
@@ -522,6 +572,113 @@ footer .wordmark {
   position: absolute;
   top: 0px;
   width: 100%;
+}
+
+.video-thumbnail {
+  padding: 20px;
+}
+
+.internal-notes {
+  position: absolute;
+  font-size: 11px;
+  color: magenta;
+  width: 10%;
+  left: 10px;
+  top: 10px;
+  z-index: 30;
+}
+
+.internal-notes .title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.internal-notes .icon {
+  width: 20px;
+  height: 20px;
+  background: magenta;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.internal-notes .contents {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  display: none;
+  background: white;
+  padding: 10px;
+  border: solid 1px #ccc;
+}
+
+.internal-notes .contents-active {
+  display: block;
+}
+
+.internal-notes ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.internal-notes li {
+  margin-bottom: 10px;
+  padding: 0 20px 0 0;
+}
+
+label {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+input {
+  border: solid 1px #ccc;
+  padding: 10px;
+  width: 100%;
+  font-size: 14px;
+}
+
+form > div {
+  margin-bottom: 10px;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+  font: inherit;
+  margin: 0;
+}
+
+[type="checkbox"], [type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  width: auto;
+}
+
+[type="submit"] {
+  background: #3fa208;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Open Sans',arial,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  letter-spacing: .5px;
+  line-height: 48px;
+  padding: 0 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=maps/styles.css.map */
