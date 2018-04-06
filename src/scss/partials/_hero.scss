@@ -34,6 +34,8 @@
   z-index:10;
   top: 0px;
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .hero-background > div {
@@ -54,6 +56,63 @@
   @extend h2;
   font-size: $size-default;
 }
+
+.hero-solutions
+{
+  background:#FFF;
+  color:#000;
+}
+
+
+.hero-solutions .grid > div
+{
+  background: #f8f8f8;
+  min-height:100px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-bottom:$space-1;
+}
+
+
+.hero-solutions .panels > div
+{
+  margin-bottom:$space-3;
+}
+
+@include breakpoint($medium) { 
+
+
+  .hero-solutions .panels
+  {
+    display:flex;
+    justify-content:space-between;
+  }
+
+  .hero-solutions .panels > div
+  {
+    width:45%;
+    margin-bottom:0;
+  }
+
+  .hero-solutions .grid
+  {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+  }
+
+  .hero-solutions .grid > div
+  {
+    margin-bottom:0;
+  }
+
+
+}
+
+
+
+
 
 @include breakpoint($medium) { 
 

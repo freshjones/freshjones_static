@@ -1,21 +1,30 @@
-.bold {
-  font-weight:600;
-}
 
 .smaller
 {
-  font-size:90%;
+  font-size:90% !important;
 }
 
 .larger
 {
-  font-size:150%;
+  font-size:150% !important;
 }
 
 .thin
 {
-  font-weight:300;
+  font-weight:300 !important;
 }
+
+.bold {
+  font-weight:600 !important;
+}
+
+
+.line-height-1{ line-height:1; }
+.line-height-2{ line-height:1.5; }
+.line-height-3{ line-height:2; }
+.line-height-4{ line-height:4; }
+
+.align-center { text-align:center; }
 
 .h1{ @extend h1;  }
 .h2{ @extend h2; }

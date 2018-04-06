@@ -279,6 +279,24 @@ $size-1: $size-default * 4 - 8px;
   justify-content: space-between;
 }
 
+.grid-2col {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+}
+
+.grid-3col {
+  display: grid;
+  grid-template-columns: 33% 33%  33%;
+  grid-gap: 10px;
+}
+
+.grid-4col {
+  display: grid;
+  grid-template-columns: 25% 25%  25% 25%;
+  grid-gap: 10px;
+}
+
 @media (min-width: 980px) {
   .flex {
     display: flex;
@@ -303,20 +321,40 @@ $size-1: $size-default * 4 - 8px;
   margin-bottom: 10px;
 }
 
-.bold {
-  font-weight: 600;
-}
-
 .smaller {
-  font-size: 90%;
+  font-size: 90% !important;
 }
 
 .larger {
-  font-size: 150%;
+  font-size: 150% !important;
 }
 
 .thin {
-  font-weight: 300;
+  font-weight: 300 !important;
+}
+
+.bold {
+  font-weight: 600 !important;
+}
+
+.line-height-1 {
+  line-height: 1;
+}
+
+.line-height-2 {
+  line-height: 1.5;
+}
+
+.line-height-3 {
+  line-height: 2;
+}
+
+.line-height-4 {
+  line-height: 4;
+}
+
+.align-center {
+  text-align: center;
 }
 
 * {
@@ -356,15 +394,15 @@ h1, .h1, .hero-heading, h2, .h2, .hero-subheading, h3, .h3, h4, .h4, h5, .h5, h6
 }
 
 h1, .h1, .hero-heading {
-  font-size: 160%;
+  font-size: 175%;
 }
 
 h2, .h2, .hero-subheading {
-  font-size: 125%;
+  font-size: 135%;
 }
 
 h3, .h3 {
-  font-size: 100%;
+  font-size: 120%;
 }
 
 h4, .h4 {
@@ -380,6 +418,9 @@ h6, .h6 {
 }
 
 @media (min-width: 768px) {
+  h1, .h1, .hero-heading, h2, .h2, .hero-subheading, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
+    font-weight: 300;
+  }
   h1, .h1, .hero-heading {
     font-size: 300%;
   }
@@ -877,6 +918,8 @@ footer .wordmark {
   z-index: 10;
   top: 0px;
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .hero-background > div {
@@ -893,6 +936,43 @@ footer .wordmark {
 
 .hero-subheading {
   font-size: 16px;
+}
+
+.hero-solutions {
+  background: #FFF;
+  color: #000;
+}
+
+.hero-solutions .grid > div {
+  background: #f8f8f8;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.hero-solutions .panels > div {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 980px) {
+  .hero-solutions .panels {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero-solutions .panels > div {
+    width: 45%;
+    margin-bottom: 0;
+  }
+  .hero-solutions .grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+  }
+  .hero-solutions .grid > div {
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width: 980px) {

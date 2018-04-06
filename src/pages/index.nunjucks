@@ -2,11 +2,12 @@
 {% extends "layout.nunjucks" %}
 
 {% block main %}  
+
   <section class="hero">
     <div class="hero-content">
       <div class="container">
         <div class="h1">Growth. By Design.</div>
-        <div class="h3">FreshJones is a full service creative agency and digital marketing firm in Western Massachusetts. We work with all types of small/medium businesses both regionally and nationally. </div>
+        <div class="h3">FreshJones is a full service integrated digital marketing firm in Western Massachusetts. We work with all types of small/medium businesses both regionally and nationally. </div>
         <div class="h3">We focus on one thing, delivering results.</div>
       </div>
     </div>
@@ -14,35 +15,46 @@
       <div></div>
     </div>
   </section>
-  <section class="hero">
+
+  <section class="">
       <div class="container flex flex-split">
         <div class="">
-          <h2>Why Think Integrated Marketing</h2>
+          <h2>Why Integrated Marketing</h2>
           <p>B2B companies require a different kind of marketing agency. A team that leads with strategy, data and insight – and follows through with compelling, results-focused execution. A partner who gets smart quickly about complex technologies, products and services – and translates them into visibility-raising brand messaging.</p>
-          <p>Our roster of technology clients is global – from Silicon Valley to Switzerland, New York to the Netherlands. We complement and supplement internal marketing teams, helping raise visibility, showcase credibility and generate qualified leads. Simply put, we get tech.</p>
-          <p>Trying to do more with less? Watch our short video to learn why Altitude's “View from 30,000 Feet” is the most efficient and effective way to develop a successful B2B marketing plan.</p>
         </div>
         <div class="">
-          <div class="video-thumbnail">
+          <div >
             <img src="/images/integrated-video-mock.jpg" />
           </div>
         </div>
       </div>
   </section>
-  <section class="hero">
+
+  <section class="hero hero-solutions">
       <div class="container">
-        <div>
-          <h2>Solutions</h2>
-        </div>
-        <div>
-          <ul class="list-none">
-            <li>Manufacturing</li>
-            <li>Higher-education</li>
-            <li>Non-profit</li>
-            <li>Financial Services</li>
-            <li>Science and Technology</li>
-            <li>Retail and Distribution </li>
-          </ul>
+        <h2 class="h1 line-height-1">Solutions</h2>
+        <div class="h3">Integrated marketing solutions from single business owners to agencies and large corporations we’re here to help.</div>
+        <div class="panels">
+          <div>
+            <div class="grid">
+              <div>Manufacturing</div>
+              <div>Higher-education</div>
+              <div>Non-profit</div>
+              <div>Financial Services</div>
+              <div>Science and Technology</div>
+              <div>Retail and Distribution </div>
+            </div>
+          </div>
+          <div>
+            <div class="grid">
+              <div>C-Suite Executives</div>
+              <div>Technology Managers</div>
+              <div>Marketing Managers</div>
+              <div>Small Business Owners</div>
+              <div>In-house marketing teams</div>
+              <div>Advertising agencies</div>
+            </div>
+          </div>
         </div>
       </div>
   </section>
