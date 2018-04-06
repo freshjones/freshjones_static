@@ -71,7 +71,14 @@
 .mb2 { margin-bottom: $space-2; }
 .mb3 { margin-bottom: $space-3; }
 
-.offset0 { margin-left: -$space-0; margin-right: -$space-0; }
-.offset1 { margin-left: -$space-1; margin-right: -$space-1; }
-.offset2 { margin-left: -$space-2; margin-right: -$space-2; }
-.offset3 { margin-left: -$space-3; margin-right: -$space-3; }
+@include breakpoint($medium) 
+{ 
+
+  .offset0 { margin-left: -$space-0; margin-right: -$space-0; }
+  .offset1 { margin-left: -$space-1; margin-right: -$space-1; }
+  .offset2 { margin-left: -$space-2; margin-right: -$space-2; }
+  .offset3 { margin-left: -$space-3; margin-right: -$space-3; }
+
+}
+
+

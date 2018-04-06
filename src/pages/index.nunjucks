@@ -5,7 +5,7 @@
   <section class="hero">
     <div class="hero-content">
       <div class="container">
-        <div class="h1">Growth. <span class="green">By Design.</span></div>
+        <div class="h1">Growth. By Design.</div>
         <div class="h3 thin">FreshJones is a full service creative agency and digital marketing firm in Western Massachusetts. We work with all types of small/medium businesses both regionally and nationally. </div>
         <div class="h3">We focus on one thing, delivering results.</div>
       </div>
@@ -15,7 +15,6 @@
     </div>
   </section>
   <section class="hero">
-      {{ notes.notes('Integrated Marketing','Explain benefits of integrated marketing', 'Get people to buy marketing retainer service') }}
       <div class="container flex flex-split">
         <div class="">
           <h2>Why Think Integrated Marketing</h2>
@@ -31,7 +30,6 @@
       </div>
   </section>
   <section class="hero">
-      {{ notes.notes('Solutions','', '') }}
       <div class="container">
         <div>
           <h2>Solutions</h2>
@@ -48,8 +46,7 @@
         </div>
       </div>
   </section>
-  <section class="fadein">
-      {{ notes.notes('Services','', 'Get people to click through to services') }}
+  <section >
       <div class="container">
         <div>
           <h2>Our Services</h2>
@@ -63,8 +60,7 @@
         </div>
       </div>
   </section>
-  <section class="fadein">
-      {{ notes.notes('Web + Mobile','', 'Get people to click through to web and mobile') }}
+  <section >
       <div class="container">
         <div>
           <h2>Web + Mobile</h2>
@@ -78,8 +74,7 @@
         </div>
       </div>
   </section>
-  <section class="fadein">
-      {{ notes.notes('Marketing and Sales','', 'Get people to click through to web and mobile') }}
+  <section>
       <div class="container">
         <div>
           <h2>Marketing + Sales</h2>
@@ -93,8 +88,7 @@
         </div>
       </div>
   </section>
-  <section class="fadein">
-      {{ notes.notes('Branding + Creative','', 'Get people to click through to web and mobile') }}
+  <section>
       <div class="container">
         <div>
           <h2>Branding + Creative</h2>
@@ -108,8 +102,7 @@
         </div>
       </div>
   </section>
-  <section class="fadein">
-      {{ notes.notes('Why FreshJones','Explain why someone should work with us', 'Get people comfortable with how we work') }}
+  <section >
       <div class="container">
         <div>
           <h2>Why FreshJones</h2>
@@ -126,14 +119,13 @@
       </div>
   </section>
   <section class="bg-light-gray fadein">
-      {{ notes.notes('CTA','Set up lead qualifying phone calls', 'Conversions') }}
       <div class="container">
-        <div class="flex flex-split offset2">
-          <div class="px2">
+        <div class="flex flex-split ">
+          <div>
             <h2>Interested in talking? Let's schedule a call.</h2>
             <p>We love working with growing companies. Whether your business is in the research phase, consideration phase or in the "I need it done yesterday phase" we want to hear from you. Let’s begin with a discovery call to discuss your needs.</p>
           </div>
-          <div class="px2">
+          <div>
             {% include 'partials/cta/schedule-consultation.nunjucks' %}
           </div>
         </div>

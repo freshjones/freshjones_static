@@ -256,24 +256,23 @@ $size-1: $size-default * 4 - 8px;
   margin-bottom: 40px;
 }
 
-.offset0 {
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-.offset1 {
-  margin-left: -10px;
-  margin-right: -10px;
-}
-
-.offset2 {
-  margin-left: -20px;
-  margin-right: -20px;
-}
-
-.offset3 {
-  margin-left: -40px;
-  margin-right: -40px;
+@media (min-width: 980px) {
+  .offset0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .offset1 {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .offset2 {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .offset3 {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
 }
 
 .justify-between {
@@ -320,36 +319,6 @@ $size-1: $size-default * 4 - 8px;
   font-weight: 300;
 }
 
-.h1 {
-  font-size: 300%;
-  margin-bottom: 10px;
-}
-
-.h2 {
-  font-size: 200%;
-  margin-bottom: 10px;
-}
-
-.h3 {
-  font-size: 150%;
-  margin-bottom: 10px;
-}
-
-.h4 {
-  font-size: 100%;
-  margin-bottom: 10px;
-}
-
-.h5 {
-  font-size: 75%;
-  margin-bottom: 10px;
-}
-
-.h6 {
-  font-size: 50%;
-  margin-bottom: 10px;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -379,39 +348,59 @@ img {
   max-width: 100%;
 }
 
-h1, h2 {
+h1, .h1, .hero-heading, h2, .h2, .hero-subheading, p {
   font-weight: 300;
 }
 
-h1, h2 {
+h1, .h1, .hero-heading, h2, .h2, .hero-subheading, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-top: 0;
   margin-bottom: 10px;
   padding: 0;
-  line-height: 1.2;
 }
 
-h1 {
-  font-size: 300%;
+h1, .h1, .hero-heading {
+  font-size: 160%;
 }
 
-h2 {
-  font-size: 200%;
+h2, .h2, .hero-subheading {
+  font-size: 125%;
 }
 
-h3 {
-  font-size: 150%;
-}
-
-h4 {
+h3, .h3 {
   font-size: 100%;
 }
 
-h5 {
+h4, .h4 {
+  font-size: 100%;
+}
+
+h5, .h5 {
   font-size: 75%;
 }
 
-h6 {
+h6, .h6 {
   font-size: 50%;
+}
+
+@media (min-width: 768px) {
+  h1, .h1, .hero-heading {
+    font-size: 300%;
+  }
+  h2, .h2, .hero-subheading {
+    font-size: 200%;
+  }
+  h3, .h3 {
+    font-size: 150%;
+  }
+  h4, .h4 {
+    font-size: 100%;
+  }
+  h5, .h5 {
+    font-size: 75%;
+  }
+  h6, .h6 {
+    font-size: 50%;
+  }
 }
 
 .container {
@@ -430,11 +419,18 @@ h6 {
   height: inherit;
 }
 
-main section .container {
-  padding-top: 40px;
-  padding-bottom: 40px;
+/*
+main {
+  margin-top: $space-3 + $space-4;
+  margin-bottom: $space-2;
 }
 
+main section .container
+{
+  padding-top: $space-3;
+  padding-bottom: $space-3;
+}
+*/
 section {
   position: relative;
 }
@@ -855,14 +851,15 @@ footer .wordmark {
   min-height: 100vh;
   position: relative;
   padding: 0px;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .hero-content {
   position: absolute;
   z-index: 20;
   width: 100%;
-  height: inherit;
+  min-height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -873,6 +870,7 @@ footer .wordmark {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: 50px;
 }
 
 .hero-background {
@@ -892,6 +890,20 @@ footer .wordmark {
   width: 100%;
 }
 
+.hero-heading {
+  font-size: 2rem;
+}
+
+.hero-subheading {
+  font-size: 16px;
+}
+
+@media (min-width: 980px) {
+  .hero-heading {
+    font-size: 60px;
+  }
+}
+
 /*
 
 .hero-background > div {
@@ -908,13 +920,7 @@ footer .wordmark {
   color:#fff;  
 }
 
-.hero-content .head {
-  font-size:60px;
-  font-weight:bold;
-  margin:0 0 10px 0;
-  padding:0;
-  line-height:1;
-}
+
 
 .hero-content .subhead {
   font-size:24px;

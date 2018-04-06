@@ -31,22 +31,29 @@ img
   max-width:100%;
 }
 
-h1,h2
-{
-  font-weight: 300;
-}
+h1,h2,p{ font-weight: 300; }
 
-h1,h2
+h1,h2,h3,h4,h5,h6
 {
   margin-top:0;
   margin-bottom: $space-1;
   padding:0;
-  line-height:1.2;
 }
 
-h1 { font-size: $size-1; }
-h2 { font-size: $size-2; }
-h3 { font-size: $size-3; }
-h4 { font-size: $size-4; }
-h5 { font-size: $size-5; }
-h6 { font-size: $size-6; }
+h1 { font-size: $sm-size-1; }
+h2 { font-size: $sm-size-2; }
+h3 { font-size: $sm-size-3; }
+h4 { font-size: $sm-size-4; }
+h5 { font-size: $sm-size-5; }
+h6 { font-size: $sm-size-6; }
+
+@include breakpoint($small) 
+{ 
+
+  h1 { font-size: $size-1; }
+  h2 { font-size: $size-2; }
+  h3 { font-size: $size-3; }
+  h4 { font-size: $size-4; }
+  h5 { font-size: $size-5; }
+  h6 { font-size: $size-6; }
+}
