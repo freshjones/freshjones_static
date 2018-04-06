@@ -334,6 +334,7 @@ body {
   font-family: 'Open Sans',sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  color: #666;
   background: #fcfbfa;
 }
 
@@ -346,10 +347,6 @@ img {
   width: 100%;
   height: auto;
   max-width: 100%;
-}
-
-h1, .h1, .hero-heading, h2, .h2, .hero-subheading, p {
-  font-weight: 300;
 }
 
 h1, .h1, .hero-heading, h2, .h2, .hero-subheading, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {

@@ -16,6 +16,7 @@ body
   //font-weight:300;
   font-size: $size-default;
   line-height:1.5;
+  color:#666;
   background:$soft-white;
 }
 
@@ -31,7 +32,7 @@ img
   max-width:100%;
 }
 
-h1,h2,p{ font-weight: 300; }
+//h1,h2,p{ font-weight: 300; }
 
 h1,h2,h3,h4,h5,h6
 {
