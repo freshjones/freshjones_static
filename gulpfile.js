@@ -18,7 +18,7 @@ gulp.task('browsersync', function() {
 });
 
 var nunjucksEnv = function(env) {
-  env.addGlobal('showNotes', true)
+  env.addGlobal('showNotes', false)
 }
 
 gulp.task('nunjucks', function() {

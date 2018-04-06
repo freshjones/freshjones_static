@@ -1,0 +1,24 @@
+.justify-between
+{
+  justify-content:space-between;
+}
+
+@include breakpoint($medium) { 
+
+  .flex
+  {
+    display:flex;
+  }
+
+  .flex-split
+  {
+    align-items:flex-start;  
+  }
+
+  .flex-split > div
+  {
+    width:50%;
+  }
+
+
+}

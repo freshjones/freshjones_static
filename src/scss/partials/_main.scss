@@ -12,10 +12,11 @@ html,body
 
 body
 {
-  font-family:sans-serif;
+  font-family: 'Open Sans',sans-serif;
   //font-weight:300;
-  font-size:16px;
+  font-size: $size-default;
   line-height:1.5;
+  background:$soft-white;
 }
 
 a {
@@ -30,34 +31,22 @@ img
   max-width:100%;
 }
 
-section
+h1,h2
 {
-  position:relative;
-}
-
-main section
-{
-  opacity: 0;
-  transition: opacity 1s, transform 500ms;
-  transform: translate3d(0,50px,0);
-}
-
-main section.visible { 
-  opacity: 1;
-  transform: translate3d(0,0,0);
+  font-weight: 300;
 }
 
 h1,h2
 {
   margin-top:0;
-  margin-bottom: 10px;
+  margin-bottom: $space-1;
   padding:0;
   line-height:1.2;
 }
 
-h2
-{
-  font-size: 38px;
-  font-family: 'Open Sans',sans-serif;
-  font-weight: 300;
-}
+h1 { font-size: $size-1; }
+h2 { font-size: $size-2; }
+h3 { font-size: $size-3; }
+h4 { font-size: $size-4; }
+h5 { font-size: $size-5; }
+h6 { font-size: $size-6; }

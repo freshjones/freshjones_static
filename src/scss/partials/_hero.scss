@@ -1,9 +1,8 @@
 .hero
 {
-  min-height: 400px;
-  padding: 0px;
+  height: 100vh;
   position: relative;
-  background-color: #f3f3f3;
+  padding: 0px;
 }
 
 .hero-content
@@ -11,8 +10,7 @@
   position: absolute;
   z-index:20;
   width: 100%;
-  min-height: 400px;
-  color:#fff;  
+  height: inherit;
   display:flex;
   align-items:center;
 }
@@ -24,6 +22,40 @@
   justify-content:center;
   align-items:center;
   text-align:center;
+}
+
+.hero-background {
+  min-height: 400px;
+  bottom: 0px;
+  position: absolute;
+  z-index:10;
+  top: 0px;
+  width: 100%;
+}
+
+.hero-background > div {
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+
+/*
+
+.hero-background > div {
+  background:#000;
+}
+
+.hero
+{
+  background-color: #f3f3f3;
+}
+
+.hero-content
+{
+  color:#fff;  
 }
 
 .hero-content .head {
@@ -40,21 +72,4 @@
   padding:0;
   color:$green;
 }
-
-.hero-background {
-  min-height: 400px;
-  bottom: 0px;
-  position: absolute;
-  z-index:10;
-  top: 0px;
-  width: 100%;
-}
-
-.hero-background > div {
-  background:#000;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
+*/

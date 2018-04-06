@@ -1,52 +1,5 @@
-.bold {
-  font-weight:600;
-}
-
-.white {
-  color:#fff;
-}
-
-.list-none
-{
-  list-style: none;
-  margin:0;
-  padding:0;
-}
-
-.list-heading
-{
-  color:#000;
-  font-weight:bold;
-  margin-bottom:10px;
-}
-
-
-.justify-between
-{
-  justify-content:space-between;
-}
-
-.bg-light-gray
-{
-  background-color:#EFEFEF;
-}
-
-@include breakpoint($medium) { 
-
-  .flex
-  {
-    display:flex;
-  }
-
-  .flex-split
-  {
-    align-items:flex-start;  
-  }
-
-  .flex-split > div
-  {
-    width:50%;
-  }
-
-
-}
+@import 'atomic/colors';
+@import 'atomic/whitespace';
+@import 'atomic/layout';
+@import 'atomic/lists';
+@import 'atomic/typography';

@@ -1,0 +1,26 @@
+.bold {
+  font-weight:600;
+}
+
+.smaller
+{
+  font-size:90%;
+}
+
+.larger
+{
+  font-size:150%;
+}
+
+.thin
+{
+  font-weight:300;
+}
+
+.h1{ font-size: $size-1; margin-bottom:$space-1; }
+.h2{ font-size: $size-2; margin-bottom:$space-1; }
+.h3{ font-size: $size-3; margin-bottom:$space-1; }
+.h4{ font-size: $size-4; margin-bottom:$space-1; }
+.h5{ font-size: $size-5; margin-bottom:$space-1; }
+.h6{ font-size: $size-6; margin-bottom:$space-1; }
+

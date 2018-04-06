@@ -3,30 +3,22 @@
 
 {% block main %}  
   <section class="hero">
-    {{ notes.notes('Hero','Visual Interest', 'keep user interested') }}
     <div class="hero-content">
       <div class="container">
-        <div class="head">Growth By Design</div>
-        <!-- <div class="subhead">FreshJones Creative is an integrated branding and web agency. We design experiences that deepen the relationship between your audience and your business.</div> -->
+        <div class="h1">Growth. <span class="green">By Design.</span></div>
+        <div class="h3 thin">FreshJones is a full service creative agency and digital marketing firm in Western Massachusetts. We work with all types of small/medium businesses both regionally and nationally. </div>
+        <div class="h3">We focus on one thing, delivering results.</div>
       </div>
     </div>
     <div class="hero-background">
       <div></div>
     </div>
   </section>
-  <section>
-      {{ notes.notes('Intro','Explain who FreshJones is', 'introduce FreshJones') }}
-      <div class="container">
-        <div>
-          <h1>FreshJones is a full service creative agency and digital marketing firm in Western Massachusetts. We work with all types of small/medium businesses both regionally and nationally. We focus on one thing: delivering results.</h1>
-        </div>
-      </div>
-  </section>
-  <section>
+  <section class="hero">
       {{ notes.notes('Integrated Marketing','Explain benefits of integrated marketing', 'Get people to buy marketing retainer service') }}
       <div class="container flex flex-split">
         <div class="">
-          <h2>Why Think Integrated</h2>
+          <h2>Why Think Integrated Marketing</h2>
           <p>B2B companies require a different kind of marketing agency. A team that leads with strategy, data and insight – and follows through with compelling, results-focused execution. A partner who gets smart quickly about complex technologies, products and services – and translates them into visibility-raising brand messaging.</p>
           <p>Our roster of technology clients is global – from Silicon Valley to Switzerland, New York to the Netherlands. We complement and supplement internal marketing teams, helping raise visibility, showcase credibility and generate qualified leads. Simply put, we get tech.</p>
           <p>Trying to do more with less? Watch our short video to learn why Altitude's “View from 30,000 Feet” is the most efficient and effective way to develop a successful B2B marketing plan.</p>
@@ -38,7 +30,7 @@
         </div>
       </div>
   </section>
-  <section class="fadein">
+  <section class="hero">
       {{ notes.notes('Solutions','', '') }}
       <div class="container">
         <div>
@@ -135,13 +127,15 @@
   </section>
   <section class="bg-light-gray fadein">
       {{ notes.notes('CTA','Set up lead qualifying phone calls', 'Conversions') }}
-      <div class="container flex flex-split">
-        <div>
-          <h2>Interested in talking? Let's schedule a call.</h2>
-          <p>We love working with growing companies. Whether your business is in the research phase, consideration phase or in the "I need it done yesterday phase" we want to hear from you. Let’s begin with a discovery call to discuss your needs.</p>
-        </div>
-        <div>
-          {% include 'partials/cta/schedule-consultation.nunjucks' %}
+      <div class="container">
+        <div class="flex flex-split offset2">
+          <div class="px2">
+            <h2>Interested in talking? Let's schedule a call.</h2>
+            <p>We love working with growing companies. Whether your business is in the research phase, consideration phase or in the "I need it done yesterday phase" we want to hear from you. Let’s begin with a discovery call to discuss your needs.</p>
+          </div>
+          <div class="px2">
+            {% include 'partials/cta/schedule-consultation.nunjucks' %}
+          </div>
         </div>
       </div>
   </section>
