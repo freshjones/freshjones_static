@@ -16,7 +16,7 @@ body
   //font-weight:300;
   font-size: $size-default;
   line-height:1.5;
-  color:#666;
+  color:#333;
   background:$soft-white;
 }
 
@@ -46,6 +46,8 @@ h3 { font-size: $sm-size-3; }
 h4 { font-size: $sm-size-4; }
 h5 { font-size: $sm-size-5; }
 h6 { font-size: $sm-size-6; }
+
+
 
 @include breakpoint($small) 
 { 

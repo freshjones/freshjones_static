@@ -1,0 +1,18 @@
+<section class="section-has-background home-crafting">
+    <div class="section-content section-content-flex">
+      <div class="section-container">
+        <div class="left">
+          <div>
+            <div class="section-heading">Crafting beautifully functional solutions that grow businesses.</div>
+            <div class="section-subheading">Offering strategy, design, and technology services to regional and national brands. We use a strategy-driven approach to create meaningful and relevant projects that help tell your story, engage with your audience and achive business results.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-background-image">
+      <img src="/images/test.png" />
+    </div>
+    <div class="section-background section-background-skew-reverse">
+      <div></div>
+    </div>
+  </section>

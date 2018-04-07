@@ -1,0 +1,21 @@
+<section class="home-intro">
+  <div class="section-content">
+    <div class="section-rule"></div>
+    <div class="section-container">
+      <div>
+        <div>
+          <h1 class="section-heading">FreshJones is a Digital Marketing Agency</h1>
+          <ul class="section-subheading">
+            <li>Interactive</li>
+            <li>Marketing</li>
+            <li>Creative</li>
+          </ul>
+          <p class="section-lead">FreshJones is a full service creative agency and digital marketing firm located in Western Massachusetts. We work with all types of businesses, large and small, local and national providing integrated marketing solutions strategically designed to provide results and grow your business.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-background">
+    <div></div>
+  </div>
+</section>

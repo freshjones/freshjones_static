@@ -2,146 +2,163 @@
 {% extends "layout.nunjucks" %}
 
 {% block main %}  
+  <!-- hero -->
+  {% include 'partials/home/sections/hero.nunjucks' %}
+  <!-- intro -->
+  {% include 'partials/home/sections/intro.nunjucks' %} 
+  <!-- intro -->
+  {% include 'partials/home/sections/intro-alt.nunjucks' %}
+  <!-- services -->
+  {% include 'partials/home/sections/services.nunjucks' %}
+  <!-- integrated -->
+  {% include 'partials/home/sections/integrated.nunjucks' %}
+  <!-- industry -->
+  {% include 'partials/home/sections/solutions-industry.nunjucks' %}
+  <!-- role -->
+  {% include 'partials/home/sections/solutions-role.nunjucks' %}
 
-  <section class="hero">
-    <div class="hero-content">
-      <div class="container">
-        <div class="h1">Growth. By Design.</div>
-        <div class="h3">FreshJones is a full service integrated digital marketing firm in Western Massachusetts. We work with all types of small/medium businesses both regionally and nationally. </div>
-        <div class="h3">We focus on one thing, delivering results.</div>
-      </div>
-    </div>
-    <div class="hero-background">
-      <div></div>
-    </div>
-  </section>
+<!--
+  
 
-  <section class="">
-      <div class="container flex flex-split">
-        <div class="">
-          <h2>Why Integrated Marketing</h2>
-          <p>B2B companies require a different kind of marketing agency. A team that leads with strategy, data and insight – and follows through with compelling, results-focused execution. A partner who gets smart quickly about complex technologies, products and services – and translates them into visibility-raising brand messaging.</p>
-        </div>
-        <div class="">
-          <div >
-            <img src="/images/integrated-video-mock.jpg" />
+
+   
+-->
+
+
+
+
+
+    <!--
+    <section>
+      <div class="h1">Growth. By Design.</div>
+          <div class="h3">FreshJones is a full service integrated digital marketing firm in Western Massachusetts. We work with all types of small/medium businesses both regionally and nationally. </div>
+          <div class="h3">We focus on one thing, delivering results.</div>
+    </section>
+
+    <section>
+        <div class="container flex flex-split">
+          <div class="">
+            <h2>Why Integrated Marketing</h2>
+            <p>B2B companies require a different kind of marketing agency. A team that leads with strategy, data and insight – and follows through with compelling, results-focused execution. A partner who gets smart quickly about complex technologies, products and services – and translates them into visibility-raising brand messaging.</p>
           </div>
-        </div>
-      </div>
-  </section>
-
-  <section class="hero hero-solutions">
-      <div class="container">
-        <h2 class="h1 line-height-1">Solutions</h2>
-        <div class="h3">Integrated marketing solutions from single business owners to agencies and large corporations we’re here to help.</div>
-        <div class="panels">
-          <div>
-            <div class="grid">
-              <div>Manufacturing</div>
-              <div>Higher-education</div>
-              <div>Non-profit</div>
-              <div>Financial Services</div>
-              <div>Science and Technology</div>
-              <div>Retail and Distribution </div>
-            </div>
-          </div>
-          <div>
-            <div class="grid">
-              <div>C-Suite Executives</div>
-              <div>Technology Managers</div>
-              <div>Marketing Managers</div>
-              <div>Small Business Owners</div>
-              <div>In-house marketing teams</div>
-              <div>Advertising agencies</div>
+          <div class="">
+            <div >
+              <img src="/images/integrated-video-mock.jpg" />
             </div>
           </div>
         </div>
-      </div>
-  </section>
-  <section >
-      <div class="container">
-        <div>
-          <h2>Our Services</h2>
-        </div>
-        <div>
-          <ul class="list-none">
-            <li>Integrated approach</li>
-            <li>Our Size</li>
-            <li>Our Experience</li>
-          </ul>
-        </div>
-      </div>
-  </section>
-  <section >
-      <div class="container">
-        <div>
-          <h2>Web + Mobile</h2>
-        </div>
-        <div>
-          <ul class="list-none">
-            <li>Integrated approach</li>
-            <li>Our Size</li>
-            <li>Our Experience</li>
-          </ul>
-        </div>
-      </div>
-  </section>
-  <section>
-      <div class="container">
-        <div>
-          <h2>Marketing + Sales</h2>
-        </div>
-        <div>
-          <ul class="list-none">
-            <li>Integrated approach</li>
-            <li>Our Size</li>
-            <li>Our Experience</li>
-          </ul>
-        </div>
-      </div>
-  </section>
-  <section>
-      <div class="container">
-        <div>
-          <h2>Branding + Creative</h2>
-        </div>
-        <div>
-          <ul class="list-none">
-            <li>Integrated approach</li>
-            <li>Our Size</li>
-            <li>Our Experience</li>
-          </ul>
-        </div>
-      </div>
-  </section>
-  <section >
-      <div class="container">
-        <div>
-          <h2>Why FreshJones</h2>
-        </div>
-        <div>
-          <ul class="list-none">
-            <li>Our Approach</li>
-            <li>Our Size</li>
-            <li>Our Experience</li>
-            <li>Our Drive</li>
-            <li>Our Principles</li>
-          </ul>
-        </div>
-      </div>
-  </section>
-  <section class="bg-light-gray fadein">
-      <div class="container">
-        <div class="flex flex-split ">
-          <div>
-            <h2>Interested in talking? Let's schedule a call.</h2>
-            <p>We love working with growing companies. Whether your business is in the research phase, consideration phase or in the "I need it done yesterday phase" we want to hear from you. Let’s begin with a discovery call to discuss your needs.</p>
-          </div>
-          <div>
-            {% include 'partials/cta/schedule-consultation.nunjucks' %}
-          </div>
-        </div>
-      </div>
-  </section>
+    </section>
 
+    <section>
+        <div class="container">
+          <h2 class="h1 line-height-1">Solutions</h2>
+          <div class="h3">Integrated marketing solutions from single business owners to agencies and large corporations we’re here to help.</div>
+          <div class="panels">
+            <div>
+              <div class="grid">
+                <div>Manufacturing</div>
+                <div>Higher-education</div>
+                <div>Non-profit</div>
+                <div>Financial Services</div>
+                <div>Science and Technology</div>
+                <div>Retail and Distribution </div>
+              </div>
+            </div>
+            <div>
+              <div class="grid">
+                <div>C-Suite Executives</div>
+                <div>Technology Managers</div>
+                <div>Marketing Managers</div>
+                <div>Small Business Owners</div>
+                <div>In-house marketing teams</div>
+                <div>Advertising agencies</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+          <h2 class="h1 line-height-1">Services</h2>
+          <div class="h3">As a business you want to be there when a customer needs you or a new opportunity presents itself, whether that moment is online or off. Our range of services help ensure your business is where it needs to be to make the most impact. That’s why everything we do starts with a strategic focus.</div>
+        </div>
+        <div>
+          
+        </div>
+    </section>
+
+
+    <section >
+        <div class="container">
+          <div>
+            <h2>Web + Mobile</h2>
+          </div>
+          <div>
+            <ul class="list-none">
+              <li>Integrated approach</li>
+              <li>Our Size</li>
+              <li>Our Experience</li>
+            </ul>
+          </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+          <div>
+            <h2>Marketing + Sales</h2>
+          </div>
+          <div>
+            <ul class="list-none">
+              <li>Integrated approach</li>
+              <li>Our Size</li>
+              <li>Our Experience</li>
+            </ul>
+          </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+          <div>
+            <h2>Branding + Creative</h2>
+          </div>
+          <div>
+            <ul class="list-none">
+              <li>Integrated approach</li>
+              <li>Our Size</li>
+              <li>Our Experience</li>
+            </ul>
+          </div>
+        </div>
+    </section>
+    <section >
+        <div class="container">
+          <div>
+            <h2>Why FreshJones</h2>
+          </div>
+          <div>
+            <ul class="list-none">
+              <li>Our Approach</li>
+              <li>Our Size</li>
+              <li>Our Experience</li>
+              <li>Our Drive</li>
+              <li>Our Principles</li>
+            </ul>
+          </div>
+        </div>
+    </section>
+    <section class="bg-light-gray fadein">
+        <div class="container">
+          <div class="flex flex-split ">
+            <div>
+              <h2>Interested in talking? Let's schedule a call.</h2>
+              <p>We love working with growing companies. Whether your business is in the research phase, consideration phase or in the "I need it done yesterday phase" we want to hear from you. Let’s begin with a discovery call to discuss your needs.</p>
+            </div>
+            <div>
+              {% include 'partials/cta/schedule-consultation.nunjucks' %}
+            </div>
+          </div>
+        </div>
+    </section>
+  -->
 {% endblock %}

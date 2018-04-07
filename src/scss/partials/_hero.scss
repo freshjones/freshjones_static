@@ -1,6 +1,9 @@
+
+$hero-height: 600px;
+
 .hero
 {
-  min-height: 100vh;
+  min-height: $hero-height;
   position: relative;
   padding: 0px;
   display: flex;
@@ -12,7 +15,7 @@
   position: absolute;
   z-index:20;
   width: 100%;
-  min-height: 100vh;
+  min-height: $hero-height;
   display:flex;
   align-items:center;
 }

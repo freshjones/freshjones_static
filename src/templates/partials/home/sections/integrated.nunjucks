@@ -1,0 +1,18 @@
+<section class="section-has-background home-integrated">
+  <div class="section-content section-content-flex">
+    <div class="section-container">
+      <div class="left">
+        <div>
+          <div class="section-heading">Why think integrated?</div>
+          <div class="section-subheading">B2B companies require a different kind of marketing agency. A team that leads with strategy, data and insight – and follows through with compelling, results-focused execution. A partner who gets smart quickly about complex technologies, products and services – and translates them into visibility-raising brand messaging.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-background-image">
+    <img src="/images/test.png" />
+  </div>
+  <div class="section-background section-background-skew-reverse">
+    <div></div>
+  </div>
+</section>
