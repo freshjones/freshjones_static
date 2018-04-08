@@ -1,0 +1,29 @@
+<section class="home-stories">
+  <div class="wrap wrap-center">
+    <div>
+      <div class="section-summary">
+        <div>
+          <h2 class="section-heading">Success Stories</h2>
+          <p class="section-lead">As a business you want to be there when a customer needs you or a new opportunity presents itself, whether that moment is online or off. Our range of services help ensure your business is where it needs to be to make the most impact.</p>
+        </div>
+      </div>
+      <div class="section-divider">
+        <div></div>
+      </div>
+      <div class="story-scroll">
+        <div class="story">
+          <div class="story-content">
+            <div class="container">
+              <div>
+                <div class="story-heading">Chroma Technology Corp</div>
+                <p class="story-lead">Offering strategy, design, and technology services to regional and national brands. We use a strategy-driven approach to create meaningful and relevant projects that help tell your story, engage with your audience and achive business results.</p>
+              </div>
+            </div>
+          </div>
+          <div class="story-image">image</div>
+        </div>
+      </div>    
+    </div>
+  </div> 
+</section>
+

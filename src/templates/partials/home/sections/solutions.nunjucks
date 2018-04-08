@@ -1,0 +1,23 @@
+<section class="home-solutions">
+  <div class="section-content">
+    <div class="section-container section-container-column">
+      <div>
+        <div>
+          <div class="section-heading">Solutions</div>
+          <p class="section-lead">As a business you want to be there when a customer needs you or a new opportunity presents itself</p>
+          <ul>
+            <li>By Industry</li>
+            <li>By Job</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <panel>by industry</panel>
+        <panel>by Job</panel>
+      </div>
+    </div>
+  </div>
+  <div class="section-background section-background-skew-reverse">
+    <div></div>
+  </div>
+</section>

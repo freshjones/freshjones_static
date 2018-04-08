@@ -1,11 +1,10 @@
 <section class="home-services">
-  <div class="section-content section-content-flex">
-    <div class="section-container section-container-column">
-      <div>
+  <div class="wrap wrap-center">
+    <div>
+      <div class="section-summary">
         <div>
-          <!-- <h2 class="section-title">Solutions</h2>-->
-          <div class="section-heading">Solutions By Role</div>
-          <p class="section-lead">As a business you want to be there when a customer needs you or a new opportunity presents itself, whether that moment is online or off. Our range of services help ensure your business is where it needs to be to make the most impact. That’s why everything we do starts with a strategic focus.</p>
+          <div class="section-heading">Solutions By Job</div>
+          <p class="section-lead">As a business you want to be there when a customer needs you or a new opportunity presents itself, whether that moment is online or off. Our range of services help ensure your business is where it needs to be to make the most impact.</p>
         </div>
       </div>
       <div class="section-divider">
@@ -223,10 +222,7 @@
           </div>
         </div>
       </div>
-
+      
     </div>
-  </div>
-  <div class="section-background">
-    <div></div>
-  </div>
+  </div> 
 </section>

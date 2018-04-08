@@ -1,0 +1,11 @@
+<section class="home-testimonial">
+  <div class="wrap">
+    <div class="section-summary">
+      <h2>Interested in talking? Let's schedule a call.</h2>
+      <p>We love working with growing companies. Whether your business is in the research phase, consideration phase or in the "I need it done yesterday phase" we want to hear from you. Let’s begin with a discovery call to discuss your needs.</p>
+    </div>
+    <div>
+      {% include 'partials/cta/schedule-consultation.nunjucks' %}
+    </div>
+  </div> 
+</section>

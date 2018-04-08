@@ -1,18 +1,8 @@
-<section class="home-hero">
-  <div class="section-content">
-    <div class="section-container">
-      <div class="section-left">
-        <div>
-          <div class="section-heading">Growth.<br/> by Design.</div>
-          <div class="section-subheading">Integrated digital marketing solutions strategically designed to grow your business.</div>
-        </div>
-      </div>
-      <div class="section-right">
-        graphic
-      </div>
+<section class="hero">
+  <div class="wrap wrap-center">
+    <div class="section-summary">
+      <div class="section-heading">Growth. by Design.</div>
+      <div class="section-subheading">Integrated digital marketing solutions strategically designed to grow your business.</div>
     </div>
-  </div>
-  <div class="section-background">
-    <div></div>
-  </div>
+  </div> 
 </section>
