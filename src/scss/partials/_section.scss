@@ -1,48 +1,34 @@
-section .wrap
-{
-  height: 50vh;
-  margin: 0 auto;
-  max-width: 1000px;
-  display: flex;
-  align-items: center;
-}
-
-section .wrap > div
-{
-  width: 50%;
-  padding:10px;
-}
-
-section .wrap-right
-{
-  justify-content: flex-end;
-}
-
-section .wrap-center
-{
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-}
-
-section .wrap-center > div
-{
-  width: 75%;
-}
-
 .section-heading
 {
-  font-size:42px;
+  font-size:150%;
   font-weight:300;
   margin-bottom:$space-2;
-  line-height:1;
+  line-height:1.25;
 }
 
 .section-lead
 {
-  font-size:115%;
-  line-height:1.75;
+  font-size:90%;
+  line-height:2;
   margin:0;
+}
+
+.section-spaced > div
+{
+  margin-bottom:20px;
+}
+
+.section-image
+{
+  margin-bottom:20px;
+}
+
+.section-topic
+{
+  text-transform: uppercase;
+  font-weight:bold;
+  font-size:90%;
+  color:#999;
 }
 
 .section-title
@@ -51,6 +37,23 @@ section .wrap-center > div
   color:#666;
   font-size:14px;
   font-weight:bold;
+}
+
+main section .wrap
+{
+  //min-height:100vh;
+  margin: 0 auto;
+  max-width: 1200px;
+  width:90%;
+  display: flex;
+  align-items: center;
+  padding:50px 0;
+}
+
+main section .wrap-center
+{
+  justify-content: center;
+  text-align: center;
 }
 
 .section-divider
@@ -67,3 +70,92 @@ section .wrap-center > div
   margin:40px 0;
 }
 
+.section-background
+{
+  @extend .bg-light-gray;
+}
+
+.section-background-colored
+{
+  @extend .bg-green;
+}
+
+main section {
+    border-bottom: 1px solid $medium-grey;
+  }
+  
+.section-overlay
+{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.7);
+  z-index:0;
+}
+@include breakpoint($medium) { 
+
+  main section,article {
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: left center;
+  }
+
+  .section-image
+  {
+    display:none;
+  }
+  
+  main section .wrap
+  {
+    min-height: 40vw;
+  }
+
+  main section .wrap-short
+  {
+    min-height: 20vw;
+    padding: 0;
+  }
+
+  .section-heading
+  {
+    font-size:42px;
+  }
+
+  .section-lead
+  {
+    font-size:115%;
+    line-height: 1.75;
+  }
+
+  main section .wrap-full
+  {
+    max-width: initial;
+  }
+
+  main section .wrap-right
+  {
+    justify-content: flex-end;
+  }
+
+  main section .wrap-center-narrow > div
+  {
+    width:75%;
+  }
+
+  main section .wrap-right > div,
+  main section.wrap-left .wrap > div,
+  main article.wrap-left .wrap > div
+  {
+    width:40%;
+  }
+
+  main section.wrap-left,
+  article.wrap-left
+  {
+    background-position: right center;
+  }
+
+
+}

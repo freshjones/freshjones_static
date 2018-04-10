@@ -11,6 +11,7 @@
 </head>
 <body>
   {% include 'partials/mobile-nav.nunjucks' %}
+  {% import 'macros/button.nunjucks' as button %}
   {% import 'macros/internal_notes.nunjucks' as notes %}
   <main>
     {% import 'macros/header.nunjucks' as header %}

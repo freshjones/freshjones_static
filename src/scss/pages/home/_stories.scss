@@ -1,88 +1,32 @@
 
-.home-stories .wrap
-{
-  max-width: initial;
-  height:80vh;
+@include breakpoint($medium) { 
+
+ 
+  .home-stories .section-summary
+  {
+    display: flex;
+    justify-content: center;
+    > div { width:50%; }
+  }
+
+  .story-chroma
+  {
+    background-image: url('/images/chroma.jpg');
+  }
+
+  .story-sfymca
+  {
+    background-image: url('/images/souixfallsymca.jpg');
+  }
+
+  .story-care {
+    background-image: url('/images/care.jpg');
+  }
+
+  .story-sfymca .wrap
+  {
+    min-height: 50vw;
+  }
+ 
 }
-
-.home-stories .wrap-center > div
-{
-  width:100%;
-}
-
-
-.home-stories .section-summary
-{
-  display: flex;
-  justify-content: center;
-}
-
-.home-stories .section-summary > div
-{
-  width:50%;
-}
-
-.story-scroll
-{
-  width:100%;
-  background-image: url('/images/laptop-right.png');
-  background-repeat:no-repeat;
-  background-position:right top;
-  background-size: contain;
-  min-height: 500px;
-  position:relative;
-}
-
-.story
-{
-  position:absolute;
-  top:0;
-  left: 0;
-  width:100%;
-  height: 100%;
-}
-
-.story-content
-{
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.story-content .container > div
-{
-  width: 40%;
-  margin-left: 75px;
-  margin-top: -50px;
-}
-
-.story-heading
-{
-  font-size: 26px;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
-}
-
-.story-lead
-{
-  line-height: 2;
-  margin: 0;
-  padding: 0;
-}
-
-
-.story-image{
-  position: absolute;
-  right:0px;
-  top:39px;
-  width:632px;
-  height: 390px;
-  background: white;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  background:red;
-}
-
 

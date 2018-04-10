@@ -1,0 +1,34 @@
+.hero
+{
+  background-image:url('/images/home-hero-small.jpg');
+  background-size:cover;
+  color:lighten(#000,70%);
+}
+
+.hero .wrap
+{
+  min-height:100vh;
+  position: relative;
+  z-index: 1;
+
+}
+
+.hero .wrap .section-summary
+{
+  margin-top:75px;
+}
+
+.hero .section-rule
+{
+  height:20px;
+  background-color:#679c42;
+}
+
+@include breakpoint($medium) { 
+
+  .hero
+  {
+    background-image:url('/images/home-hero.jpg');
+  }
+
+}

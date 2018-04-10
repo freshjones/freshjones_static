@@ -1,5 +1,5 @@
 <section class="home-stories">
-  <div class="wrap wrap-center">
+  <div class="wrap wrap-center wrap-full wrap-short">
     <div>
       <div class="section-summary">
         <div>
@@ -10,20 +10,42 @@
       <div class="section-divider">
         <div></div>
       </div>
-      <div class="story-scroll">
-        <div class="story">
-          <div class="story-content">
-            <div class="container">
-              <div>
-                <div class="story-heading">Chroma Technology Corp</div>
-                <p class="story-lead">Offering strategy, design, and technology services to regional and national brands. We use a strategy-driven approach to create meaningful and relevant projects that help tell your story, engage with your audience and achive business results.</p>
-              </div>
-            </div>
-          </div>
-          <div class="story-image">image</div>
-        </div>
-      </div>    
     </div>
   </div> 
+  <div class="articles">
+    
+    <article class="story story-chroma">
+      <div class="wrap wrap-right">
+        <div>
+          <div class="section-image">
+            <img src="/images/chroma-small.jpg">
+          </div>
+          <div>
+            <div class="section-topic">Success Stories</div>
+            <div class="section-heading">Chroma Technology Corp</div>
+            <p class="section-lead">Offering strategy, design, and technology services to regional and national brands. We use a strategy-driven approach to create meaningful and relevant projects that help tell your story, engage with your audience and achive business results.</p>
+          </div>
+        </div>
+      </div> 
+    </article>
+
+    <article class="story story-sfymca wrap-left ">
+      <div class="wrap">
+        <div>
+          <div class="section-image">
+            <img src="/images/souixfallsymca-small.jpg">
+          </div>
+          <div>
+            <div class="section-topic">Success Stories</div>
+            <div class="section-heading">Sioux Falls YMCA</div>
+            <p class="section-lead">Offering strategy, design, and technology services to regional and national brands. We use a strategy-driven approach to create meaningful and relevant projects that help tell your story, engage with your audience and achive business results.</p>
+          </div>
+        </div>
+      </div> 
+    </article>
+
+  </div>
+
 </section>
+
 

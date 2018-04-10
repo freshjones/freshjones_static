@@ -1,37 +1,35 @@
-.home-intro .section-rule
-{
-  height:20px;
-  background-color:#679c42;
-}
-
-.home-intro .section-heading
-{
-  font-size:36px;
-}
-
 .home-intro .section-subheading
 {
+  font-size: 14px;
   display:flex;
+  justify-content:center;
   color:$green;
   list-style:none;
   margin:0;
   padding:0;
-  justify-content:center;
   margin-bottom:20px;
 
   li {
     text-transform:uppercase;
     margin:0;
   }
-
   li:after{
     content:"•";
-    padding:0 15px;
+    padding:0 10px;
   }
 
   li:last-child:after{
     content:"";
     padding:0;
   }
+  
 }
 
+@include breakpoint($medium) { 
+
+  .home-intro .section-subheading
+  {
+    font-size: 16px;
+  }
+
+}

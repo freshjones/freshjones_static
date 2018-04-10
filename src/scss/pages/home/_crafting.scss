@@ -1,0 +1,9 @@
+
+@include breakpoint($medium) 
+{ 
+    
+  .home-crafting
+  {
+    background-image: url('/images/crafting.jpg');
+  }
+}
