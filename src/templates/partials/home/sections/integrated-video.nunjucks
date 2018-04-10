@@ -4,6 +4,7 @@
       <div class="section-summary flex-panel-6">
         <h2 class="section-heading">Why think integrated?</h2>
         <p class="section-lead">B2B companies require a different kind of marketing agency. A team that leads with strategy, data and insight – and follows through with compelling, results-focused execution. A partner who gets smart quickly about complex technologies, products and services – and translates them into visibility-raising brand messaging.</p>
+        <p>{{ button.link('/strategic-planning.html','Learn More') }}</p>
       </div>
       <div class="flex-panel-6">
         <img src="/images/integrated-video-mock.jpg" />

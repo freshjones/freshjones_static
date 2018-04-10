@@ -1,0 +1,19 @@
+@include breakpoint($medium) 
+{ 
+    
+  .services-web
+  {
+    background-image: url('/images/web.jpg');
+  }
+
+  .services-marketing
+  {
+    background-image: url('/images/marketing.jpg');
+  }
+
+  .services-creative
+  {
+    background-image: url('/images/creative.jpg');
+  }
+
+}

@@ -1,0 +1,13 @@
+<section class="services-intro">
+  <div class="wrap wrap-center wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <h1 class="section-heading">Everything starts with a good plan</h1>
+        <p class="section-lead">As a business you want to be there when a customer needs you or a new opportunity presents itself, whether that moment is online or off. Our range of services help ensure your business is where it needs to be to make the most impact. That’s why everything we do starts with a strategic focus. </p>
+      </div>
+      <div>
+        {{ button.link('/strategic-planning.html', 'Learn More') }}
+      </div>
+    </div>
+  </div> 
+</section>

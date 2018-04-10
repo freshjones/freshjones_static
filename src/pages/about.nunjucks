@@ -1,0 +1,17 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block title %}
+  FreshJones - About Us
+{% endblock %}
+
+{% block header %}
+  {{header.active('about')}}
+{% endblock %}
+
+{% block main %} 
+ 
+  <!-- hero -->
+  {% include 'partials/services/sections/hero.nunjucks' %}
+
+{% endblock %}

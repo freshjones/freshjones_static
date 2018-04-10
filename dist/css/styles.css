@@ -594,6 +594,11 @@ main section .wrap-center {
 
 main section {
   border-bottom: 1px solid #c3c3c3;
+  position: relative;
+}
+
+section.no-border {
+  border-bottom: none;
 }
 
 .section-overlay {
@@ -610,6 +615,9 @@ main section {
   main section, article {
     background-repeat: no-repeat;
     background-size: auto 100%;
+    background-position: right center;
+  }
+  .section-right {
     background-position: left center;
   }
   .section-image {
@@ -632,15 +640,16 @@ main section {
   main section .wrap-full {
     max-width: initial;
   }
-  main section .wrap-right {
+  .section-right .wrap {
     justify-content: flex-end;
   }
   main section .wrap-center-narrow > div {
     width: 75%;
   }
+  .section-right .wrap > div,
+  .section-left .wrap > div,
   main section .wrap-right > div,
-  main section.wrap-left .wrap > div,
-  main article.wrap-left .wrap > div {
+  main section .wrap-left > div {
     width: 40%;
   }
   main section.wrap-left,
@@ -654,7 +663,6 @@ header {
   width: 100%;
   height: 100px;
   z-index: 100;
-  opacity: .8;
   background-color: #fcfbfa;
   top: 0px;
 }
@@ -1050,6 +1058,43 @@ footer .wordmark {
   }
 }
 
+.hero-stark {
+  background: black;
+  color: #fff;
+}
+
+.hero-stark .wrap {
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-stark .section-topic {
+  margin: 3.5em auto;
+  font-weight: 600;
+  letter-spacing: .25em;
+  font-size: 18px;
+  color: #3fa208;
+}
+
+.hero-stark .section-topic:after {
+  content: "";
+  display: block;
+  width: 100%;
+  max-width: 100px;
+  height: 1px;
+  background: #414042;
+  position: relative;
+  bottom: -2em;
+  margin: auto;
+}
+
+@media (min-width: 980px) {
+  .hero-stark .wrap {
+    min-height: 60vh;
+  }
+}
+
 .video-thumbnail {
   padding: 20px;
 }
@@ -1177,6 +1222,86 @@ button, input, optgroup, select, textarea {
   transform: translate(-50%, -50%);
 }
 
+.link {
+  padding: 0px 0px 0px 25px;
+  color: #3fa208;
+  position: relative;
+  display: inline-block;
+}
+
+.link > span {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  line-height: inherit;
+  transform: translate(-50%, -50%);
+}
+
+.link > span path {
+  fill: #3fa208;
+}
+
+.column-list div.icon {
+  padding: 5px 15px 0 0;
+  fill: #3fa208;
+  height: 40px;
+}
+
+.column-list div.icon svg {
+  height: 100%;
+  width: auto;
+}
+
+.column-list h3, .column-list .h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+}
+
+.column-list p {
+  margin-top: 0;
+  font-size: 90%;
+}
+
+.column-list .link {
+  font-weight: bold;
+}
+
+.column-list .link a {
+  display: block;
+}
+
+@media (min-width: 980px) {
+  .column-list {
+    align-items: flex-start;
+    justify-content: space-between;
+    display: flex;
+  }
+  .column-list-3col {
+    flex-wrap: wrap;
+  }
+  .column-list-3col > div {
+    width: 30%;
+  }
+  .column-list > div {
+    text-align: left;
+    display: flex;
+    padding: 0 20px;
+    margin-bottom: 60px;
+    align-items: flex-start;
+  }
+  .column-list div div {
+    width: 85%;
+  }
+  .column-list div.icon {
+    width: 15%;
+  }
+}
+
 .hero {
   background-image: url("/images/home-hero-small.jpg");
   background-size: cover;
@@ -1201,6 +1326,9 @@ button, input, optgroup, select, textarea {
 @media (min-width: 980px) {
   .hero {
     background-image: url("/images/home-hero.jpg");
+  }
+  .hero .wrap {
+    min-height: 60vh;
   }
 }
 
@@ -1291,7 +1419,7 @@ button, input, optgroup, select, textarea {
     width: 30%;
     text-align: left;
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     align-items: flex-start;
   }
   .home-services .services-list div div {
@@ -1321,6 +1449,18 @@ button, input, optgroup, select, textarea {
   }
   .story-sfymca .wrap {
     min-height: 50vw;
+  }
+}
+
+@media (min-width: 980px) {
+  .services-web {
+    background-image: url("/images/web.jpg");
+  }
+  .services-marketing {
+    background-image: url("/images/marketing.jpg");
+  }
+  .services-creative {
+    background-image: url("/images/creative.jpg");
   }
 }
 

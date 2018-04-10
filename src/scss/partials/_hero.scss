@@ -1,0 +1,44 @@
+.hero-stark
+{
+  background:black;
+  color:#fff;
+}
+
+.hero-stark .wrap
+{
+  min-height:100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-stark .section-topic
+{
+  margin: 3.5em auto;
+  font-weight: 600;
+  letter-spacing: .25em;
+  font-size: 18px;
+  color:$green;
+}
+
+.hero-stark .section-topic:after
+{
+  content: "";
+  display: block;
+  width: 100%;
+  max-width: 100px;
+  height: 1px;
+  background: #414042;
+  position: relative;
+  bottom: -2em;
+  margin: auto;
+}
+
+@include breakpoint($medium) { 
+
+  .hero-stark .wrap
+  {
+    min-height:60vh;
+  }
+
+}
+

@@ -1,0 +1,17 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block title %}
+  FreshJones - Blog
+{% endblock %}
+
+{% block header %}
+  {{header.active('blog')}}
+{% endblock %}
+
+{% block main %} 
+ 
+  <!-- hero -->
+  {% include 'partials/services/sections/hero.nunjucks' %}
+
+{% endblock %}

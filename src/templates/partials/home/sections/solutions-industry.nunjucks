@@ -44,6 +44,7 @@
           <div>
             <h3>Manufacturing</h3>
             <p>Everything starts online. Turn leads into customers and customers into promoters by giving them a great online experience.</p>
+            <p>{{ button.link('/marketing-help-for-manufacturing-businesses.html', 'Learn More', 'link') }}</p>
           </div>
         </div>
         <div>
@@ -79,6 +80,7 @@
           <div>
             <h3>Higher Education</h3>
             <p>Ready to put your website to work? Lets amplify your digital and creative efforts with digital marketing services.</p>
+            <p>{{ button.link('/marketing-help-for-higher-education-institutions.html', 'Learn More', 'link') }}</p>
           </div>
         </div>
         <div>
@@ -114,6 +116,7 @@
           <div>
             <h3>Non-Profit</h3>
             <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
+            <p>{{ button.link('/marketing-help-for-non-profit-organizations.html', 'Learn More', 'link') }}</p>
           </div>
         </div>
         <div>
@@ -149,6 +152,7 @@
           <div>
             <h3>Financial Services</h3>
             <p>Everything starts online. Turn leads into customers and customers into promoters by giving them a great online experience.</p>
+            <p>{{ button.link('/marketing-help-for-financial-service-companies.html', 'Learn More', 'link') }}</p>
           </div>
         </div>
         <div>
@@ -184,6 +188,7 @@
           <div>
             <h3>Science &amp; Technology</h3>
             <p>Ready to put your website to work? Lets amplify your digital and creative efforts with digital marketing services.</p>
+            <p>{{ button.link('/marketing-help-for-science-technology-businesses.html', 'Learn More', 'link') }}</p>
           </div>
         </div>
         <div>
@@ -219,6 +224,7 @@
           <div>
             <h3>Retail &amp; Distribution</h3>
             <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
+            <p>{{ button.link('/marketing-help-for-retail-distribution-businesses.html', 'Learn More', 'link') }}</p>
           </div>
         </div>
       </div>

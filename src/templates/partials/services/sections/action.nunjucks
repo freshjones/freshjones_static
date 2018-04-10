@@ -1,0 +1,13 @@
+<section class="home-action section-background">
+  <div class="wrap">
+    <div class="flex-panels">
+      <div class="section-summary flex-panel-6">
+        <h2>What is the next step?</h2>
+        <p>Not sure which service is right for your business? Lets build your free strategic marketing gameplan.</p>
+      </div>
+      <div class="flex-panel-6">
+        {% include 'partials/cta/schedule-consultation.nunjucks' %}
+      </div>
+    </div>
+  </div> 
+</section>

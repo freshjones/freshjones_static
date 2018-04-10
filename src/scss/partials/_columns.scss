@@ -1,0 +1,73 @@
+
+.column-list div.icon
+{
+  padding: 5px 15px 0 0;
+  fill: $green;
+  height:40px;
+}
+
+.column-list div.icon svg
+{
+  height:100%;
+  width:auto;
+}
+
+.column-list h3
+{
+  text-transform:uppercase;
+  font-weight:600;
+  font-size:16px;
+  margin:0;
+}
+
+.column-list p
+{
+  margin-top:0;
+  font-size:90%;
+}
+
+.column-list .link
+{
+  font-weight:bold;
+
+  a {
+    display:block;
+  }
+}
+
+@include breakpoint($medium) { 
+
+  .column-list
+  {
+    align-items: flex-start;
+    justify-content: space-between;
+    display:flex;
+  }
+
+  .column-list-3col {
+    flex-wrap: wrap;
+    > div {
+      width: 30%;
+    }
+  }
+
+  .column-list > div
+  {
+    text-align: left;
+    display:flex;
+    padding:0 20px;
+    margin-bottom: 60px;
+    align-items: flex-start;
+  }
+
+  .column-list div div
+  {
+    width:85%;
+  }
+
+  .column-list div.icon
+  {
+    width:15%;
+  }
+
+}

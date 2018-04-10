@@ -70,7 +70,7 @@ $(function() {
         $(this).find('.subnav-panel').addClass('subnav-panel-active');
       })
       .click(function(e){
-        e.preventDefault();
+        //e.preventDefault();
         clearTimeout(timeout);
       })
 

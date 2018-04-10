@@ -14,8 +14,8 @@
   </div> 
   <div class="articles">
     
-    <article class="story story-chroma">
-      <div class="wrap wrap-right">
+    <article class="story story-chroma section-right">
+      <div class="wrap">
         <div>
           <div class="section-image">
             <img src="/images/chroma-small.jpg">
@@ -29,8 +29,8 @@
       </div> 
     </article>
 
-    <article class="story story-sfymca wrap-left ">
-      <div class="wrap">
+    <article class="story story-sfymca ">
+      <div class="wrap wrap-left ">
         <div>
           <div class="section-image">
             <img src="/images/souixfallsymca-small.jpg">

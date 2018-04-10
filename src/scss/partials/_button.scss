@@ -19,3 +19,32 @@
     line-height: inherit;
     transform: translate(-50%, -50%);
 }
+
+
+.link
+{
+  padding:0px 0px 0px 25px;
+  //border-radius:30px;
+  //border:solid 1px $green;
+  color:$green;
+  position: relative;
+  display: inline-block;
+}
+
+.link > span
+{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    line-height: inherit;
+    transform: translate(-50%, -50%);
+  
+}
+
+.link > span path
+{
+  fill:$green;
+}

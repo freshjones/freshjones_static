@@ -1,0 +1,27 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block title %}
+FreshJones - Services
+{% endblock %}
+
+{% block header %}
+  {{header.active('services')}}
+{% endblock %}
+
+{% block main %} 
+ 
+  <!-- hero -->
+  {% include 'partials/services/sections/hero.nunjucks' %}
+  <!-- strategy -->
+  {% include 'partials/services/sections/strategy.nunjucks' %}
+  <!-- web and mobile -->
+  {% include 'partials/services/sections/web.nunjucks' %}
+  <!-- marketing -->
+  {% include 'partials/services/sections/marketing.nunjucks' %}
+  <!-- creative -->
+  {% include 'partials/services/sections/creative.nunjucks' %}
+  <!-- action -->
+  {% include 'partials/services/sections/action.nunjucks' %}
+
+{% endblock %}

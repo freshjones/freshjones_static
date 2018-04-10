@@ -1,0 +1,279 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block title %}
+  FreshJones - Website Design and Development
+{% endblock %}
+
+{% block header %}
+  {{header.active('services')}}
+{% endblock %}
+
+{% block main %} 
+
+<section class="hero-stark">
+  <div class="wrap wrap-center">
+    <div class="section-summary">
+      <div class="section-topic">Web Development</div>
+      <div class="section-heading">Turn your website into a growth building machine</div>
+      <!-- <div class="section-heading">360&deg; Services, Under One Roof.</div> -->
+      <div class="section-lead">From first concept to customer love, FreshJones helps plan, build, launch and performance-tune your website.</div>
+    </div>
+  </div>
+</section>
+
+<section class="services-intro">
+  <div class="wrap wrap-center wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <h1 class="section-heading">Web Design and Development</h1>
+        <p class="section-lead">Turn your website into a powerful sales tool. For many of your customers, a visit to your website will be their first interaction with your brand. That first impression counts for a lot. We can help to make sure that their experience is a positive one by working with you to understand your requirements and developing an online presence that adds real value to your business. We have the capabilities required to create and implement all types of web sites and  applications.</p>
+      </div>
+    </div>
+  </div> 
+</section>
+
+<section class="home-services">
+  <div class="wrap wrap-center">
+    <div>
+      <div class="section-summary">
+        <div>
+          <h2 class="section-heading">Design and Development Expertise</h2>
+          <p class="section-lead">Depending on your needs, requirements or preferences we offer expertise in the following areas</p>
+        </div>
+      </div>
+      <div class="section-divider">
+        <div></div>
+      </div>
+      <div class="column-list">
+        <div>
+          <div class="icon">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
+            <g>
+              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
+                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
+                C37,3.2,35.8,2,34.4,2H4.6z"/>
+              <g>
+                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
+                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
+              </g>
+              <g>
+                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
+                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
+              </g>
+              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
+              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
+                C25.9,47.6,25.5,48,25.1,48z"/>
+              <g>
+                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
+              </g>
+              <g>
+                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
+                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
+                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
+              </g>
+            </g>
+            </svg>
+          </div>
+          <div>
+            <h3>Content Management Systems</h3>
+            <p>Everything starts online. Turn leads into customers and customers into promoters by giving them a great online experience.</p>
+            <p class="section-lead">{{ button.link('/web-mobile-services.html','Learn More','link') }}</p>
+          </div>
+        </div>
+        <div>
+          <div class="icon">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
+            <g>
+              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
+                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
+                C37,3.2,35.8,2,34.4,2H4.6z"/>
+              <g>
+                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
+                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
+              </g>
+              <g>
+                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
+                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
+              </g>
+              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
+              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
+                C25.9,47.6,25.5,48,25.1,48z"/>
+              <g>
+                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
+              </g>
+              <g>
+                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
+                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
+                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
+              </g>
+            </g>
+            </svg>
+          </div>
+          <div>
+            <h3>Product / Application Development</h3>
+            <p>Ready to put your website to work? Lets amplify your digital and creative efforts with digital marketing services.</p>
+            <p class="section-lead">{{ button.link('/marketing-sales-services.html','Learn More','link') }}</p>
+          </div>
+        </div>
+        <div>
+          <div class="icon">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
+            <g>
+              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
+                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
+                C37,3.2,35.8,2,34.4,2H4.6z"/>
+              <g>
+                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
+                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
+              </g>
+              <g>
+                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
+                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
+              </g>
+              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
+              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
+                C25.9,47.6,25.5,48,25.1,48z"/>
+              <g>
+                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
+              </g>
+              <g>
+                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
+                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
+                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
+              </g>
+            </g>
+            </svg>
+          </div>
+          <div>
+            <h3>Responsive Web Design</h3>
+            <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
+            <p class="section-lead">{{ button.link('/branding-creative-services.html','Learn More','link') }}</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="icon">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
+            <g>
+              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
+                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
+                C37,3.2,35.8,2,34.4,2H4.6z"/>
+              <g>
+                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
+                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
+              </g>
+              <g>
+                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
+                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
+              </g>
+              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
+              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
+                C25.9,47.6,25.5,48,25.1,48z"/>
+              <g>
+                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
+              </g>
+              <g>
+                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
+                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
+                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
+              </g>
+            </g>
+            </svg>
+          </div>
+          <div>
+            <h3>eCommerce Websites</h3>
+            <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
+            <p class="section-lead">{{ button.link('/branding-creative-services.html','Learn More','link') }}</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3><span class="smaller">Not sure where to start? No problem, we can help determine the best approach for your business.</span></h3>
+        <p>{{ button.link('#', 'Lets Get Started') }}</p>
+      </div>
+    </div>
+  </div> 
+</section>
+
+<section class="services-intro">
+  <div class="wrap wrap-center wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <h1 class="section-heading">How we'll turn your website into a powerful business tool.</h1>
+        <p class="section-lead">We use a three step process to make sure your website is consistently helping you accomplish your business goals and solve your challenges.</p>
+      </div>
+    </div>
+  </div> 
+</section>
+
+
+<section class="services-intro">
+  <div class="wrap wrap-center wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <h2 class="section-heading">Is your website an asset…or a liability?</h2>
+        <p class="section-lead">If your website isn’t solving your businesses challenges or accomplishing its goals, it could be doing more harm that good. A website that’s slow, difficult to navigate, broken or not easily accessible on phones or tablets will likely turn your customers away sending them elsewhere to get what they need. Often times this means sending them directly to your competitors websites, weakening credibility, market share and potentially lost revenue.  Not only that but Google and other search engines will essentially render your site invisible if you aren’t providing a trustworthy, relevant and error-free experience for your users.</p>
+      </div>
+    </div>
+  </div> 
+</section>
+
+<section class="services-intro">
+  <div class="wrap wrap-center wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <h2 class="section-heading">What makes a website that search engine love?</h2>
+        <p class="section-lead">Anticipate all your users needs and be there with fast easy answers to those needs
+Provide useful educational information your users will find valuable
+Make your site easy to get around and find things
+Make you site enjoyable and easy to look at and read
+Make your site look great on all devices from desktop, tablet and phones
+Make your site fast </p>
+      </div>
+    </div>
+  </div> 
+</section>
+
+
+<section class="services-intro">
+  <div class="wrap wrap-center wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <h2 class="section-heading">Your website will become your businesses greatest growth-driving asset.</h2>
+      </div>
+    </div>
+  </div> 
+</section>
+
+<section class="services-intro section-right">
+  <div class="wrap">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <h2 class="section-heading">Your new website will give your visitors a first-rate experience with your company, one that will capture their attention and keep them coming back again and again.</h2>
+      </div>
+    </div>
+  </div> 
+</section>
+
+
+<section class="services-intro section-left">
+  <div class="wrap wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <h2 class="section-heading">Your new site will help ensure your company is remembered when a visitor is ready to buy, or when a customer makes a recommendation to their friends and family.</h2>
+      </div>
+    </div>
+  </div> 
+</section>
+
+
+
+
+
+
+{% endblock %}

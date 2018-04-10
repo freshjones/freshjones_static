@@ -81,9 +81,15 @@ main section .wrap-center
 }
 
 main section {
-    border-bottom: 1px solid $medium-grey;
-  }
+  border-bottom: 1px solid $medium-grey;
+  position: relative;
+}
   
+section.no-border
+{
+  border-bottom: none;
+}
+
 .section-overlay
 {
   position:absolute;
@@ -94,11 +100,17 @@ main section {
   background:rgba(0,0,0,0.7);
   z-index:0;
 }
+
 @include breakpoint($medium) { 
 
   main section,article {
     background-repeat: no-repeat;
     background-size: auto 100%;
+    background-position: right center;
+  }
+
+  .section-right
+  {
     background-position: left center;
   }
 
@@ -134,7 +146,7 @@ main section {
     max-width: initial;
   }
 
-  main section .wrap-right
+  .section-right .wrap
   {
     justify-content: flex-end;
   }
@@ -144,9 +156,10 @@ main section {
     width:75%;
   }
 
+  .section-right .wrap > div,
+  .section-left .wrap > div,
   main section .wrap-right > div,
-  main section.wrap-left .wrap > div,
-  main article.wrap-left .wrap > div
+  main section .wrap-left > div
   {
     width:40%;
   }
