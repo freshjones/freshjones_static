@@ -1,0 +1,22 @@
+.scrollTrigger
+{
+
+}
+
+.scrollTrigger .articles
+{
+  position:relative;
+  overflow: hidden;
+  width:100%;
+  height: 600px;
+}
+
+.scrollTrigger article
+{
+  background:red;
+  position: absolute;
+  width:100%;
+  height: 100%;
+  top:0;
+  left:0;
+}

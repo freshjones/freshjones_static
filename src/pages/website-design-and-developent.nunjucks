@@ -240,36 +240,63 @@ Make your site fast </p>
 </section>
 
 
-<section class="services-intro">
-  <div class="wrap wrap-center wrap-center-narrow">
+<section class="services-intro scrollTrigger">
+  <div class="">
     <div class="section-spaced">
       <div class="section-summary">
-        <h2 class="section-heading">Your website will become your businesses greatest growth-driving asset.</h2>
+        <h2 class="section-heading">How can a website help your business?</h2>
       </div>
     </div>
   </div> 
+  <div class="articles">
+    
+    <article class="services-intro trigger-1">
+      <div class="wrap wrap-center">
+        <div class="section-spaced">
+          <div class="section-summary">
+            <h2 class="section-heading">Section 1</h2>
+          </div>
+        </div>
+      </div> 
+    </article>
+
+    <article class="services-intro trigger-2">
+      <div class="wrap wrap-center">
+        <div class="section-spaced">
+          <div class="section-summary">
+            <h2 class="section-heading">Section 2</h2>
+          </div>
+        </div>
+      </div> 
+    </article>
+
+    <article class="services-intro trigger-3">
+      <div class="wrap wrap-center">
+        <div class="section-spaced">
+          <div class="section-summary">
+            <h2 class="section-heading">section 3</h2>
+          </div>
+        </div>
+      </div> 
+    </article>
+
+
+    <article class="services-intro trigger-4">
+      <div class="wrap wrap-center">
+        <div class="section-spaced">
+          <div class="section-summary">
+            <h2 class="section-heading">section 4</h2>
+          </div>
+        </div>
+      </div> 
+    </article>
+  </div>
 </section>
 
-<section class="services-intro section-right">
-  <div class="wrap">
-    <div class="section-spaced">
-      <div class="section-summary">
-        <h2 class="section-heading">Your new website will give your visitors a first-rate experience with your company, one that will capture their attention and keep them coming back again and again.</h2>
-      </div>
-    </div>
-  </div> 
-</section>
 
 
-<section class="services-intro section-left">
-  <div class="wrap wrap-center-narrow">
-    <div class="section-spaced">
-      <div class="section-summary">
-        <h2 class="section-heading">Your new site will help ensure your company is remembered when a visitor is ready to buy, or when a customer makes a recommendation to their friends and family.</h2>
-      </div>
-    </div>
-  </div> 
-</section>
+
+
 
 
 
