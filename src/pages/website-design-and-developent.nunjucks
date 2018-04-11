@@ -241,56 +241,19 @@ Make your site fast </p>
 
 
 <section class="services-intro scrollTrigger">
-  <div class="">
+  <div class="wrap wrap-center wrap-center-narrow">
     <div class="section-spaced">
       <div class="section-summary">
         <h2 class="section-heading">How can a website help your business?</h2>
+        <div class="scroll-items">
+          <div class="scroll-item-1">Item 1</div>
+          <div class="scroll-item-2">Item 2</div>
+          <div class="scroll-item-3">Item 3</div>
+          <div class="scroll-item-4">Item 4</div>
+        </div>
       </div>
     </div>
   </div> 
-  <div class="articles">
-    
-    <article class="services-intro trigger-1">
-      <div class="wrap wrap-center">
-        <div class="section-spaced">
-          <div class="section-summary">
-            <h2 class="section-heading">Section 1</h2>
-          </div>
-        </div>
-      </div> 
-    </article>
-
-    <article class="services-intro trigger-2">
-      <div class="wrap wrap-center">
-        <div class="section-spaced">
-          <div class="section-summary">
-            <h2 class="section-heading">Section 2</h2>
-          </div>
-        </div>
-      </div> 
-    </article>
-
-    <article class="services-intro trigger-3">
-      <div class="wrap wrap-center">
-        <div class="section-spaced">
-          <div class="section-summary">
-            <h2 class="section-heading">section 3</h2>
-          </div>
-        </div>
-      </div> 
-    </article>
-
-
-    <article class="services-intro trigger-4">
-      <div class="wrap wrap-center">
-        <div class="section-spaced">
-          <div class="section-summary">
-            <h2 class="section-heading">section 4</h2>
-          </div>
-        </div>
-      </div> 
-    </article>
-  </div>
 </section>
 
 
