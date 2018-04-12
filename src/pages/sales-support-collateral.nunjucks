@@ -11,7 +11,193 @@
 
 {% block main %} 
  
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Sales and Marketing Collateral</h1>
+        <h2 class="section-heading">Bring Confidence to Your Next Sales Meetings</h2>
+        <p class="section-lead">Support your sales team with professional sales and marketing collateral strategically designed to grow your business.</p>
+        <p>{{ button.link('/strategic-planning.html', 'Tell me more') }}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <div class="section-heading">You’ve done the hard part&hellip;</div>
+          <p>&hellip;getting a meeting with a future customer. Now make a lasting impression with sales materials that will resonate, leave a lasting impression and have an a direct impact on your bottom line.</p>
+          <p> Whether you’re meeting face-to-face with your customers or presenting online, professional sales collateral can help convey confidence and build trust in your companies abilities. Quality sales material can ensure your business stays top-of-mind, and it can help influence decisions as potential customers go through the process of deciding to purchase. Your sales team will feel more capable and successful when they have great sales collateral to present and leave behind.</p>
+
+          <p>Expand brand awareness and brand equity as your message is distributed throughout your sales regions with modern professionally designed sales collateral material.</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Sales and Marketing Collateral Services</h1>
+          <p class="section-lead">Our sales and marketing collateral services are meant to work best as part of an overall integrated marketing plan, but are also offered as stand-alone services.</p>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-center">
+            <li>Advertising</li>
+            <li>annual reports</li>
+            <li>Brochures</li>
+            <li>Product data sheets</li>
+            <li>Sales/media kits</li>
+            <li>sales folders</li>
+            <li>Sales presentations</li>
+            <li>Trade show materials</li>
+            <li>Direct mail</li>
+            <li>PDF downloads</li>
+            <li>Outdoor Displays & Signage</li>
+            <li>Product packaging</li>
+            <li>Business cards & Stationery</li>
+            <li>Catalogs</li>
+            <li>Manuals</li>
+          </ul>
+        </div>
+        <div>
+          <p>Not sure which solution is right for you? Give us a call we’ll help you determine the best options for your needs.</p>
+          {{ button.link('/strategic-planning.html', 'Lets get started') }}
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-full wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Our Process</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap">
+            <li>
+              <div>
+                <h3>Define</h3>
+                <ul>
+                  <li>Understand your business</li>
+                  <li>Business Goals</li>
+                  <li>Competition</li>
+                  <li>Markets</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Design</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Develop</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Deliver</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Determine</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Why Would You Need Sales Material?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>If you or your sales team has face-to-face meetings with customers or potential customers</li>
+            <li>If you create sales presentations for in-person meetings or for posting online</li>
+            <li>If you work in an industry where a tactile experience is necessary</li>
+            <li>If your target audience prefers printed content over digital content</li>
+            <li>If you want to stand out in a crowded market with a unique leave-behind or giveaway</li>
+            <li>If you manufacture a high-end luxury material that needs to be experienced first hand</li>
+            <li>In-person marketing material</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What makes a great sales collateral piece?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>It triggers an emotional response from the customer</li>
+            <li>It conveys professionalism, trust and confidence</li>
+            <li>It has a clear call to action</li>
+            <li>It is easy to read</li>
+            <li>Its useful and provides relevant informative content</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Whats the cost of not having sales collateral?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Lack of coordination with sales team</li>
+            <li>Lack of brand cohesion and consistency</li>
+            <li>Loss of confidence and trust in product or service</li>
+            <li>Out of sight, out of mind during decision making process</li>
+            <li>Dilution of brand message</li>
+            <li>Inconsistency of product or service messaging</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What problems will sales collateral material solve for my business?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Brand retention</li>
+            <li>Memorable, stand out in crowd</li>
+            <li>Brand awareness</li>
+            <li>Market saturation</li>
+            <li>Consistent message</li>
+            <li>Build confidence, trust and desire</li>
+            <li>Emotional investment</li>
+            <li>Sales team coordination and consistency</li>
+            <li>Sales team confidence capable and successful</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
 
 {% endblock %}

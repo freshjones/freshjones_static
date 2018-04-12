@@ -1,0 +1,42 @@
+.section-list
+{
+  text-align:left;
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+
+.section-list li
+{
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.section-list-bullets
+{
+  margin-top: 30px;
+}
+
+.section-list-bullets li
+{
+  margin-bottom: 0px;
+}
+
+
+.section-list-columns
+{
+  column-count: 2;
+  column-gap: 40px;
+  column-rule: 1px solid $green;
+}
+
+.section-list-columns li
+{
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.section-list-columns-3
+{
+  column-count: 3;
+}

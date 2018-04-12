@@ -11,7 +11,113 @@
 
 {% block main %} 
  
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <div class="section-topic">Services</div>
+        <div class="section-heading">Cloud Hosting and Cloud Management Services</div>
+        <!-- <div class="section-heading">360&deg; Services, Under One Roof.</div> -->
+        <p class="section-lead">Save time, money and resources by outsourcing your cloud hosting and management requirements. Feel confident and secure that your web infrastructure is taken care of by letting our dev ops manage your web infrastructure requirements.</p>
+        <p>
+          {{ button.link('/strategic-planning.html', 'Lets get started') }}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Cloud management and hosting services</h1>
+          <p class="section-lead">Our cloud management and hosting services are typically used in conjunction with our web development services, but are also offered as stand-alone services.</p>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-center">
+            <li>Linux Hosting</li>
+            <li>Configuration Management</li>
+            <li>CD/CI Pipeline</li>
+            <li>Web Server and Database Setup</li>
+            <li>SSH setup/configuration (LetsEncrypt)</li>
+            <li>Cloud Backups</li>
+            <li>AWS Elastic Beanstalk Configuration</li>
+            <li>Serverless Architecture</li>
+            <li>Cloud Search </li>
+            <li>Legacy Migrations</li>
+          </ul>
+        </div>
+        <div>
+          <p>Not sure which solution is right for you? Give us a call we’ll help you determine the best options for your needs.</p>
+          {{ button.link('/strategic-planning.html', 'Lets get started') }}
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Scalable Solutions</h1>
+          <p class="section-lead">Our cloud management and hosting services are typically used in conjunction with our <a href="/website-design-and-developent.html">web development services</a>, but are also offered as stand-alone services.</p>
+        </div>
+        <div>
+          <ul class="flex-blocks">
+            <li>
+              <div>
+                <h3>Small business owner/solopreneur</h3>
+                <p>Affordable plans, Gain immediate impact for your business, Free’s your time to work on your business</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Technology Manager</h3>
+                <p>Help during heavy times without the need to hire, Act as an extension of your team, Provide you clients with additional capabilities</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Technology Manager</h3>
+                <p>Gain a resource that has your back and that you can rely on, feel confident and secure knowing an experienced team with a diverse range of platforms, languages, and tools will keep your company up-to-date with industry standards, best-practices and cost-saving approaches to technology</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">SysOps Can Be Overwhelming</h1>
+          <p>Without cloud hosting and management services you’ll need to be responsible for all the jobs that going along with hosting a website. First you’ll need to determine where/how to host your site, which service offers the best performance at the best price? </p>
+          <p>If you choose a packaged hosting service you’re forced to play by their rules, which means you may not get the performance you need or be able to have the functionality your business needs to be successful. Choosing to host with a AWS or google give you complete flexibility and control over your infrastructure, but leaves you in control of setup, configuration, updating, hardening, scaling etc. which can be overwhelming.</p>
+          <p>The big managed hosting services like Rackspace are a great option but can be quite expensive if your requirements are modest or your budget is limited. Our cloud hosting and management services can offer an alternative solution to either large-scale managed hosting or economy shared hosting.</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Don't leave things up to chance</h1>
+          <p>By letting us handle your hosting and management needs you get</p>
+        </div>
+        <div>
+          <ul class="flex-blocks">
+            <li>Flexible and scalable, easily add new storage or scale as your business need increase</li>
+            <li>Software updates and security patches</li>
+            <li>Environmentally friendly, less energy used, reduced carbon footprint</li>
+            <li>Save money, lower power costs, lower staffing needs, zero capital expenditures</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
 
 {% endblock %}

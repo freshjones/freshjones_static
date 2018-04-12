@@ -35,6 +35,39 @@
   }
 }
 
+
+.technology-list ul
+{
+  list-style:none;
+  margin:0;
+  padding: 0;
+  text-align:left;
+  font-weight: 400;
+}
+
+.technology-list ul ul
+{
+  padding: 0 20px;
+}
+
+.technology-list .heading
+{
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+.technology-list li
+{
+  margin-bottom: 10px;
+  font-size:95%;
+}
+
+.technology-list li li li
+{
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
 @include breakpoint($medium) { 
 
   .column-list

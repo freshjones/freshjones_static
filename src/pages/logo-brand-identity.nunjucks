@@ -11,7 +11,230 @@
 
 {% block main %} 
  
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Logo and Brand Identity</h1>
+        <h2 class="section-heading">Make your business instantly recognizable</h2>
+        <p class="section-lead">Prepare your business for success with a unique and memorable logo</p>
+        <p>{{ button.link('/strategic-planning.html', 'Tell me more') }}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <div class="section-heading">Make a great first impression</div>
+          <p>An easy to recognize, relatable and memorable logo is an essential aspect of a growth-oriented business and a vital part of an <a href="/strategic-planning.html">integrated marketing plan</a>. Your logo is often the first conversation your business will have with potential customers, communicating to them the type of experience they are likely to have with your company. A well-designed logo gives your business a opportunity to make a great first impression, to highlight its best qualities and to make it easy for customers to remember the great experience they had doing business with you. Invest in your future with a unique and memorable logo designed to make you’ll look great, put your business ahead of the rest and make the rest of your marketing efforts a snap.</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Logo and Identity Services</h1>
+          <p class="section-lead">Our logo and identity services are meant to work best as part of an overall integrated marketing plan, but are also offered as stand-alone services</p>
+        </div>
+        <div>
+          <ul class="flex-blocks">
+            <li>
+              <div>
+                <h3>Logo Design and Development</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Visual Identity System</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p>Not sure which choice is right for your business? Give us a call, we can help.</p>
+          {{ button.link('/contact', 'Give us a call') }}
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-full wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Our Process</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap">
+            <li>
+              <div>
+                <h3>Define</h3>
+                <ul>
+                  <li>Understand your business</li>
+                  <li>Business Goals</li>
+                  <li>Competition</li>
+                  <li>Markets</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Design</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Develop</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Deliver</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Determine</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What makes a great logo?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Trust and Authority</li>
+            <li>Relevance</li>
+            <li>Technical Accuracy</li>
+            <li>Memorable Timeless</li>
+            <li>Differentiation</li>
+            <li>Clarity and Consistency</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Aspects of logo design</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Color</li>
+            <li>Typography</li>
+            <li>Shape</li>
+            <li>Imagery</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Logo Design Styles</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Classic</li>
+            <li>Traditional</li>
+            <li>Modern</li>
+            <li>Clean</li>
+            <li>Minimal</li>
+            <li>Retro Vintage</li>
+            <li>Fun</li>
+            <li>Exciting</li>
+            <li>Simple</li>
+            <li>Powerful</li>
+            <li>Bold</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Different Types of Logos</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Lettermarks</li>
+            <li>Wordmark</li>
+            <li>Symbolic Icon</li>
+            <li>Abstract Icon</li>
+            <li>Mascot</li>
+            <li>Emblem</li>
+            <li>Combination</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What is a visual identity system?</h1>
+          <p>A visual identity system helps ensure your internal personnel understand the strategy behind your visual identity, what it means and what purpose and end it serves. It helps them understand and give them the tools necessary and carry that vision out to customers and partners in a consistent and effective approach.</p>
+          <ol>
+            <li>Guidelines and procedures: Creating guidelines and procedures around aspects such as typography, colors, images, placement, material usage can provide your business with the proper tools necessary to manage consistent company communications.</li>
+            <li>Strategic Aspects: Understanding the meaning and rationale behind your corporate identity and gives your employees clarity and an understanding of your businesses vision and what you’re trying to convey, helping to garner more trust and gain buy-in with your employees</li>
+          </ol>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What do I risk by not having a great logo</h1>
+          <ul class="section-list section-list-bullets">
+            <li>Customer form opinions and lasting impressions about a businesses appearance that is difficult to overcome</li>
+            <li>You could offer an excellent product or service, but if it blends in, or fails to offer any memorable visual traits it can easily be forgotten when a customer is ready to purchase</li>
+            <li>A weak or confusing or unsuitable logo can give your customers the wrong impression about what you do or how you conduct business</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What problems will a great logo solve</h1>
+          <ul class="section-list section-list-bullets">
+            <li>visibility and "recognizability" it is critical that customers know who you are, and remember your name and what you do when they have a need</li>
+            <li>Is a symbol of your businesses image and reputation</li>
+            <li>Its makes it easy for customers to know what you do, how you do it</li>
+            <li>It affects how your employees relate to your business and how they in turn transfer that in their interactions with customers or how they do their job.</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
 
 {% endblock %}

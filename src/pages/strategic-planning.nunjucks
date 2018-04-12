@@ -11,7 +11,555 @@
 
 {% block main %} 
  
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <div class="section-topic">Marketing + Sales</div>
+        <h1 class="section-heading">Relax&hellip;We've Got Your Back</h1>
+        <p class="section-lead">Strategic planning that puts you in control of your businesses.</p>
+        <p>{{ button.link('/strategic-planning.html', 'Lets Do This') }}</p>
+      </div>
+    </div>
+  </section>
+
+<section class="services-intro">
+  <div class="wrap wrap-center wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <div class="section-heading">Ready to ignite your marketing strategy?</div>
+        <p>Ever feel overwhelmed by all the different market channels available? Leaving you unsure of how you should spend your limited marketing dollars so that they make the most impact on your business?</p>
+        <p>Wouldn’t you feel relieved knowing that you had a complete and organized plan in place that would first considered all the most important aspects of your business and then determined what the most impactful, economical and profitable methods of marketing your business were? And it did so in a way that measured and tracked ongoing results so that you could systematically improve upon your efforts over time? Wouldn’t your sales team be more successful if your marketing efforts were designed to drive high-quality convertible leads month after month? </p>
+        <p>A strategic marketing plan can ensure that your efforts begin with a complete view of your business domain and are purposefully focused on meeting your specific goals. A strategic marketing plan can help ensure your business always present its customers with a consistent voice and message with all interactions, online and off. A strategic marketing plan allows you to track and measure your progress, pivot and course-correct when necessary and keep moving forward and improving your efforts.</p>
+        <p>Having a strategic marketing plan in place will leave you with a sense of relief and confidence in knowing your in complete control over your businesses future.</p>
+      </div>
+    </div>
+  </div> 
+</section>
+
+<section class="services-intro">
+  <div class="wrap wrap-center wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <div class="section-heading">What is an Integrated Marketing Plan?</div>
+        <p>At its most basic level, Integrated Marketing Communications, or IMC, as we’ll call it, means integrating all the promotional tools, so that they work together in harmony.</p>
+        <p>Promotion is one of the Ps in the marketing mix. Promotions has its own mix of communications tools.</p>
+        <p>All of these communications tools work better if they work together in harmony rather than in isolation. Their sum is greater than their parts – providing they speak consistently with one voice all the time, every time.</p>
+      </div>
+    </div>
+  </div> 
+</section>
+
+<section class="home-services">
+  <div class="wrap wrap-center">
+    <div>
+      <div class="section-summary">
+        <div>
+          <h2 class="section-heading">Strategic Services</h2>
+          <p class="section-lead">Depending on your needs, requirements or preferences we offer expertise in the following areas</p>
+        </div>
+      </div>
+      <div class="section-divider">
+        <div></div>
+      </div>
+      <div class="services-list">
+        <div>
+          <div class="icon">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
+            <g>
+              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
+                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
+                C37,3.2,35.8,2,34.4,2H4.6z"/>
+              <g>
+                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
+                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
+              </g>
+              <g>
+                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
+                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
+              </g>
+              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
+              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
+                C25.9,47.6,25.5,48,25.1,48z"/>
+              <g>
+                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
+              </g>
+              <g>
+                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
+                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
+                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
+              </g>
+            </g>
+            </svg>
+          </div>
+          <div>
+            <h3>Business Consultation</h3>
+            <p>Everything starts online. Turn leads into customers and customers into promoters by giving them a great online experience.</p>
+          </div>
+        </div>
+        <div>
+          <div class="icon">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
+            <g>
+              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
+                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
+                C37,3.2,35.8,2,34.4,2H4.6z"/>
+              <g>
+                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
+                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
+              </g>
+              <g>
+                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
+                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
+              </g>
+              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
+              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
+                C25.9,47.6,25.5,48,25.1,48z"/>
+              <g>
+                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
+              </g>
+              <g>
+                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
+                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
+                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
+              </g>
+            </g>
+            </svg>
+          </div>
+          <div>
+            <h3>Brand Strategy</h3>
+            <p>Ready to put your website to work? Lets amplify your digital and creative efforts with digital marketing services.</p>
+          </div>
+        </div>
+        <div>
+          <div class="icon">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
+            <g>
+              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
+                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
+                C37,3.2,35.8,2,34.4,2H4.6z"/>
+              <g>
+                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
+                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
+              </g>
+              <g>
+                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
+                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
+              </g>
+              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
+              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
+                C25.9,47.6,25.5,48,25.1,48z"/>
+              <g>
+                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
+              </g>
+              <g>
+                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
+                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
+                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
+              </g>
+            </g>
+            </svg>
+          </div>
+          <div>
+            <h3>Information Architecture &  user experience</h3>
+            <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="icon">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
+            <g>
+              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
+                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
+                C37,3.2,35.8,2,34.4,2H4.6z"/>
+              <g>
+                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
+                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
+              </g>
+              <g>
+                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
+                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
+              </g>
+              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
+              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
+                C25.9,47.6,25.5,48,25.1,48z"/>
+              <g>
+                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
+              </g>
+              <g>
+                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
+                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
+                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
+              </g>
+            </g>
+            </svg>
+          </div>
+          <div>
+            <h3>Content Strategy & Copywriting</h3>
+            <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
+          </div>
+        </div>
+
+
+        <div>
+          <div class="icon">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
+            <g>
+              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
+                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
+                C37,3.2,35.8,2,34.4,2H4.6z"/>
+              <g>
+                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
+                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
+              </g>
+              <g>
+                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
+                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
+              </g>
+              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
+              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
+                C25.9,47.6,25.5,48,25.1,48z"/>
+              <g>
+                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
+              </g>
+              <g>
+                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
+                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
+                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
+              </g>
+            </g>
+            </svg>
+          </div>
+          <div>
+            <h3>Marketing and Sales Alignment</h3>
+            <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
+          </div>
+        </div>
+
+
+        <div>
+          <div class="icon">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
+            <g>
+              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
+                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
+                C37,3.2,35.8,2,34.4,2H4.6z"/>
+              <g>
+                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
+                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
+              </g>
+              <g>
+                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
+                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
+              </g>
+              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
+              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
+                C25.9,47.6,25.5,48,25.1,48z"/>
+              <g>
+                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
+              </g>
+              <g>
+                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
+                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
+                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
+              </g>
+            </g>
+            </svg>
+          </div>
+          <div>
+            <h3>Lead Generation and Lead Nurturing</h3>
+            <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
+          </div>
+        </div>
+
+
+        <div>
+          <div class="icon">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
+            <g>
+              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
+                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
+                C37,3.2,35.8,2,34.4,2H4.6z"/>
+              <g>
+                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
+                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
+              </g>
+              <g>
+                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
+                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
+              </g>
+              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
+              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
+                C25.9,47.6,25.5,48,25.1,48z"/>
+              <g>
+                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
+              </g>
+              <g>
+                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
+                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
+                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
+              </g>
+            </g>
+            </svg>
+          </div>
+          <div>
+            <h3>Media Planning</h3>
+            <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="icon">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
+            <g>
+              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
+                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
+                C37,3.2,35.8,2,34.4,2H4.6z"/>
+              <g>
+                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
+                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
+              </g>
+              <g>
+                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
+                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
+              </g>
+              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
+              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
+                C25.9,47.6,25.5,48,25.1,48z"/>
+              <g>
+                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
+              </g>
+              <g>
+                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
+                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
+                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
+              </g>
+            </g>
+            </svg>
+          </div>
+          <div>
+            <h3>Media Research</h3>
+            <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
+      
+          </div>
+        </div>
+
+        <div>&nbsp;</div>
+
+      </div>
+      <div>
+        <h3><span class="smaller">Not sure where to start? No problem, we can help determine the best approach for your business.</span></h3>
+        <p>{{ button.link('#', 'Lets Get Started') }}</p>
+      </div>
+    </div>
+  </div> 
+</section>
+
+
+<section class="services-intro">
+  <div class="wrap wrap-center wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <h2 class="section-heading">Why would I need a strategic plan?</h2>
+        <ul class="section-list section-list-bullets">
+          <li>You’re not seeing a return on your marketing efforts</li>
+          <li>You want to grow</li>
+          <li>Your sales are declining</li>
+          <li>You’re launching a new product</li>
+          <li>You’re moving into a new market</li>
+          <li>You’re looking to target a new audience</li>
+          <li>Your market share is being threatened by competition</li>
+        </ul>
+      </div>
+    </div>
+  </div> 
+</section>
+
+
+<section class="services-intro">
+  <div class="wrap wrap-center wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <h2 class="section-heading">Digital emphasis not digital only</h2>
+        <ul class="section-list section-list-bullets">
+          <li>Digital alone will end up costing more and not produce as good results with low brand awareness and brand affinity</li>
+          <li>Brand dilution and erosion</li>
+          <li>Better overall understanding of your customers, the channels they prefer, their behaviors, etc.</li>
+          <li>Customers perception of your business will be synonymous within its market</li>
+          <li>Improve overall targeting and increase conversion rates</li>
+          <li>Increased visibility</li>
+          <li>Increasing the chances that a consumer will take action</li>
+        </ul>
+      </div>
+    </div>
+  </div> 
+</section>
+
+
+<section class="services-intro">
+  <div class="wrap wrap-center wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <h2 class="section-heading">How can FreshJones help with an integrated marketing plan?</h2>
+        <ul class="section-list section-list-bullets">
+          <li>Strategic focused</li>
+          <li>Research and data backed</li>
+          <li>Integrated approach</li>
+          <li>Digital emphasis</li>
+          <li>Marketing platform</li>
+          <li>Results-driven</li>
+        </ul>
+      </div>
+    </div>
+  </div> 
+</section>
+
+
+<section class="services-intro">
+    <div class="wrap wrap-center wrap-full wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Our Process</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap">
+            <li>
+              <div>
+                <h3>Define</h3>
+                <ul>
+                  <li>Business Goals/Objectives</li>
+                  <li>Market(s)</li>
+                  <li>Competition</li>
+                  <li>Brand and Uniqueness</li>
+                  <li>Capabilities</li>
+                  <li>Products/Services</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Discover</h3>
+                <ul>
+                  <li>Trust / Authority</li>
+                  <li>Market Potential</li>
+                  <li>Current Channels</li>
+                  <li>Engagement</li>
+                  <li>Ranking</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Direction</h3>
+                <ul>
+                  <li>Marketing Objectives</li>
+                  <li>Techniques and Tactics</li>
+                  <li>Recommendations and Opportunities</li>
+                  <li>Determine Key Performance Indicators</li>
+                  <li>Determine Budget</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Deployment</h3>
+                <ul>
+                  <li>Timeline</li>
+                  <li>Deadlines</li>
+                  <li>Responsibilities</li>
+                  <li>Operating Procedures</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Determine</h3>
+                <ul>
+                  <li>Campaign Management</li>
+                  <li>Project Reporting</li>
+                  <li>Monitor KPI's</li>
+                  <li>Optimize</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+  <div class="wrap wrap-center wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <h2 class="section-heading">What problems will strategic planning help solve?</h2>
+        <ul class="section-list section-list-bullets section-list-columns">
+          <li>Helps you to focus your resources</li>
+          <li>Plan for your business growth</li>
+          <li>Sense of control over your business</li>
+          <li>Product/market fit</li>
+          <li>Identify your strengths / weaknesses</li>
+          <li>How to position and differentiate from competitors</li>
+          <li>Motivate your team</li>
+          <li>Ensure marketing efforts are making a difference</li>
+          <li>Ensure a consistent message and objective across all channels</li>
+          <li>Keep track of and control expenses and budget</li>
+          <li>Provides a goal / projection to meet</li>
+          <li>Helps focus attention and makes decisions easier</li>
+          <li>Reminds you of the bigger picture</li>
+          <li>Provides your business with direction</li>
+          <li>Determines to most appropriate tools to accomplish business goals</li>
+          <li>Saves time and money by focusing the right resources on the right objectives</li>
+        </ul>
+      </div>
+    </div>
+  </div> 
+</section>
+
+
+  <section class="services-intro">
+  <div class="wrap wrap-center wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <h2 class="section-heading">What makes a great strategic plan?</h2>
+        <p class="section-lead">Ensure your strategic plan gets the results you're looking for by following these plan guidelines.</p>
+        <ul class="section-list section-list-bullets section-list-columns">
+          <li>Practical</li>
+          <li>Easy to understand and follow</li>
+          <li>Realistic</li>
+          <li>Clear path to implementation</li>
+          <li>Specific</li>
+          <li>Measurable</li>
+          <li>Achievable</li>
+          <li>Realistic</li>
+          <li>Time-Specific</li>
+          <li>Flexible</li>
+          <li>Responsibility and accountability</li>
+          <li>Consistent</li>
+        </ul>
+      </div>
+    </div>
+  </div> 
+</section>
+
+<section class="services-intro">
+  <div class="wrap wrap-center wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <div class="section-heading">All marketing starts with a plan</div>
+        <p class="section-lead">Dont wandering aimlessly without direction, or waste time and resources chasing disconnected techniques that only result in brand dilution and lost sales. Plan your marketing strategy the right way, let us help build a marketing plan that gets results and grows your business.</p>
+      </div>
+    </div>
+  </div> 
+</section>
 
 {% endblock %}

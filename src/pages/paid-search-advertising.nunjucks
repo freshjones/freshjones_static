@@ -1,0 +1,398 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block title %}
+  FreshJones - Paid Search Management
+{% endblock %}
+
+{% block header %}
+  {{header.active('services')}}
+{% endblock %}
+
+{% block main %} 
+ 
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Paid Search Advertising</h1>
+        <h2 class="section-heading">More calls &bull; More Foot Traffic &bull; More Web Visits</h2>
+        <p class="section-lead">Use PPC advertising to amplify your marketing efforts and attract more customers.</p>
+        <p>{{ button.link('/strategic-planning.html', 'I want more traffic') }}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <div class="section-heading">More signal and less noise</div>
+          <p>There is no better time to advertise than when someone already has determined they want your product or service and is actively looking to buy.</p>
+          <p>Businesses today need a strong search engine presence to be competitive, which means showing ads on Google Search results pages right when customers are looking to buy.</p>
+          <p>Fuel your website with high-quality traffic and watch your conversions explode. There are over 3 billion searches every day. These searches are full of people looking for answers and solutions to their problems. A percentage of these searches are problems that your business solves. Through the use of ppc management services, you can pull new customers to your business immediately.</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Why Consider Search Advertising?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Be there when users are searching</li>
+            <li>Complements SEO efforts</li>
+            <li>Fast</li>
+            <li>Flexible</li>
+            <li>Targeted approach</li>
+            <li>increase your visibility on search engines</li>
+            <li>Get more traffic to your site</li>
+            <li>Measurable</li>
+            <li>Immediacy</li>
+            <li>Works for small or large budgets</li>
+            <li>Geo Targeting</li>
+            <li>Competition</li>
+            <li>RealEstate</li>
+            <li>High Intent</li>
+            <li>Responsive</li>
+            <li>Targeted</li>
+            <li>Profitable</li>
+            <li>Generate high-quality traffic and increase conversions:
+            <li>Get Results Instantly</li>
+            <li>Efficiency</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">How Can FreshJones Help With My Search Advertising?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Strategy</li>
+            <li>Managing your account</li>
+            <li>Lets you run your business</li>
+            <li>Provide you with detailed results</li>
+            <li>We’re certified so you don’t have to be</li>
+            <li>Keeping up with shifting search algorithms and quality score rankings</li>
+            <li>Find Quality, Conversion-Friendly PPC Keywords for Your Clients</li>
+            <li>Manage Bids Across Multiple Campaigns and Ad Groups for Optimal Return on Investment</li>
+            <li>Create Intelligent Segmentations that will Help Drive Up Quality Scores and Conversions</li>
+            <li>Write Compelling Ad Text that Ensures that the Right Searchers are Clicking Your Clients’ Ads, then test it</li>
+            <li>Create Optimized Landing Pages</li>
+            <li>Conversion tracking and monitoring</li>
+            <li>Transparency</li>
+            <li>Result focused - getting clicks that convert</li>
+            <li>Cancel anytime with a 30-day electronic or written notice. Our services are backed with high integrity and want to earn your trust through providing great work.</li>
+            <li>Google AdWords Certified</li>
+            <li>No Long-Term Contracts</li>
+            <li>All Assets are yours</li>
+            <li>We’re nice to work with</li>
+            <li>We educate</li>
+            <li>We’re proactive</li>
+            <li>Landing page optimization</li>
+            <li>RLSA remarketing lists for search ads</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Why would I Need Help With Local SEO?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>You’re busy running your business.</li>
+            <li>You dont have time to setup advertising accounts</li>
+            <li>You want an adwords certified technician</li>
+            <li>You dont have time to manage and optimize your account on a weekly basis</li>
+            <li>You're not sure how to get started with PPC advertising</li>
+            <li>You need help determining a PPC strategy</li>
+            <li>You're not sure what kind of budget you need and how to best spend your marketing dollars to get the best return</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">How Much Does PPC Advertising Cost?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>You only pay if your ad is clicked</li>
+            <li>We help optimize your campaign so it is only presented at the right times</li>
+            <li>We ensure your quality score is high which lowers your costs</li>
+            <li>We'll help determine how much you can pay per click</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What's the Difference Between PPC and SEO?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Your in control vs google</li>
+            <li>Time to rank</li>
+            <li>Easily test and refine ads to get the highest converting</li>
+            <li>Better metrics</li>
+            <li>Highly targeted</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Why Paid Search and Not Just Organic?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Paid and organic are very similar today</li>
+            <li>Most users dont pay attention to the difference</li>
+            <li>Speed</li>
+            <li>Ability to adjust in real time</li>
+            <li>Real estate</li>
+            <li>Competition</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-full wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Our Process</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap">
+            <li>
+              <div>
+                <h3>Define</h3>
+                <ul>
+                  <li>Understand your business</li>
+                  <li>Business Goals</li>
+                  <li>Competition</li>
+                  <li>Markets</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Discover</h3>
+                <ul>
+                  <li>Marketing objectives
+                    <ul>
+                      <li>Traffic</li>
+                      <li>Awareness</li>
+                      <li>Conversions</li>
+                      <li>Leads</li>
+                    </ul>
+                  </li>
+                  <li>Keyword Research</li>
+                  <li>Competitive Opportunities</li>
+                  <li>Current Marketing Strategies</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Direction</h3>
+                <ul>
+                  <li>Road map</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Deployment</h3>
+                <ul>
+                  <li>Ad creation</li>
+                  <li>a/b split testing</li>
+                  <li>Daily Monitoring and optimizing</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Determine</h3>
+                <ul>
+                  <li>Reporting and communication</li>
+                  <li>Conversion tracking</li>
+                  <li>Performance indicators
+                    <ul>
+                      <li>Traffic</li>
+                      <li>Conversions</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What Problems Will Search Advertising Help Solve?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Get On the First Page of Google. Fast</li>
+            <li>People Who Click on Paid Search Ads are Ready to Buy</li>
+            <li>Learn more about your customers
+              <ul>
+                <li>Where that person is located</li>
+                <li>How much time they spent on your site</li>
+                <li>What pages they visited on your site</li>
+                <li>What type of device they were using (mobile, tablet, laptop)</li>
+              </ul>
+            </li>
+            <li>Quantifiable tracking and metrics of ad spend accurate ROI</li>
+            <li>Targeting and scheduling- no wasted spending</li>
+            <li>Testing abilities</li>
+            <li>Your in control as opposed to SEO</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Won't Paid Search Make Me Look Bad?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Maintain Your Reputation</li>
+            <li>Relevant Trustworthy</li>
+            <li>Quality Score</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Do I need to do paid search?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Missing out on revenue opportunities</li>
+            <li>Miss out on brand-building opportunities</li>
+            <li>Wasted potential</li>
+            <li>Wasted money, time, effort</li>
+            <li>Choosing not to compete on Google is essentially like choosing to hand your customers to your competitors.</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Anatomy of a Great PPC Strategy?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Strategy
+              <ul>
+                <li>Keyword Research</li>
+                <li>Campaign Types
+                  <ul>
+                     <li>Call Only Campaigns</li>
+                    <li>Remarketing Campaigns</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>Management
+              <ul>
+                <li>Organization</li>
+                <li>Ad creation
+                  <ul>
+                    <li>Engaging Ad Messaging</li>
+                    <li>Better ad copy</li>
+                    <li>Extensions</li>
+                    <li>Geolocations</li>
+                    <li>Day parting</li>
+                    <li>Negative keywords</li>
+                    <li>Device targeting</li>
+                  </ul>
+                </li>
+                <li>Proper match typing</li>
+                <li>Quality Site Experience</li>
+              </ul>
+            </li>
+            <li>Optimization
+              <ul>
+                <li>Metrics and tracking</li>
+                <li>Optimize on a weekly basis</li>
+                <li>Testing and analyzing</li>
+                <li>Monitoring</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Anatomy of a Great Paid Search Ad?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Focus on providing value and be relevant to the customer, how will your product or service benefit them?</li>
+            <li>encourage people to take action by using ugency or limited availability</li>
+            <li>Alleviate risks or fears</li>
+            <li>Ensure your pushing a next step (CTA)</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+{% endblock %}

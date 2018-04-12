@@ -10,8 +10,348 @@
 {% endblock %}
 
 {% block main %} 
- 
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Seach Engine Optimization (SEO)</h1>
+        <h2 class="section-heading">Drive more traffic &bull; Get more leads &bull; Grow your business.</h2>
+        <p class="section-lead">Make sure your business is ready when customers are searching.</p>
+        <p>{{ button.link('/strategic-planning.html', 'I want more traffic') }}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <div class="section-heading">When you do a web search&hellip;</div>
+          <p>&hellip;how often do you navigate past the first page of results?</p>
+
+          <p class="bold">Not that often right?</p>
+
+          <p>Well here’s the truth…no one else does either. </p>
+
+          <p>Google has gotten so good at delivering the results we expect, that our behavior has changed. If we don’t see the results we want on the first page, we’re more likely to change our search than to click through to the next page of results.</p>
+
+          <p>But why does that matter?</p>
+
+          <p>It matters because your business may as well be invisible if it isn’t listing on page one of search engine results. And today almost every thought or idea we have begins with a search of some kind. This makes it super important that your business be there in those moments...when decisions are made and opinions formed.</p>
+
+          <p>With search engine optimization, you can help make sure your business is ready and available when customers are looking for the help you can give them.</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+<section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Why Consider SEO</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap flex-blocks-center">
+            <li>You’re looking to improve your search traffic</li>
+            <li>Your competition is showing increased activity</li>
+            <li>Break into new markets</li>
+            <li>Break into new markets</li>
+            <li>Attain new customers</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">How Can FreshJones Help With SEO</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap flex-blocks-center">
+            <li>Strategic focused</li>
+            <li>Focused on getting results</li>
+            <li>Keyword research process</li>
+            <li>Technical capabilities</li>
+            <li>Outreach</li>
+            <li>Content creation / strategy</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+   <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Why Would I Need Help With SEO?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>You have a business to run!</li>
+            <li>You want help with with keywords research</li>
+            <li>You need a plan to increase your rankings</li>
+            <li>You want to stay ahead of SEO tactics and techniques</li>
+            <li>You need a system to follow and want to track your success and incrementally improve your results</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">How will you improve my rankings?</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks">
+            <li>
+              <div>
+                <h3>Technical Optimization</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Relevant Content</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Authority and Trust</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Search Optimization won't work in my industry</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-columns">
+            <li>Niche markets</li>
+            <li>Shoulder niches</li>
+            <li>Paid Campaigns</li>
+            <li>Remarketing lists for search ads</li>
+            <li>Remarketing</li>
+            <li>Good informational content</li>
+            <li>Inverted Unicorn</li>
+            <li>Content outside of your niche</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Tools We Use</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-center">
+            <li>Kwfinder</li>
+            <li>Ahrefs</li>
+            <li>Answer the public</li>
+            <li>Lsigraph</li>
+            <li>Google</li>
+            <li>Spyfu</li>
+            <li>SimilarWeb</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Use SEO to Amplify Your Marketing Efforts</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-center">
+            <li>Integrated marketing plan</li>
+            <li>Brand awareness</li>
+            <li>Content marketing</li>
+            <li>Social marketing</li>
+            <li>Paid Search and Display</li>
+            <li>Web and Mobile</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Will My Site Rank #1 on Google?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>No guarantee</li>
+            <li>Long term investment</li>
+            <li>Do the right thing</li>
+            <li>100% white hat framework</li>
+            <li>100% Transparency</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-full wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Our Process</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap">
+            <li>
+              <div>
+                <h3>Define</h3>
+                <ul>
+                  <li>Business Goals/Objectives</li>
+                  <li>Market(s)</li>
+                  <li>Competition</li>
+                  <li>Brand and Uniqueness</li>
+                  <li>Capabilities</li>
+                  <li>Products/Services</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Discover</h3>
+                <ul>
+                  <li>Trust / Authority</li>
+                  <li>Market Potential</li>
+                  <li>Current Channels</li>
+                  <li>Engagement</li>
+                  <li>Ranking</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Direction</h3>
+                <ul>
+                  <li>Marketing Objectives</li>
+                  <li>Techniques and Tactics</li>
+                  <li>Recommendations and Opportunities</li>
+                  <li>Determine Key Performance Indicators</li>
+                  <li>Determine Budget</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Deployment</h3>
+                <ul>
+                  <li>Timeline</li>
+                  <li>Deadlines</li>
+                  <li>Responsibilities</li>
+                  <li>Operating Procedures</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Determine</h3>
+                <ul>
+                  <li>Campaign Management</li>
+                  <li>Project Reporting</li>
+                  <li>Monitor KPI's</li>
+                  <li>Optimize</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What Problems Can SEO Help Me Solve?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Build trust authority and confidence and credibility</li>
+            <li>Be seen as an expert in your field</li>
+            <li>Get more traffic to your site</li>
+            <li>Increase more leads, quality prospects, new customers</li>
+            <li>Build your brand awareness and equity</li>
+            <li>Drive offline sales</li>
+            <li>Stay ahead of your competitors</li>
+            <li>Decrease your cost per acquisition</li>
+            <li>Help Influence purchasing decisions</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What If My Site Isn't Search Optimized?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Without a strategy in place how can you be sure if your efforts are yielding results</li>
+            <li>Missed opportunities by not being there when a search takes place</li>
+            <li>Loss of interest and rankings on a site that is difficult to navigate, not relevant or useful</li>
+            <li>Loss of search rankings</li>
+            <li>More costly PPC advertising</li>
+            <li>Wasted time, effort and money</li>
+            <li>Loss of lead opportunities and chances to convert and delight customers</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What Are the Key Ingredients of a Powerful SEO Strategy?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Do whats good for your users</li>
+            <li>Do whats good for google</li>
+            <li>Technical</li>
+            <li>Relevancy</li>
+            <li>Authority and Trust</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
 
 {% endblock %}

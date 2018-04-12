@@ -11,7 +11,157 @@
 
 {% block main %} 
  
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Outdoor Advertising</h1>
+        <h2 class="section-heading">Go big with attention grabbing outdoor advertising</h2>
+        <p class="section-lead">Go big with attention grabbing outdoor advertising.</p>
+        <p>{{ button.link('/strategic-planning.html', 'Tell me more') }}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <div class="section-heading">It’s big, its bold, its hard to miss.</div>
+          <p>High-visibility outdoor advertising is a great way to to amplify your digital marketing efforts or a unique way to start a viral campaign that spreads like wildfire on social media. Impactful outdoor messaging that’s fun, exciting or eye-catching will grab peoples attention and make them want to snap, tweet and share your message digitally. Build excitement and generate interest around your business with an impactful outdoor advertising campaign.</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Outdoor Advertising Services</h1>
+          <p class="section-lead">Our outdoor advertising services are meant to work best as part of an overall integrated marketing plan, but are also offered as stand-alone services.</p>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-center">
+            <li>Billboard advertising</li>
+            <li>Digital Signage</li>
+            <li>Point of sale displays</li>
+            <li>Street furniture (bus shelters, kiosks, telephone booths etc)</li>
+            <li>Transit advertising and wraps (taxis, buses, subways, trains etc)</li>
+            <li>Mobile/Bus billboards</li>
+            <li>Mall Displays</li>
+            <li>Airport displays</li>
+            <li>Transit and bus-shelter</li>
+          </ul>
+        </div>
+        <div>
+          <p>Not sure which solution is right for you? Give us a call we’ll help you determine the best options for your needs.</p>
+          {{ button.link('/strategic-planning.html', 'Lets get started') }}
+        </div>
+      </div>
+    </div> 
+  </section>
+
+<section class="services-intro">
+    <div class="wrap wrap-center wrap-full wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Our Process</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap">
+            <li>
+              <div>
+                <h3>Define</h3>
+                <ul>
+                  <li>Understand your business</li>
+                  <li>Business Goals</li>
+                  <li>Competition</li>
+                  <li>Markets</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Design</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Develop</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Deliver</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Determine</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Why Would You Need Sales Material?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Your business is located in a specific geographic location and you want your  message to be seen by as large an audience as possible within that community</li>
+            <li>You have a larger budget and want to amplify your marketing efforts with further brand awareness</li>
+            <li>You want an attention-grabbing way to get people to share and spread your message on social media.</li>
+            <li>You have a large target audience that is frequently within a specific location where a broad message would garner a large amount of repeated exposure and potential interest in your message.</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What makes a great outdoor advertisement?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>It triggers an emotion</li>
+            <li>It makes people want to share it on social media</li>
+            <li>Its simple and easy to quickly take in</li>
+            <li>Its in a great, high traffic location</li>
+            <li>Its eye-catching and attention grabbing</li>
+            <li>Its intriguing and provokes further investigation</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What problems can outdoor advertising help me solve?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Brand awareness</li>
+            <li>Memorable, stand out in crowd</li>
+            <li>Market saturation</li>
+            <li>Build confidence, trust and desire</li>
+            <li>Generate interest and increase traffic</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
 
 {% endblock %}

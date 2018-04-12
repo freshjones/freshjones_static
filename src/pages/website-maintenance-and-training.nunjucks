@@ -14,13 +14,131 @@
   <section class="hero-stark">
     <div class="wrap wrap-center">
       <div class="section-summary">
-        <div class="section-topic">Web Development</div>
-        <div class="section-heading">Interactive • Creative • Marketing</div>
+        <div class="section-topic">Web + Mobile</div>
+        <h1 class="section-heading">Website Maintenance and Training</h1>
         <!-- <div class="section-heading">360&deg; Services, Under One Roof.</div> -->
-        <div class="section-lead">Online or off, our range of services help ensure your business is ready to make the most impact. <br/>That’s why everything we do starts with a strategic focus.</div>
+        <div class="section-lead">Let’s make sure your site stays current and looking great!</div>
       </div>
     </div>
   </section>
 
+<section class="services-intro">
+  <div class="wrap wrap-center wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <div class="section-heading">So you have a new website...now what?</div>
+        <p class="section-lead">You want to ensure your site is meeting your business goals and make you and your staff are completely comfortable administering, contributing and editing content within your site. Lets also ensure your content management system stays up-to-date with the latest updates and security patches keeping everything running smoothly and without issue.</p>
+      </div>
+    </div>
+  </div> 
+</section>
+
+<section class="services-intro">
+  <div class="wrap wrap-center wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <h1 class="section-heading">Web Maintenance and CMS Training Services</h1>
+        <p class="section-lead">Our web maintenance and CMS training services are typically used in conjunction with our web development services, but are also offered as stand-alone services.
+</p>
+      </div>
+      <div>
+        <ul class="flex-blocks flex-blocks-center">
+          <li>Drupal core and module updates</li>
+          <li>Wordpress core and plugin updates</li>
+          <li>Drupal CMS Training</li>
+          <li>WordPress CMS Training</li>
+          <li>Training Manuals</li>
+          <li>Training Videos and Screencasts</li>
+          <li>In-person Training Sessions</li>
+        </ul>
+      </div>
+      <div>
+        <p>Not sure which solution is right for you? Give us a call we’ll help you determine the best options for your needs.</p>
+        {{ button.link('/strategic-planning.html', 'Lets get to work') }}
+      </div>
+    </div>
+  </div> 
+</section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Scalable Solutions</h1>
+          <p class="section-lead">Our web maintenance and training services are typically used in conjunction with our <a href="/website-design-and-developent.html">web development services</a>, but are also offered as stand-alone services.</p>
+        </div>
+        <div>
+          <ul class="flex-blocks">
+            <li>
+              <div>
+                <h3>Small business owner/solopreneur</h3>
+                <p>Affordable plans, Gain immediate impact for your business, Free’s your time to work on your business</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Technology Manager</h3>
+                <p>Help during heavy times without the need to hire, Act as an extension of your team, Provide you clients with additional capabilities</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Technology Manager</h3>
+                <p>Gain a resource that has your back and that you can rely on, feel confident and secure knowing an experienced team with a diverse range of platforms, languages, and tools will keep your company up-to-date with industry standards, best-practices and cost-saving approaches to technology</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+    <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Why Would I Need a Maintenance Plan?</h1>
+          <p>Without a maintenance plan in place you put your website and your business at risk by allowing your CMS and its code to go un-monitored for potential security breaches. This is especially important if you are using an open-source CMS such as Wordpress or Drupal simply because the shear number of sites using this software makes it a high-value target for hackers to try and exploit. Of course this is also a great benefit of an open-source CMS, because we can use the  power of a large community of users to help uncover, create fixes for and let us know about vulnerabilities. It’s still the responsibility of the website owner to take advantage of this information and proactively monitor and apply any outstanding security patches.</p>
+          <p>Without training your staff on the proper use of your CMS you risk lost time in resources who aren’t able to efficiently carry out their task requirements, or are forced to google and fumble their way through. And in extreme cases could potentially cause problems with the site simply because they weren’t aware of the implications of their actions. This again is more prevalent with an open-source CMS such as Drupal or Wordpress where the amount of functionality and workflow can be overwhelming without proper training and understanding.</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Invest In Your Peace of Mind</h1>
+          <p class="section-lead">Letting us handle you websites maintenance and training gives you:</p>
+        </div>
+        <div>
+          <ul class="flex-blocks">
+            <li>
+              <div>
+                <h3>Security and Peace of Mind</h3>
+                <p>Your site will stay up-to-date with the latest updates and security patches
+Reach market faster - Trained and confident staff will be able to quickly and accurately publish content to the market</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Accuracy and consistency</h3>
+                <p>Your trained staff will know how to publish content that stays consistent with your business goals, your brands voice, and your customers expectations</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>More Time and Free Resources</h3>
+                <p>You and your trained staff will be able to confidently make edits and publish great content in a consistent and efficient manner without wasting time trying to figure out how to do a task, or worrying about breaking something in the process.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
 
 {% endblock %}

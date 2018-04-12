@@ -11,7 +11,300 @@
 
 {% block main %} 
  
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Sales and Marketing Collateral</h1>
+        <h2 class="section-heading">Exhibit with confidence</h2>
+        <p class="section-lead">Look great, feel confident and get the booth that everyone will be talking about</p>
+        <p>{{ button.link('/strategic-planning.html', 'Tell me more') }}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <div class="section-heading">Make the most of your trade show</div>
+          <p>Trade shows are a great way to showcase your products or services, build your customer base and grow your business. </p>
+          <p>Just consider…</p>
+          <p>You’ve got a whole room filled with potential customers. </p>
+          <p>Make the most of each opportunity by ensuring your trade show booth is strategically designed to not only look great but to help you achieve your trade show goals.</p>
+          <p>Whether its pulling in more foot traffic or strengthening customer relationships, you want a trade show experience that will leave an impression that lasts far beyond each show.</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Tradeshow Design Services</h1>
+          <p class="section-lead">Our tradeshow services are meant to work best as part of an overall integrated marketing plan, but are also offered as stand-alone services </p>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-center">
+            <li>Tradeshow Booths</li>
+            <li>Banner stands  / Pop Up Tradeshow Booths</li>
+            <li>Tabletop Displays and runner design</li>
+            <li>Custom Booth design</li>
+          </ul>
+        </div>
+        <div>
+          <p>Not sure which solution is right for you? Give us a call we’ll help you determine the best options for your needs.</p>
+          {{ button.link('/strategic-planning.html', 'Lets get started') }}
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-full wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Our Process</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap">
+            <li>
+              <div>
+                <h3>Define</h3>
+                <ul>
+                  <li>Understand your business</li>
+                  <li>Business Goals</li>
+                  <li>Competition</li>
+                  <li>Markets</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Design</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Develop</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Deliver</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Determine</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-full wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Tradeshow Booth Types</h1>
+          <p class="section-lead">There are many types of trade show displays available, each offering a unique opportunity to showcase your business, products and other important information in eye-catching ways. Choosing the right display for your company depends on your budget, goals and needs.</p>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap">
+            <li>
+              <div>
+                <h3>Linear booth</h3>
+                <p>An exhibit space with exhibit booths on either side and/or back. A typical linear exhibit is 10'x10' or 10'x20'.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Peninsula exhibit</h3>
+                <p>A peninsula is an exhibit or area with aisles on three sides. A Peninsula Booth is 20’x20’ or larger.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Island exhibit</h3>
+                <p>An Island exhibit is any booth exposed to aisles on all four sides. An Island Booth is virtually always 20 by 20 feet (6.1 m × 6.1 m) or larger.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>End-cap exhibit</h3>
+                <p>An end-cap exhibit is exposed to aisles on three sides and composed of two booths.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Portable displays</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What makes a great tradeshow booth design?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Branding</li>
+            <li>Impactfulness</li>
+            <li>Simple clear and effective messaging</li>
+            <li>Memorable</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-full wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Ready to have a great tradeshow experience?</h1>
+          <p class="section-lead">Want a great trade show experience? One that runs smooth, makes your sales team feel confident and in control and one that accomplishes all your goals? Here's how.</p>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap">
+            <li>
+              <div>
+                <h3>Plan and have a strategy</h3>
+                <ul>
+                  <li>What are your business goals</li>
+                  <li>What are your marketing objectives</li>
+                  <li>What goals do you have for your shows</li>
+                  <li>Who is the target audience, market?</li>
+                  <li>Budget</li>
+                  <li>Timeframe</li>
+                  <li>Booth type and booth size</li>
+                  <li>Research the show</li>
+                  <li>Book the space</li>
+                  <li>Floorplan, Location</li>
+                  <li>Pre-show Marketing and promotion
+                    <ul>
+                      <li>Website</li>
+                      <li>Social media</li>
+                      <li>Advertising</li>
+                      <li>Direct mail</li>
+                    </ul>
+                  </li>
+                  <li>Give users a call to action (visit website, fill out form, etc.)</li>
+                  <li>How will we measure success</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Have a great looking booth</h3>
+                <ul>
+                  <li>Have great booth graphics that draw people in</li>
+                  <li>Make the message consice, clear and easy to understand</li>
+                  <li>Simple easy to read headline</li>
+                  <li>Prominent branding (name and logo)</li>
+                  <li>Consistent material and message</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Setup and arrange for success</h3>
+                <ul>
+                  <li>Storage needs</li>
+                  <li>Minimize clutter and keep organized</li>
+                  <li>Draw attention with a video or a running presentation</li>
+                  <li>Have plenty of promotional giveaways</li>
+                  <li>Have plenty of business cards</li>
+                  <li>Staffers should know their roles and have a script to loosely follow</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Stay calm and under control</h3>
+                <ul>
+                  <li>Bring an assistance so you can take breaks</li>
+                  <li>Be friendly and inviting</li>
+                  <li>Be prepared (technical questions)</li>
+                  <li>Polite and good body language</li>
+                  <li>Have fun</li>
+                  <li>Ensure important stuff is secure</li>
+                  <li>Be helpful and try to solving problems instead of selling</li>
+                  <li>Listen</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Post-mortem</h3>
+                <ul>
+                  <li>Track and enter leads in CRM pipeline</li>
+                  <li>Measure and track success</li>
+                  <li>Transfer knowledge to internal teams</li>
+                  <li>Follow up with high-value leads</li>
+                  <li>Optimize and plan the next event</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p>Want help planning your next trade show experience? Give us a call, we can help.</p>
+          {{ button.link('/contact', 'Yes I want a great tradeshow!') }}
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What's the cost of not having a great tradeshow booth</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Missed chances for leads and sales</li>
+            <li>Customers not considering you as an option because you dont look trustworthy, professional or well organized</li>
+            <li>Being invisible in a crowded space, too many booths are ordinary and blend into the background, instead of being memorable they are forgotten about</li>
+            <li>Brand awareness and affinity</li>
+            <li>Confident and successful booth staffers are more likely to act that way if they are part of a business that presents itself as such.</li>
+            <li>Competitors booth outperforming yours</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What problems will tradeshow booth design solve?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Capitalize on more opportunities at the show</li>
+            <li>Increased curiosity and interest in your business and its products / services</li>
+            <li>Build awareness for your business within your market</li>
+            <li>Look and feel more confident and successful</li>
+            <li>Outperform your competition with a more polished, professional appearance</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
 
 {% endblock %}

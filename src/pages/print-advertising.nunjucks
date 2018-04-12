@@ -11,7 +11,227 @@
 
 {% block main %} 
  
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Print Advertising</h1>
+        <h2 class="section-heading">Print ads to amplify your digital efforts.</h2>
+        <p class="section-lead">Be memorable and set your message apart with engaging print ads.
+</p>
+        <p>{{ button.link('/strategic-planning.html', 'Tell me more') }}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <div class="section-heading">Rethink traditional</div>
+          <p>People still love print, they trust print, they give print their full attention, they share and remember what they read in print. This makes print a great choice to help your business connect with potential customers.</p>
+          <p>Incorporating print advertising into an overall integrated marketing strategy can help gain  recognition and exposure, build influence and trust and amplify your online marketing efforts. </p>
+          <p>Effective print ads can deliver your message in an engaging, creative and memorable way that helps influence future purchasing decisions.</p>
+          <p>Give your business an edge over your competition, use print ads to help customers choose your business when it matters most.</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Print Advertising Services</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-center flex-blocks-nowrap">
+            <li>Newspaper Ads</li>
+            <li>Publication Advertising</li>
+            <li>Newsletters</li>
+            <li>Booklets</li>
+            <li>Flyers</li>
+          </ul>
+        </div>
+        <div>
+          <p>Not sure which solution is right for you? Give us a call we’ll help you determine the best options for your needs.</p>
+          {{ button.link('/contact.html', 'Lets get started') }}
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Why Consider Print Ads?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Your customers are highly active on print-based mediums</li>
+            <li>You want to increase overall brand awareness and exposure</li>
+            <li>You want to reach potential customers when they are offline</li>
+            <li>You want to bias future sales decisions in your favor</li>
+            <li>You want to help ensure potential customers have heard of your business at search time</li>
+            <li>You want to be seen as a credible and trusted authority</li>
+            <li>You want to gain a competitive edge over your competition</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">How can FreshJones Help With your Print Advertising?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>We know how to make great print ads,</li> 
+            <li>ads that get results, </li>
+            <li>ads that leave an impression </li>
+            <li>ads that are memorable,</li> 
+            <li>ads that get your message across to your audience in an engaging and creative way. </li>
+            <li>Ads that make you stand above your competition.</li>
+            <li>We know how to inspire response.</li>
+            <li>We deal with the technical requirements so you don’t need to</li>
+            <li>We work with the publication on negotiating cost and deadlines</li>
+            <li>We’re fast, we can meet your tight timeframes</li>
+            <li>Your print ads will be professional quality</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What problems will print ads solve for my business?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>It can help increase CTR on non-branded searches by building brand affinity</li>
+            <li>Reach customers offline when they are engaged and have full attention</li>
+            <li>Introduces people to your business and your offerings</li>
+            <li>Look more professional, credible and trustworthy</li>
+            <li>Target specific segment of potential customers</li>
+            <li>Gain a competitive edge for your business</li>
+            <li>Build brand affinity and loyalty</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">How can print ads help amplify my digital marketing efforts?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Brand awareness helps influence clicks at search</li>
+            <li>CTR is a critical component of ranking higher in search</li>
+            <li>High CTR lowers PPC costs making ads more affordable</li>
+            <li>Higher CTR increases ranking and impressions creating a virtuous cycle</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Anatomy of a great print ad</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Strategically Designed</li>
+            <li>Easy to read and scan</li>
+            <li>Consistency</li>
+            <li>Attention getting and engaging</li>
+            <li>Large headline</li>
+            <li>Focus on a main message or benefit</li>
+            <li>Clear and Simple (non-cluttered)</li>
+            <li>Use emotional triggers</li>
+            <li>Urgency</li>
+            <li>Include a call to action</li>
+            <li>Relevance</li>
+            <li>Trust and Authority</li>
+            <li>Technical Accuracy</li>
+            <li>Differentiation</li>
+            <li>Clarity and Consistency</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-full wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Our Process</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap">
+            <li>
+              <div>
+                <h3>Define</h3>
+                <ul>
+                  <li>Understand your business</li>
+                  <li>Business Goals</li>
+                  <li>Competition</li>
+                  <li>Markets</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Discover</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Direction</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Deliver</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Determine</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Still not convinced?</h1>
+          <p>Simply disregarding printed advertising without proof that it could be useful for your business, could mean missing out on reaching more customers, losing the chance to make an impactful impression, influencing their decisions when doing online searches, closing more sales and growing your business.</p>
+          <p>{{ button.link('/contact.html', 'Tell me more') }}</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
 
 {% endblock %}

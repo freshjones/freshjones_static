@@ -302,6 +302,44 @@ $size-1: $size-default * 4 - 8px;
   grid-gap: 10px;
 }
 
+.flex-blocks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-blocks > li {
+  flex: 1 1 20%;
+  background-color: #fff;
+  border: solid 1px #ccc;
+  border-radius: 10px;
+  min-height: 200px;
+  display: block;
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.flex-blocks-center > li {
+  align-items: center;
+}
+
+.flex-blocks-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-blocks ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
 @media (min-width: 980px) {
   .flex {
     display: flex;
@@ -404,6 +442,14 @@ $size-1: $size-default * 4 - 8px;
 
 .align-center {
   text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
 }
 
 * {
@@ -1059,7 +1105,7 @@ footer .wordmark {
 }
 
 .hero-stark {
-  background: black;
+  background: #1b3e66;
   color: #fff;
 }
 
@@ -1275,6 +1321,33 @@ button, input, optgroup, select, textarea {
   display: block;
 }
 
+.technology-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-weight: 400;
+}
+
+.technology-list ul ul {
+  padding: 0 20px;
+}
+
+.technology-list .heading {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.technology-list li {
+  margin-bottom: 10px;
+  font-size: 95%;
+}
+
+.technology-list li li li {
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
 @media (min-width: 980px) {
   .column-list {
     align-items: flex-start;
@@ -1302,23 +1375,39 @@ button, input, optgroup, select, textarea {
   }
 }
 
-.scrollTrigger .scroll-items {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 300px;
+.section-list {
+  text-align: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.scrollTrigger .scroll-items > div {
-  background: red;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.section-list li {
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.section-list-bullets {
+  margin-top: 30px;
+}
+
+.section-list-bullets li {
+  margin-bottom: 0px;
+}
+
+.section-list-columns {
+  column-count: 2;
+  column-gap: 40px;
+  column-rule: 1px solid #3fa208;
+}
+
+.section-list-columns li {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.section-list-columns-3 {
+  column-count: 3;
 }
 
 .hero {

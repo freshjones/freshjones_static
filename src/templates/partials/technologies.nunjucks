@@ -1,0 +1,121 @@
+<div class="column-list">
+  <ul>
+    <li><span class="heading">Backend</span>
+      <ul>
+        <li>Drupal Development
+          <ul>
+            <li>Drupal 7 Websites</li>
+            <li>Drupal 8 Websites</li>
+            <li>Custom Modules</li>
+          </ul>
+        </li>
+        <li>Wordpress</li>
+        <li>Custom PHP Development
+          <ul>
+            <li>Custom built Applications</li>
+            <li>Api Development
+              <ul>
+                <li>REST</li>
+                <li>GraphQL</li>
+                <li>Serverless</li>
+              </ul>
+            </li>
+            <li>3rd party API integrations</li>
+          </ul>
+        </li>
+        <li>Ecommerce</li>
+        <li>Search</li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li><span class="heading">Front-end</span>
+      <ul>
+        <li>Responsive</li>
+        <li>Javascript Frameworks/Libraries</li>
+        <li>CSS</li>
+        <li>Build Tools</li>
+        <li>Progressive Web Apps</li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li><span class="heading">Methodology</span>
+      <ul>
+        <li>OOP (MVC, SOLID)</li>
+        <li>Functional programming</li>
+        <li>Agile Development</li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li><span class="heading">Testing</span>
+      <ul>
+        <li>Unit Testing - PhpUnit</li>
+        <li>E2E Selenium</li>
+        <li>React - Jest</li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li><span class="heading">DevOps</span>
+      <ul>
+        <li>Version Control - GIT</li>
+        <li>Continuous Deployment</li>
+        <li>Continuous Integration</li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li><span class="heading">SysOps</span>
+      <ul>
+        <li>Linux</li>
+        <li>Webserver
+          <ul>
+            <li>Apache</li>
+            <li>Nginx</li>
+            <li>Node.js</li>
+          </ul>
+        </li>
+        <li>Caching/CDN
+          <ul>
+            <li>Fastly</li>
+            <li>Varnish</li>
+            <li>Memcached</li>
+            <li>Redis</li>
+          </ul>
+        </li>
+        <li>Automation
+          <ul>
+            <li>Ansible</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li><span class="heading">Infrastructure</span>
+      <ul>
+        <li>Rackspace VMs</li>
+        <li>AWS
+          <ul>
+            <li>EC2 instances</li>
+            <li>Elastic IP</li>
+            <li>Load Balancing</li>
+            <li>AIM users/Security Groups</li>
+            <li>Elastic beanstalk</li>
+            <li>Code Pipeline</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li><span class="heading">Local Dev</span>
+      <ul>
+        <li>Vagrant</li>
+        <li>Docker</li>
+      </ul>
+    </li>
+  </ul>
+</div>

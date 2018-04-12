@@ -11,7 +11,382 @@
 
 {% block main %} 
  
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Local SEO</h1>
+        <h2 class="section-heading">Put your business on the map with local SEO</h2>
+        <p class="section-lead">Make sure your business is ready when local customers are looking.</p>
+        <p>{{ button.link('/strategic-planning.html', 'I want more traffic') }}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <div class="section-heading">Boost Your Local SEO Performance</div>
+          <p>Keep your social media accounts active and encourage customers to engage with your business on social. An active social media presence that interacts with other users is a signal to Google that your company is legitimate.</p>
+
+          <p>It’s also a good signal to customers that you’re always readily available and highly responsive should they have any questions or problems.</p>
+
+          <p>As a small business owner juggling a million and one different hats, it’s easy to fall into any of the mistakes above – you’re no SEO pro after all.</p>
+
+          <p>But the reality is that search (especially local search for small businesses) is how new customers find your business. Spend the time to fix the most common local SEO mistakes you may be making, and you’ll see the benefits pour in.</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Why Consider Local SEO?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>You have a physical address</li>
+            <li>You Have store hours</li>
+            <li>You do on-site work for your customers</li>
+            <li>The local pack appear for your primary keywords</li>
+            <li>Your competition appears in local searches but you don’t</li>
+            <li>Increased website traffic</li>
+            <li>Converts searches to purchases</li>
+            <li>Most people use search and specifically mobile search to find what they need</li>
+            <li>Local customers are turning to the internet to find local businesses - on desktop and mobile</li>
+            <li>Mobile internet is growing</li>
+            <li>Local searches are very targeted and timely</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">How Can FreshJones Help With My Local SEO Needs?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Strategic focused</li>
+            <li>Help with the technical aspects</li>
+            <li>Allow you more time to focus on your business</li>
+            <li>Consistent Citations across the right sites</li>
+            <li>Proven process</li>
+            <li>Review building</li>
+            <li>Up-to-date on current Local SEO strategies, techniques and tactics</li>
+            <li>Do all the work so you don’t have to</li>
+            <li>Make sure your business shows up in the right moments</li>
+            <li>Keep on top of local SEO tactics</li>
+            <li>Make sure your NAP citations are consistent across the directories that matter most for your industry</li>
+            <li>Claim and verify your Google My Business listing</li>
+            <li>Optimize your citations</li>
+            <li>Remove duplicate listings on the directories that matter for your client</li>
+            <li>Add local business and review schema to your website</li>
+            <li>Optimize your on-site content to be geo-targeted</li>
+            <li>Implement a strategy to get reviews across multiple directories</li>
+            <li>Respond to all directory reviews</li>
+            <li>Consistently build local links</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Why would I Need Help With Local SEO?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>You’re busy running your business.</li>
+            <li>You want help with consistent citations </li>
+            <li>You don’t have time or don’t want to be an expert on seo</li>
+            <li>You want to stay ahead of SEO tactics and techniques</li>
+            <li>You need a system to follow and want to track your success and incrementally improve your results</li>
+            <li>You want more local traffic, leads and customers</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">How Will You Improve My Local SEO?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Make sure your site is properly optimized</li>
+            <li>Ensure you have a GMB page and its filled out completely</li>
+            <li>Building authority with primary citation sites such as:
+              <ul>
+                <li>Core Search Engines
+                  <ul>
+                    <li>Google My Business</li>
+                    <li>Bing Place</li>
+                    <li>Apple Maps</li>
+                  </ul>
+                </li>
+                <li>Primary Data Sources
+                  <ul>
+                    <li>InfoGroup</li>
+                    <li>Acxiom</li>
+                    <li>Localeze</li>
+                    <li>Factual</li>
+                  </ul>
+                </li>
+                <li>Tier 1 Directories
+                  <ul>
+                    <li>Yelp</li>
+                    <li>Facebook</li>
+                    <li>Yellowpages</li>
+                    <li>LinkedIn</li>
+                    <li>BBB</li>
+                    <li>Chamber of Commerce</li>
+                    <li>Niche Directories</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>Technical on-page signals</li>
+            <li>Off-page signals</li>
+            <li>Review building</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What Businesses Benefit most from Local SEO?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>
+              <h3>Hospitality</h3>
+              <p>Bars, clubs, restaurants, boutique hotels, venues like wineries and even touring services fall into this category. This niche has a lot of turnover and because of smartphones many people both local and travelers utilize an aspect of local in searches such as “find a bar near me.” To excel on a local level your business should be connected to Yelp and other review sites along with Google My Business. The need for content is limited and instead a premium should be placed on reviews and feedback from guests.</p>
+            </li>
+            <li>
+              <h3>Real Estate</h3>
+              <p>This is a tough enough business as it is and local SEO could easily give you a leg up. The key for this niche is to target specific local markets and even common neighborhood names that bigger services will overlook. Unincorporated areas are an excellent example of where long-tail keywords can be used. On top of that the way to gain attention is with top notch content that showcases local knowledge such as area history, review of local schools, the best parks and outdoor activities and top community events and draws.</p>
+            </li>
+            <li>
+              <h3>Lawyers</h3>
+              <p>Lawyers are a perfect type of business for local SEO because generally speaking you want to work with someone in close proximity to you. A key for this type of business is online reviews and feedback to help let searches know you can provide them with results. Good content to use would involve directions to local courthouses, FAQs for things such as the divorce process in the local municipality, general descriptions of common problems or links to related resources to the general type of law being practiced.</p>
+            </li>
+            <li>
+              <h3>Need Based Services</h3>
+              <p>This category includes businesses like plumbers, pest control, roofers that do quick repairs or even electricians. If you have a business that thrives on providing a quick response to need based services then local SEO will benefit you greatly. This is based on the idea of need-based searches which should provide results on the local level to help your right now. For example, when you get a roof leak you need someone out right away to fix it. Along with using location much like realtors, you can provide a lot of top quality content showcasing expertise with tips and solutions for small problems that have do-it-yourself solutions.</p>
+            </li>
+            <li>
+              <h3>Medical Services</h3>
+              <p>This niche includes doctors of all types, therapists, dentists, hearing and optical specialists and even urgent care clinics. The way to success with local SEO for this type of business is with the content associated with these services. For example, an eye doctor might have articles on different types of vision problems or exercises you can perform to strengthen vision. It also helps to interconnect with the numerous medical directories and general directories such as Yelp.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Will Local SEO Help My Small Business?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Do you have a physical Address</li>
+            <li>Do you Have store hours</li>
+            <li>Do you do on-site work for your customers</li>
+            <li>Does the local pack appear for your primary keywords</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What Tools Do you use?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Google My Business</li>
+            <li>Whitespark</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Whats the Difference Between Local SEO and Regular SEO</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Geographical component
+              <ul>
+                <li>Location specific - Brick and mortar</li>
+                <li>Optimizing for the right audience and what their intent is</li>
+                <li>Target customers in a specific geographic location</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Will My Site Rank #1</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Best practices</li>
+            <li>Up-to-date with Local SEO ranking factors</li>
+            <li>100% white hat</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-full wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Our Process</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap">
+            <li>
+              <div>
+                <h3>Google My Business</h3>
+                <ul>
+                  <li>GMB profile link to site</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>CItations NAP</h3>
+                <ul>
+                  <li>Consistent NAP</li>
+                  <li>Authoritative sites and directories</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>On-page / Off page Local signals</h3>
+                <ul>
+                  <li>Contact page
+                    <ul>
+                      <li>Business hours</li>
+                      <li>Google map</li>
+                    </ul>
+                  </li>
+                  <li>Links mention city</li>
+                  <li>Locations page</li>
+                  <li>Primary keyword and location title tag</li>
+                  <li>Images alt tags with geo areas</li>
+                  <li>Business schema</li>
+                  <li>Optimized logo with location</li>
+                  <li>NAP to social channels</li>
+                  <li>Social channels linking to site</li>
+                  <li>Links from local resources in the area</li>
+                  <li>Links with the name of your city/sate</li>
+                  <li>Link out to other local resources</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Reviews</h3>
+                <ul>
+                  <li>Ask your customers for links</li>
+                  <li>Link for customers to write reviews</li>
+                  <li>Email blast</li>
+                  <li>Signature and invoice for reviews</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What Problems Will Local SEO Help Solve?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>A superb web presence in your local niche market</li>
+            <li>Higher search engine rankings</li>
+            <li>Authority content that grabs visitors to your website</li>
+            <li>Massive website traffic</li>
+            <li>More calls from potential customers</li>
+            <li>More people finding your store and coming buy to make purchases</li>
+            <li>Increased sales revenue and profit</li>
+            <li>Lots of repeat business</li>
+            <li>Stronger local community outreach</li>
+            <li>More effective incentive-based marketing campaigns</li>
+            <li>Increase exposure, foot traffic, calls</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Don't wait any longer, help local customers find your business when they need you!</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>A failure to grab a significant amount of the traffic involved in making these local searches literally translates to your company missing out on tons of potential profits.</li>
+            <li>Claim your google my business site</li>
+            <li>Loss of business</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
 
 {% endblock %}

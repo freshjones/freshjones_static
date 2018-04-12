@@ -22,7 +22,47 @@
   grid-gap: 10px;
 }
 
+.flex-blocks
+{
+  margin:0;
+  padding:0;
+  list-style:none;
+  display:flex;
+  flex-wrap:wrap;
+}
+.flex-blocks > li
+{
+  flex:1 1 20%;
+  background-color: #fff;
+  border:solid 1px #ccc;
+  border-radius:10px;
+  min-height:200px;
+  display:block;
+  margin:5px;
+  padding:20px;
+  display:flex;
+  justify-content:center;
+  align-items: flex-start;
+  box-shadow:2px 2px 5px rgba(0,0,0,0.1);
+}
 
+.flex-blocks-center > li
+{
+  align-items: center;
+}
+
+.flex-blocks-nowrap
+{
+  flex-wrap:nowrap;
+}
+
+.flex-blocks ul
+{
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:left;
+}
 
 @include breakpoint($medium) { 
 
@@ -37,6 +77,8 @@
     align-items: center;
     justify-content: space-between;
   }
+
+
 
   .flex-panels > div
   {
