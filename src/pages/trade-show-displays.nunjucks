@@ -14,10 +14,10 @@
   <section class="hero-stark">
     <div class="wrap wrap-center">
       <div class="section-summary">
-        <h1 class="section-topic">Sales and Marketing Collateral</h1>
+        <h1 class="section-topic">Trade Show Displays</h1>
         <h2 class="section-heading">Exhibit with confidence</h2>
         <p class="section-lead">Look great, feel confident and get the booth that everyone will be talking about</p>
-        <p>{{ button.link('/strategic-planning.html', 'Tell me more') }}</p>
+        <p>{{ button.link('/contact.html', 'Tell me more') }}</p>
       </div>
     </div>
   </section>

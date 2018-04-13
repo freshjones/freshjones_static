@@ -11,7 +11,15 @@
 
 {% block main %} 
  
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Marketing and Sales Services</h1>
+        <h2 class="section-heading">Ready to ignite your business?</h2>
+        <p class="section-lead">Data-driven customer-focused marketing and sales services custom-built to meet your business needs</p>
+        <p>{{ button.link('/contact.html', 'Tell me more') }}</p>
+      </div>
+    </div>
+  </section>
 
 {% endblock %}

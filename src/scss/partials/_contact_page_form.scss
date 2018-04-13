@@ -1,0 +1,17 @@
+.contact-page-form > div
+{
+  display:flex;
+}
+
+.contact-page-form > div div
+{
+  padding:10px;
+  text-align:left !important;
+}
+
+.contact-page-form span
+{
+  font-size:12px;
+  opacity:0.4;
+  text-transform: uppercase;
+}

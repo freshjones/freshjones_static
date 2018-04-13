@@ -6,12 +6,20 @@
 {% endblock %}
 
 {% block header %}
-  {{header.active('about')}}
+  {{header.active('services')}}
 {% endblock %}
 
 {% block main %} 
  
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Web and Mobile Services</h1>
+        <h2 class="section-heading">Let's make something great</h2>
+        <p class="section-lead">We build web and mobile apps that delight your customers and help your business reach its fullest potential</p>
+        <p>{{ button.link('/contact.html', 'Tell me more') }}</p>
+      </div>
+    </div>
+  </section>
 
 {% endblock %}

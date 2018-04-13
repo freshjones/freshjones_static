@@ -14,15 +14,25 @@
   <section class="hero-stark">
     <div class="wrap wrap-center">
       <div class="section-summary">
-        <div class="section-topic">Services</div>
-        <div class="section-heading">Cloud Hosting and Cloud Management Services</div>
+        <h1 class="section-topic">Cloud Hosting and Management Services</h1>
+        <h2 class="section-heading">Save Time, Money and Resources</h2>
         <!-- <div class="section-heading">360&deg; Services, Under One Roof.</div> -->
-        <p class="section-lead">Save time, money and resources by outsourcing your cloud hosting and management requirements. Feel confident and secure that your web infrastructure is taken care of by letting our dev ops manage your web infrastructure requirements.</p>
+        <p class="section-lead">Outsource your cloud hosting and management requirements.</p>
         <p>
-          {{ button.link('/strategic-planning.html', 'Lets get started') }}
+          {{ button.link('/strategic-planning.html', 'Tell me more') }}
         </p>
       </div>
     </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Feel confident and secure that your digital assets is taken care. Let our dev ops manage your web infrastructure requirements.</h1>
+        </div>
+      </div>
+    </div> 
   </section>
 
   <section class="services-intro">

@@ -11,7 +11,304 @@
 
 {% block main %} 
  
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Promotional Materials</h1>
+        <h2 class="section-heading">Don’t underestimate the power of FREE.</h2>
+        <p class="section-lead">Include promotional products in your marketing mix for greater results</p>
+        <p>{{ button.link('/contact.html', 'Tell me more') }}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <div class="section-heading">Who can pass up a good giveaway?</div>
+          <p>Especially when that give away is something that promises to make our lives easier, or more fun or the envy of all our coworkers and colleagues.</p> 
+          <p>Promotional items are a great opportunity for a business to authentically connect with its customers and to show them how valued and appreciated they are.</p>
+          <p>A great promotional item is a thoughtful offer meant to provide its recipient with something they would consider valuable, something that would make them smile and want to do business with you. And in return, your business gains an economical and profitable tool to help grow your business.</p>
+          <p>Use promotional product campaigns as part of your integrated marketing plan and get far-reaching exposure for your brand, top-of-mind recall and word-of-mouth referrals, more loyal customers and more.</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Why Consider Promotional Materials?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Low-Cost Effective Marketing</li>
+            <li>Instant Brand Recognition</li>
+            <li>Greater Exposure Of Your Business</li>
+            <li>Works As Your Business Card</li>
+            <li>Customer/Brand Loyalty</li>
+            <li>Business gifts</li>
+            <li>employee relations (Orientation, incentives)</li>
+            <li>Trade Show giveaways</li>
+            <li>Fund-raising</li>
+            <li>Public Awareness</li>
+            <li>To thank customers for their business</li>
+            <li>announcement of a get-together</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">How can FreshJones help with my promotional materials?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Planning and execution</li>
+            <li>Help determine the objective of the giveaway campaign</li>
+            <li>Help determine a budget</li>
+            <li>Help consider all the variables
+              <ul>
+                <li>Audience</li>
+                <li>Message</li>
+                <li>Product</li>
+              </ul>
+            </li>
+            <li>Help find the right product, vendor, estimates</li>
+            <li>Help with production and art delivery, quality assurance</li>
+            <li>Help with logistics, shipping, delivery</li>
+            <li>Help measure the success of the campaign</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">How can FreshJones help with my promotional materials?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Very cost effective method of brand awareness</li>
+            <li>Encourage brand loyalty</li>
+            <li>Long-lasting/repeat exposure.</li>
+            <li>more positive perception of the business;</li>
+            <li>Generation of business sales</li>
+            <li>Increase in referrals</li>
+            <li>Higher recall</li>
+            <li>Greater reach</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-full wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Our Process</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap">
+            <li>
+              <div>
+                <h3>Define</h3>
+                <ul>
+                  <li>Business Goals</li>
+                  <li>Campaign Goals</li>
+                  <li>Buyer Personas</li>
+                  <li>Competitive Landscape</li>
+                  <li>Budget</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Discover</h3>
+                <ul>
+                  <li>Type of Product</li>
+                  <li>Type of Message</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Direction</h3>
+                <ul>
+                  <li>Design</li>
+                  <li>Copywriting</li>
+                  <li>Landing page(s)</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Deliver</h3>
+                <ul>
+                  <li>Test run</li>
+                  <li>Production</li>
+                  <li>Printing</li>
+                  <li>Logistics (shipping, distribution)</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Determine</h3>
+                <ul>
+                  <li>Tracking</li>
+                  <li>Measuring KPI’s</li>
+                  <li>Transferring knowledge</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What type of promotional products could I use?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Give-aways</li>
+            <li>Loss-leaders</li>
+            <li>Incentive Premiums</li>
+            <li>Business Gifts, awards, commemoratives</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">The makings of a great promotional give-away</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>They’re well branded</li>
+            <li>They’re kept</li>
+            <li>extremely useful</li>
+            <li>lavishly valuable</li> 
+            <li>unique and cool</li>
+            <li>Items that reflect your company</li>
+            <li>Find something useful and trendy</li>
+            <li>Intimate, authentic and unexpected</li>
+            <li>Relevant to your audience - something useful / relevant</li>
+            <li>serve your intended business goal</li>
+            <li>catch the user’s attention</li>
+            <li>Be memorable</li>
+            <li>Quality over quantity</li>
+            <li>Put thought into selecting which item is best</li>
+            <li>Make it something they want to keep</li>
+            <li>Affordable</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Promotional giveaway ideas</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Mugs / Water Bottles</li>
+            <li>Apparel</li>
+            <li>pens, pencils, markers</li>
+            <li>Calendars</li>
+            <li>Food</li>
+            <li>bags, notebooks, briefcases</li>
+            <li>computer mouse pads and flash drives</li>
+            <li>first aid kits</li>
+            <li>Key chains, magnets, puzzles, wristbands</li>
+            <li>Chose the right product. </li>
+            <li>Decorate it well.</li>
+            <li>Distribute in a smart manner.</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What to consider when selecting a promotional product</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>How often do clients purchase your product or service?</li>
+            <li>What season of the year is it?</li>
+            <li>Will it be left at the office or taken home?</li>
+            <li>Is it a novelty item or useful item of value?</li>
+            <li>What is the potential return on investment?</li>
+            <li>What are your competitors doing?</li>
+            <li>What have you received that made an impact on you?</li>
+            <li>What will the cost of distribution be?</li>
+            <li>How long will it last?</li>
+            <li>How will we measure the impact?</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">How can promos help with my digital marketing efforts?</h1>
+        </div>
+        <div>
+          <ul class="section-list section-list-bullets">
+            <li>Better brand awareness increases
+              <ul>
+                <li>Lower PPC costs with higher CTR</li>
+                <li>Better SEO ranking and CTR</li>
+              </ul>
+            </li>
+            <li>Encourage sharing and increase followers</li>
+            <li>Build email lists, likes or follows</li>
+            <li>Direct more users to your webpage/landing page with QR codes</li>
+            <li>Giveaway or sweepstakes for largest shares retweets or tags</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">What do I risk by not using promotional materials</h1>
+          <p>Promotional products can provide your business with many benefits and opportunities, specifically when combined with other marketing tactics, or as part of an overall marketing strategy. By disregarding promotional materials without first considering their effectiveness, you may be missing out on very economical and profitable means of growing your business.</p>
+        </div>
+      </div>
+    </div> 
+  </section>
 
 {% endblock %}

@@ -11,7 +11,29 @@
 
 {% block main %} 
  
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Brand and Creative Services</h1>
+        <h2 class="section-heading">You've Built a Great Company</h2>
+        <p class="section-lead">Brand and creative services to help make sure the rest of the world feels the same way.</p>
+        <p>{{ button.link('/contact.html', 'Tell me more') }}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Our company is built on a love of Design </h1>
+          <p>We use design to build recognition, enact change, and create value for our client’s customers.</p>
+          <p>– where concept and strategy inspire highly crafted experiences. Big or small, our starting point is always conceptual. </p>
+          <p>design is not only a craft, but a tool for achieving business objectives. As design thinkers, we approach business challenges holistically and aim to break down silos between branding, digital, marketing and advertising.</p>
+          <p>Our mission is to deliver a truly unified brand experience across touch-points. And we believe that great design is the unifying thread.</p>
+        </div>
+      </div>
+    </div> 
+  </section>
 
 {% endblock %}

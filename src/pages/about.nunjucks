@@ -11,7 +11,142 @@
 
 {% block main %} 
  
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">About FreshJones</h1>
+        <h2 class="section-heading">We're here for you.</h2>
+        <p class="section-lead">We don't help companies we help people</p>
+        <p>{{ button.link('/contact.html', 'Tell me more') }}</p>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">We create experiences, transform brands, grow businesses and make products better.</h1>
+          <p>We find inspiration all around us and bring that curiosity to each project. At our core is a true passion for brand development and design, that includes both consumer and corporate brands.  We strongly believe in the balance of strategy and design, both of which are essential to creating relevant, innovative and authentic brands. At the end of the day, our goal is to do great work with a handful of clients, and have fun doing it.</p>
+          <p>Our company is built on a love of Design – where concept and strategy inspire highly crafted experiences. Big or small, our starting point is always conceptual.</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Get To Know Us.</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks">
+            <li>
+              <div>
+                <h3>Chloe Jones</h3>
+                <p>Chloe will help to determine goals, and will develop a plan that will reflect and help meet those
+goals. Chloe will be the day-to-day contact for client. She will assure the projects are on time, on
+budget and that outlined goals are met. She will also play an important role in design, strategy,
+analytics and implementing the campaigns.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>William Jones</h3>
+                <p>Billy will be responsible for overseeing and developing the overall technical aspects of
+each project. He will be the primary developer for each project, will play a vital role in
+strategy and metrics.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Communicators with a conscience</h1>
+          <ul class="section-list section-list-bullets">
+            <li>work with people to create engaging experiences</li>
+            <li>help people solve complex problems into simple conscientious solutions</li>
+            <li>always do more than what’s requested and make you feel valued, appreciated and understood</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">We don't work with companies we work with people</h1>
+          <ul class="section-list section-list-bullets">
+            <li>work with people to create engaging experiences</li>
+            <li>help people solve complex problems into simple conscientious solutions</li>
+            <li>always do more than what’s requested and make you feel valued, appreciated and understood</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Working to make a difference</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks">
+            <li>
+              <div>
+                <h3>Enrich Lives</h3>
+                <p>Use our talents, skills and abilities to make peoples lives better, easier and more enjoyable</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Be inspirational</h3>
+                <p>Offer guidance, support and encouragement and resource to others, be a positive role-model by showing that hard-work, determination, courage and passion can accomplish anything</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Be human</h3>
+                <p>Offer those around us the room to be curious with no judgement blame or ridicule. Be empathetic, try and see things through other peoples eyes, listen and let others know they're heard, that you understand and that you care.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Core Values</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap flex-blocks-center">
+            <li>Excellence over Perfection</li>
+            <li>Authenticity over Popularity</li>
+            <li>Accountability over Blame</li>
+            <li>Courage over Comfort</li>
+            <li>Transparency over Obscurity</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
 
 {% endblock %}
