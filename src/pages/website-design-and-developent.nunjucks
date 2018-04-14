@@ -79,7 +79,7 @@
           <div>
             <h3>Content Management Systems</h3>
             <p>Everything starts online. Turn leads into customers and customers into promoters by giving them a great online experience.</p>
-            <p class="section-lead">{{ button.link('/web-mobile-services.html','Learn More','link') }}</p>
+            <p class="section-lead">{{ button.link('/content-management-systems.html','Learn More','link') }}</p>
           </div>
         </div>
         <div>
@@ -115,7 +115,7 @@
           <div>
             <h3>Product / Application Development</h3>
             <p>Ready to put your website to work? Lets amplify your digital and creative efforts with digital marketing services.</p>
-            <p class="section-lead">{{ button.link('/marketing-sales-services.html','Learn More','link') }}</p>
+            <p class="section-lead">{{ button.link('/product-application-development.html','Learn More','link') }}</p>
           </div>
         </div>
         <div>
@@ -151,7 +151,7 @@
           <div>
             <h3>Responsive Web Design</h3>
             <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
-            <p class="section-lead">{{ button.link('/branding-creative-services.html','Learn More','link') }}</p>
+            <p class="section-lead">{{ button.link('/responsive-web-design.html','Learn More','link') }}</p>
           </div>
         </div>
 
@@ -188,7 +188,7 @@
           <div>
             <h3>eCommerce Websites</h3>
             <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
-            <p class="section-lead">{{ button.link('/branding-creative-services.html','Learn More','link') }}</p>
+            <p class="section-lead">{{ button.link('/ecommerce-websites.html','Learn More','link') }}</p>
           </div>
         </div>
       </div>
@@ -216,7 +216,7 @@
   <div class="wrap wrap-center wrap-center-narrow">
     <div class="section-spaced">
       <div class="section-summary">
-        <h2 class="section-heading">Is your website an asset…or a liability?</h2>
+        <h2 class="section-heading">Is your website an asset&hellip;or a liability?</h2>
         <p class="section-lead">If your website isn’t solving your businesses challenges or accomplishing its goals, it could be doing more harm that good. A website that’s slow, difficult to navigate, broken or not easily accessible on phones or tablets will likely turn your customers away sending them elsewhere to get what they need. Often times this means sending them directly to your competitors websites, weakening credibility, market share and potentially lost revenue.  Not only that but Google and other search engines will essentially render your site invisible if you aren’t providing a trustworthy, relevant and error-free experience for your users.</p>
       </div>
     </div>

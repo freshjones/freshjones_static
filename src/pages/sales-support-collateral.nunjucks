@@ -17,7 +17,7 @@
         <h1 class="section-topic">Sales and Marketing Collateral</h1>
         <h2 class="section-heading">Bring Confidence to Your Next Sales Meetings</h2>
         <p class="section-lead">Support your sales team with professional sales and marketing collateral strategically designed to grow your business.</p>
-        <p>{{ button.link('/strategic-planning.html', 'Tell me more') }}</p>
+        <p>{{ button.link('/strategic-planning.html', 'Learn more') }}</p>
       </div>
     </div>
   </section>

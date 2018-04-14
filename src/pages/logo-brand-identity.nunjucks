@@ -17,7 +17,7 @@
         <h1 class="section-topic">Logo and Brand Identity</h1>
         <h2 class="section-heading">Make your business instantly recognizable</h2>
         <p class="section-lead">Prepare your business for success with a unique and memorable logo</p>
-        <p>{{ button.link('/strategic-planning.html', 'Tell me more') }}</p>
+        <p>{{ button.link('/strategic-planning.html', 'Learn more') }}</p>
       </div>
     </div>
   </section>

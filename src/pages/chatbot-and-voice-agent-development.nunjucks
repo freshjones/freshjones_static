@@ -18,7 +18,7 @@
         <h2 class="section-heading">Get the conversation started</h2>
         <p class="section-lead">Today’s customers want greater convenience, build an always-on smart chatbot or voice agent for your business</p>
         <p>
-          {{ button.link('/strategic-planning.html', 'Tell Me More') }}
+          {{ button.link('/strategic-planning.html', 'Learn More') }}
         </p>
       </div>
     </div>

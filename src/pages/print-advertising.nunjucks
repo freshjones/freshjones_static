@@ -18,7 +18,7 @@
         <h2 class="section-heading">Print ads to amplify your digital efforts.</h2>
         <p class="section-lead">Be memorable and set your message apart with engaging print ads.
 </p>
-        <p>{{ button.link('/strategic-planning.html', 'Tell me more') }}</p>
+        <p>{{ button.link('/strategic-planning.html', 'Learn more') }}</p>
       </div>
     </div>
   </section>
@@ -226,7 +226,7 @@
         <div class="section-summary">
           <h1 class="section-heading">Still not convinced?</h1>
           <p>Simply disregarding printed advertising without proof that it could be useful for your business, could mean missing out on reaching more customers, losing the chance to make an impactful impression, influencing their decisions when doing online searches, closing more sales and growing your business.</p>
-          <p>{{ button.link('/contact.html', 'Tell me more') }}</p>
+          <p>{{ button.link('/contact.html', 'Learn more') }}</p>
         </div>
       </div>
     </div> 

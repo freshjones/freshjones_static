@@ -17,7 +17,7 @@
         <h1 class="section-topic">Promotional Materials</h1>
         <h2 class="section-heading">Don’t underestimate the power of FREE.</h2>
         <p class="section-lead">Include promotional products in your marketing mix for greater results</p>
-        <p>{{ button.link('/contact.html', 'Tell me more') }}</p>
+        <p>{{ button.link('/contact.html', 'Learn more') }}</p>
       </div>
     </div>
   </section>

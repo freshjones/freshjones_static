@@ -17,7 +17,7 @@
         <h1 class="section-topic">Brand and Creative Services</h1>
         <h2 class="section-heading">You've Built a Great Company</h2>
         <p class="section-lead">Brand and creative services to help make sure the rest of the world feels the same way.</p>
-        <p>{{ button.link('/contact.html', 'Tell me more') }}</p>
+        <p>{{ button.link('/contact.html', 'Learn more') }}</p>
       </div>
     </div>
   </section>

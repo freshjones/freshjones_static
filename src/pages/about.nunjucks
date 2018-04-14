@@ -17,7 +17,7 @@
         <h1 class="section-topic">About FreshJones</h1>
         <h2 class="section-heading">We're here for you.</h2>
         <p class="section-lead">We don't help companies we help people</p>
-        <p>{{ button.link('/contact.html', 'Tell me more') }}</p>
+        <p>{{ button.link('/contact.html', 'Learn More') }}</p>
       </div>
     </div>
   </section>

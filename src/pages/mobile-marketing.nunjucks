@@ -17,7 +17,7 @@
         <h1 class="section-topic">Mobile SMS Marketing</h1>
         <h2 class="section-heading">Your customers are texting, why aren’t you?</h2>
         <p class="section-lead">Giving your business an edge with mobile marketing as part of your growth strategy.</p>
-        <p>{{ button.link('/strategic-planning.html', 'Tell me more') }}</p>
+        <p>{{ button.link('/strategic-planning.html', 'Learn more') }}</p>
       </div>
     </div>
   </section>

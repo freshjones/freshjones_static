@@ -17,7 +17,7 @@
         <h1 class="section-topic">Package Design</h1>
         <h2 class="section-heading">Packaging designed to jump off the shelf</h2>
         <p class="section-lead">Grab your customers attention with packaging design that sells.</p>
-        <p>{{ button.link('/strategic-planning.html', 'Tell me more') }}</p>
+        <p>{{ button.link('/strategic-planning.html', 'Learn more') }}</p>
       </div>
     </div>
   </section>

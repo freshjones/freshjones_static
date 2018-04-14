@@ -17,7 +17,7 @@
         <h1 class="section-topic">Outdoor Advertising</h1>
         <h2 class="section-heading">Go big with attention grabbing outdoor advertising</h2>
         <p class="section-lead">Go big with attention grabbing outdoor advertising.</p>
-        <p>{{ button.link('/strategic-planning.html', 'Tell me more') }}</p>
+        <p>{{ button.link('/strategic-planning.html', 'Learn more') }}</p>
       </div>
     </div>
   </section>

@@ -1,0 +1,27 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block title %}
+  FreshJones - Content Management Systems
+{% endblock %}
+
+{% block header %}
+  {{header.active('services')}}
+{% endblock %}
+
+{% block main %} 
+  
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Content Management Systems</h1>
+        <h2 class="section-heading">Get your message in your customers hands</h2>
+        <p class="section-lead">Use direct mail to build personal connections with your customers.</p>
+        <p>
+          {{ button.link('/contact.html', 'Learn More') }}
+        </p>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}
