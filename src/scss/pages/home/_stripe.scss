@@ -1,0 +1,35 @@
+.service-stripe
+{
+  background:rgba(0,0,0,0.8);
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  display:flex;
+  height:125px;
+  justify-content:center;
+  align-items: stretch;
+}
+
+.service-stripe > div
+{
+  display:flex;
+  justify-content:center;
+  align-items: stretch;
+  margin:0 auto;
+  flex:1 1 100%;
+  max-width: 1200px;
+}
+
+.service-stripe > div > div
+{
+  flex:1 1 100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-right:1px solid rgba(255,255,255,0.3);
+}
+
+.service-stripe > div > div:last-child
+{
+  border-right:none;
+}

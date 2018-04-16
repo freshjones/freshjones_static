@@ -1,10 +1,24 @@
 <section class="hero">
-  <div class="wrap wrap-center">
+  <div class="wrap wrap-left">
     <div class="section-summary">
-      <div class="section-heading">Growth. by Design.</div>
-      <div class="section-subheading">Integrated digital marketing solutions strategically designed to grow your business.</div>
+      <div class="section-heading">Growth Fuel</div>
+      <div class="section-subheading">Get the traction and momentum your business needs to grow and thrive.</div>
     </div>
   </div>
-  <div class="section-overlay"></div>
-  <div class="section-rule"></div> 
+  <div class="service-stripe">
+    <div>
+      <div>
+        <div>How Can We Help You?</div>
+      </div>
+      <div>
+        <div>By Capabilties</div>
+      </div>
+      <div>
+        <div>By Industry</div>
+      </div>
+      <div>
+        <div>By Department</div>
+      </div>
+    </div>
+  </div>
 </section>

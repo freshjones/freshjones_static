@@ -15,6 +15,7 @@
 
 .hero .wrap .section-summary
 {
+  color: #000;
   margin-top:75px;
 }
 
@@ -28,12 +29,22 @@
 
   .hero
   {
-    background-image:url('/images/home-hero.jpg');
+    background-image:url('/images/home-hero-mock2.jpg');
   }
 
   .hero .wrap
   {
-    min-height:60vh;
+    min-height:80vh;
+  }
+
+  .hero .section-heading
+  {
+    font-size:80px;
+  }
+
+  .hero .section-subheading
+  {
+    font-size:24px;
   }
 
 }

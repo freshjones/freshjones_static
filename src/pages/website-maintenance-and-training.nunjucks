@@ -22,43 +22,43 @@
     </div>
   </section>
 
-<section class="services-intro">
-  <div class="wrap wrap-center wrap-center-narrow">
-    <div class="section-spaced">
-      <div class="section-summary">
-        <div class="section-heading">So you have a new website...now what?</div>
-        <p class="section-lead">You want to ensure your site is meeting your business goals and make you and your staff are completely comfortable administering, contributing and editing content within your site. Lets also ensure your content management system stays up-to-date with the latest updates and security patches keeping everything running smoothly and without issue.</p>
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <div class="section-heading">So you have a new website...now what?</div>
+          <p class="section-lead">You want to ensure your site is meeting your business goals and make you and your staff are completely comfortable administering, contributing and editing content within your site. Lets also ensure your content management system stays up-to-date with the latest updates and security patches keeping everything running smoothly and without issue.</p>
+        </div>
       </div>
-    </div>
-  </div> 
-</section>
+    </div> 
+  </section>
 
-<section class="services-intro">
-  <div class="wrap wrap-center wrap-center-narrow">
-    <div class="section-spaced">
-      <div class="section-summary">
-        <h1 class="section-heading">Web Maintenance and CMS Training Services</h1>
-        <p class="section-lead">Our web maintenance and CMS training services are typically used in conjunction with our web development services, but are also offered as stand-alone services.
-</p>
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Web Maintenance and CMS Training Services</h1>
+          <p class="section-lead">Our web maintenance and CMS training services are typically used in conjunction with our web development services, but are also offered as stand-alone services.
+  </p>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-center">
+            <li>Drupal core and module updates</li>
+            <li>Wordpress core and plugin updates</li>
+            <li>Drupal CMS Training</li>
+            <li>WordPress CMS Training</li>
+            <li>Training Manuals</li>
+            <li>Training Videos and Screencasts</li>
+            <li>In-person Training Sessions</li>
+          </ul>
+        </div>
+        <div>
+          <p>Not sure which solution is right for you? Give us a call we’ll help you determine the best options for your needs.</p>
+          {{ button.link('/strategic-planning.html', 'Lets get to work') }}
+        </div>
       </div>
-      <div>
-        <ul class="flex-blocks flex-blocks-center">
-          <li>Drupal core and module updates</li>
-          <li>Wordpress core and plugin updates</li>
-          <li>Drupal CMS Training</li>
-          <li>WordPress CMS Training</li>
-          <li>Training Manuals</li>
-          <li>Training Videos and Screencasts</li>
-          <li>In-person Training Sessions</li>
-        </ul>
-      </div>
-      <div>
-        <p>Not sure which solution is right for you? Give us a call we’ll help you determine the best options for your needs.</p>
-        {{ button.link('/strategic-planning.html', 'Lets get to work') }}
-      </div>
-    </div>
-  </div> 
-</section>
+    </div> 
+  </section>
 
 
   <section class="services-intro">
