@@ -17,8 +17,6 @@
   {% include 'partials/home/sections/success-stories.nunjucks' %}
   <!-- solutions -->
   {% include 'partials/home/sections/solutions-industry.nunjucks' %}
-  <!-- testimonial -->
-  {% include 'partials/home/sections/testimonial.nunjucks' %}
   <!-- solutions -->
   {% include 'partials/home/sections/solutions-role.nunjucks' %}
   <!-- solutions -->
