@@ -1,8 +1,9 @@
 <section class="hero">
   <div class="wrap wrap-left">
     <div class="section-summary">
-      <div class="section-heading">Growth Fuel</div>
-      <div class="section-subheading">Get the traction and momentum your business needs to grow and thrive.</div>
+      <p class="section-heading">Growth Fuel</p>
+      <p class="section-subheading">Get the traction and momentum your business needs to grow and thrive.</p>
+      <p>{{ button.link('/growth-services.html', 'Learn More') }}</p>
     </div>
   </div>
   <div class="service-stripe">
@@ -10,15 +11,9 @@
       <div>
         <div>How Can We Help You?</div>
       </div>
-      <div>
-        <div>By Capabilties</div>
-      </div>
-      <div>
-        <div>By Industry</div>
-      </div>
-      <div>
-        <div>By Department</div>
-      </div>
+      <a class="section-scroll" data-section="capabilities">By Capabilties</a>
+      <a class="section-scroll" data-section="industry">By Industry</a>
+      <a class="section-scroll"  data-section="department">By Department</a>
     </div>
   </div>
 </section>

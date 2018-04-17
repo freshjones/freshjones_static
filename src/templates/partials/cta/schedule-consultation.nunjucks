@@ -16,22 +16,13 @@
     <input name="company" placeholder="Company Name" type="text" required>
   </div>
   <div>
-    <div>Let's Talk About:</div>
-    <div class="flex justify-between">
-      <div>
-        <label><input name="digital-marketing" value="on" type="checkbox"> Web + Mobile</label>
-      </div>
-      <div>
-        <label>
-          <input name="digital-marketing" value="on" type="checkbox"> Marketing + Sales
-        </label>
-      </div>
-      <div>
-        <label>
-          <input name="digital-marketing" value="on" type="checkbox"> Brand + Creative
-        </label>
-      </div>
-    </div>
+    <label>I'm Interested in:</label>
+    <select>
+      <option value="Integrated Marketing">Full-service Integrated Marketing</option>
+      <option value="Web + Mobile">Web + Mobile</option>
+      <option value="Marketing + Sales">Marketing + Sales</option>
+      <option value="Brand + Creative">Brand + Creative</option>
+    </select>
   </div>
   <div>
     <input name="Submit" value="Schedule My Consultation" type="submit">

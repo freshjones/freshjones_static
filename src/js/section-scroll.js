@@ -1,3 +1,14 @@
+$(function () { 
+
+  $(".section-scroll").click(function(e) {
+    e.preventDefault();
+    $('html, body').animate({ 
+      scrollTop: $(".solutions-" + $(this).data('section') ).offset().top - 120 
+    }, 1000);
+  });
+
+});
+
 /*
 $(function () { 
 

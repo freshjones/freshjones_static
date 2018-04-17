@@ -1264,6 +1264,7 @@ button, input, optgroup, select, textarea {
   color: #fff;
   position: relative;
   display: inline-block;
+  cursor: pointer;
 }
 
 .button > span {
@@ -1709,6 +1710,7 @@ button, input, optgroup, select, textarea {
   height: 125px;
   justify-content: center;
   align-items: stretch;
+  z-index: 10;
 }
 
 .service-stripe > div {
@@ -1720,12 +1722,23 @@ button, input, optgroup, select, textarea {
   max-width: 1200px;
 }
 
-.service-stripe > div > div {
+.service-stripe > div > div,
+.service-stripe > div > a {
   flex: 1 1 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   border-right: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+.service-stripe > div > a {
+  cursor: pointer;
+}
+
+.service-stripe > div > a:hover {
+  background: rgba(0, 0, 0, 0.3);
+  color: #3fa208;
 }
 
 .service-stripe > div > div:last-child {

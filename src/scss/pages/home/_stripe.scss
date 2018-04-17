@@ -8,6 +8,7 @@
   height:125px;
   justify-content:center;
   align-items: stretch;
+  z-index: 10;
 }
 
 .service-stripe > div
@@ -20,13 +21,25 @@
   max-width: 1200px;
 }
 
-.service-stripe > div > div
+.service-stripe > div > div,
+.service-stripe > div > a
 {
   flex:1 1 100%;
   display:flex;
   justify-content:center;
   align-items:center;
   border-right:1px solid rgba(255,255,255,0.3);
+  color:#fff;
+}
+.service-stripe > div > a
+{
+  cursor:pointer;
+}
+
+.service-stripe > div > a:hover
+{
+  background:rgba(0,0,0,0.3);
+  color:$green;
 }
 
 .service-stripe > div > div:last-child

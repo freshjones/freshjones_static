@@ -1,0 +1,25 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block title %}
+  FreshJones - Growth Services
+{% endblock %}
+
+{% block header %}
+  {{header.active('about')}}
+{% endblock %}
+
+{% block main %} 
+ 
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Growth Services</h1>
+        <h2 class="section-heading">We're here for you.</h2>
+        <p class="section-lead">We don't help companies we help people</p>
+        <p>{{ button.link('/contact.html', 'Learn More') }}</p>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}
