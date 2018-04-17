@@ -10,7 +10,7 @@
   <!-- intro -->
   {% include 'partials/home/sections/intro-alt.nunjucks' %}
   <!-- integrated -->
-  {% include 'partials/home/sections/integrated-video.nunjucks' %}
+  {% include 'partials/home/sections/integrated.nunjucks' %}
   <!-- services -->
   {% include 'partials/home/sections/services.nunjucks' %}
   <!-- stories -->

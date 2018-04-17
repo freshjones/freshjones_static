@@ -44,7 +44,7 @@
           <div>
             <h3>Web and Mobile</h3>
             <p>Everything starts online. Turn leads into customers and customers into promoters by giving them a great online experience.</p>
-            <p class="section-lead">{{ button.link('/web-mobile-services.html','Learn More','link') }}</p>
+            <p class="section-lead">{{ button.link('/web-mobile-services.html','Learn More') }}</p>
           </div>
         </div>
         <div>
@@ -80,7 +80,7 @@
           <div>
             <h3>Marketing and Sales</h3>
             <p>Ready to put your website to work? Lets amplify your digital and creative efforts with digital marketing services.</p>
-            <p class="section-lead">{{ button.link('/marketing-sales-services.html','Learn More','link') }}</p>
+            <p class="section-lead">{{ button.link('/marketing-sales-services.html','Learn More') }}</p>
           </div>
         </div>
         <div>
@@ -116,12 +116,9 @@
           <div>
             <h3>Brand and Creative</h3>
             <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
-            <p class="section-lead">{{ button.link('/branding-creative-services.html','Learn More','link') }}</p>
+            <p class="section-lead">{{ button.link('/branding-creative-services.html','Learn More') }}</p>
           </div>
         </div>
-      </div>
-      <div>
-        <p class="section-lead">{{ button.link('/services.html', 'See All Services') }}</p>
       </div>
     </div>
   </div> 
