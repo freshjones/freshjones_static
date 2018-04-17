@@ -1,7 +1,114 @@
 
+
+
 @include breakpoint($medium) { 
 
- 
+
+  .story-content
+  {
+    padding:20px;
+    background:rgba(255,255,255,1);
+    display:flex;
+    align-items: flex-start;
+    border-top:10px solid #999;
+  }
+
+
+  .story-content > div
+  {
+    padding:20px;
+  }
+
+  .story-content .statistics ul
+  {
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-transform: uppercase;
+    font-size:70%;
+    font-weight:bold;
+  }
+
+  .story-content .quote
+  {
+    margin: 0;
+    line-height:1.75;
+  }
+
+  .story-content .author
+  {
+    color:#000;
+    margin: 10px 0 0 20px;
+    line-height:1.75;
+  }
+
+  .story-content .topic
+  {
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#999;
+  }
+
+  .story-content .heading
+  {
+    font-size:30px;
+    font-weight:300;
+  }
+
+  .story-content .statistics ul li
+  {
+    margin-bottom:25px;
+    white-space: nowrap;
+  }
+
+  .story-content .statistics ul li li
+  {
+    margin-bottom:0;
+  }
+
+  .story-content .statistics ul ul
+  {
+    font-size:130%;
+    font-weight:300;
+    text-transform: none;
+    color:#666;
+  }
+
+
+
+  .story-chroma 
+  {
+    
+    .story-content
+    {
+      border-top:10px solid red;
+    }
+
+    .story-content .quote,
+    .story-content .statistics span
+    {
+      color:red;
+    }
+
+  }
+
+  .story-sfymca
+  {
+    
+    .story-content
+    {
+      border-top:10px solid #ff6600;
+    }
+    
+    .story-content .quote,
+    .story-content .statistics span
+    {
+      color:#ff6600;
+    }
+
+  }
+
+
   .home-stories .section-summary
   {
     display: flex;

@@ -1551,7 +1551,7 @@ button, input, optgroup, select, textarea {
   position: absolute;
   opacity: 0.1;
   top: 0;
-  right: 0;
+  left: 0;
   z-index: -1;
 }
 
@@ -1616,6 +1616,69 @@ button, input, optgroup, select, textarea {
 }
 
 @media (min-width: 980px) {
+  .story-content {
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: flex-start;
+    border-top: 10px solid #999;
+  }
+  .story-content > div {
+    padding: 20px;
+  }
+  .story-content .statistics ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 70%;
+    font-weight: bold;
+  }
+  .story-content .quote {
+    margin: 0;
+    line-height: 1.75;
+  }
+  .story-content .author {
+    color: #000;
+    margin: 10px 0 0 20px;
+    line-height: 1.75;
+  }
+  .story-content .topic {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #999;
+  }
+  .story-content .heading {
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .story-content .statistics ul li {
+    margin-bottom: 25px;
+    white-space: nowrap;
+  }
+  .story-content .statistics ul li li {
+    margin-bottom: 0;
+  }
+  .story-content .statistics ul ul {
+    font-size: 130%;
+    font-weight: 300;
+    text-transform: none;
+    color: #666;
+  }
+  .story-chroma .story-content {
+    border-top: 10px solid red;
+  }
+  .story-chroma .story-content .quote,
+  .story-chroma .story-content .statistics span {
+    color: red;
+  }
+  .story-sfymca .story-content {
+    border-top: 10px solid #ff6600;
+  }
+  .story-sfymca .story-content .quote,
+  .story-sfymca .story-content .statistics span {
+    color: #ff6600;
+  }
   .home-stories .section-summary {
     display: flex;
     justify-content: center;
