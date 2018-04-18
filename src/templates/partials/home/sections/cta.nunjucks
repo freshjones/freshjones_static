@@ -2,8 +2,9 @@
   <div class="wrap">
     <div class="flex-panels">
       <div class="section-summary flex-panel-6">
-        <h2>Interested in talking? Let's schedule a call.</h2>
-        <p>We love working with growing companies. Whether your business is in the research phase, consideration phase or in the "I need it done yesterday phase" we want to hear from you. Let’s begin with a discovery call to discuss your needs.</p>
+        <h2>Interested in talking?</h2>
+        <p class="bold">Let's schedule a call.</p>
+        <p>We love working with growing companies. Whether your just researching, have more questions or in a "help I need it now" situation we want to hear from you. Let’s begin with a discovery call to discuss your needs.</p>
       </div>
       <div class="flex-panel-6">
         {% include 'partials/cta/schedule-consultation.nunjucks' %}

@@ -7,8 +7,16 @@ var nunjucksRender    = require('gulp-nunjucks-render');
 var htmlmin           = require('gulp-htmlmin');
 var sass              = require('gulp-sass');
 var sourcemaps        = require('gulp-sourcemaps');
+
+var postcss           = require('gulp-postcss');
+var autoprefixer      = require('autoprefixer');
+var cssnano           = require('cssnano');
+var postcssimport     = require('postcss-easy-import');
+
 var browserSync       = require('browser-sync').create();
 var reload            = browserSync.reload;
+
+var processors = [autoprefixer];
 
 gulp.task('browsersync', function() {
     browserSync.init({
@@ -38,6 +46,7 @@ gulp.task('scss', function ()
   gulp.src('./src/scss/styles.scss')
     .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'expanded' }))
+    .pipe(postcss(processors))
     .pipe(sourcemaps.write('./maps'))
     .pipe(gulp.dest('./dist/css'))
     .pipe(browserSync.stream({match: '**/*.css'}));

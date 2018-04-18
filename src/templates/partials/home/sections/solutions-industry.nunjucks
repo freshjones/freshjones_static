@@ -4,6 +4,7 @@
       <div class="section-summary">
         <div>
           <div class="section-heading">Solutions By Industry</div>
+          <p>We have a broad range of experience creating advertising and marketing solutions for a variety of industries and markets.</p>
         </div>
       </div>
       <div class="section-divider">
@@ -42,7 +43,7 @@
           </div>
           <div>
             <h3>Manufacturing</h3>
-            <p>Have a manufacturing business? We've got experience helping companies like yours.</p>
+            <p>Have a manufacturing business? We've got experience helping companies like yours. Focusing on trustworthiness and authority, quality and reliability, performance, data-driven lead and prospect generation</p>
             <p>{{ button.link('/marketing-help-for-manufacturing-businesses.html', 'Learn More', 'link') }}</p>
           </div>
         </div>
@@ -78,7 +79,7 @@
           </div>
           <div>
             <h3>Higher Education</h3>
-            <p>We have experience working with edu's like yours. </p>
+            <p>Focusing on increasing enrollment and retention, degrees and programs, fundraising initiatives, student, parent, faculty and alumni engagement, promoting and showcasing campus and college experience.</p>
             <p>{{ button.link('/marketing-help-for-higher-education-institutions.html', 'Learn More', 'link') }}</p>
           </div>
         </div>
@@ -114,7 +115,7 @@
           </div>
           <div>
             <h3>Non-Profit</h3>
-            <p>We've worked with many organizations in the non-profit sector including YMCA's, agricultural and social organizations, social clubs and more.</p>
+            <p>Focusing on user-experience, donation and fund-raising tools, strong donor and support relationships, increased memberships, greater awareness and community involvement in your cause.</p>
             <p>{{ button.link('/marketing-help-for-non-profit-organizations.html', 'Learn More', 'link') }}</p>
           </div>
         </div>
@@ -150,7 +151,7 @@
           </div>
           <div>
             <h3>Financial Services</h3>
-            <p>We have experience with specific financial service requirements such as offering memorandums, financial reporting, prospectuses, annual meeting presentations, investment portfolio profiles and more</p>
+            <p>Specialized services such as offering memorandums, financial reporting, prospectuses, annual meeting presentations, investment portfolio profiles and more</p>
             <p>{{ button.link('/marketing-help-for-financial-service-companies.html', 'Learn More', 'link') }}</p>
           </div>
         </div>
@@ -186,7 +187,7 @@
           </div>
           <div>
             <h3>Science &amp; Technology</h3>
-            <p>Ready to put your website to work? Lets amplify your digital and creative efforts with digital marketing services.</p>
+            <p>You have industry specific requirements that don't fall into generic categories such as data visualization, proprietary data integration or scientific-based content needs</p>
             <p>{{ button.link('/marketing-help-for-science-technology-businesses.html', 'Learn More', 'link') }}</p>
           </div>
         </div>
@@ -222,7 +223,7 @@
           </div>
           <div>
             <h3>Retail &amp; Distribution</h3>
-            <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
+            <p>Addressing concerns such as consumer-focus, Conversion-rate optimization, personalized buying experiences, checkout flow, cost of aquisition.</p>
             <p>{{ button.link('/marketing-help-for-retail-distribution-businesses.html', 'Learn More', 'link') }}</p>
           </div>
         </div>

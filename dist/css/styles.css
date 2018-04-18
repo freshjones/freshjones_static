@@ -813,7 +813,7 @@ nav li {
 
 nav a {
   display: flex;
-  align-items: flex-center;
+  align-items: center;
   margin: 0;
   padding: 20px 0;
   text-transform: uppercase;
@@ -1213,7 +1213,7 @@ label {
   color: #333;
 }
 
-input {
+input, select {
   border: solid 1px #ccc;
   padding: 10px;
   width: 100%;
@@ -1275,7 +1275,8 @@ button, input, optgroup, select, textarea {
   height: 40px;
   padding: 0;
   line-height: inherit;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .link {
@@ -1293,7 +1294,8 @@ button, input, optgroup, select, textarea {
   height: 30px;
   padding: 0;
   line-height: inherit;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .link > span path {
@@ -1406,18 +1408,23 @@ button, input, optgroup, select, textarea {
 }
 
 .section-list-columns {
-  column-count: 2;
-  column-gap: 40px;
-  column-rule: 1px solid #3fa208;
+  -webkit-column-count: 2;
+          column-count: 2;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+  -webkit-column-rule: 1px solid #3fa208;
+          column-rule: 1px solid #3fa208;
 }
 
 .section-list-columns li {
   page-break-inside: avoid;
-  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+          break-inside: avoid;
 }
 
 .section-list-columns-3 {
-  column-count: 3;
+  -webkit-column-count: 3;
+          column-count: 3;
 }
 
 .contact-page-form > div {
