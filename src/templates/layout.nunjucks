@@ -15,6 +15,7 @@
   {% include 'partials/mobile-nav.nunjucks' %}
   {% import 'macros/button.nunjucks' as button %}
   {% import 'macros/internal_notes.nunjucks' as notes %}
+  {% import 'macros/playbook.nunjucks' as playbooks %}
   <main>
     {% import 'macros/header.nunjucks' as header %}
     {% block header %}{{header.active()}}{% endblock %}

@@ -22,6 +22,7 @@ gulp.task('browsersync', function() {
     browserSync.init({
       open:false,
       proxy: "localhost:5000",
+      reloadDelay: 250
     });
 });
 

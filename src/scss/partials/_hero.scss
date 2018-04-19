@@ -1,6 +1,7 @@
 .hero-stark
 {
-  background:#1b3e66;
+  //background:#1b3e66;
+  background:#333;
   color:#fff;
 }
 
@@ -26,14 +27,15 @@
   display: block;
   width: 100%;
   max-width: 100px;
-  height: 1px;
-  background: #414042;
+  height: 2px;
+  background: darken(#fff,40%);
   position: relative;
   bottom: -2em;
   margin: auto;
 }
 
-@include breakpoint($medium) { 
+@include breakpoint($medium) 
+{ 
 
   .hero-stark .wrap
   {

@@ -41,7 +41,7 @@
             </div>
           </li>
           <li><a href="/about.html" class="{%if activePage == 'about' %}active{% endif %}">About</a></li>
-          <li><a href="/blog.html" class="{%if activePage == 'blog' %}active{% endif %}">Blog</a></li>
+          <li><a href="/blog" class="{%if activePage == 'blog' %}active{% endif %}">Blog</a></li>
           <li><a href="/contact.html" class="{%if activePage == 'contact' %}active{% endif %}">Contact</a></li>
         </ul>
       </nav>

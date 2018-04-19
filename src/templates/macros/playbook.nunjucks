@@ -1,0 +1,32 @@
+{% macro book(title='Growth Services Playbook', description='growth services') %}
+<section class="knockout solutions-playbook section-background">
+  <div class="wrap">
+    <div class="flex-panels">
+      <div class="section-summary flex-panel-6">
+        <h2>{{ title }} Playbook</h2>
+        <p>Our {{ description }} playbook will help you determine how we can help meet your business requirements, how we design our services to achieve or exceed your goals, how our services are priced and your estimated investment.</p>
+      </div>
+      <div class="flex-panel-6">
+        <form>
+          <input name="playbook" type="hidden" value="{{ title }}">
+          <div>
+            <label>Name</label>
+            <input name="name" placeholder="Full Name" type="text" required>
+          </div>
+          <div>
+            <label>Company</label>
+            <input name="company" placeholder="Company Name" type="text" required>
+          </div>
+          <div>
+            <label>Email</label>
+            <input name="email" placeholder="Email Address" type="email" required>
+          </div>
+          <div>
+            <input name="Submit" value="Send Me The Playbook" type="submit">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div> 
+</section>
+{% endmacro %}

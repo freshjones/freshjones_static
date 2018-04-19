@@ -3,7 +3,7 @@
     <div class="section-summary">
       <p class="section-heading">Growth Fuel</p>
       <p class="section-subheading">Get the traction and momentum your business needs to grow and thrive.</p>
-      <p>{{ button.link('/growth-services.html', 'Learn More') }}</p>
+      <p>{{ button.link('/services.html', 'Learn More') }}</p>
     </div>
   </div>
   <div class="service-stripe">

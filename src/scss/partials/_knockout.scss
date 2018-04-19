@@ -1,0 +1,80 @@
+.knockout
+{
+  background-color:#333;
+  color:lighten(#333,40%);
+}
+
+.knockout li
+{ 
+  background:darken(#333,6%);
+  color:lighten(#333,35%);
+  text-align:left;
+}
+
+.knockout .section-topic
+{
+  color:$green;
+}
+
+.knockout .section-heading
+{
+  color:darken(#fff,20%);
+}
+
+.knockout .section-lead
+{
+  font-size:120%;
+}
+
+.knockout label
+{
+  color:darken(#fff,20%);
+}
+
+.knockout input[type="text"],
+.knockout input[type="email"],
+.knockout input[type="tel"]
+{
+  background:#666;
+  border-color:#999;
+  color:#999;
+}
+
+.knockout h3
+{ 
+  margin-top:125px;
+  line-height:1.25;
+  color:#fff;
+}
+
+.knockout p
+{
+  line-height:1.75;
+  font-size:15px;
+}
+
+.knockout li > div
+{
+  position: relative;
+  z-index: 0;
+}
+
+.knockout .number
+{
+  color:#999;
+  border:5px solid #999;
+  border-radius:75px;
+  width:150px;
+  height:150px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:150px;
+  font-weight: 300;
+  overflow: hidden;
+  position:absolute;
+  opacity:0.1;
+  top:0;
+  left:0;
+  z-index: -1;
+}

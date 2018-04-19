@@ -1,0 +1,88 @@
+.blog-list
+{
+  padding:50px 0;
+}
+
+.blog-list > div
+{
+  display:flex;
+}
+
+.blog-heading,
+.blog-author
+{
+  line-height: 1;
+}
+
+.blog-author
+{
+  font-weight:bold;
+  color:#999;
+  font-size:90%;
+}
+
+.blog-list article
+{
+  flex:1 1 50%;
+  display:flex;
+}
+
+.blog-list article > div
+{
+  padding:20px;
+}
+
+.dogs-life
+{
+  background-image: url('/images/blog/bg-living-a-dogs-life-is-hard-work.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+.blog-post
+{
+  margin: 100px 0;
+  font-size:125%;
+}
+
+.blog-post .blog-lead
+{
+  font-size:150%;
+  color:$green;
+}
+.blog-post .container
+{
+  max-width: 960px;
+}
+
+.blog-post h2
+{
+  font-size:125%;
+  font-weight:bold;
+  margin: 0;
+}
+
+.blog-post p
+{
+  line-height: 2;
+}
+
+.section-bar
+{
+  display:flex;
+  justify-content: center;
+}
+
+.section-bar > div
+{
+  padding:10px;
+  opacity:0.5;
+  border-right:1px solid rgba(255,255,255,0.5);
+}
+
+.section-bar > div:last-child
+{
+  border:none;
+}
+
+

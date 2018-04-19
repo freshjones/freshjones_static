@@ -9,9 +9,6 @@
         <div class="section-heading">Web + Mobile</div>
         <p class="section-lead">Everything starts online. Turn leads into customers and customers into promoters by giving them a great online experience.</p>
       </div>
-      <div>
-        <p>{{ button.link('/web-mobile-services.html', 'Learn More') }}</p>
-      </div>
     </div>
   </div> 
 </section>

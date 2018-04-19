@@ -17,9 +17,12 @@
         <h1 class="section-topic">Web and Mobile Services</h1>
         <h2 class="section-heading">Let's make something great</h2>
         <p class="section-lead">We build web and mobile apps that delight your customers and help your business reach its fullest potential</p>
-        <p>{{ button.link('/contact.html', 'Learn more') }}</p>
       </div>
     </div>
   </section>
+
+  {% include 'partials/services/sections/web.nunjucks' %}
+
+  {{playbooks.book('Web and Mobile Services','web and mobile services')}}
 
 {% endblock %}
