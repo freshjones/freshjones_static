@@ -75,6 +75,34 @@
   }
 
 
+  .story-stacked .story-content
+  {
+    flex-direction: column-reverse;
+  }
+
+  .story-stacked .story-content > div
+  {
+    width:100%;
+  }
+
+  .story-stacked-left .wrap > div,
+  .story-stacked-right .wrap > div
+  {
+    width:60%;
+  }
+  .story-stacked .statistics > ul
+  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .story-stacked .story-content
+  {
+    border-top:none;
+    background:none;
+  }
+
 
   .story-chroma 
   {

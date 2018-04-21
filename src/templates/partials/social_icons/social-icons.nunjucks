@@ -1,0 +1,17 @@
+<ul class="social-icons">
+  <li>
+    <a href="https://www.facebook.com/pg/FreshJonesCreativeAgency">{% include 'partials/social_icons/facebook.nunjucks' %}</a>
+  </li>
+  <li>
+    <a href="https://www.linkedin.com/company/11410901/">{% include 'partials/social_icons/linkedin.nunjucks' %}</a>
+  </li>
+  <li>
+    <a href="https://twitter.com/freshjones">{% include 'partials/social_icons/twitter.nunjucks' %}</a>
+  </li>
+  <li>
+    <a href="https://www.instagram.com/freshjonescreative/">{% include 'partials/social_icons/instagram.nunjucks' %}</a>
+  </li>
+  <li>
+    <a href="https://www.pinterest.com/freshjonescreative">{% include 'partials/social_icons/pinterest.nunjucks' %}</a>
+  </li>
+</ul>

@@ -1,0 +1,341 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block title %}
+  FreshJones - Open YMCA Platform Development
+{% endblock %}
+
+{% block header %}
+  {{header.active('services')}}
+{% endblock %}
+
+{% block main %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Open Y Web Development</h1>
+        <h2 class="section-heading">Get A Powerful Website For Your YMCA</h2>
+        <p class="section-lead">Open-Y is an open-source digital platform for marketing and ecommerce</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <div class="section-heading">Open Y Platform</div>
+          <p class="section-lead">Open Y is a Drupal 8 CMS platform that gives your YMCA a brand-compliant, modern and mobile responsive website at a fraction of the cost & time of standard web development. It offers key features specifically developed to meet the needs of YMCA's like yours, mobile-friendly responsive themes, content scheduling and management tools, location finder, alerts and integrations with 3rd party services.</p> 
+          <p>{{ button.scrollto('openy', 'Sound Good? Lets Talk') }}</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="bg-openy-intro knockout section-right">
+    <div class="wrap wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <div class="section-heading">The content management system for YMCA's</div>
+          <p>The advantages of an Open Y website are numerous, its open-source and free to use, with no licensing fees, its extendible and customizable, capable of handling any requirement your YMCA has, from multilingual support, sophisticated publishing workflows and microsites. Not to mention there is a huge worldwide community of developers working constantly to keep things up-to-date and secure. </p>
+          <p>With the Open Y platform you and your staff can easily administer and manage all aspects of your website’s content and capabilities. Giving you complete control over how and when your content is scheduled, approved and launched.</p>
+          <p>If your YMCA needs a powerful website, consider a strategically-built, expertly designed Open Y website.</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="home-stories">
+    <div class="wrap wrap-center wrap-full wrap-short">
+      <div>
+        <div class="section-summary">
+          <div>
+            <h2 class="section-heading">YMCA's We've Worked With</h2>
+            <p class="section-lead">We proud to be a small part of the success of these inspiring and motivating YMCA's.</p>
+          </div>
+        </div>
+        <div class="section-divider">
+          <div></div>
+        </div>
+      </div>
+    </div> 
+    <div class="articles">
+      
+      <article class="story story-yoc story-stacked story-stacked-left section-right">
+        <div class="wrap ">
+          <div>
+            <div class="section-image">
+              <img src="/images/chroma-small.jpg">
+            </div>
+            <div class="story-content  ">
+              <div class="statistics">
+                <ul>
+                  <li><span>Relationship</span>
+                    <ul>
+                      <li>2010–Present</li>
+                    </ul>
+                  </li>
+                  <li><span>Services</span>
+                    <ul>
+                      <li>Web + Mobile</li>
+                      <li>Cloud Hosting and Management</li>
+                      <li>Website Maintenance</li>
+                    </ul>
+                  </li>
+                  <li><span>Website</span>
+                    <ul>
+                      <li><a href="https://www.oldcolonyymca.org" target="_blank">www.oldcolonyymca.org</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div >
+                <div class="heading">Old Colony YMCA</div>
+                <p class="quote">&quot;FreshJones has been incredible! They made a complicated project simple by breaking everything down in easy, manageable steps. Plus, we were able to use the platform we needed without sacrificing on navigation or aesthetics which is something other developers couldn’t give us.&quot;</p>
+                <p class="author">&mdash;Old Colony YMCA</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </article>
+
+      <article class="story story-openy-sfymca story-stacked story-stacked-right">
+        <div class="wrap">
+          <div>
+            <div class="section-image">
+              <img src="/images/souixfallsymca-small.jpg">
+            </div>
+            <div class="story-content">
+              <div class="statistics">
+                <ul>
+                  <li><span>Relationship</span>
+                    <ul>
+                      <li>2015–Present</li>
+                    </ul>
+                  </li>
+                  <li><span>Services</span>
+                    <ul>
+                      <li>Web + Mobile</li>
+                      <li>Cloud Hosting and Management</li>
+                      <li>Website Maintenance</li>
+                    </ul>
+                  </li>
+                  <li><span>Website</span>
+                    <ul>
+                      <li><a href="http://www.siouxfallsymca.org" target="_blank">www.siouxfallsymca.org</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div >
+                <div class="heading">Souix Falls YMCA</div>
+                <p class="quote">&quot;We have enjoyed an amazing customer service experience working with FreshJones.  Our website is attractive, brand compliant and very easy to administer.  This ease of use allows our marketing department to focus on content development rather than worrying about website design.   Best of all, <span class="bold">our website traffic quadrupled in the first few months</span> and we now serve more children in our community than ever before!  &quot;</p>
+                <p class="author">&mdash;Souix Falls YMCA</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </article>
+
+      <article class="story story-openy-wsymca story-stacked story-stacked-left section-right">
+        <div class="wrap ">
+          <div>
+            <div class="section-image">
+              <img src="/images/chroma-small.jpg">
+            </div>
+            <div class="story-content  ">
+              <div class="statistics">
+                <ul>
+                  <li><span>Relationship</span>
+                    <ul>
+                      <li>2003–Present</li>
+                    </ul>
+                  </li>
+                  <li><span>Services</span>
+                    <ul>
+                      <li>Web + Mobile</li>
+                      <li>Cloud Hosting and Management</li>
+                      <li>Website Maintenance</li>
+                    </ul>
+                  </li>
+                  <li><span>Website</span>
+                    <ul>
+                      <li><a href="http://www.wsymca.org" target="_blank">www.wsymca.org</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div >
+                <div class="heading">West Suburban YMCA</div>
+                <p class="quote">&quot;FreshJones has been incredible! They made a complicated project simple by breaking everything down in easy, manageable steps. Plus, we were able to use the platform we needed without sacrificing on navigation or aesthetics which is something other developers couldn’t give us.&quot;</p>
+                <p class="author">&mdash;West Suburban YMCA</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </article>
+
+      <article class="story story-openy-sdymca story-stacked story-stacked-right">
+        <div class="wrap ">
+          <div>
+            <div class="section-image">
+              <img src="/images/chroma-small.jpg">
+            </div>
+            <div class="story-content  ">
+              <div class="statistics">
+                <ul>
+                  <li><span>Relationship</span>
+                    <ul>
+                      <li>2010–Present</li>
+                    </ul>
+                  </li>
+                  <li><span>Services</span>
+                    <ul>
+                      <li>Web + Mobile</li>
+                      <li>Cloud Hosting and Management</li>
+                      <li>Website Maintenance</li>
+                    </ul>
+                  </li>
+                  <li><span>Website</span>
+                    <ul>
+                      <li><a href="http://www.sdymca.org" target="_blank">www.sdymca.org</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div >
+                <div class="heading">Southern District YMCA</div>
+                <p class="quote">&quot;FreshJones has been incredible! They made a complicated project simple by breaking everything down in easy, manageable steps. Plus, we were able to use the platform we needed without sacrificing on navigation or aesthetics which is something other developers couldn’t give us.&quot;</p>
+                <p class="author">&mdash;Southern District YMCA</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </article>
+
+      <article class="story story-openy-mwymca story-stacked story-stacked-left section-right">
+        <div class="wrap ">
+          <div>
+            <div class="section-image">
+              <img src="/images/chroma-small.jpg">
+            </div>
+            <div class="story-content  ">
+              <div class="statistics">
+                <ul>
+                  <li><span>Relationship</span>
+                    <ul>
+                      <li>2003–Present</li>
+                    </ul>
+                  </li>
+                  <li><span>Services</span>
+                    <ul>
+                      <li>Web + Mobile</li>
+                      <li>Cloud Hosting and Management</li>
+                      <li>Website Maintenance</li>
+                    </ul>
+                  </li>
+                  <li><span>Website</span>
+                    <ul>
+                      <li><a href="http://www.wsymca.org/" target="_blank">www.oldcolonyymca.org</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div >
+                <div class="heading">MetroWest YMCA</div>
+                <p class="quote">&quot;FreshJones has been incredible! They made a complicated project simple by breaking everything down in easy, manageable steps. Plus, we were able to use the platform we needed without sacrificing on navigation or aesthetics which is something other developers couldn’t give us.&quot;</p>
+                <p class="author">&mdash;MetroWest YMCA</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </article>
+
+    </div>
+
+  </section>
+
+  <section class="integrated">
+    <div class="wrap wrap-full wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Our Open-Y Process</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap">
+            <li>
+              <div>
+                <div class="number">1</div>
+                <h3>Understand Your Y and Make a Plan</h3>
+                <p>No two Y's are exactly alike. We'll get to know you're particular YMCA, how many locations you have, whether or not you have camps, child services or other special interest sites. We'll help you determine the look and feel of your site and whether or not custom design is somehting you'll need. We'll determine if you're YMCA will need any additional functionality beyond the Open-Y Platform. And lastly we'll decide where the site will be hosted.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="number">2</div>
+                <h3>Content Development</h3>
+                <p>We'll work with you to help arrange and organize your content to provide your users with the best possible user experience. We're SEO and content marketing strategists so we can help determine what pages are most important to your users, whether or not you are addressing your audiences needs from awareness through membership and advocacy.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="number">3</div>
+                <h3>Design and Develop</h3>
+                <p>We'll install the Open Y Platform and make any theme or template adjustments based on your design requirements. We'll also build and install any custom functionality requirements your particular YMCA might require, such as integration with DAXCO, YWEB or Christianson registration systems.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="number">4</div>
+                <h3>Launch, Monitor and Improve</h3>
+                <p>When your ready, we'll help handle all the launch details to ensure a smooth transition from your existing website to your new Open Y site. Your members will not experience any downtime. From here we'll monitor the site, look for ways to help you improve your users experience, keep your site up-to-date and secure with any Drupal security patches.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div>
+          {{ button.link('/services.html', 'Sound good? Lets do it') }}
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="knockout solutions-openy section-background">
+    <div class="wrap">
+      <div class="flex-panels">
+        <div class="section-summary flex-panel-6">
+          <h2>Let's Talk Open Y Websites</h2>
+          <p>We'll get to know each other and we'll ask you some questions and learn how you see the Open Y Platform working for your specific needs. Lastly we'll let you know how we might be able to help and see if you'd like to take a next step. </p>
+          <p class="bold">Would that be worth a 1/2 hour of your time?</p>
+        </div>
+        <div class="flex-panel-6">
+          <form>
+            <input name="consultation-call" type="hidden" value="{{ about }}">
+            <div>
+              <label>Name</label>
+              <input name="name" placeholder="Full Name" type="text" required>
+            </div>
+            <div>
+              <label>Company</label>
+              <input name="company" placeholder="Company Name" type="text" required>
+            </div>
+            <div>
+              <label>Email</label>
+              <input name="email" placeholder="Email Address" type="email" required>
+            </div>
+            <div>
+              <label>Phone</label>
+              <input name="tel" pattern="[\(]?\d{3}[\)]?[ ]?\d{3}[\-| ]?\d{4}" placeholder="Phone Number (999) 999-9999" type="tel" required>
+            </div>
+            <div>
+              <input name="Submit" value="Lets Schedule a Call" type="submit">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+{% endblock %}

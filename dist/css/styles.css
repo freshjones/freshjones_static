@@ -1530,6 +1530,68 @@ button, input, optgroup, select, textarea {
   text-transform: uppercase;
 }
 
+.social-icons {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons a {
+  display: block;
+  padding: 3px;
+  fill: #666;
+}
+
+.social-icons a:hover {
+  fill: #3fa208;
+}
+
+header .social-icons a {
+  padding: 5px;
+}
+
+header .social-icons li {
+  margin: 0;
+  padding: 0;
+}
+
+header .social-icons svg {
+  fill: #999;
+  padding: 0;
+}
+
+header .social-icons svg:hover {
+  fill: #3fa208;
+}
+
+.bg-open-ymca {
+  background-image: url("/images/open-y-platform.jpg");
+}
+
+.bg-openy-intro {
+  background-image: url("/images/open-y-platform-responsive.jpg");
+}
+
+.story-yoc {
+  background-image: url("/images/open-y-platform-old-colony-ymca.jpg");
+}
+
+.story-openy-sfymca {
+  background-image: url("/images/open-y-platform-sioux-falls-ymca.jpg");
+}
+
+.story-openy-wsymca {
+  background-image: url("/images/open-y-platform-west-suburban-ymca.jpg");
+}
+
+.story-openy-sdymca {
+  background-image: url("/images/open-y-platform-southern-district-ymca.jpg");
+}
+
+.story-openy-mwymca {
+  background-image: url("/images/open-y-platform-metrowest-ymca.jpg");
+}
+
 .hero {
   background-image: url("/images/home-hero-small.jpg");
   background-size: cover;
@@ -1761,6 +1823,25 @@ button, input, optgroup, select, textarea {
     text-transform: none;
     color: #666;
   }
+  .story-stacked .story-content {
+    flex-direction: column-reverse;
+  }
+  .story-stacked .story-content > div {
+    width: 100%;
+  }
+  .story-stacked-left .wrap > div,
+  .story-stacked-right .wrap > div {
+    width: 60%;
+  }
+  .story-stacked .statistics > ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .story-stacked .story-content {
+    border-top: none;
+    background: none;
+  }
   .story-chroma .story-content {
     border-top: 10px solid red;
   }
@@ -1900,7 +1981,7 @@ button, input, optgroup, select, textarea {
 }
 
 .blog-post .container {
-  max-width: 960px;
+  max-width: 760px;
 }
 
 .blog-post h2, .blog-post .h2 {

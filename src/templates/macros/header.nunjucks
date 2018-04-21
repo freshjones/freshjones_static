@@ -21,6 +21,9 @@
 </g>
 </svg><span>hello@freshjones.com</span></a>
         </li>
+        <li>
+          {% include 'partials/social_icons/social-icons.nunjucks' %}
+        </li>
       </ul>
     </div>
     <div class="container">

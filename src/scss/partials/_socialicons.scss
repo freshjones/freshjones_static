@@ -1,0 +1,40 @@
+.social-icons
+{
+  display:flex;
+  margin:0;
+  padding:0;
+}
+
+.social-icons a
+{
+  display:block;
+  padding:3px;
+  fill:#666;
+}
+
+.social-icons a:hover
+{
+  fill:$green;
+}
+
+header .social-icons a
+{
+  padding:5px;
+}
+
+header .social-icons li
+{
+  margin:0;
+  padding:0;
+}
+
+header .social-icons svg
+{
+  fill:#999;
+  padding:0;
+}
+
+header .social-icons svg:hover
+{
+  fill:$green;
+}

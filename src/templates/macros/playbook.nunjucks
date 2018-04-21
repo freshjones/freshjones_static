@@ -30,3 +30,42 @@
   </div> 
 </section>
 {% endmacro %}
+
+{% macro consult(title='Schedule a Consultation',about='') %}
+<section class="knockout solutions-schedule section-background">
+  <div class="wrap">
+    <div class="flex-panels">
+      <div class="section-summary flex-panel-6">
+        <h2>{{ title }}</h2>
+        <p class="bold">Let's get to know each other.</p>
+        <p>We'll ask you some questions and listen to your specific challenges. We'll find out what you've tried so far, what's worked for you in the past and what hasn't and lastly we'll let you know how we might be able to help and see if you'd like to take a next step. Would that be worth a 1/2 hour of your time?</p>
+      </div>
+      <div class="flex-panel-6">
+        <form>
+          <input name="consultation-call" type="hidden" value="{{ about }}">
+          <div>
+            <label>Name</label>
+            <input name="name" placeholder="Full Name" type="text" required>
+          </div>
+          <div>
+            <label>Company</label>
+            <input name="company" placeholder="Company Name" type="text" required>
+          </div>
+          <div>
+            <label>Email</label>
+            <input name="email" placeholder="Email Address" type="email" required>
+          </div>
+          <div>
+            <label>Phone</label>
+            <input name="tel" pattern="[\(]?\d{3}[\)]?[ ]?\d{3}[\-| ]?\d{4}" placeholder="Phone Number (999) 999-9999" type="tel" required>
+          </div>
+          <div>
+            <input name="Submit" value="Lets Schedule a Call" type="submit">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div> 
+</section>
+{% endmacro %}
+

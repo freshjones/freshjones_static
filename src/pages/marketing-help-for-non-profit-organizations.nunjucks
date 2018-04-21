@@ -10,8 +10,34 @@
 {% endblock %}
 
 {% block main %} 
- 
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Marketing For Non-profits</h1>
+        <h2 class="section-heading">Helping Non-profit Organizations Achieve Their Goals</h2>
+        <p class="section-lead">You're changing the world, we want to help through strategic technology, marketing and creative solutions.</p>
+        <p>{{ button.scrollto('schedule', 'Lets Schedule a Call') }}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-open-ymca section-right">
+    <div class="wrap wrap-right">
+      <div>
+        <div class="section-image">
+          <img src="/images/crafting-small.jpg">
+        </div>
+        <div class="section-summary">
+          <div class="section-heading">Open YMCA Platform</div>
+          <p class="section-lead">The Open Y platform is a Drupal 8 CMS custom built for the specific requirements of YMCA's.</p>
+          <p class="section-lead">Build you YMCA's website with the open-y and instantly take advantage of the powerful and feature-rich opportunities the platform has to offer.</p>
+          <p>{{ button.link('/open-y-development.html', 'Learn More') }}</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  {{playbooks.consult('Non-Profit Solutions','marketing help for non-profits')}}
 
 {% endblock %}

@@ -11,7 +11,17 @@
 
 {% block main %} 
  
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Marketing For Manufacturers</h1>
+        <h2 class="section-heading">You Don't Need Marketing. You Need Results.</h2>
+        <p class="section-lead">Helping B2B industrial, manufacturing and construction companies increase revenue, build awareness and get results.</p>
+        <p>{{ button.scrollto('schedule', 'Lets Schedule a Call') }}</p>
+      </div>
+    </div>
+  </section>
+
+  {{playbooks.consult('Lets Talk','marketing for manufacturing businesses')}}
 
 {% endblock %}

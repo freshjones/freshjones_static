@@ -2,7 +2,7 @@
 {% extends "layout.nunjucks" %}
 
 {% block title %}
-  FreshJones - Solutions for the Financial Service Businesses
+  FreshJones - Marketing Solutions for Financial Services and Venture Capital
 {% endblock %}
 
 {% block header %}
@@ -10,8 +10,18 @@
 {% endblock %}
 
 {% block main %} 
- 
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Solutions For Financial Services</h1>
+        <h2 class="section-heading">Helping Financial Service Teams Get Results</h2>
+        <p class="section-lead">Strategic technology, marketing and branding solutions for banking, venture capital, private equity, and financial industry brands.</p>
+        <p>{{ button.scrollto('schedule', 'Lets Schedule a Call') }}</p>
+      </div>
+    </div>
+  </section>
+
+  {{playbooks.consult('Lets Talk','Financial Service Businesses')}}
 
 {% endblock %}

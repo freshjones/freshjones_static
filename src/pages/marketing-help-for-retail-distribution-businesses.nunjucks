@@ -10,8 +10,18 @@
 {% endblock %}
 
 {% block main %} 
- 
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Marketing For Retailers</h1>
+        <h2 class="section-heading">Solutions that Create Loyal Customers</h2>
+        <p class="section-lead">Data-driven digital, marketing and brand solutions designed for the expectations of high-value consumers.</p>
+        <p>{{ button.scrollto('schedule', 'Lets Schedule a Call') }}</p>
+      </div>
+    </div>
+  </section>
+
+  {{playbooks.consult('Retail and Distributor Solutions','Marketing for Retailer and Distributors')}}
 
 {% endblock %}

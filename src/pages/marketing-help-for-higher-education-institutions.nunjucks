@@ -11,7 +11,17 @@
 
 {% block main %} 
  
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Marketing For Higher Ed</h1>
+        <h2 class="section-heading">You Don't Need Marketing. You Need Enrollment.</h2>
+        <p class="section-lead">Solutions for post-secondary educational institutions attract more students, improve engagement and shape the future.</p>
+        <p>{{ button.scrollto('schedule', 'Lets Schedule a Call') }}</p>
+      </div>
+    </div>
+  </section>
+
+  {{playbooks.consult('Lets Talk','marketing for higher education')}}
 
 {% endblock %}
