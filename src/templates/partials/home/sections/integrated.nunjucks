@@ -37,7 +37,7 @@
         </ul>
       </div>
       <div>
-        {{ button.link('/services.html', 'Sound good? Lets do it') }}
+        {{ button.link('/services.html', 'Sound good? Learn more') }}
       </div>
     </div>
   </div> 

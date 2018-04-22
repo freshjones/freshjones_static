@@ -16,7 +16,7 @@
       <div class="section-summary">
         <h1 class="section-topic">Contact Us</h1>
         <h2 class="section-heading mb0">We would love to hear from you!</h2>
-        <p class="section-lead mt0">Fill out our brief form below and we’ll contact you shortly. Thank you.</p>
+        <p class="section-lead mt0">Fill out our brief form below and we’ll contact you very soon. Thank you.</p>
         <form class="contact-page-form">
           <div>
             <div>
@@ -36,10 +36,12 @@
               <input name="name" />
             </div>
           </div>
+          <div class="justify-center">
+            <div>
+              <input name="Submit" value="Send" type="submit">
+            </div>
+          </div>
         </form>
-        <p>
-          {{ button.link('/strategic-planning.html', 'Send') }}
-        </p>
       </div>
     </div>
   </section>

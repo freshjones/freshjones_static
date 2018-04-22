@@ -14,7 +14,7 @@
   <section class="hero-stark">
     <div class="wrap wrap-center">
       <div class="section-summary">
-        <h1 class="section-topic">Seach Engine Optimization (SEO)</h1>
+        <h1 class="section-topic">Search Engine Optimization (SEO)</h1>
         <h2 class="section-heading">Drive more traffic &bull; Get more leads &bull; Grow your business.</h2>
         <p class="section-lead">Make sure your business is ready when customers are searching.</p>
         <p>{{ button.link('/strategic-planning.html', 'I want more traffic') }}</p>
