@@ -284,4 +284,6 @@
     </div> 
   </section>
 
+  {{playbooks.book('Direct Mail Marketing','Direct Mail Marketing')}}
+
 {% endblock %}

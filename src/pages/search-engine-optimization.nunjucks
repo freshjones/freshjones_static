@@ -354,4 +354,6 @@
     </div> 
   </section>
 
+  {{playbooks.book('SEO','SEO')}}
+
 {% endblock %}

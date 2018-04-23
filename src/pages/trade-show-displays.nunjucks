@@ -306,5 +306,6 @@
     </div> 
   </section>
 
+  {{playbooks.book('Tradeshow Displays','Tradeshow Displays')}}
 
 {% endblock %}

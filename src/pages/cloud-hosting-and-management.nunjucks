@@ -129,5 +129,7 @@
     </div> 
   </section>
 
+  {{playbooks.book('Cloud Hosting','Cloud Hosting')}}
+
 
 {% endblock %}

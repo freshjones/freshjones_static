@@ -232,6 +232,6 @@
     </div> 
   </section>
 
-
+  {{playbooks.book('Print Advertising','Print Advertising')}}
 
 {% endblock %}

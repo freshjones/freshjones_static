@@ -520,5 +520,6 @@
     </div> 
   </section>
 
+  {{playbooks.book('Email Marketing','Email Marketing')}}
 
 {% endblock %}

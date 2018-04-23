@@ -1596,6 +1596,26 @@ header .social-icons svg:hover {
   background-image: url("/images/open-y-platform-metrowest-ymca.jpg");
 }
 
+.about-billy {
+  background-image: url("/images/billy-background.jpg");
+  background-color: #c1c1c1;
+}
+
+.about-chloe {
+  background-image: url("/images/chloe-background.jpg");
+  background-color: #f9fdff;
+}
+
+.about-love-dog {
+  background-image: url("/images/love-dog-background.jpg");
+  background-size: cover;
+}
+
+.about-greetings {
+  background-image: url("/images/food-background.jpg");
+  background-size: cover;
+}
+
 .hero {
   background-image: url("/images/home-hero-small.jpg");
   background-size: cover;

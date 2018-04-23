@@ -371,7 +371,6 @@
     </div> 
   </section>
 
-
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -388,5 +387,7 @@
       </div>
     </div> 
   </section>
+
+  {{playbooks.book('Local SEO','Local SEO')}}
 
 {% endblock %}

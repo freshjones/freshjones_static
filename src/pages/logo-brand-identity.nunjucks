@@ -237,4 +237,6 @@
     </div> 
   </section>
 
+  {{playbooks.book('Logo and Brand Identity','Logo and Brand Identity')}}
+
 {% endblock %}

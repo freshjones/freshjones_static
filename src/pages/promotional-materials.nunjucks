@@ -311,4 +311,6 @@
     </div> 
   </section>
 
+  {{playbooks.book('Promotional Materials','Promotional Materials')}}
+
 {% endblock %}

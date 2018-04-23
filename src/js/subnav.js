@@ -10,6 +10,7 @@
       })
       .mouseenter(function() {
         clearTimeout(timeout);
+        $('.subnav-panel').removeClass('subnav-panel-active');
         $(this).find('.subnav-panel').addClass('subnav-panel-active');
       })
       .click(function(e){

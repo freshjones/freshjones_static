@@ -435,7 +435,6 @@
     </div> 
   </section>
 
-
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -453,5 +452,7 @@
       </div>
     </div> 
   </section>
+
+  {{playbooks.book('Display Advertising and Remarketing','Display Advertising and Remarketing')}}
 
 {% endblock %}

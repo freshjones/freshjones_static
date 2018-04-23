@@ -656,4 +656,7 @@
       </div>
     </div> 
   </section>
+
+  {{playbooks.book('Social Media Advertising','Social Media Advertising')}}
+
 {% endblock %}

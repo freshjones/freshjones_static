@@ -245,5 +245,6 @@
     </div> 
   </section>
 
+  {{playbooks.book('Chatbot and Voice Agent','Chatbot and Voice Agents')}}
 
 {% endblock %}

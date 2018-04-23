@@ -561,5 +561,7 @@
     </div>
   </div> 
 </section>
+  
+{{playbooks.book('Strategic Planning','Strategic Planning')}}
 
 {% endblock %}

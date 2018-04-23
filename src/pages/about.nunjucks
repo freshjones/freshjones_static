@@ -22,8 +22,6 @@
     </div>
   </section>
   
-
-
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -36,67 +34,21 @@
     </div> 
   </section>
 
-
-  <section class="services-intro">
-    <div class="wrap wrap-center wrap-center-narrow">
-      <div class="section-spaced">
-        <div class="section-summary">
-          <h1 class="section-heading">Get To Know Us.</h1>
+  <section class="about-chloe ">
+    <div class="wrap wrap-left">
+      <div>
+        <div class="section-image">
+          <img src="/images/crafting-small.jpg">
         </div>
-        <div>
-          <ul class="flex-blocks">
-            <li>
-              <div>
-                <h3>Chloe Jones</h3>
-                <p>Chloe will help to determine goals, and will develop a plan that will reflect and help meet those
-goals. Chloe will be the day-to-day contact for client. She will assure the projects are on time, on
-budget and that outlined goals are met. She will also play an important role in design, strategy,
-analytics and implementing the campaigns.</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <h3>William Jones</h3>
-                <p>Billy will be responsible for overseeing and developing the overall technical aspects of
-each project. He will be the primary developer for each project, will play a vital role in
-strategy and metrics.</p>
-              </div>
-            </li>
-          </ul>
+        <div class="section-summary">
+          <div class="topic">Something</div>
+          <div class="section-heading">Chloe</div>
+          <p class="section-lead">"Something"</p>
         </div>
       </div>
     </div> 
   </section>
 
-  <section class="services-intro">
-    <div class="wrap wrap-center wrap-center-narrow">
-      <div class="section-spaced">
-        <div class="section-summary">
-          <h1 class="section-heading">Communicators with a conscience</h1>
-          <ul class="section-list section-list-bullets">
-            <li>work with people to create engaging experiences</li>
-            <li>help people solve complex problems into simple conscientious solutions</li>
-            <li>always do more than what’s requested and make you feel valued, appreciated and understood</li>
-          </ul>
-        </div>
-      </div>
-    </div> 
-  </section>
-
-  <section class="services-intro">
-    <div class="wrap wrap-center wrap-center-narrow">
-      <div class="section-spaced">
-        <div class="section-summary">
-          <h1 class="section-heading">We don't work with companies we work with people</h1>
-          <ul class="section-list section-list-bullets">
-            <li>work with people to create engaging experiences</li>
-            <li>help people solve complex problems into simple conscientious solutions</li>
-            <li>always do more than what’s requested and make you feel valued, appreciated and understood</li>
-          </ul>
-        </div>
-      </div>
-    </div> 
-  </section>
 
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
@@ -130,6 +82,43 @@ strategy and metrics.</p>
     </div> 
   </section>
 
+
+  <section class="about-billy section-right">
+    <div class="wrap wrap-right">
+      <div>
+        <div class="section-image">
+          <img src="/images/crafting-small.jpg">
+        </div>
+        <div class="section-summary">
+          <div class="topic">Chief Curiosity Officer</div>
+          <div class="section-heading">Billy</div>
+          <p class="section-lead">"Life in general is fascinating to me, even the simplest and most ordinary aspects of life holds interest and curiosities and I love uncovering those moments. Design, technology, people, nature, business it's all so challenging yet invigorating and inspiring and essential to who I am as an individual, its how I draw energy."</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Communicators with a conscience</h1>
+          <ul class="section-list section-list-bullets">
+            <li>work with people to create engaging experiences</li>
+            <li>help people solve complex problems into simple conscientious solutions</li>
+            <li>always do more than what’s requested and make you feel valued, appreciated and understood</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="about-love-dog section-right">
+    <div class="wrap wrap-right">
+    </div> 
+  </section>
+
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -146,6 +135,11 @@ strategy and metrics.</p>
           </ul>
         </div>
       </div>
+    </div> 
+  </section>
+
+   <section class="about-greetings section-right">
+    <div class="wrap wrap-right">
     </div> 
   </section>
 
