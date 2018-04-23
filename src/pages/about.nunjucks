@@ -17,7 +17,6 @@
         <h1 class="section-topic">About FreshJones</h1>
         <h2 class="section-heading">We're here for you.</h2>
         <p class="section-lead">We don't help companies we help people</p>
-        <p>{{ button.link('/contact.html', 'Learn More') }}</p>
       </div>
     </div>
   </section>
@@ -29,6 +28,7 @@
           <h1 class="section-heading">We create experiences, transform brands, grow businesses and make products better.</h1>
           <p>We find inspiration all around us and bring that curiosity to each project. At our core is a true passion for brand development and design, that includes both consumer and corporate brands.  We strongly believe in the balance of strategy and design, both of which are essential to creating relevant, innovative and authentic brands. At the end of the day, our goal is to do great work with a handful of clients, and have fun doing it.</p>
           <p>Our company is built on a love of Design – where concept and strategy inspire highly crafted experiences. Big or small, our starting point is always conceptual.</p>
+          <p>{{ button.link('/contact.html', 'Get to Know us') }}</p>
         </div>
       </div>
     </div> 
