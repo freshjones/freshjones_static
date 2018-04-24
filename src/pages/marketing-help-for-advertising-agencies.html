@@ -11,7 +11,50 @@
 
 {% block main %} 
  
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Solutions for Advertising Agencies</h1>
+        <h2 class="section-heading">Manage Workloads, Increase Services, Grow At Your Pace</h2>
+        <p class="section-lead">Helping agencies provide additional services to their clients and better manage their in-house work loads.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Running an agency is no small task.</h1>
+          <p class="section-lead mb2">There are a lot of balls to juggle to say the least. Managing supply and demand in a growing agency can be particularly challenging. Maintaining the right balance of client work to in-house team members, finding and hiring the right people with the right skills, weathering the ebbs and flows of client demands. It can all be overwhelming, stressful and difficult to deal with.</p>
+          <p class="section-lead mb2">We can help smooth out some of those rough spots and can help you and your in-house team scale naturally with the rise and fall in customer demand. We're extremely fast, experienced and intuitive, we'll will hit the ground running and be productive from day 1.</p>
+          <p class="section-lead mb2">With our range of services and capabilities you can offer new services, expand your current offerings or just give your in-house team a little wiggle room when demand is high. All this without any stressful rush to find the right in-house team members to fill positions. You're able to take your time and grow your agency as it makes sense without the stress or worry of staff hiring and firing or the headache of managing an army of freelancers to provide the skills you need.</p>
+          <p class="section-lead mb2">Interactive, marketing and creative all under one roof at reasonable agency-reduced rates.</p>
+          <p>{{ button.scrollto('schedule', 'Sound Good? Lets Talk') }}</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">How can FreshJones help your agency?</h1>
+          <ul class="section-list">
+            <li>Instant team of seasoned professionals. We've been doing this for a long time and know the business very well, we're productive from day 1.</li>
+            <li>Reduced agency rates allows your agency to be highly profitable on our work</li>
+            <li>Better navigate growth periods of unstable work demand without rushing into hiring and firing cycles</li>
+            <li>Give your in-house team room to breathe by taking some of the workload of of them, increasing morale, energy and creativity</li>
+            <li>Completely white-labeled and NDA, all the work we do is from your agency.</li>
+            <li>Try out services your agency hasn't offered in the past and see what the demand is like before costly hires for specialized skills</li>
+            <li>Know you have someone you can turn to if you can in a jam and need a job done fast and right without any hand-holding.</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  {{playbooks.consult('Lets talk about your agency','marketing help for advertising agencies')}}
 
 {% endblock %}

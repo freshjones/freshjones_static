@@ -10,8 +10,115 @@
 {% endblock %}
 
 {% block main %} 
- 
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Small Business Marketing Solutions</h1>
+        <h2 class="section-heading">You take growth seriously.</h2>
+        <p class="section-lead">Your family's future depends on it. Easy, hands-on, done-for-you growth solutions for your small business</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">You're building a better life for your family</h1>
+          <p class="section-lead mb2">We get it, your families future depends on your business's success, so you take growth seriously. You'd like to focus more time on growing your business but there's only so much time in the day and you've got a lot on you plate.</p>
+          <p class="section-lead mb2">We want to help with that, we understand small business.</p>
+          <p class="section-lead mb2">We know you don't have time to deal with complicated technology or trial and error processes, you need to make fast smart decisions that get results and don't take up much of your time. Our result-driven small business marketing solutions are designed to do just that. We do all the work for you, we offer easy setup, hands-on support and packaged done-for-you services that get the results you're looking for without taking up any of your time. We know getting and keeping customers and driving sales is your main priority, we can help make those goals a reality and help keep your business healthy and growing both now and into the future.</p>
+          <p>{{ button.scrollto('schedule', 'Sound Good? Lets Talk') }}</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="home-stories">
+    <div class="wrap wrap-center wrap-full wrap-short">
+      <div>
+        <div class="section-summary">
+          <div>
+            <h1 class="section-heading">Growth Solutions for Small Businesses</h1>
+            <p class="section-lead">Our small business marketing solutions are designed to be fast, easy. We'll do all the work, you can run your business. </p>
+          </div>
+        </div>
+        <div class="section-divider">
+          <div></div>
+        </div>
+      </div>
+    </div> 
+    <div class="articles">
+      
+      <article class="story story-chroma section-right">
+        <div class="wrap wrap-right">
+          <div>
+            <div class="section-image">
+              <img src="/images/chroma-small.jpg">
+            </div>
+            <div>
+              <div>
+                <h3>Put Your Business On The Map</h3>
+                <p class="bold">We help your customers find your business</p>
+                <ul>
+                  <li><span class="bold">Business Identity</span> - Your business is listed in a lot of places across the internet. We create update, maintain and verify that information is correct so customers and search engines find you everytime they search.</li>
+                  <li><span class="bold">Social Media</span> - Your customers are on social media. How do you know which sites your business should be on? How often should you post? What do you even post about?</li>
+                  <li><span class="bold">Online Reputation</span> - People are talking about your business and online opinions matter and influence decisions, stay on top of the conversation</li>
+                  <li><span class="bold">Google AdWords</span> - Everyone wants to be seen first on Google. When searching for your business customers find you at the top every time.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </article>
+      
+      <article class="story story-sfymca ">
+        <div class="wrap wrap-left">
+          <div>
+            <div class="section-image">
+              <img src="/images/souixfallsymca-small.jpg">
+            </div>
+            <div class="">
+              <div>
+                <h3>Amplify Your Digital Presence</h3>
+                <p class="bold">Turn your website into a workhorse</p>
+                <ul>
+                  <li><span class="bold">Create The Game Plan</span> - We begin by creating a game plan. We discuss your organizational goals, understand your strengths and opportunities, and get specific about how to increase traffic and leads.</li>
+                  <li><span class="bold">Attract Website Visitors Organically</span> - Get found by creating discoverable content that attracts your target audience. Start by answering their questions, addressing their problems, and speaking to their goals within search engine optimized pages and posts.</li>
+                  <li><span class="bold">Drive Leads Into Your Funnel</span> - Build lead magnets that help customers start seeing your business as the answer to their problems and turning visitors into leads.</li>
+                  <li><span class="bold">Nurture, Segment & Score</span> - Nurture your leads with a CRM and marketing automation tools, giving customers valuable content focused on solving their problems. Monitor their engagement and progress through their decision making process.</li>
+                  <li><span class="bold">Boost Traffic to Your Site</span> - We'll use search, remarketing and social advertising to drive high-value traffic to your website and push even more qualified leads through your funnel</li>
+                  <li><span class="bold">Measure, Track, Optimize</span> - We'll monitor and measure our progress, testing and optimizing as we go to ensure we're getting the best return on investment from all of our marketing efforts</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </article>
+
+      <article class="story story-chroma section-right">
+        <div class="wrap wrap-right">
+          <div>
+            <div class="section-image">
+              <img src="/images/chroma-small.jpg">
+            </div>
+            <div>
+              <div>
+                <h3>Accelerated SMB Growth Plan</h3>
+                <p class="bold">Full-service marketing to give your business the traction it needs</p>
+                <p>Complete full-service strategically developed web, marketing and creative services custom-tailored to meet your specific business requirements. Services include full web and mobile capabilities, marketing and sales, as well as brand and creative services. A complete result-driven strategically planned marketing approach to rapidly grow your business.</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </article>
+
+    </div>
+
+  </section>
+
+
+  {{playbooks.consult('Lets Talk','marketing help for small business owners')}}
 
 {% endblock %}

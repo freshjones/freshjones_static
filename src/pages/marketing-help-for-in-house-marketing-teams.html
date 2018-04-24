@@ -11,7 +11,48 @@
 
 {% block main %} 
  
-  <!-- hero -->
-  {% include 'partials/services/sections/hero.nunjucks' %}
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Solutions for In-House Marketing Teams</h1>
+        <h2 class="section-heading">Scale Your Team With Confidence and Ease</h2>
+        <p class="section-lead">Helping in-house teams manage high work loads with marketing services when they're needed most.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Your marketing department is a busy place.</h1>
+          <p class="section-lead mb2">There is a seemingly endless amount of customer-facing touchpoints and marketing channels to take advantage of. Your business may be expanding into new markets or captializing on existing opportunities. All of which can create some interesting challenges, maintaining the right balance of in-house team members, finding and hiring the right people with the right skills, weathering the ebbs and flows of new and existing projects. It can all be overwhelming, stressful and difficult to deal with.</p>
+          <p class="section-lead mb2">We can help smooth out some of those rough spots and can help you and your in-house team scale up or down naturally with demand. We're extremely fast, experienced, intuitive and we can hit the ground running and be productive from day 1.</p>
+          <p class="section-lead mb2">Our range of services and capabilities can expand your current in-house capabilities or just give your team a little breathing room when demand is high. All this without the stress of rushing to find the right in-house team members to fill positions. You're able to take your time and grow your team as it makes sense without the worry of staff hiring and firing or the headache of managing an army of freelancers to provide the skills you need.</p>
+          <p class="section-lead mb2">Interactive, marketing and creative all under one roof at reasonable agency-reduced rates.</p>
+          <p>{{ button.scrollto('schedule', 'Sound Good? Lets Talk') }}</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">How FreshJones can help your in-house team</h1>
+          <ul class="section-list">
+            <li>Instant team of seasoned professionals. We've been doing this for a long time and know the business very well, we're productive from day 1.</li>
+            <li>Easily deal with high work demand without rushing into hiring and firing cycles</li>
+            <li>Give your in-house team room to breathe by taking some of the workload of of them, increasing morale, energy and creativity</li>
+            <li>Expand your in-house capabilities now and find and hire team members as it makes sense on your own time</li>
+            <li>Know you have someone you can turn to if you team is in a jam and needs a project done fast and right without any hand-holding.</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  {{playbooks.consult('Lets Talk','marketing help for small business owners')}}
 
 {% endblock %}

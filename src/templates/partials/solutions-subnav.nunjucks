@@ -1,16 +1,6 @@
 <ul>
   <li>
     <ul>
-      <li class="list-heading">By Industry</li>
-      <li><a href="/marketing-help-for-manufacturing-businesses.html">Manufacturing</a></li>
-      <li><a href="/marketing-help-for-higher-education-institutions.html">Higher Education</a></li>
-      <li><a href="/marketing-help-for-non-profit-organizations.html">Non-Profit</a></li>
-      <li><a href="/marketing-help-for-financial-service-companies.html">Financial Services</a></li>
-      <li><a href="/marketing-help-for-retail-distribution-businesses.html">Retail &amp; Distribution</a></li>
-    </ul>
-  </li>
-  <li>
-    <ul>
       <li class="list-heading">By Department</li>
       <li><a href="/marketing-help-for-executives.html">C-Suite Executive</a></li>
       <li><a href="/marketing-help-for-technology-managers.html">Technology Manager</a></li>
@@ -18,6 +8,16 @@
       <li><a href="/marketing-help-for-small-business-owners.html">Small Business Owner</a></li>
       <li><a href="/marketing-help-for-in-house-marketing-teams.html">In-House Marketing Team</a></li>
       <li><a href="/marketing-help-for-advertising-agencies.html">Advertising Agency</a></li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li class="list-heading">By Industry</li>
+      <li><a href="/marketing-help-for-manufacturing-businesses.html">Manufacturing</a></li>
+      <li><a href="/marketing-help-for-higher-education-institutions.html">Higher Education</a></li>
+      <li><a href="/marketing-help-for-non-profit-organizations.html">Non-Profit</a></li>
+      <li><a href="/marketing-help-for-financial-service-companies.html">Financial Services</a></li>
+      <li><a href="/marketing-help-for-retail-distribution-businesses.html">Retail &amp; Distribution</a></li>
     </ul>
   </li>
   <li>

@@ -22,6 +22,20 @@
     </div>
   </section>
 
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">We believe in the future of today’s colleges and universities</h1>
+          <p class="section-lead mb2">You're shaping the next generation of doctors, architects, educators, entrepreneurs, and leaders. Our marketing, design, and technology services are strategically designed to help you attract the right students, increase enrollment, heighten awareness, enhance reputation or any other challenge your institution might have.</p>
+          <p class="section-lead mb2">Competition for students and donations is more challenging than ever before, we can help you stand apart from your competition, increase awareness in your institution, boost enrollment applications, attract and retain high-quality students and grow engagement and giving.</p>
+          <p class="section-lead mb2">We always begin wih a strategic, data-driven mindset focusing on both long and short-term growth goals. Based on extensive research, analysis and asking questions and listening, we'll work with you to develop and implement a higher-ed growth strategy to meet and exceed your institutions goals and expectations.</p>
+          <p>{{ button.scrollto('schedule', 'Sound Good? Lets Talk') }}</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
   {{playbooks.consult('Lets Talk','marketing for higher education')}}
 
 {% endblock %}

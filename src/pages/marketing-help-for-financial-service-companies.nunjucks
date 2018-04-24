@@ -2,7 +2,7 @@
 {% extends "layout.nunjucks" %}
 
 {% block title %}
-  FreshJones - Marketing Solutions for Financial Services and Venture Capital
+  FreshJones - Solutions for Financial Services and Venture Capital
 {% endblock %}
 
 {% block header %}
