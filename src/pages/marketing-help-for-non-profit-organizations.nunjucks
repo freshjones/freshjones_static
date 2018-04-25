@@ -6,7 +6,7 @@
 {% endblock %}
 
 {% block header %}
-  {{header.active('services')}}
+  {{header.active('solutions')}}
 {% endblock %}
 
 {% block main %} 
@@ -17,7 +17,6 @@
         <h1 class="section-topic">Marketing For Non-profits</h1>
         <h2 class="section-heading">Helping Non-profit Organizations Achieve Their Goals</h2>
         <p class="section-lead">You're changing the world, we want to help through strategic technology, marketing and creative solutions.</p>
-        <p>{{ button.scrollto('schedule', 'Lets Schedule a Call') }}</p>
       </div>
     </div>
   </section>

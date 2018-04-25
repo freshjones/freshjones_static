@@ -1,4 +1,4 @@
-<section class="no-border section-right services-web">
+<section class="no-border section-right services-web solutions-webmobile">
   <div class="wrap">
     <div>
       <div class="section-image">
@@ -8,6 +8,9 @@
         <div class="section-topic">Services</div>
         <div class="section-heading">Web + Mobile</div>
         <p class="section-lead">Everything starts online. Turn leads into customers and customers into promoters by giving them a great online experience.</p>
+      </div>
+      <div>
+        <p>{{ button.link('/web-mobile-services.html', 'Learn More') }}</p>
       </div>
     </div>
   </div> 
@@ -50,7 +53,7 @@
           <div>
             <h3>Website Design</h3>
             <p>Everything starts online. Turn leads into customers and customers into promoters by giving them a great online experience.</p>
-            <p>{{ button.link('/website-design-and-developent.html', 'Learn More', 'link') }}</p>
+            <p>{{ button.link('/website-design-and-development.html', 'Learn More', 'link') }}</p>
           </div>
         </div>
         <div>
@@ -86,7 +89,7 @@
           <div>
             <h3>Website Development</h3>
             <p>Ready to put your website to work? Lets amplify your digital and creative efforts with digital marketing services.</p>
-            <p>{{ button.link('/website-design-and-developent.html', 'Learn More', 'link') }}</p>
+            <p>{{ button.link('/website-design-and-development.html', 'Learn More', 'link') }}</p>
           </div>
         </div>
         <div>
@@ -230,7 +233,7 @@
           <div>
             <h3>Chatbots &amp; Voice Agents</h3>
             <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
-            <p>{{ button.link('/chatbot-andvoice-agent-development.html', 'Learn More', 'link') }}</p>
+            <p>{{ button.link('/chatbot-and-voice-agent-development.html', 'Learn More', 'link') }}</p>
           </div>
         </div>
       </div>

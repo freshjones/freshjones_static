@@ -1,0 +1,51 @@
+<section class="integrated">
+  <div class="wrap wrap-full wrap-center wrap-center-narrow">
+    <div class="section-spaced">
+      <div class="section-summary">
+        <h1 class="section-heading">When to consider working with us?</h1>
+      </div>
+      <div>
+        <ul class="flex-blocks flex-blocks-nowrap">
+          <li>
+            <div>
+              <div class="number">1</div>
+              <h3>You want to increase awareness</h3>
+              <p>You want to increase brand awareness among the right people at the right companies in the right markets and industries</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div class="number">2</div>
+              <h3>You want more high-quality leads</h3>
+              <p>You want to increase the amount of consistent inbound, sales-qualified leads your marketing initiatives generate.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div class="number">3</div>
+              <h3>There's just not enough time</h3>
+              <p>Growing your business is important to you but you have a business to run and customers to serve. You want a strategic partner to help build and sustain new opportunities.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div class="number">4</div>
+              <h3>You want to be a trusted authority</h3>
+              <p>You want to be the go-to-source for potential customers to turn at all stages of their buyers journey, providing valuable and informative information that helps influence purchasing decisions when it matters. </p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div class="number">5</div>
+              <h3>You want quantifiable results</h3>
+              <p>You want to ensure your marketing and sales efforts are resulting in a positive return on investment.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div>
+        {{ button.link('/solutions.html', 'Sound good? Learn more') }}
+      </div>
+    </div>
+  </div> 
+</section>

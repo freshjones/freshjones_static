@@ -15,8 +15,8 @@
     <div class="wrap wrap-center">
       <div class="section-summary">
         <h1 class="section-topic">About FreshJones</h1>
-        <h2 class="section-heading">We're here for you.</h2>
-        <p class="section-lead">We don't help companies we help people</p>
+        <h2 class="section-heading">We’re a People-to-People Business</h2>
+        <p class="section-lead">Businesses don’t talk to each other — people do.</p>
       </div>
     </div>
   </section>
@@ -26,7 +26,8 @@
       <div class="section-spaced">
         <div class="section-summary">
           <h1 class="section-heading">We grow businesses, build brands and make products better by creating experiences people love.</h1>
-          <p class="section-lead">We find inspiration all around us and bring that curiosity and energy to all of our projects. Our company is built on a love for design and technical innovation. Our starting point is always conceptual, we believe strongly in the balance of strategy and design, both of which are essential to creating relevant, innovative and authentic experiences. At the end of the day, our goal is to work with like-minded people, do great work, work that we enjoy and that helps solve problem, stay human and have fun through it all.</p>
+          <p class="section-lead mb2">We find inspiration all around us and bring that curiosity and energy to all of our projects. Our company is built on a love for design and technical innovation. Our starting point is always conceptual, we believe strongly in the balance of strategy and design, both of which are essential to creating relevant, innovative and authentic experiences. At the end of the day, our goal is to work with like-minded people, do great work, work that we enjoy and that helps solve problem, stay human and have fun through it all.</p>
+          <p  class="section-lead mb2">We make sure to get to know you and your goals so we can work together to create your best possible solution.</p>
           <p>{{ button.link('/contact.html', 'Get to Know us') }}</p>
         </div>
       </div>

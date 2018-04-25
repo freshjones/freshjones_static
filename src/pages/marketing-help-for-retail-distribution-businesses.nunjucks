@@ -6,7 +6,7 @@
 {% endblock %}
 
 {% block header %}
-  {{header.active('services')}}
+  {{header.active('solutions')}}
 {% endblock %}
 
 {% block main %} 
@@ -17,9 +17,22 @@
         <h1 class="section-topic">Marketing For Retailers</h1>
         <h2 class="section-heading">Solutions that Create Loyal Customers</h2>
         <p class="section-lead">Data-driven digital, marketing and brand solutions designed for the expectations of high-value consumers.</p>
-        <p>{{ button.scrollto('schedule', 'Lets Schedule a Call') }}</p>
       </div>
     </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Helping Retailers Get Results</h1>
+          <p class="section-lead mb2">Success in retail is about delivering what a customer needs, where and when they need it. Marketing in retail is an ever evolving challenge. you need to know who your customers are, how to reach them, how to engage with them and how to give them what they need to help influence their buying decisions. Retailers understand that the key to greater profit means smart marketing.  But it can be difficult to find the time to focus on growing your business when you're already too busy running it. </p>
+          <p class="section-lead mb2">We get that and we want to help.</p>
+          <p class="section-lead mb2">We know you don't have time to deal with complicated technology or trial and error processes, you need to make fast smart decisions that get results and don't take up much of your time. Our result-driven small business marketing solutions are designed to do just that. We do all the work for you, we offer easy setup, hands-on support and packaged done-for-you services that get the results you're looking for without taking up any of your time. We know getting and keeping customers and driving sales is your main priority, we can help make those goals a reality and help keep your business healthy and growing both now and into the future.</p>
+          <p>{{ button.scrollto('schedule', 'Sound Good? Lets Talk') }}</p>
+        </div>
+      </div>
+    </div> 
   </section>
 
   {{playbooks.consult('Retail and Distributor Solutions','Marketing for Retailer and Distributors')}}

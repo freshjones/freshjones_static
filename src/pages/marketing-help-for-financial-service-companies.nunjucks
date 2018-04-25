@@ -6,7 +6,7 @@
 {% endblock %}
 
 {% block header %}
-  {{header.active('services')}}
+  {{header.active('solutions')}}
 {% endblock %}
 
 {% block main %} 
@@ -14,12 +14,43 @@
   <section class="hero-stark">
     <div class="wrap wrap-center">
       <div class="section-summary">
-        <h1 class="section-topic">Solutions For Financial Services</h1>
+        <h1 class="section-topic">Marketing for Financial Services</h1>
         <h2 class="section-heading">Helping Financial Service Teams Get Results</h2>
         <p class="section-lead">Strategic technology, marketing and branding solutions for banking, venture capital, private equity, and financial industry brands.</p>
-        <p>{{ button.scrollto('schedule', 'Lets Schedule a Call') }}</p>
       </div>
     </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Earning and keeping financial relationships through outstanding service</h1>
+          <p class="section-lead mb2">We believe great Fintech marketing should not only attract and convert but drive sustained growth. We help financial service companies create marketing and sales programs that build brand awareness and trust, generate high-quality leads and earn customers. We have over 25 years of experience working in and understanding the unique requirements of your business.</p>
+
+          <p class="section-lead mb2">Our experience, knowledge and expertise and commitment to service can provide your business with a vital resource you know you can rely on to provide specialized services such as offering memorandums, financial reporting, prospectuses, annual meeting presentations, annual reports, investment portfolio profiles.</p>
+
+          <p class="section-lead mb2">We’ll help you translate your growth goals into a tangible, measurable strategies focusing on both long and short-term growth goals. Our experience working in and around financial services means we'll be productive from day one, provide valuable industry and market insights and working with you to develop and implement a growth strategy to meet and exceed your businesses expectations.</p>
+
+          <p>{{ button.scrollto('schedule', 'Sound Good? Lets Talk') }}</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="home-crafting section-right section-background">
+    <div class="wrap wrap-right">
+      <div>
+        <div class="section-image">
+          <img src="/images/crafting-small.jpg">
+        </div>
+        <div class="section-summary">
+          <p class="section-lead mb2">&quot;Beginning with a revitalization of our logo, FreshJones has worked with us to establish a visual identity system that clearly, consistently and effectively communicates the core values of the Great Hill brand to its key stakeholders.</p>
+          <p class="section-lead mb2">They're easy to work with, they bring great ideas to the table and we know we can rely on them to deliver even under pressure.&quot;</p>
+          <p>&mdash; Great Hill Partners</p>
+        </div>
+      </div>
+    </div> 
   </section>
 
   {{playbooks.consult('Lets Talk','Financial Service Businesses')}}

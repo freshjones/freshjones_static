@@ -1,12 +1,13 @@
-<section class="services-intro">
-  <div class="wrap wrap-center wrap-center-narrow">
-    <div class="section-spaced">
-      <div class="section-summary">
-        <h1 class="section-heading">Everything starts with a good plan</h1>
-        <p class="section-lead">As a business you want to be there when a customer needs you or a new opportunity presents itself, whether that moment is online or off. Our range of services help ensure your business is where it needs to be to make the most impact. That’s why everything we do starts with a strategic focus. </p>
+
+<section class="home-crafting section-right section-background">
+  <div class="wrap wrap-right">
+    <div>
+      <div class="section-image">
+        <img src="/images/crafting-small.jpg">
       </div>
-      <div>
-        {{ button.link('/strategic-planning.html', 'Learn More') }}
+      <div class="section-summary">
+        <div class="section-heading">Crafting beautifully functional solutions that grow businesses.</div>
+        <p class="section-lead">Offering strategy, design, and technology services to regional and national brands. We use a strategy-driven approach to create meaningful and relevant projects that help tell your story, engage with your audience and achive business results.</p>
       </div>
     </div>
   </div> 
