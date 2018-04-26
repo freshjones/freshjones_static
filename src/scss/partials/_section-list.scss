@@ -40,3 +40,66 @@
 {
   column-count: 3;
 }
+
+.section-numbered-list,
+.section-numbered-list > div > div
+{
+  display:flex;
+  text-align: left;
+}
+
+.section-numbered-list > div > div
+{
+  padding:20px;
+}
+
+.section-numbered-list h5
+{
+  font-size:150%;
+  color:$green;
+  font-weight:bold;
+  padding-right:10px;
+}
+.section-numbered-list p
+{
+  margin: 2px 0 0 0;
+  font-weight:bold;
+}
+
+.section-long-list
+{
+  display:flex;
+  text-align: left;
+  margin-top:40px;
+}
+
+.section-long-list > div
+{
+  flex:1 1 100%;
+  padding:0 20px;
+  font-size:90%;
+}
+
+.section-long-list > div > div
+{
+  margin-bottom:20px;
+}
+
+.section-long-list h3,
+.section-long-list p
+{
+  margin:0;
+}
+
+.section-long-list h3
+{
+  text-transform:uppercase;
+  font-size:110%;
+  font-weight:bold;
+}
+
+.knockout .section-long-list h3
+{
+  color:$green;
+}
+

@@ -1,6 +1,6 @@
-<div class="column-list">
+<div class="technology-list">
   <ul>
-    <li><span class="heading">Backend</span>
+    <li><span class="heading">Back-end</span>
       <ul>
         <li>Drupal Development
           <ul>
@@ -13,6 +13,7 @@
         <li>Custom PHP Development
           <ul>
             <li>Custom built Applications</li>
+            <li>Laravel</li>
             <li>Api Development
               <ul>
                 <li>REST</li>
@@ -31,29 +32,24 @@
   <ul>
     <li><span class="heading">Front-end</span>
       <ul>
-        <li>Responsive</li>
-        <li>Javascript Frameworks/Libraries</li>
-        <li>CSS</li>
+        <li>Responsive Design</li>
+        <li>Javascript Frameworks/Libraries
+          <ul>
+            <li>JQuery</li>
+            <li>React</li>
+            <li>Node.js</li>
+          </ul>
+        </li>
+        <li>CSS
+          <ul>
+            <li>Sass</li>
+            <li>PostCss</li>
+            <li>BEM/SMACSS</li>
+          </ul>
+        </li>
         <li>Build Tools</li>
         <li>Progressive Web Apps</li>
-      </ul>
-    </li>
-  </ul>
-  <ul>
-    <li><span class="heading">Methodology</span>
-      <ul>
-        <li>OOP (MVC, SOLID)</li>
-        <li>Functional programming</li>
-        <li>Agile Development</li>
-      </ul>
-    </li>
-  </ul>
-  <ul>
-    <li><span class="heading">Testing</span>
-      <ul>
-        <li>Unit Testing - PhpUnit</li>
-        <li>E2E Selenium</li>
-        <li>React - Jest</li>
+        <li>User Experience/Interface Design</li>
       </ul>
     </li>
   </ul>
@@ -63,6 +59,19 @@
         <li>Version Control - GIT</li>
         <li>Continuous Deployment</li>
         <li>Continuous Integration</li>
+      </ul>
+    </li>
+    <li><span class="heading">Testing</span>
+      <ul>
+        <li>Unit Testing - PhpUnit</li>
+        <li>E2E Selenium</li>
+        <li>React - Jest</li>
+      </ul>
+    </li>
+    <li><span class="heading">Local Dev</span>
+      <ul>
+        <li>Vagrant</li>
+        <li>Docker</li>
       </ul>
     </li>
   </ul>
@@ -110,11 +119,13 @@
       </ul>
     </li>
   </ul>
+
   <ul>
-    <li><span class="heading">Local Dev</span>
+    <li><span class="heading">Methodologies</span>
       <ul>
-        <li>Vagrant</li>
-        <li>Docker</li>
+        <li>OOP (MVC, SOLID)</li>
+        <li>Functional programming</li>
+        <li>Agile Development</li>
       </ul>
     </li>
   </ul>

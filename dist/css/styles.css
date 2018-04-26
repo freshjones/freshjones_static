@@ -418,7 +418,7 @@ $size-1: $size-default * 4 - 8px;
 }
 
 .smaller {
-  font-size: 90% !important;
+  font-size: 85% !important;
 }
 
 .larger {
@@ -427,6 +427,10 @@ $size-1: $size-default * 4 - 8px;
 
 .thin {
   font-weight: 300 !important;
+}
+
+.muted {
+  opacity: .65;
 }
 
 .bold {
@@ -485,6 +489,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
+  overflow-x: hidden;
 }
 
 a {
@@ -558,6 +563,20 @@ h6, .h6 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.right-image img {
+  position: absolute;
+  bottom: -65px;
+  right: -175px;
+  width: 60%;
+}
+
+.left-image img {
+  position: absolute;
+  bottom: -65px;
+  left: -175px;
+  width: 60%;
 }
 
 /*
@@ -1355,15 +1374,31 @@ button, input, optgroup, select, textarea {
   display: block;
 }
 
+.technology-list {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 20px;
+  color: #333;
+}
+
+.technology-list > ul {
+  padding: 20px;
+  margin: 0;
+  background-color: #efefef;
+  color: #666;
+  border-radius: 5px;
+}
+
 .technology-list ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
   text-align: left;
-  font-weight: 400;
 }
 
 .technology-list ul ul {
+  padding: 10px 20px 0 0;
+}
+
+.technology-list ul ul ul {
   padding: 0 20px;
 }
 
@@ -1387,6 +1422,9 @@ button, input, optgroup, select, textarea {
     align-items: flex-start;
     justify-content: space-between;
     display: flex;
+  }
+  .column-list > div {
+    flex: 1 1 100%;
   }
   .column-list-3col {
     flex-wrap: wrap;
@@ -1449,6 +1487,59 @@ button, input, optgroup, select, textarea {
           column-count: 3;
 }
 
+.section-numbered-list,
+.section-numbered-list > div > div {
+  display: flex;
+  text-align: left;
+}
+
+.section-numbered-list > div > div {
+  padding: 20px;
+}
+
+.section-numbered-list h5, .section-numbered-list .h5 {
+  font-size: 150%;
+  color: #3fa208;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.section-numbered-list p {
+  margin: 2px 0 0 0;
+  font-weight: bold;
+}
+
+.section-long-list {
+  display: flex;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.section-long-list > div {
+  flex: 1 1 100%;
+  padding: 0 20px;
+  font-size: 90%;
+}
+
+.section-long-list > div > div {
+  margin-bottom: 20px;
+}
+
+.section-long-list h3, .section-long-list .h3,
+.section-long-list p {
+  margin: 0;
+}
+
+.section-long-list h3, .section-long-list .h3 {
+  text-transform: uppercase;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.knockout .section-long-list h3, .knockout .section-long-list .h3 {
+  color: #3fa208;
+}
+
 .knockout {
   background-color: #333;
   color: #999999;
@@ -1484,17 +1575,20 @@ button, input, optgroup, select, textarea {
   color: #999;
 }
 
-.knockout h3, .knockout .h3 {
-  margin-top: 125px;
-  line-height: 1.25;
-  color: #fff;
+/*
+.knockout h3
+{ 
+  margin-top:125px;
+  line-height:1.25;
+  color:#fff;
 }
 
-.knockout p {
-  line-height: 1.75;
-  font-size: 15px;
+.knockout p
+{
+  line-height:1.75;
+  font-size:15px;
 }
-
+*/
 .knockout li > div {
   position: relative;
   z-index: 0;
@@ -1622,6 +1716,98 @@ header .social-icons svg:hover {
 
 .solutions-quote-chroma {
   background-image: url("/images/chroma-laptop.jpg");
+}
+
+.service-plugs h2, .service-plugs .h2 {
+  margin-bottom: 40px;
+}
+
+.service-plug {
+  margin-bottom: 30px;
+}
+
+/*
+.service-plug:after
+{
+  content: "";
+  display: block;
+  margin-top:20px;
+  width:20%;
+  border-bottom:solid 1px #ccc;
+}
+*/
+.service-plug h3, .service-plug .h3 {
+  margin: 0;
+}
+
+.service-plug p {
+  margin: 0 0 10px 0;
+}
+
+.service-plug h3, .service-plug .h3 {
+  color: #fff;
+}
+
+.grid-3col {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 20px;
+}
+
+.grid-2col {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
+}
+
+.grid {
+  text-align: left;
+}
+
+.grid-boxes > div {
+  padding: 30px;
+  text-align: left;
+  background: #efefef;
+  min-height: 100px;
+  border-radius: 10px;
+  border: solid 1px #ccc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.knockout .grid-boxes > div {
+  color: gray;
+  background: #1a1a1a;
+}
+
+.section-quote {
+  display: flex;
+  text-align: left;
+}
+
+.section-quote > div {
+  width: 60%;
+}
+
+.section-quote .quote p {
+  margin: 0;
+}
+
+.section-quote .quote {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  color: #3fa208;
+  font-size: 175%;
+  font-weight: 300;
+  padding-right: 40px;
+  text-align: right;
+}
+
+.section-quote .quote .source {
+  font-size: 60%;
+  color: #ccc;
+  display: inline-block;
+  margin-left: 10px;
 }
 
 .hero {

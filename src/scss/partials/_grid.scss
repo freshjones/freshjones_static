@@ -1,0 +1,35 @@
+.grid-3col
+{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 20px;
+}
+
+.grid-2col
+{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
+}
+
+.grid
+{
+  text-align: left;
+}
+
+.grid-boxes > div
+{
+  padding:30px;
+  text-align: left;
+  background: #efefef;
+  min-height:100px;
+  border-radius:10px;
+  border:solid 1px #ccc;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.knockout .grid-boxes > div
+{
+  color: darken(#fff,50%);
+  background: darken(#333,10%);
+}

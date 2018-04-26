@@ -36,16 +36,36 @@
 }
 
 
+.technology-list
+{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 20px;
+  color: #333;
+}
+
+.technology-list > ul
+{
+  padding:20px;
+  margin:0;
+  background-color: #efefef; //$soft-green;
+  color: #666; //#fff;
+  //font-size:115%;
+  border-radius: 5px;
+}
+
 .technology-list ul
 {
-  list-style:none;
-  margin:0;
-  padding: 0;
-  text-align:left;
-  font-weight: 400;
+  list-style: none;
+  text-align: left;
 }
 
 .technology-list ul ul
+{
+  padding: 10px 20px 0 0;
+}
+
+.technology-list ul ul ul
 {
   padding: 0 20px;
 }
@@ -75,6 +95,11 @@
     align-items: flex-start;
     justify-content: space-between;
     display:flex;
+  }
+  
+  .column-list > div
+  {
+    flex:1 1 100%;
   }
 
   .column-list-3col {

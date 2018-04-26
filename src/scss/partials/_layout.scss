@@ -7,6 +7,22 @@
   margin-right: auto;
 }
 
+
+.right-image img
+{
+  position: absolute;
+  bottom: -65px;
+  right: -175px;
+  width: 60%;
+}
+.left-image img
+{
+  position: absolute;
+  bottom: -65px;
+  left: -175px;
+  width: 60%;
+}
+
 /*
 main {
   margin-top: $space-3 + $space-4;

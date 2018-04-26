@@ -1,0 +1,36 @@
+.section-quote
+{
+  display:flex;
+  text-align: left;
+}
+
+.section-quote > div
+{
+  width:60%;
+}
+
+.section-quote .quote p
+{
+  margin:0;
+}
+
+.section-quote .quote
+{
+
+  display:flex;
+  align-items: center;
+  width:40%;
+  color:$green;
+  font-size:175%;
+  font-weight:300;
+  padding-right:40px;
+  text-align: right;
+}
+
+.section-quote .quote .source
+{
+  font-size:60%;
+  color:#ccc;
+  display:inline-block;
+  margin-left:10px;
+}

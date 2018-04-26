@@ -33,7 +33,30 @@
     </div> 
   </section>
 
-  <section class="services-intro">
+  <section class="knockout">
+    <div class="wrap wrap-left">
+      <div class="service-plugs">
+        <h2 class="section-heading">Website Maintenance and Training Services</h2>
+        <div class="service-plug">
+          <h3>Web Maintenance</h3>
+          <p>Ensure your open source software is up-to-date with the latest security updates and patches. We'll ensure your site is backed up properly and perform regular recovery tests.</p>
+        </div>
+        <div class="service-plug">
+          <h3>Website Training</h3>
+          <p>We can ensure you and your staff are completely comfortable working with your content management system. We can provide in-person training, training documentation and videos so that whenever you have a question you and your team have the resources available to get the answers fast.</p>
+        </div>
+        <div class="service-plug">
+          <h3>Website Management</h3>
+          <p>Too busy to keep your site up-to-date? No problem we can help make sure your content is fresh by posting new or updating existing content for you. Just give a call or email and we can take care of everything.</p>
+        </div>
+      </div>
+    </div>
+    <div class="right-image">
+      <img src="/images/WebDevelopmentPowerful.png"/>
+    </div>
+  </section>
+
+  <section class="services-intro ">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
         <div class="section-summary">
@@ -42,64 +65,44 @@
   </p>
         </div>
         <div>
-          <ul class="flex-blocks flex-blocks-center">
-            <li>Drupal core and module updates</li>
-            <li>Wordpress core and plugin updates</li>
-            <li>Drupal CMS Training</li>
-            <li>WordPress CMS Training</li>
-            <li>Training Manuals</li>
-            <li>Training Videos and Screencasts</li>
-            <li>In-person Training Sessions</li>
-          </ul>
-        </div>
-        <div>
-          <p>Not sure which solution is right for you? Give us a call we’ll help you determine the best options for your needs.</p>
-          {{ button.link('/strategic-planning.html', 'Lets get to work') }}
+          <div class="grid-3col grid-boxes">
+            <div>Drupal core and module updates</div>
+            <div>Wordpress core and plugin updates</div>
+            <div>Drupal CMS Training</div>
+            <div>WordPress CMS Training</div>
+            <div>Training Manuals</div>
+            <div>Training Videos and Screencasts</div>
+            <div>In-person Training Sessions</div>
+            <div>Content updates and edits</div>
+            <div>Audits and site reviews</div>
+          </div>
         </div>
       </div>
     </div> 
   </section>
 
 
-  <section class="services-intro">
-    <div class="wrap wrap-center wrap-center-narrow">
-      <div class="section-spaced">
-        <div class="section-summary">
-          <h1 class="section-heading">Scalable Solutions</h1>
-          <p class="section-lead">Our web maintenance and training services are typically used in conjunction with our <a href="/website-design-and-developent.html">web development services</a>, but are also offered as stand-alone services.</p>
-        </div>
-        <div>
-          <ul class="flex-blocks">
-            <li>
-              <div>
-                <h3>Small business owner/solopreneur</h3>
-                <p>Affordable plans, Gain immediate impact for your business, Free’s your time to work on your business</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <h3>Technology Manager</h3>
-                <p>Help during heavy times without the need to hire, Act as an extension of your team, Provide you clients with additional capabilities</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <h3>Technology Manager</h3>
-                <p>Gain a resource that has your back and that you can rely on, feel confident and secure knowing an experienced team with a diverse range of platforms, languages, and tools will keep your company up-to-date with industry standards, best-practices and cost-saving approaches to technology</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div> 
-  </section>
+  
 
-    <section class="services-intro">
-    <div class="wrap wrap-center wrap-center-narrow">
+  <section class="section-background">
+    <div class="wrap wrap-left">
       <div class="section-spaced">
         <div class="section-summary">
           <h1 class="section-heading">Why Would I Need a Maintenance Plan?</h1>
           <p>Without a maintenance plan in place you put your website and your business at risk by allowing your CMS and its code to go un-monitored for potential security breaches. This is especially important if you are using an open-source CMS such as Wordpress or Drupal simply because the shear number of sites using this software makes it a high-value target for hackers to try and exploit. Of course this is also a great benefit of an open-source CMS, because we can use the  power of a large community of users to help uncover, create fixes for and let us know about vulnerabilities. It’s still the responsibility of the website owner to take advantage of this information and proactively monitor and apply any outstanding security patches.</p>
+        </div>
+      </div>
+    </div> 
+    <div class="right-image">
+      <img src="/images/WebMaintenance.png"/>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Ensure your editors and managers feel comfortable editing your site.</h1>
           <p>Without training your staff on the proper use of your CMS you risk lost time in resources who aren’t able to efficiently carry out their task requirements, or are forced to google and fumble their way through. And in extreme cases could potentially cause problems with the site simply because they weren’t aware of the implications of their actions. This again is more prevalent with an open-source CMS such as Drupal or Wordpress where the amount of functionality and workflow can be overwhelming without proper training and understanding.</p>
         </div>
       </div>
@@ -141,7 +144,7 @@ Reach market faster - Trained and confident staff will be able to quickly and ac
     </div> 
   </section>
 
-  {{playbooks.book('Web Maintenance and Training','Web Maintenance and Training')}}
+  {{playbooks.consult('Web Maintenance and Training','Web Maintenance and Training')}}
 
 
 {% endblock %}

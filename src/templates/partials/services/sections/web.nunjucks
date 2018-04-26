@@ -9,235 +9,56 @@
         <div class="section-heading">Web + Mobile</div>
         <p class="section-lead">Everything starts online. Turn leads into customers and customers into promoters by giving them a great online experience.</p>
       </div>
-      <div>
-        <p>{{ button.link('/web-mobile-services.html', 'Learn More') }}</p>
-      </div>
     </div>
   </div> 
 </section>
-
 <section class="home-services">
-  <div class="wrap wrap-center">
-    <div>
-      <div class="services-list">
-        <div>
-          <div class="icon">
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
- viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
-            <g>
-              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
-                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
-                C37,3.2,35.8,2,34.4,2H4.6z"/>
-              <g>
-                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
-                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
-              </g>
-              <g>
-                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
-                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
-              </g>
-              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
-              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
-                C25.9,47.6,25.5,48,25.1,48z"/>
-              <g>
-                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
-              </g>
-              <g>
-                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
-                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
-                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
-              </g>
-            </g>
-            </svg>
+    <div class="wrap wrap-center">
+      <div>
+        <div class="services-list">
+          <div>
+            <div>
+              <h3>Responsive Website Design</h3>
+              <p>For many of your customers, a visit to your website will be their first interaction with your brand. Make it count with a well-designed website thats fast, easy to navigate and optimized for any device your customers use.</p>
+              <p>{{ button.link('/responsive-web-design.html', 'Learn More', 'link') }}</p>
+            </div>
           </div>
           <div>
-            <h3>Website Design</h3>
-            <p>Everything starts online. Turn leads into customers and customers into promoters by giving them a great online experience.</p>
-            <p>{{ button.link('/website-design-and-development.html', 'Learn More', 'link') }}</p>
-          </div>
-        </div>
-        <div>
-          <div class="icon">
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
- viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
-            <g>
-              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
-                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
-                C37,3.2,35.8,2,34.4,2H4.6z"/>
-              <g>
-                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
-                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
-              </g>
-              <g>
-                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
-                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
-              </g>
-              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
-              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
-                C25.9,47.6,25.5,48,25.1,48z"/>
-              <g>
-                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
-              </g>
-              <g>
-                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
-                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
-                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
-              </g>
-            </g>
-            </svg>
+            <div>
+              <h3>Website Development</h3>
+              <p>Engineering content management systems, custom product and applications and ecommerce websites. Build a powerful optimized web experience or your business.</p>
+              <p>{{ button.link('/website-design-and-developent.html', 'Learn More', 'link') }}</p>
+            </div>
           </div>
           <div>
-            <h3>Website Development</h3>
-            <p>Ready to put your website to work? Lets amplify your digital and creative efforts with digital marketing services.</p>
-            <p>{{ button.link('/website-design-and-development.html', 'Learn More', 'link') }}</p>
-          </div>
-        </div>
-        <div>
-          <div class="icon">
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
- viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
-            <g>
-              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
-                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
-                C37,3.2,35.8,2,34.4,2H4.6z"/>
-              <g>
-                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
-                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
-              </g>
-              <g>
-                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
-                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
-              </g>
-              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
-              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
-                C25.9,47.6,25.5,48,25.1,48z"/>
-              <g>
-                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
-              </g>
-              <g>
-                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
-                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
-                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
-              </g>
-            </g>
-            </svg>
+            <div>
+              <h3>Mobile Apps</h3>
+              <p>Whether you’re a startup with a new idea or a business looking to expand your reach and increase customer engagement building an well-designed, easy to use mobile app can be a great solution.</p>
+              <p>{{ button.link('/mobile-application-development.html', 'Learn More', 'link') }}</p>
+            </div>
           </div>
           <div>
-            <h3>Mobile Apps</h3>
-            <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
-            <p>{{ button.link('/mobile-application-development.html', 'Learn More', 'link') }}</p>
-          </div>
-        </div>
-        <div>
-          <div class="icon">
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
- viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
-            <g>
-              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
-                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
-                C37,3.2,35.8,2,34.4,2H4.6z"/>
-              <g>
-                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
-                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
-              </g>
-              <g>
-                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
-                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
-              </g>
-              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
-              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
-                C25.9,47.6,25.5,48,25.1,48z"/>
-              <g>
-                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
-              </g>
-              <g>
-                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
-                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
-                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
-              </g>
-            </g>
-            </svg>
+            <div>
+              <h3>Cloud Hosting and Management</h3>
+              <p>Feel confident and secure that your digital assets are secure, monitored and high performing. Let our engineers manage your web infrastructure requirements.</p>
+              <p>{{ button.link('/cloud-hosting-and-management.html', 'Learn More', 'link') }}</p>
+            </div>
           </div>
           <div>
-            <h3>Cloud Hosting and Management</h3>
-            <p>Everything starts online. Turn leads into customers and customers into promoters by giving them a great online experience.</p>
-            <p>{{ button.link('/cloud-hosting-and-management.html', 'Learn More', 'link') }}</p>
-          </div>
-        </div>
-        <div>
-          <div class="icon">
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
- viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
-            <g>
-              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
-                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
-                C37,3.2,35.8,2,34.4,2H4.6z"/>
-              <g>
-                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
-                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
-              </g>
-              <g>
-                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
-                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
-              </g>
-              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
-              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
-                C25.9,47.6,25.5,48,25.1,48z"/>
-              <g>
-                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
-              </g>
-              <g>
-                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
-                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
-                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
-              </g>
-            </g>
-            </svg>
+            <div>
+              <h3>Website Maintenance</h3>
+              <p>Make sure your web applications stays secure and up-to-date and running smoothly and without issue with services such as backup and recovery, updates and security patches, training and more.</p>
+              <p>{{ button.link('/website-maintenance-and-training.html', 'Learn More', 'link') }}</p>
+            </div>
           </div>
           <div>
-            <h3>Website Maintenance</h3>
-            <p>Ready to put your website to work? Lets amplify your digital and creative efforts with digital marketing services.</p>
-            <p>{{ button.link('/website-maintenance-and-training.html', 'Learn More', 'link') }}</p>
-          </div>
-        </div>
-        <div>
-          <div class="icon">
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
- viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
-            <g>
-              <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
-                C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
-                C37,3.2,35.8,2,34.4,2H4.6z"/>
-              <g>
-                <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
-                <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
-              </g>
-              <g>
-                <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
-                <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
-              </g>
-              <circle class="st0" cx="19.5" cy="4.7" r="1"/>
-              <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
-                C25.9,47.6,25.5,48,25.1,48z"/>
-              <g>
-                <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
-              </g>
-              <g>
-                <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
-                  C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
-                  C25.2,22.5,22.7,19.9,19.6,19.9z"/>
-              </g>
-            </g>
-            </svg>
-          </div>
-          <div>
-            <h3>Chatbots &amp; Voice Agents</h3>
-            <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
-            <p>{{ button.link('/chatbot-and-voice-agent-development.html', 'Learn More', 'link') }}</p>
+            <div>
+              <h3>Chatbots &amp; Voice Agents</h3>
+              <p>Take advantage of conversational marketing with a chatbot or voice agent engineered to help convert more leads, influence purchasing decisions, automate sales or human resource processes and more.</p>
+              <p>{{ button.link('/chatbot-andvoice-agent-development.html', 'Learn More', 'link') }}</p>
+            </div>
           </div>
         </div>
       </div>
-      
-    </div>
-  </div> 
-</section>
+    </div> 
+  </section>

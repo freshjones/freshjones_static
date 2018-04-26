@@ -24,68 +24,54 @@
     </div>
   </section>
 
-  <section class="services-intro">
+  <section>
     <div class="wrap wrap-center wrap-center-narrow">
-      <div class="section-spaced">
+      <div>
         <div class="section-summary">
-          <h1 class="section-heading">Conversational marketing is here.</h1>
-          <p>With automated chatbots and voice agents, your business can have conversations with one person or thousands all at the same time. And instead of needing to search and find information on their own, your users can just ask questions and get answers, without waiting and always with the language and tone that's right for your business.</p>
-          <p>Chatbots get your business in front of more potential customers, help influence purchasing decisions and can even take orders and close sales. You can also use chatbots to answer oft-repeated customer support or human resource issues, and much more.</p>
-          <p>Save money, increase sales and give your users the service they want and an edge your competition doesn’t have.</p>
-          <p>Make conversation part of your marketing strategy with smart automated chatbots, and may the force be with you!</p>
+          <div class="section-heading">Conversational marketing is here.</div>
+          <div class="section-quote">
+             <div class="quote">
+              <div>
+                <p>"45.8% of consumers would rather communicate with a business through a messaging app than email."<span class="source">(ubisend, 2016)</span></p>
+              </div>
+            </div>
+            <div>
+              <p >With automated chatbots and voice agents, your business can have conversations with one person or thousands all at the same time. And instead of needing to search and find information on their own, your users can just ask questions and get answers, without waiting and always with the language and tone that's right for your business.</p>
+              <p >Chatbots get your business in front of more potential customers, help influence purchasing decisions and can even take orders and close sales. You can also use chatbots to answer oft-repeated customer support or human resource issues, and much more.</p>
+              <p >Save money, increase sales and give your users the service they want and an edge your competition doesn’t have.</p>
+              <p >Make conversation part of your marketing strategy with smart automated chatbots, and may the force be with you!</p>
+            </div>
+          </div>
         </div>
       </div>
     </div> 
   </section>
 
-
-  <section class="services-intro">
-    <div class="wrap wrap-center wrap-center-narrow">
-      <div class="section-spaced">
-        <div class="section-summary">
-          <h1 class="section-heading">Why Would I Need a Chatbot For My Business?</h1>
-          <ul class="section-list">
-            <li>Users have a small core of apps they use daily and often download new apps often and even when they do their used for a short time and never again. Chatbots can be operated within a users core app meaning it might be a better investment than building an app</li>
-            <li>Personalized one-to-one experience answering customers specific needs and requirements</li>
-            <li>Customer service is available 24/7 provide a great user experience and answer repetitive questions freeing your resources to be used more effectively</li>
-            <li>Monitor consumer data and gain insights</li>
-            <li>Get better more qualified leads by guiding the customers along the buyer's journey by asking the right questions and ensuring users are moving toward conversion</li>
-            <li>It gets higher open and response rates that email and it gives users immediate feedback and responses</li>
-            <li>Personalized ads</li>
-            <li>Proactively engage customers</li>
-            <li>Dont make users wait on hold for the next available operator, smart bots can answer their questions and help them with their needs with a faster better experience</li>
-            <li>improve your customer satisfaction bots never get tired, always respond appropriately, can have thousands of conversations at once and are available 24/7.</li>
-            <li>One time investment that helps reduce staff requirements, answering simple questions and passing more complex questions to actual humans</li>
-            <li>Get more satisfied customers. Chatbots are always in a good mood, are always polite no matter how mean the customer is and can even be trained to respond in the language of the customer</li>
-            <li>Reduce repetitive work</li>
-            <li>Real-time help</li>
-            <li>Human resources - employees would rather ask than self-serve</li>
-          </ul>
+  <section class="knockout">
+    <div class="wrap wrap-left">
+      <div class="service-plugs">
+        <h2 class="section-heading">Build Your Custom Chatbot or Voice Agent</h2>
+        <div class="service-plug">
+          <h3>Website Assistant</h3>
+          <p>Give your website a personal assistant. Qualify leads on your website without forms, book meetings for your sales team and answer peoples questions 24/7</p>
+        </div>
+        <div class="service-plug">
+          <h3>Facebook Messenger Bot</h3>
+          <p>Facebook Messenger provides a unique channel to connect businesses directly to customers with highly engaging Chat interactions. Users opt in through their Facebook profile and stay connected to receive personalized messages and interact with brands when they are ready to buy.</p>
+        </div>
+        <div class="service-plug">
+          <h3>Amazon Alexa</h3>
+          <p>Using Alexa voice technology to create voice experiences between users and businesses. From help with homework to a live football score to keeping your kids entertained before dinner the possibilities are endless.</p>
         </div>
       </div>
-    </div> 
+    </div>
+    <div class="right-image">
+      <img src="/images/messenger.png"/>
+    </div>
   </section>
 
 
-  <section class="services-intro">
-    <div class="wrap wrap-center wrap-center-narrow">
-      <div class="section-spaced">
-        <div class="section-summary">
-          <h1 class="section-heading">How Can FreshJones Help with Chatbot or Voice Agent Development?</h1>
-          <ul class="section-list">
-            <li>Strategically focused</li>
-            <li>Integrate into your overall marketing/business strategy</li>
-            <li>Build user personas</li>
-            <li>Help determine purpose and usages appropriate for your business</li>
-            <li>We learn about your business and its products and services to help build the tool you need</li>
-          </ul>
-        </div>
-      </div>
-    </div> 
-  </section>
-
-
-  <section class="services-intro">
+  <section>
     <div class="wrap wrap-center wrap-full wrap-center-narrow">
       <div class="section-spaced">
         <div class="section-summary">
@@ -149,18 +135,67 @@
     </div> 
   </section>
 
-  <section class="services-intro">
-    <div class="wrap wrap-center wrap-center-narrow">
-      <div class="section-spaced">
-        <div class="section-summary">
-          <h1 class="section-heading">Why would I Need help Building a Chatbot?</h1>
-          <ul class="section-list">
-            <li>You have a business to run!</li>
-          </ul>
+
+  <section class="knockout">
+    <div class="wrap wrap-center">
+      <div >
+        <div >
+          <h2 class="section-heading mb3">Advantages of using a chatbot for your business</h2>
+          <div class="section-long-list">
+            <div>
+              <div>
+                <h3>Better engagement</h3>
+                <p>Users have a small core of apps they use daily and often download new apps often and even when they do their used for a short time and never again. Chatbots can be operated within a users core app meaning it might be a better investment than building an app</p>
+              </div>
+              <div>
+                <h3>Available 24/7</h3>
+                <p>Customer service is available 24/7 provide a great user experience and answer repetitive questions freeing your resources to be used more effectively</p>
+              </div>
+              <div>
+                <h3>Better engagement</h3>
+                <p>Proactively engage customers and get better more qualified leads by guiding the customers along the buyer's journey by asking the right questions and ensuring users are moving toward conversion</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h3>Better Responses</h3>
+                <p>It gets higher open and response rates that email and it gives users immediate feedback and responses</p>
+              </div>
+              <div>
+                <h3>Personalized</h3>
+                <p>Personalized one-to-one experience answering customers specific needs and requirements, along with personalized advertising opportunities</p>
+              </div>
+              <div>
+                <h3>Customer Service</h3>
+                <p>Dont make users wait on hold for the next available operator, smart bots can answer their questions and help them with their needs with a faster better experience</p>
+              </div>
+              <div>
+                <h3>Just Ask</h3>
+                <p>People naturally would rather ask a question than try to search and find answers on their own.</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h3>Customer Satisfaction</h3>
+                <p>improve your customer satisfaction bots never get tired, always respond appropriately, can have thousands of conversations at once and are available 24/7.</p>
+              </div>
+              <div>
+                <h3>Save Money</h3>
+                <p>One time investment that helps reduce staff requirements, answering simple questions and passing more complex questions to actual humans</p>
+              </div>
+              <div>
+                <h3>Automation</h3>
+                <p>Provide real-time help and automate repetitive tasks and responses</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div> 
   </section>
+
+
+
 
 
   <section class="services-intro">
@@ -170,7 +205,7 @@
           <h1 class="section-heading">How Could You Use a Chatbot?</h1>
         </div>
         <div>
-          <ul class="flex-blocks">
+          <ul class="flex-blocks flex-blocks-nowrap">
             <li>
               <div>
                 <h3>Sales</h3>
