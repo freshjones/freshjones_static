@@ -133,44 +133,71 @@
 </section>
 
 
-<section class="section-right knockout">
-  <div class="wrap wrap-right wrap-center-narrow">
-    <div>
-      <div class="section-summary">
-        <h2 class="section-heading">Why would I need a strategic plan?</h2>
-        <div class="section-list section-list-bullets">
-          <div>You’re not seeing a return on your marketing efforts</div>
-          <div>You want to grow</div>
-          <div>Your sales are declining</div>
-          <div>You’re launching a new product</div>
-          <div>You’re moving into a new market</div>
-          <div>You’re looking to target a new audience</div>
-          <div>Your market share is being threatened by competition</div>
-        </div>
-      </div>
-    </div>
-  </div> 
-</section>
-
-
-<section class="services-intro">
+<section class="services-intro knockout">
   <div class="wrap wrap-center wrap-center-narrow">
     <div class="section-spaced">
       <div class="section-summary">
-        <h2 class="section-heading">Digital emphasis not digital only</h2>
-        <ul class="section-list section-list-bullets">
-          <li>Digital alone will end up costing more and not produce as good results with low brand awareness and brand affinity</li>
-          <li>Brand dilution and erosion</li>
-          <li>Better overall understanding of your customers, the channels they prefer, their behaviors, etc.</li>
-          <li>Customers perception of your business will be synonymous within its market</li>
-          <li>Improve overall targeting and increase conversion rates</li>
-          <li>Increased visibility</li>
-          <li>Increasing the chances that a consumer will take action</li>
-        </ul>
+        <h2 class="section-heading">Why would I need a strategic plan?</h2>
+        <div class="section-numbered-list">
+          <div>
+            <div>
+              <h5>1</h5>
+              <p>You’re not seeing a return on your marketing efforts</p>
+            </div>
+            <div>
+              <h5>2</h5>
+              <p>You want to grow your business and want a plan to accomplish your goals</p>
+            </div>
+            <div>
+              <h5>3</h5>
+              <p>Your sales are declining and you need to turn things around</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h5>4</h5>
+              <p>You’re launching a new product or service</p>
+            </div>
+            <div>
+              <h5>5</h5>
+              <p>You’re introducing your business to a new market or industry</p>
+            </div>
+            <div>
+              <h5>6</h5>
+              <p>Your market share is being threatened by competition</p>
+            </div>
+          </div>
+
+        </div>
+        
       </div>
     </div>
   </div> 
 </section>
+
+
+
+<section>
+    <div class="wrap wrap-center">
+      <div>
+        <div>
+          <div class="section-quote">
+             <div class="quote">
+              <div>
+                <p>"Companies with extremely strong omnichannel customer engagement retain on average 89% of their customers, compared to 33% for companies with weak omnichannel customer engagement."<span class="source"> (Aberdeen Group)</span></p>
+              </div>
+            </div>
+            <div>
+              <div class="section-heading">Digital emphasis not digital only</div>
+              <p class="section-lead mb2">Why we emphasize an integrated approach to marketing is because a digital alone can end up costing more and produce lower quality results.</p>
+              <p class="section-lead mb2">With an integrated approach to your marketing you'll develop a better overall understanding of your customers, the channels they prefer.</p>
+              <p class="section-lead mb2">By focusing on an overall picture of your customers prefered channels you'll build better awareness and affinity toward your business, this will help result in customers being more aware of your business and the services you can offer them, it helps influence their decisions at purchase time helping you to improve your overall targeting and cost of aquiring a customer as well as increasing the amount of customers and sales your marketing efforts help produce.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
 
 
 <section class="services-intro">
