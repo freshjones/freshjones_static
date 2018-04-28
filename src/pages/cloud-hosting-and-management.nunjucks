@@ -106,48 +106,48 @@
   </section>
 
 
-<section class="home-services">
-  <div class="wrap wrap-center">
-    <div>
-      <div class="section-summary">
-        <div>
-          <h2 class="section-heading">Don't leave things up to chance</h2>
-          <p class="section-lead">By letting us handle your hosting and management needs you get</p>
-        </div>
-      </div>
-      <div class="section-divider">
-        <div></div>
-      </div>
-      <div class="column-list">
-        <div>
+  <section class="home-services">
+    <div class="wrap wrap-center">
+      <div>
+        <div class="section-summary">
           <div>
-            <h3>Flexiblilty and scalablability</h3>
-            <p>easily add new storage or scale as your business need increase</p>
+            <h2 class="section-heading">Don't leave things up to chance</h2>
+            <p class="section-lead">By letting us handle your hosting and management needs you get</p>
           </div>
         </div>
-        <div>
-          <div>
-            <h3>Security and Peace of Mind</h3>
-            <p>Software updates and security patches</p>
-          </div>
+        <div class="section-divider">
+          <div></div>
         </div>
-        <div>
+        <div class="column-list">
           <div>
-            <h3>High-Performance</h3>
-            <p>Dedicated VPS tuned specifically for your business requirements and no performance hits from other tenants</p>
+            <div>
+              <h3>Flexiblilty and scalablability</h3>
+              <p>easily add new storage or scale as your business need increase</p>
+            </div>
           </div>
-        </div>
+          <div>
+            <div>
+              <h3>Security and Peace of Mind</h3>
+              <p>Software updates and security patches</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3>High-Performance</h3>
+              <p>Dedicated VPS tuned specifically for your business requirements and no performance hits from other tenants</p>
+            </div>
+          </div>
 
-        <div>
           <div>
-            <h3>Lower Costs</h3>
-            <p>Save money, lower power costs, lower staffing needs, zero capital expenditures</p>
+            <div>
+              <h3>Lower Costs</h3>
+              <p>Save money, lower power costs, lower staffing needs, zero capital expenditures</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div> 
-</section>
+    </div> 
+  </section>
 
 
   {{playbooks.consult('Lets Talk Cloud Hosting','Cloud Hosting')}}

@@ -24,252 +24,253 @@
     </div>
   </section>
 
-  <section class="services-intro">
+  <section>
     <div class="wrap wrap-center wrap-center-narrow">
-      <div class="section-spaced">
-        <div class="section-summary">
-          <h1 class="section-heading">Your website is the most powerful tool you have for growing your business.&hellip;</h1>
-          <p class="bold section-lead">But that doesn't mean you should need a software engineering degree to manage it.</p>
-          <p>Content management systems give you the power to manage your website quickly and efficiently without needing a web developer or technical skills.</p> 
-          <p>With a CMS you and your staff can take full control of administering your website with powerful publishing workflows, product catalogs, image galleries, blogs, microsites, forms, landing pages, news and events, job listings, course and class offerings and really any other tool or feature your business requires to grow and to satisfy and delight your customers.</p>
-          <p>With all the power and control that a CMS offers, learning and feeling comfortable working within the system is a critical component to how successfully it will get used.  When implementing a new content management system you’ll want to work with someone who understands the system completely from a technical perspective, and is able to patiently explain how things works in a way that's easy-to-understand and without a bunch of technical jargon and is available for you after launch when you have a question.</p>
-          <p>Give your business the ability to respond quickly to changes in the market or customer needs. Save time, money and effort by letting you or your staff manage your content without outside help or a huge learning curve.</p>
-          <p>With the right content management system plus helpful training and guidance you’ll single-handedly build your website to its fullest potential -- fueling your business success.</p>
-        </div>
-      </div>
-    </div> 
-  </section>
-
-  <section class="home-services">
-    <div class="wrap wrap-center">
       <div>
         <div class="section-summary">
-          <div>
-            <h2 class="section-heading">Content Management Systems</h2>
-            <p class="section-lead">Depending on your needs, requirements or preferences we offer expertise in the following areas</p>
-          </div>
-        </div>
-        <div class="section-divider">
-          <div></div>
-        </div>
-        <div class="column-list">
-          <div>
-            <div class="icon">
-              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
-              <g>
-                <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
-                  C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
-                  C37,3.2,35.8,2,34.4,2H4.6z"/>
-                <g>
-                  <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
-                  <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
-                </g>
-                <g>
-                  <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
-                  <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
-                </g>
-                <circle class="st0" cx="19.5" cy="4.7" r="1"/>
-                <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
-                  C25.9,47.6,25.5,48,25.1,48z"/>
-                <g>
-                  <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
-                </g>
-                <g>
-                  <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
-                    C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
-                    C25.2,22.5,22.7,19.9,19.6,19.9z"/>
-                </g>
-              </g>
-              </svg>
+          <div class="section-heading">Your website is the most powerful tool you have for growing your business.</div>
+           <p class="section-lead mb3">But that doesn't mean you should need a software engineering degree to manage it. Content management systems give you the power to manage your website quickly and efficiently without needing a web developer or technical skills.</p>
+          <div class="section-quote">
+             <div class="quote">
+              <div>
+                <p>"Content marketing costs 62% less than traditional marketing and generates about 3 times as many leads"<br/><span class="source">(DemandMetric)</span></p>
+              </div>
             </div>
             <div>
-              <h3>Drupal CMS</h3>
-              <p>Everything starts online. Turn leads into customers and customers into promoters by giving them a great online experience.</p>
-              <p class="section-lead">{{ button.link('/drupal-website-development.html','Learn More','link') }}</p>
+            <p>With a CMS you and your staff can take full control of administering your website with powerful publishing workflows, product catalogs, image galleries, blogs, microsites, forms, landing pages, news and events, job listings, course and class offerings and really any other tool or feature your business requires to grow and to satisfy and delight your customers.</p>
+            <p>With all the power and control that a CMS offers, learning and feeling comfortable working within the system is a critical component to how successfully it will get used.  When implementing a new content management system you’ll want to work with someone who understands the system completely from a technical perspective, and is able to patiently explain how things works in a way that's easy-to-understand and without a bunch of technical jargon and is available for you after launch when you have a question.</p>
+            <p>Give your business the ability to respond quickly to changes in the market or customer needs. Save time, money and effort by letting you or your staff manage your content without outside help or a huge learning curve.</p>
+            <p>With the right content management system plus helpful training and guidance you’ll single-handedly build your website to its fullest potential -- fueling your business success.</p>
             </div>
           </div>
-          <div>
-            <div class="icon">
-              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
-              <g>
-                <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
-                  C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
-                  C37,3.2,35.8,2,34.4,2H4.6z"/>
-                <g>
-                  <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
-                  <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
-                </g>
-                <g>
-                  <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
-                  <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
-                </g>
-                <circle class="st0" cx="19.5" cy="4.7" r="1"/>
-                <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
-                  C25.9,47.6,25.5,48,25.1,48z"/>
-                <g>
-                  <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
-                </g>
-                <g>
-                  <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
-                    C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
-                    C25.2,22.5,22.7,19.9,19.6,19.9z"/>
-                </g>
-              </g>
-              </svg>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+ 
+
+  <section class="knockout section-cms-systems">
+    <div class="wrap wrap-left">
+      <div class="service-plugs">
+        <h2 class="section-heading">CMS Development Services</h2>
+        <div class="service-plug">
+          <h3>Drupal CMS Development</h3>
+          <p>Drupal is a powerful, secure and proven content management system, capable of handling enterprise level data requirements for e-commerce, nonprofit, government, university, and manufacturing organizations.</p>
+          <p class="section-lead">{{ button.link('/drupal-website-development.html','Learn More','link') }}</p>
+        </div>
+        <div class="service-plug">
+          <h3>Wordpress CMS Development</h3>
+          <p>WordPress is easy-to-use open source content management system for blogs and marketing websites. It's fast, easy to set up easy for beginners to understand, has a huge amount of themes and designs and is great for businesses on a budget.</p>
+          <p class="section-lead">{{ button.link('/wordpress-website-development.html','Learn More','link') }}</p>
+        </div>
+        <div class="service-plug">
+          <h3>Custom CMS Development</h3>
+          <p>Using the Laravel web framework we'll custom develop a CMS web application specific to your business's exact requirements. For businesses with very specific logic requirements that off-the-shelf CMS capabilities can't cover. You'll get complete control over how your content is presented and how it's managed behind the scenes.</p>
+          <p class="section-lead">{{ button.link('/laravel-website-development.html','Learn More','link') }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <section class="">
+    <div class="wrap wrap-center">
+      <div >
+        <div >
+          <h2 class="section-heading mb3">Advantages of a content management system</h2>
+          <div class="section-long-list">
+            <div>
+              <div>
+                <h3>Quick Easy Updates</h3>
+                <p>You want to make updates to your website Quickly and easily</p>
+              </div>
+              <div>
+                <h3>Focus on Content</h3>
+                <p>You want to focus on content and not have to worry about design and layout requirements</p>
+              </div>
+              <div>
+                <h3>Repurpose Assets</h3>
+                <p>You want to be able to share content assets</p>
+              </div>
+              <div>
+                <h3>Version Controlled</h3>
+                <p>You want to keep and have the ability to rollback to previous versions of your content</p>
+              </div>
             </div>
             <div>
-              <h3>Wordpress CMS</h3>
-              <p>Ready to put your website to work? Lets amplify your digital and creative efforts with digital marketing services.</p>
-              <p class="section-lead">{{ button.link('/wordpress-website-development.html','Learn More','link') }}</p>
-            </div>
-          </div>
-          <div>
-            <div class="icon">
-              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   viewBox="0 0 39 52.8" style="enable-background:new 0 0 39 52.8;" xml:space="preserve">
-              <g>
-                <path class="st0" d="M34.4,52.7H4.6c-2.5,0-4.6-2.1-4.6-4.6V4.6C0,2.1,2.1,0,4.6,0h29.8C36.9,0,39,2.1,39,4.6v43.6
-                  C39,50.7,36.9,52.7,34.4,52.7z M4.6,2C3.2,2,2,3.2,2,4.6v43.6c0,1.4,1.2,2.6,2.6,2.6h29.8c1.4,0,2.6-1.2,2.6-2.6V4.6
-                  C37,3.2,35.8,2,34.4,2H4.6z"/>
-                <g>
-                  <line class="st1" x1="1.2" y1="8.7" x2="37.8" y2="8.7"/>
-                  <rect x="1.2" y="7.7" class="st0" width="36.5" height="2"/>
-                </g>
-                <g>
-                  <line class="st1" x1="0.9" y1="42.7" x2="38.1" y2="42.7"/>
-                  <rect x="0.9" y="41.7" class="st0" width="37.2" height="2"/>
-                </g>
-                <circle class="st0" cx="19.5" cy="4.7" r="1"/>
-                <path class="st0" d="M25.1,48H13.9c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h11.2c0.4,0,0.8,0.4,0.8,0.8l0,0
-                  C25.9,47.6,25.5,48,25.1,48z"/>
-                <g>
-                  <path class="st0" d="M34.2,38.2H5V13h29.2V38.2z M7,36.2h25.2V15H7V36.2z"/>
-                </g>
-                <g>
-                  <path class="st0" d="M19.6,33.3c-4.2,0-7.7-3.4-7.7-7.7c0-4.2,3.4-7.7,7.7-7.7c4.2,0,7.7,3.4,7.7,7.7
-                    C27.2,29.8,23.8,33.3,19.6,33.3z M19.6,19.9c-3.1,0-5.7,2.5-5.7,5.7c0,3.1,2.5,5.7,5.7,5.7c3.1,0,5.7-2.5,5.7-5.7
-                    C25.2,22.5,22.7,19.9,19.6,19.9z"/>
-                </g>
-              </g>
-              </svg>
+              <div>
+                <h3>Public/Private Pages</h3>
+                <p>You want to be able to display some content to private groups that are logged into your website</p>
+              </div>
+              <div>
+                <h3>Edit Remotely</h3>
+                <p>You want to be able to add content to your site remotely from wherever you are and on any device using just a web browser</p>
+              </div>
+              <div>
+                <h3>Repurpose Content Across Channels</h3>
+                <p>You want your content to be reusable across many different marketing channels</p>
+              </div>
+              <div>
+                <h3>Publishing Workflows</h3>
+                <p>You want to be able to have a content workflow with reviews and approvals</p>
+              </div>
             </div>
             <div>
-              <h3>Laravel Website</h3>
-              <p>A memorable well-designed brand is key to business success, it helps you stand out in an overcrowded marketplace.</p>
-              <p class="section-lead">{{ button.link('/laravel-website-development.html','Learn More','link') }}</p>
+              <div>
+                <h3>Roles and Permissions</h3>
+                <p>You want to have roles and permissions that allow you to determine who can view, create, edit or delete content on your site.</p>
+              </div>
+              <div>
+                <h3>Schedule Content</h3>
+                <p>ou want to be able to schedule when content is displayed on your site and when its removed</p>
+              </div>
+              <div>
+                <h3>Site Access Control</h3>
+                <p>You want to be in control of your site without needing to contact an external vendor to make updates for you</p>
+              </div>
+              <div>
+                <h3>Multi-language</h3>
+                <p>You need to be able to have your content in multiple languages and you want to allow multiple editors to create or translate content on the site</p>
+              </div>
             </div>
           </div>
-
-        </div>
-        <div>
-          <h3><span class="smaller">Not sure where to start? No problem, we can help determine the best approach for your business.</span></h3>
-          <p>{{ button.link('#', 'Lets Get Started') }}</p>
         </div>
       </div>
     </div> 
   </section>
 
-  <section class="services-intro">
+
+  <section class="knockout">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
         <div class="section-summary">
-          <h1 class="section-heading">Why Would I Need a CMS?</h1>
-        </div>
-        <div>
-          <ul class="section-list section-list-bullets">
-            <li>You want to make updates to your website Quickly and easily</li>
-            <li>You want to make sure you maintain a consistent brand and user experience across all pages of your website</li>
-            <li>You want to focus on content and not have to worry about design and layout requirements</li>
-            <li>You want to be able to share content assets with </li>
-            <li>You want to be able to display some content to private groups that are logged into your website</li>
-            <li>You want to be able to add content to your site remotely from wherever you are and on any device using just a web browser</li>
-            <li>You want your content to be reusable across many different marketing channels</li>
-            <li>You want to be able to have a content workflow with reviews and approvals</li>
-            <li>You want to have roles and permissions that allow you to determine who can view, create, edit or delete content on your site.</li>
-            <li>You want to be able to schedule when content is displayed on your site and when its removed</li>
-            <li>You want to be in control of your site without needing to contact an external vendor to make updates for you</li>
-            <li>You want to keep and have the ability to rollback to previous versions of your content</li>
-            <li>You need to be able to have your content in multiple languages and you want to allow multiple editors to create or translate content on the site</li>
-          </ul>
+          <h2 class="section-heading">Why let us help build your CMS</h2>
+          <div class="section-numbered-list">
+            <div>
+              <div>
+                <h5>1</h5>
+                <p>You’re not a designer and you know user experience is important</p>
+              </div>
+              <div>
+                <h5>2</h5>
+                <p>You’re not a developer and know it takes technical expertise to securely and efficiently install and configure a CMS</p>
+              </div>
+              <div>
+                <h5>3</h5>
+                <p>You want to make sure the site is setup properly for SEO</p>
+              </div>
+            </div>
+            <div>
+              
+              <div>
+                <h5>4</h5>
+                <p>You want to make sure your site is secure and up-to-date</p>
+              </div>
+              <div>
+                <h5>5</h5>
+                <p>You want to make sure your site is optimized for speed</p>
+              </div>
+              <div>
+                <h5>6</h5>
+                <p>You will need some customization to meet your particular business requirements</p>
+              </div>
+            </div>
+
+          </div>
+          <div>
+            <p class="h3 white bold">Most importantly, you have a business to run!</p>
+          </div>
         </div>
       </div>
     </div> 
   </section>
 
-  <section class="services-intro">
-    <div class="wrap wrap-center wrap-center-narrow">
-      <div class="section-spaced">
-        <div class="section-summary">
-          <h1 class="section-heading">How Can FreshJones Help With My CMS?</h1>
-        </div>
-        <div>
-          <ul class="flex-blocks flex-blocks-nowrap flex-blocks-center">
-            <li>Experience</li>
-            <li>Hosting</li>
-            <li>Strategy</li>
-            <li>Content</li>
-            <li>Design</li>
-            <li>Agile Methodology</li>
-          </ul>
+  <section class="section-background">
+    <div class="wrap wrap-center">
+      <div >
+        <div >
+          <h2 class="section-heading mb3">Why Consider FreshJones?</h2>
+          <div class="section-long-list">
+            <div>
+              <div>
+                <h3>Experience</h3>
+                <p>We've been building Drupal, WordPress and Custom CMS applications for more than 10 years, we have the experience and capabilities to handle any business application requirements using industry standard best practices.</p>
+              </div>
+              <div>
+                <h3>Strategy</h3>
+                <p>Everything we do begins with a strategic mindset. We're firm believers in data-driven decision making and will always bring good ideas and suggested and recommended solutions to the table for consideration.</p>
+              </div>
+              <div>
+                <h3>Content</h3>
+                <p>As SEO and user experience experts we can help you develop a content strategy that will provide your users with a relevant engaging web experience and one that search engines will love.</p>
+              </div>
+              <div>
+                <h3>Design</h3>
+                <p>Design in engrained into everything we do, whether is graphic design user experience or user interface design, we'll always work hard to provide you and your visitors with the best visual and functional experience.</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h3>Development</h3>
+                <p>Our in-house technical capabilities are both broad and deep. We've been building and hosting CMS systems for over 10 years, we know how to properly set up hosting envirnments so your CMS application runs fast and secure.</p>
+              </div>
+              <div>
+                <h3>Training and Education</h3>
+                <p>We believe at its most basic level business is all about one person help solve another persons problems. We always work hard to make sure your comfortable working in your CMS, we're patient and we'll help train and educate and support you through-out your project and beyond. We're always an email or phone call away and we usually respond super fast.</p>
+              </div>
+              <div>
+                <h3>Data-driven and goal oriented</h3>
+                <p>We strongly believe that developing a CMS thats powerful and effective as a growth building tool for your business takes effort and time. We develop a data-driven, goal-oriented mindset for all of our programs and projects and we help you analyze your data and performance indicators and use that data to make informed decisions about how we can improve and optimize our efforts incrementally and consistently improving and optimizing to get the best returns possible.</p>
+              </div>
+            </div>
         </div>
       </div>
     </div> 
   </section>
 
-  <section class="services-intro">
-    <div class="wrap wrap-center wrap-center-narrow">
+  <section class="integrated">
+    <div class="wrap wrap-full wrap-center wrap-center-narrow">
       <div class="section-spaced">
         <div class="section-summary">
-          <h1 class="section-heading">How Can FreshJones Help With My CMS?</h1>
+          <h2 class="section-heading">How we'll turn your website into a powerful business tool.</h2>
         </div>
         <div>
-          <ul class="section-list section-list-bullets">
-            <li>You have a business to run!</li>
-            <li>You’re not a designer</li>
-            <li>You’re not a developer</li>
-            <li>You want to make sure the site is setup properly for SEO</li>
-            <li>You want to make sure your site is secure and up-to-date</li>
-            <li>You want to make sure your site is optimized for speed</li>
-            <li>You will need some customization to meet your particular business requirements</li>
-          </ul>
-        </div>
-      </div>
-    </div> 
-  </section>
-
-  <section class="services-intro">
-    <div class="wrap wrap-center wrap-full wrap-center-narrow">
-      <div class="section-spaced">
-        <div class="section-summary">
-          <h1 class="section-heading">Our Process</h1>
-        </div>
-        <div>
-          <ul class="flex-blocks flex-blocks-nowrap flex-blocks-center">
+          <ul class="flex-blocks flex-blocks-nowrap">
             <li>
               <div>
-                <h3>Define</h3>
+                <div class="number">1</div>
+                <h3>Discovery &amp; Strategy</h3>
+                <p>No two companies are alike, so we'll get to know you, your business and the challenges and problems you face. We'll listen to things you've tried so far, what's worked and what hasn't and where we can fit in and help. We'll put together a complete plan to meet your unique challenges and goals based on your specific business needs.</p>
               </div>
             </li>
             <li>
               <div>
-                <h3>Discover</h3>
+                <div class="number">2</div>
+                <h3>Content Strategy</h3>
+                <p>We’ll work with you to create target personas and arrange and organize your content to provide the best user experience. As SEO and content marketing strategists, we can help determine what pages are most important to your audiences and how to best address their needs across the complete buyers journey and beyond to advocacy.</p>
               </div>
             </li>
             <li>
               <div>
-                <h3>Direction</h3>
+                <div class="number">3</div>
+                <h3>Design and Develop</h3>
+                <p>We’ll install setup and configure your selected CMS, install a selected theme, or custom design one for you. We’ll implement your content strategy, helping to create and/or migrate your content into the CMS, and we’ll build and install any custom functionality requirements.</p>
               </div>
             </li>
             <li>
               <div>
-                <h3>Deployment</h3>
+                <div class="number">4</div>
+                <h3>Monitor, Test and Improve</h3>
+                <p>When your site is ready, we’ll handle all the hosting and launch details to ensure a smooth transition from your existing website to your new CMS. You will not experience any downtime, your old site will be archived and 301 redirected as necessary, analytics will be benchmarked and carried foward. From here we’ll help monitor the site, look for ways to help you improve your users experience and keep your site up-to-date and secure with any security patches or updates.</p>
               </div>
             </li>
             <li>
               <div>
-                <h3>Determine</h3>
+                <div class="number">5</div>
+                <h3>Training and Consultation</h3>
+                <p>With any powerful new tool, working with it can be daunting. We make it easy by providing in-person training sessions. You and your staff with be able to understand and be comfortable in the CMS system we've chosen. Have questions afterwards? No problem we’re a phone call or email away and we're always happy to help you work through a sticky situation or troubleshoot an issue.</p>
               </div>
             </li>
           </ul>
@@ -278,67 +279,19 @@
     </div> 
   </section>
 
-  <section class="services-intro">
+
+   <section class="">
     <div class="wrap wrap-center wrap-center-narrow">
-      <div class="section-spaced">
+      <div>
         <div class="section-summary">
-          <h1 class="section-heading">What problems can a CMS help with?</h1>
-        </div>
-        <div>
-          <ul class="section-list section-list-bullets">
-            <li>Save your staff time and effort via ease-of-use</li>
-            <li>Faster development time,</li>
-            <li>More economical solution than custom development</li>
-            <li>Plugins and modules for most every business requirement</li>
-            <li>Reduced web administration and web development expenses.</li>
-            <li>Easy to use for non-technical people</li>
-          </ul>
+          <h2 class="section-heading">What You'll Get with Content Management System</h2>
+          <p>With a CMS you'll save your staff time and effort through easy and efficient content editing. You'll reduce costs by allowing your internal staff to maintain and keep your sit eup-to-date. You and your staff won't need to understand or learn any complicated technical skills or languages to provide your users with  great digital content.</p>
+          <p>You'll get  scalable system that can grow as your business does. Your CMS will be fast, secure and easy to use. Your CMS is capabile to extending or being customized to match any need your business might require.</p>
+          <p>You'll get a site that your users will love, it will be fast, viewable on all devices from phones, tablets and desktop. It will be optimized for search engines and ready for you to start using using your website as a growth building machine.
         </div>
       </div>
     </div> 
   </section>
 
-
-  <section class="services-intro">
-    <div class="wrap wrap-center wrap-center-narrow">
-      <div class="section-spaced">
-        <div class="section-summary">
-          <h1 class="section-heading">What are the implications of not using a CMS?</h1>
-        </div>
-        <div>
-          <ul class="section-list section-list-bullets">
-            <li>Reduced flexibility</li>
-            <li>More difficult and slower to make updates</li>
-            <li>Results in needing to contact web designer to make changes or requires software to make updates</li>
-            <li>Learning curve to understand web software, design and development</li>
-          </ul>
-        </div>
-      </div>
-    </div> 
-  </section>
-
-
-    <section class="services-intro">
-    <div class="wrap wrap-center wrap-center-narrow">
-      <div class="section-spaced">
-        <div class="section-summary">
-          <h1 class="section-heading">Anatomy of a good CMS?</h1>
-        </div>
-        <div>
-          <ul class="section-list section-list-bullets">
-            <li>Easy to Use</li>
-            <li>Scalable</li>
-            <li>Fast</li>
-            <li>Secure</li>
-            <li>Simple to keep up-to-date</li>
-            <li>Extendable</li>
-            <li>Customizable</li>
-            <li>Features</li>
-            <li>Design</li>
-          </ul>
-        </div>
-      </div>
-    </div> 
-  </section>
 
 {% endblock %}

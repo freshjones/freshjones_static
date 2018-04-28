@@ -36,7 +36,7 @@
       </div>
       <nav>
         <ul>
-          <a href="/" class="{%if activePage == 'home' %}active{% endif %}">Home</a>
+          <li><a href="/" class="{%if activePage == 'home' %}active{% endif %}">Home</a></li>
           <li class="show-subnav"><a href="/solutions.html" class="{%if activePage == 'solutions' %}active{% endif %}">Solutions <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 160.3 99.7" style="enable-background:new 0 0 160.3 99.7;" xml:space="preserve"><polygon points="80.1,60.6 19.6,0 0,19.6 80.1,99.7 160.3,19.6 140.7,0 "/></svg></a>
             <div class="subnav-panel">
               <div>{% include 'partials/solutions-subnav.nunjucks' %}</div>

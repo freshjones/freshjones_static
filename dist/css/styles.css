@@ -838,29 +838,33 @@ header .wordmark {
 
 nav {
   display: none;
+  height: 100%;
 }
 
 nav ul {
   display: flex;
-  margin: 25px 0 0 0;
+  margin: 0;
+  height: 100%;
   padding: 0;
   list-style: none;
 }
 
 nav li {
-  margin: 0 0 0 40px;
+  display: flex;
+  align-items: center;
 }
 
 nav a {
   display: flex;
   align-items: center;
   margin: 0;
-  padding: 20px 0;
+  padding: 20px;
   text-transform: uppercase;
   color: #000;
   font-size: 16px;
   font-weight: bold;
   line-height: 1;
+  height: 100%;
 }
 
 nav a svg {
@@ -870,57 +874,139 @@ nav a svg {
   fill: green;
 }
 
+/*
 nav a:hover,
-nav a.active {
-  color: #3fa208;
+nav a.active
+{
+  color:$green;
 }
-
+*/
 @media (min-width: 980px) {
   nav {
     display: block;
   }
 }
 
-.subnav-panel {
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  background: #fff;
-  border: solid 1px #ccc;
-  transition: opacity 200ms, visibility 200ms;
+.show-subnav {
+  position: relative;
 }
 
-.subnav-panel > div {
+.subnav-panel {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #3fa208;
+}
+
+.subnav-drop-down-item ul {
+  background: #3fa208;
+}
+
+.subnav-panel li {
+  position: relative;
+}
+
+.subnav-panel li ul {
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+.show-subnav-active {
+  background-color: #3fa208;
+  color: #fff !important;
+}
+
+.show-subnav-active a {
+  color: #fff;
+}
+
+.show-subnav-active svg {
+  fill: #fff;
+}
+
+.subnav-panel ul {
+  display: block;
+  margin: 20px;
+  padding: 0;
+  list-style: none;
+  justify-content: space-around;
+  min-width: 230px;
+}
+
+.subnav-panel li {
+  color: #fff;
+  font-size: 14px;
+}
+
+.subnav-panel li a,
+.subnav-panel li span {
+  display: block;
+  padding: 10px 20px;
+}
+
+.subnav-drop-down-item {
+  position: relative;
+  width: 100%;
+}
+
+.subnav-drop-down-item:after {
+  content: '';
+  position: absolute;
+  right: 10px;
+  top: 40%;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #fff;
+}
+
+.subnav-drop-down-item:hover,
+.subnav-panel a:hover {
+  background-color: #368a07;
+  cursor: pointer;
+}
+
+.subnav-panel ul,
+.subnav-panel li {
+  margin: 0;
+  padding: 0;
+}
+
+.subnav-panel ul ul {
+  display: none;
+  height: initial;
+}
+
+/*
+.subnav-panel > div
+{
   width: 90%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.subnav-panel ul {
-  display: flex;
-  margin: 20px;
-  padding: 0;
-  list-style: none;
-  justify-content: space-around;
-}
 
-.subnav-panel ul ul {
-  display: block;
-}
 
+.subnav-panel ul ul
+{
+  display:block;
+}
+*/
 .subnav-panel a {
   display: flex;
   align-items: flex-center;
   margin: 0;
   padding: 5px 0;
   text-transform: none;
-  color: #000;
+  color: #fff;
   font-size: 14px;
   font-weight: normal;
   line-height: initial;
+  width: 100%;
 }
 
 @media (min-width: 980px) {
@@ -1662,60 +1748,53 @@ header .social-icons svg:hover {
   fill: #3fa208;
 }
 
-.bg-open-ymca {
-  background-image: url("/images/open-y-platform.jpg");
-}
-
-.bg-openy-intro {
-  background-image: url("/images/open-y-platform-responsive.jpg");
-}
-
-.story-yoc {
-  background-image: url("/images/open-y-platform-old-colony-ymca.jpg");
-}
-
-.story-openy-sfymca {
-  background-image: url("/images/open-y-platform-sioux-falls-ymca.jpg");
-}
-
-.story-openy-wsymca {
-  background-image: url("/images/open-y-platform-west-suburban-ymca.jpg");
-}
-
-.story-openy-sdymca {
-  background-image: url("/images/open-y-platform-southern-district-ymca.jpg");
-}
-
-.story-openy-mwymca {
-  background-image: url("/images/open-y-platform-metrowest-ymca.jpg");
-}
-
-.about-billy {
-  background-image: url("/images/billy-background.jpg");
-  background-color: #c1c1c1;
-}
-
-.about-chloe {
-  background-image: url("/images/chloe-background.jpg");
-  background-color: #f9fdff;
-}
-
-.about-love-dog {
-  background-image: url("/images/love-dog-background.jpg");
-  background-size: cover;
-}
-
-.about-greetings {
-  background-image: url("/images/food-background.jpg");
-  background-size: cover;
-}
-
-.home-whoweworkwith {
-  background-image: url("/images/who-we-work-with.jpg");
-}
-
-.solutions-quote-chroma {
-  background-image: url("/images/chroma-laptop.jpg");
+@media (min-width: 980px) {
+  .bg-open-ymca {
+    background-image: url("/images/open-y-platform.jpg");
+  }
+  .bg-openy-intro {
+    background-image: url("/images/open-y-platform-responsive.jpg");
+  }
+  .story-yoc {
+    background-image: url("/images/open-y-platform-old-colony-ymca.jpg");
+  }
+  .story-openy-sfymca {
+    background-image: url("/images/open-y-platform-sioux-falls-ymca.jpg");
+  }
+  .story-openy-wsymca {
+    background-image: url("/images/open-y-platform-west-suburban-ymca.jpg");
+  }
+  .story-openy-sdymca {
+    background-image: url("/images/open-y-platform-southern-district-ymca.jpg");
+  }
+  .story-openy-mwymca {
+    background-image: url("/images/open-y-platform-metrowest-ymca.jpg");
+  }
+  .about-billy {
+    background-image: url("/images/billy-background.jpg");
+    background-color: #c1c1c1;
+  }
+  .about-chloe {
+    background-image: url("/images/chloe-background.jpg");
+    background-color: #f9fdff;
+  }
+  .about-love-dog {
+    background-image: url("/images/love-dog-background.jpg");
+    background-size: cover;
+  }
+  .about-greetings {
+    background-image: url("/images/food-background.jpg");
+    background-size: cover;
+  }
+  .home-whoweworkwith {
+    background-image: url("/images/who-we-work-with.jpg");
+  }
+  .solutions-quote-chroma {
+    background-image: url("/images/chroma-laptop.jpg");
+  }
+  .section-cms-systems {
+    background-image: url("/images/CMSSystems.jpg");
+  }
 }
 
 .service-plugs h2, .service-plugs .h2 {

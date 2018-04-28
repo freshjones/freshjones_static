@@ -1,17 +1,21 @@
 nav{
   display:none;
+  height:100%;
 }
 
 nav ul
 {
   display:flex;
-  margin:25px 0 0 0;
+  margin:0;
+  height:100%;
   padding:0;
   list-style:none;
 }
+
 nav li
 {
-  margin: 0 0 0 40px
+  display: flex;
+  align-items: center;
 }
 
 nav a
@@ -19,12 +23,13 @@ nav a
   display: flex;
   align-items:center;
   margin: 0;
-  padding: 20px 0;
+  padding: 20px;
   text-transform:uppercase;
   color:#000;
   font-size:16px;
   font-weight: bold;
   line-height: 1;
+  height: 100%;
 }
 
 nav a svg
@@ -35,12 +40,13 @@ nav a svg
   fill:green;
 }
 
+/*
 nav a:hover,
 nav a.active
 {
   color:$green;
 }
-
+*/
 
 @include breakpoint($medium) { 
   

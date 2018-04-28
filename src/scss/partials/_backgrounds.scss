@@ -1,70 +1,78 @@
-.bg-open-ymca
-{
-  background-image:url('/images/open-y-platform.jpg');
+@include breakpoint($medium) { 
+
+  .bg-open-ymca
+  {
+    background-image:url('/images/open-y-platform.jpg');
+  }
+
+  .bg-openy-intro
+  {
+    background-image:url('/images/open-y-platform-responsive.jpg');
+  }
+
+  .story-yoc
+  {
+    background-image:url('/images/open-y-platform-old-colony-ymca.jpg');
+  }
+
+  .story-openy-sfymca
+  {
+    background-image:url('/images/open-y-platform-sioux-falls-ymca.jpg');
+  }
+
+  .story-openy-wsymca
+  {
+    background-image:url('/images/open-y-platform-west-suburban-ymca.jpg');
+  }
+
+  .story-openy-sdymca
+  {
+    background-image:url('/images/open-y-platform-southern-district-ymca.jpg');
+  }
+
+
+  .story-openy-mwymca
+  {
+    background-image:url('/images/open-y-platform-metrowest-ymca.jpg');
+  }
+
+  .about-billy 
+  {
+    background-image:url('/images/billy-background.jpg');
+    background-color:#c1c1c1;
+  }
+
+  .about-chloe 
+  {
+    background-image:url('/images/chloe-background.jpg');
+    background-color:#f9fdff;
+  }
+
+  .about-love-dog
+  {
+    background-image:url('/images/love-dog-background.jpg');
+    background-size: cover;
+  }
+
+  .about-greetings
+  {
+    background-image:url('/images/food-background.jpg');
+    background-size: cover;
+  }
+
+  .home-whoweworkwith
+  {
+    background-image:url('/images/who-we-work-with.jpg');
+  }
+
+  .solutions-quote-chroma
+  {
+    background-image:url('/images/chroma-laptop.jpg');
+  }
+
+  .section-cms-systems
+  {
+    background-image:url('/images/CMSSystems.jpg');
+  }
+
 }
-
-.bg-openy-intro
-{
-  background-image:url('/images/open-y-platform-responsive.jpg');
-}
-
-.story-yoc
-{
-  background-image:url('/images/open-y-platform-old-colony-ymca.jpg');
-}
-
-.story-openy-sfymca
-{
-  background-image:url('/images/open-y-platform-sioux-falls-ymca.jpg');
-}
-
-.story-openy-wsymca
-{
-  background-image:url('/images/open-y-platform-west-suburban-ymca.jpg');
-}
-
-.story-openy-sdymca
-{
-  background-image:url('/images/open-y-platform-southern-district-ymca.jpg');
-}
-
-
-.story-openy-mwymca
-{
-  background-image:url('/images/open-y-platform-metrowest-ymca.jpg');
-}
-
-.about-billy 
-{
-  background-image:url('/images/billy-background.jpg');
-  background-color:#c1c1c1;
-}
-
-.about-chloe 
-{
-  background-image:url('/images/chloe-background.jpg');
-  background-color:#f9fdff;
-}
-
-.about-love-dog
-{
-  background-image:url('/images/love-dog-background.jpg');
-  background-size: cover;
-}
-
-.about-greetings
-{
-  background-image:url('/images/food-background.jpg');
-  background-size: cover;
-}
-
-.home-whoweworkwith
-{
-  background-image:url('/images/who-we-work-with.jpg');
-}
-
-.solutions-quote-chroma
-{
-  background-image:url('/images/chroma-laptop.jpg');
-}
-
