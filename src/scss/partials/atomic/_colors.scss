@@ -1,5 +1,5 @@
 .white { color:#fff; }
 .green { color: $green; }
-
+.gray, .grey{ color: darken($light-grey,35%);  }
 .bg-light-gray { background-color:$light-grey; }
 .bg-green { background-color:#669933; }

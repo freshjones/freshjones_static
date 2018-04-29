@@ -4,6 +4,11 @@
   font-size:85% !important;
 }
 
+.tiny
+{
+  font-size:60% !important;
+}
+
 .larger
 {
   font-size:150% !important;
@@ -23,6 +28,7 @@
 .italic{
   font-style:italic;
 }
+.uppercase { text-transform:uppercase; } 
 
 .line-height-1{ line-height:1; }
 .line-height-2{ line-height:1.5; }

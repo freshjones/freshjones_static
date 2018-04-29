@@ -188,7 +188,7 @@
               </div>
             </div>
             <div>
-              <div class="section-heading">Digital emphasis not digital only</div>
+              <div class="section-heading">Digital-first not digital-only</div>
               <p class="section-lead mb2">Why we emphasize an integrated approach to marketing is because a digital alone can end up costing more and produce lower quality results.</p>
               <p class="section-lead mb2">With an integrated approach to your marketing you'll develop a better overall understanding of your customers, the channels they prefer.</p>
               <p class="section-lead mb2">By focusing on an overall picture of your customers prefered channels you'll build better awareness and affinity toward your business, this will help result in customers being more aware of your business and the services you can offer them, it helps influence their decisions at purchase time helping you to improve your overall targeting and cost of aquiring a customer as well as increasing the amount of customers and sales your marketing efforts help produce.</p>
@@ -199,165 +199,213 @@
     </div> 
   </section>
 
-
-<section class="services-intro">
-  <div class="wrap wrap-center wrap-center-narrow">
-    <div class="section-spaced">
-      <div class="section-summary">
-        <h2 class="section-heading">How can FreshJones help with an integrated marketing plan?</h2>
-        <ul class="section-list section-list-bullets">
-          <li>Strategic focused</li>
-          <li>Research and data backed</li>
-          <li>Integrated approach</li>
-          <li>Digital emphasis</li>
-          <li>Marketing platform</li>
-          <li>Results-driven</li>
-        </ul>
-      </div>
-    </div>
-  </div> 
-</section>
-
-
-<section class="services-intro">
-    <div class="wrap wrap-center wrap-full wrap-center-narrow">
-      <div class="section-spaced">
-        <div class="section-summary">
-          <h1 class="section-heading">Our Process</h1>
-        </div>
-        <div>
-          <ul class="flex-blocks flex-blocks-nowrap">
+  <section class=" integrated">
+    <div class="wrap wrap-full">
+      <div>
+        <h2 class="section-heading align-center my3">Our Strategic Growth Planning Process</h2>
+        <div><img src="/images/integrated-marketing-communication-plan.jpg" /></div>
+        <ul class="flex-blocks flex-blocks-nowrap">
             <li>
               <div>
+                <div class="number">1</div>
                 <h3>Define</h3>
-                <ul>
-                  <li>Business Goals/Objectives</li>
-                  <li>Market(s)</li>
-                  <li>Competition</li>
-                  <li>Brand and Uniqueness</li>
-                  <li>Capabilities</li>
-                  <li>Products/Services</li>
-                </ul>
+                <p>No two companies are alike, so we'll get to know you, your business and the challenges and problems you face. We'll understand your business goals, your markets and industries, your competition, your brand and what makes you unique. We'll learn about your capabilities and your products and service offerings.</p>
               </div>
             </li>
             <li>
               <div>
+                <div class="number">2</div>
                 <h3>Discover</h3>
-                <ul>
-                  <li>Trust / Authority</li>
-                  <li>Market Potential</li>
-                  <li>Current Channels</li>
-                  <li>Engagement</li>
-                  <li>Ranking</li>
-                </ul>
+                <p>We'll take that information and we'll conduct extensive research and analysis to determine how your business is currently reflected in the market based on important criteria such as trust and authority, market potential, paid, earned and owned channels, user engagement and essarch engine rankings.</p>
               </div>
             </li>
             <li>
               <div>
+                <div class="number">3</div>
                 <h3>Direction</h3>
-                <ul>
-                  <li>Marketing Objectives</li>
-                  <li>Techniques and Tactics</li>
-                  <li>Recommendations and Opportunities</li>
-                  <li>Determine Key Performance Indicators</li>
-                  <li>Determine Budget</li>
-                </ul>
+                <p>Next we'll plan a course of action for reaching your business goals. Will outline recommendations and opportunities as well as the concrete tactics and techniques we'll use to meet those ojectives. We'll define key performance indicators which will use to measure our success agains and lastly we'll determine a budget and timeframe for the engagement.</p>
               </div>
             </li>
             <li>
               <div>
-                <h3>Deployment</h3>
-                <ul>
-                  <li>Timeline</li>
-                  <li>Deadlines</li>
-                  <li>Responsibilities</li>
-                  <li>Operating Procedures</li>
-                </ul>
+                <div class="number">4</div>
+                <h3>Delivery</h3>
+                <p>Here we'll establish the timeline for the engagement. When specific portions of the plan will begin and when they'll be completed, who will be responsible for their completion and what operating procedures will be followed to accomplish each task.</p>
               </div>
             </li>
             <li>
               <div>
+                <div class="number">5</div>
                 <h3>Determine</h3>
-                <ul>
-                  <li>Campaign Management</li>
-                  <li>Project Reporting</li>
-                  <li>Monitor KPI's</li>
-                  <li>Optimize</li>
-                </ul>
+                <p>This part of the plan is all about tracking and optimization. Here we'll explain how your campaigns mill be managed, how often we'll deliver project reports and at what intervals we'll get together and discuss hwo things are progressing. We'll monitor the defined key performance indicators and determine how well we're progressing towards accomplishing the business goals defined. And lastly we'll use that data to make informed decisions about how to optimize the current situation, making data-driven incremental improvements to your makreting system.</p>
               </div>
             </li>
           </ul>
         </div>
       </div>
+  </section>
+
+  
+  <section class="section-background">
+    <div class="wrap wrap-center">
+      <div>
+        <div>
+          <div class="section-quote">
+             <div class="quote">
+              <div>
+                <p>"Companies with a documented strategy are 538% more likely to report success than those who don’t."<span class="source"> (CoSchedule)</span></p>
+              </div>
+            </div>
+            <div>
+              <div class="section-heading">What makes a great strategic plan?</div>
+              <p class="section-lead mb2">A great marketing strategy is practical, its easy to follow and understand. It sets realistic goals and expectations. It defines a clear path on how to implement the tactics and techniques required to meet the objectives.</p>
+              <p class="section-lead mb2">A great marketing plan is specific, it details exactly what the goals of the plan are.</p>
+              <p class="section-lead mb2">Its measurable, using key performance indicators the marketing plans goals can be measured and show where improvements or optimization is necessary</p>
+              <p class="section-lead mb2">Its achievable, and realistic in nature. A great marketing plan sets realistic goals and ones that can be accomplished within a specific timeframe and with the available resources your business has.</p>
+              <p class="section-lead mb2">A great plan is time specific, giving people a realistic amount of time to meet the dealine. Its flexible and can easily be modified and adjusted as situations and market or customer demand changes.</p>
+              <p class="section-lead mb2">A great plan outlines and defines who is responsibile for what actions and who is accountable for ensuring those actions are completed and completed correctly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div> 
   </section>
 
-
-  <section class="services-intro">
-  <div class="wrap wrap-center wrap-center-narrow">
-    <div class="section-spaced">
-      <div class="section-summary">
-        <h2 class="section-heading">What problems will strategic planning help solve?</h2>
-        <ul class="section-list section-list-bullets section-list-columns">
-          <li>Helps you to focus your resources</li>
-          <li>Plan for your business growth</li>
-          <li>Sense of control over your business</li>
-          <li>Product/market fit</li>
-          <li>Identify your strengths / weaknesses</li>
-          <li>How to position and differentiate from competitors</li>
-          <li>Motivate your team</li>
-          <li>Ensure marketing efforts are making a difference</li>
-          <li>Ensure a consistent message and objective across all channels</li>
-          <li>Keep track of and control expenses and budget</li>
-          <li>Provides a goal / projection to meet</li>
-          <li>Helps focus attention and makes decisions easier</li>
-          <li>Reminds you of the bigger picture</li>
-          <li>Provides your business with direction</li>
-          <li>Determines to most appropriate tools to accomplish business goals</li>
-          <li>Saves time and money by focusing the right resources on the right objectives</li>
-        </ul>
+  <section >
+    <div class="wrap wrap-center">
+      <div>
+        <p class="section-heading green">"Only 6% of companies think their digital and traditional marketing integration process is completely optimized"</p>
+        <p class="muted">&mdash; (Smart Insights, Managing Digital Marketing research report, 2017)</p>
       </div>
-    </div>
-  </div> 
-</section>
+    </div> 
+  </section>
 
+  <!--
+  <section class="knockout">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h2 class="section-heading">Why let us help with your strategic planning</h2>
+          <div class="section-numbered-list">
+            <div>
+              <div>
+                <h5>1</h5>
+                <p>We're strategic focused</p>
+              </div>
+              <div>
+                <h5>2</h5>
+                <p>Data-driven customer-centric approach</p>
+              </div>
+              <div>
+                <h5>3</h5>
+                <p>Integrated marketing approach</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h5>4</h5>
+                <p>We're digital-first not digital-only</p>
+              </div>
+              <div>
+                <h5>5</h5>
+                <p>We're result-driven</p>
+              </div>
+              <div>
+                <h5>6</h5>
+                <p>Intgrated marketing platform</p>
+              </div>
+            </div>
 
-  <section class="services-intro">
-  <div class="wrap wrap-center wrap-center-narrow">
-    <div class="section-spaced">
-      <div class="section-summary">
-        <h2 class="section-heading">What makes a great strategic plan?</h2>
-        <p class="section-lead">Ensure your strategic plan gets the results you're looking for by following these plan guidelines.</p>
-        <ul class="section-list section-list-bullets section-list-columns">
-          <li>Practical</li>
-          <li>Easy to understand and follow</li>
-          <li>Realistic</li>
-          <li>Clear path to implementation</li>
-          <li>Specific</li>
-          <li>Measurable</li>
-          <li>Achievable</li>
-          <li>Realistic</li>
-          <li>Time-Specific</li>
-          <li>Flexible</li>
-          <li>Responsibility and accountability</li>
-          <li>Consistent</li>
-        </ul>
+          </div>
+          
+        </div>
       </div>
-    </div>
-  </div> 
-</section>
+    </div> 
+  </section>
+ 
 
-<section class="services-intro">
-  <div class="wrap wrap-center wrap-center-narrow">
-    <div class="section-spaced">
-      <div class="section-summary">
-        <div class="section-heading">All marketing starts with a plan</div>
-        <p class="section-lead">Dont wandering aimlessly without direction, or waste time and resources chasing disconnected techniques that only result in brand dilution and lost sales. Plan your marketing strategy the right way, let us help build a marketing plan that gets results and grows your business.</p>
-      </div>
-    </div>
-  </div> 
-</section>
   
-{{playbooks.book('Strategic Planning','Strategic Planning')}}
+   -->
+
+
+   <section class="knockout">
+    <div class="wrap wrap-center">
+      <div >
+        <div >
+          <h2 class="section-heading mb3">Advantages of a strategic growth plan</h2>
+          <div class="section-long-list">
+            <div>
+              <div>
+                <h3>Save Time and Resources</h3>
+                <p>Saves time and money by focusing the right resources on the right objectives</p>
+              </div>
+              <div>
+                <h3>Plan for Growth</h3>
+                <p>Provides your business with direction</p>
+              </div>
+              <div>
+                <h3>Security And Control</h3>
+                <p>Peace of mind and a sense of complete control over your businesses future</p>
+              </div>
+              <div>
+                <h3>Product/market fit</h3>
+                <p>Makes sure you have a good feel for the value you are offering to your customers</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h3>SWOT</h3>
+                <p>Identify your strengths / weaknesses</p>
+              </div>
+              <div>
+                <h3>Uniqueness</h3>
+                <p>How to position and differentiate from competitors</p>
+              </div>
+              <div>
+                <h3>Quantifiable Data</h3>
+                <p>Ensure marketing efforts are making a difference</p>
+              </div>
+              <div>
+                <h3>Consistency Across Touchpoints</h3>
+                <p>Ensure a consistent message and objective across all channels</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h3>Control</h3>
+                <p>Keep track of and control expenses and budget</p>
+              </div>
+              <div>
+                <h3>Focused Attention</h3>
+                <p>Helps focus attention and makes decisions easier</p>
+              </div>
+              <div>
+                <h3>See the Big Picture</h3>
+                <p>Provides a goal / projection to meet</p>
+              </div>
+              <div>
+                <h3>Better Decision-making</h3>
+                <p>Determines to most appropriate tools to accomplish business goals</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <div class="section-heading">All marketing starts with a plan</div>
+          <p class="section-lead">Dont wandering aimlessly without direction, or waste time and resources chasing disconnected techniques that only result in brand dilution and lost sales. Plan your marketing strategy the right way, let us help build a marketing plan that gets results and grows your business.</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+{{playbooks.consult('Lets Talk Strategic Planning','Strategic Planning')}}
 
 {% endblock %}

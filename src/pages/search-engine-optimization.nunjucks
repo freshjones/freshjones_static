@@ -14,31 +14,26 @@
   <section class="hero-stark">
     <div class="wrap wrap-center">
       <div class="section-summary">
-        <h1 class="section-topic">Search Engine Optimization (SEO)</h1>
-        <h2 class="section-heading">Drive more traffic &bull; Get more leads &bull; Grow your business.</h2>
-        <p class="section-lead">Make sure your business is ready when customers are searching.</p>
-        <p>{{ button.link('/strategic-planning.html', 'I want more traffic') }}</p>
+        <div class="section-topic">Search Engine Optimization (SEO)</div>
+        <div class="section-heading">Drive more traffic &bull; Get more leads &bull; Grow your business.</div>
+        <h1 class="section-lead">Search engine optimization (SEO) designed to massively increase your traffic and quickly generate leads and sales</h1>
       </div>
     </div>
   </section>
 
-  <section class="services-intro">
-    <div class="wrap wrap-center wrap-center-narrow">
-      <div class="section-spaced">
-        <div class="section-summary">
-          <div class="section-heading">When you do a web search&hellip;</div>
-          <p>&hellip;how often do you navigate past the first page of results?</p>
-
-          <p class="bold">Not that often right?</p>
-
-          <p>Well here’s the truth…no one else does either. </p>
-
+   <section>
+    <div class="wrap wrap-half wrap-full">
+      <div>
+        <p class="m0 p0"><img src="/images/seo-click-through-rates.jpg" /></p>
+        <p class="m0 p0 align-right"><a href="https://www.advancedwebranking.com/cloud/ctrstudy/" target="_blank" class="source grey">(Source: Advanced Web Ranking)</a></p>
+      </div>
+      <div class="flex justify-center">
+        <div class="flex-panel-8">
+          <h1 class="section-heading">The first 5 search result positions get approximately 75% of all clicks.</h1>
+          <p class="h3 grey">Make sure you're not invisible</p>
           <p>Google has gotten so good at delivering the results we expect, that our behavior has changed. If we don’t see the results we want on the first page, we’re more likely to change our search than to click through to the next page of results.</p>
-
-          <p>But why does that matter?</p>
-
+          <p class="bold">But why does that matter?</p>
           <p>It matters because your business may as well be invisible if it isn’t listing on page one of search engine results. And today almost every thought or idea we have begins with a search of some kind. This makes it super important that your business be there in those moments...when decisions are made and opinions formed.</p>
-
           <p>With search engine optimization, you can help make sure your business is ready and available when customers are looking for the help you can give them.</p>
         </div>
       </div>
@@ -46,7 +41,31 @@
   </section>
 
 
-<section class="services-intro">
+  <section class="knockout">
+    <div class="wrap wrap-left">
+      <div class="service-plugs">
+        <h2 class="section-heading">Search Engine Optimization (SEO)</h2>
+        <div class="service-plug">
+          <h3>Technical Accuracy</h3>
+          <p>Most website hosting is provided by putting many websites on a single shared server, this means your website will have limited resources, is vulnerable to issues caused by other sites and cannot be tuned for optimal performance. With VPS hosting your website gets its own resources and can be configured for your specific needs.</p>
+        </div>
+        <div class="service-plug">
+          <h3>Meaningful Content</h3>
+          <p>Managed hosting means that we will handle the technical management and updates for the server your website lives on. This ensures that your website is always backed up, running optimally, and free of bugs and viruses.</p>
+        </div>
+        <div class="service-plug">
+          <h3>Content Promotion</h3>
+          <p>When you subscribe to our cloud hosting services, we'll run regular backups, perform software updates, and make sure all software components and plugins are performing optimally.</p>
+        </div>
+      </div>
+    </div>
+    <div class="right-image">
+      <img src="/images/seo-search-console.png"/>
+    </div>
+  </section>
+
+
+  <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
         <div class="section-summary">
@@ -354,6 +373,6 @@
     </div> 
   </section>
 
-  {{playbooks.book('SEO','SEO')}}
+  {{playbooks.consult('Lets talk search optimization','SEO')}}
 
 {% endblock %}

@@ -18,9 +18,9 @@
         <div class="services-list">
           <div>
             <div>
-              <h3>Responsive Website Design</h3>
+              <h3>Mobile-first Website Design</h3>
               <p>For many of your customers, a visit to your website will be their first interaction with your brand. Make it count with a well-designed website thats fast, easy to navigate and optimized for any device your customers use.</p>
-              <p>{{ button.link('/responsive-web-design.html', 'Learn More', 'link') }}</p>
+              <p>{{ button.link('/mobile-first-responsive-web-design.html', 'Learn More', 'link') }}</p>
             </div>
           </div>
           <div>

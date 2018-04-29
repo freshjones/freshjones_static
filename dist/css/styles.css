@@ -13,6 +13,10 @@ $size-1: $size-default * 4 - 8px;
   color: #3fa208;
 }
 
+.gray, .grey {
+  color: #9d9d9d;
+}
+
 .bg-light-gray, .section-background {
   background-color: #f6f6f6;
 }
@@ -288,6 +292,10 @@ $size-1: $size-default * 4 - 8px;
   justify-content: center;
 }
 
+.align-items-top {
+  align-items: flex-start !important;
+}
+
 .grid-2col {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -421,6 +429,10 @@ $size-1: $size-default * 4 - 8px;
   font-size: 85% !important;
 }
 
+.tiny {
+  font-size: 60% !important;
+}
+
 .larger {
   font-size: 150% !important;
 }
@@ -439,6 +451,10 @@ $size-1: $size-default * 4 - 8px;
 
 .italic {
   font-style: italic;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .line-height-1 {
@@ -731,6 +747,9 @@ section.no-border {
   .section-lead {
     font-size: 115%;
     line-height: 1.75;
+  }
+  main section .wrap-half > div {
+    width: 50%;
   }
   main section .wrap-full {
     max-width: initial;
