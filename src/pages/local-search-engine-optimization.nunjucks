@@ -17,7 +17,7 @@
         <h1 class="section-topic">Local SEO</h1>
         <h2 class="section-heading">Put your business on the map with local SEO</h2>
         <p class="section-lead">Make sure your business is ready when local customers are looking.</p>
-        <p>{{ button.link('/strategic-planning.html', 'I want more traffic') }}</p>
+        {# <p>{{ button.scrollto('schedule', 'I want more traffic') }}</p> #}
       </div>
     </div>
   </section>
@@ -44,7 +44,30 @@
       </div>
     </div> 
   </section>
-
+  {#
+  <section class="knockout">
+    <div class="wrap wrap-left">
+      <div class="service-plugs">
+        <h2 class="section-heading">Local SEO Services</h2>
+        <div class="service-plug">
+          <h3>Business Identity</h3>
+          <p>Your business is listed in a lot of places across the internet. We create update, maintain and verify that information is correct so customers and search engines find you everytime they search.</p>
+        </div>
+        <div class="service-plug">
+          <h3>Social Media</h3>
+          <p>Your customers are on social media. How do you know which sites your business should be on? How often should you post? What do you even post about?</p>
+        </div>
+        <div class="service-plug">
+          <h3>Online Reputation</h3>
+          <p>People are talking about your business and online opinions matter and influence decisions, stay on top of the conversation</p>
+        </div>
+      </div>
+    </div>
+    <div class="right-image">
+      <img src="/images/messenger.png"/>
+    </div>
+  </section>
+  #}
   {#
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">

@@ -22,6 +22,30 @@
     </div>
   </section>
 
+
+  <section>
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div>
+        <div class="section-summary">
+          <div class="section-heading">More signal and less noise</div>
+           <p class="section-lead mb3">There is no better time to advertise than when someone already has determined they want your product or service and are actively looking to buy.</p>
+          <div class="section-quote">
+             <div class="quote">
+              <div>
+                <p>"Businesses make an average of $2 in revenue for every $1 they spend on AdWords."<br/><span class="source">(Google Economic Impact Report)</span></p>
+              </div>
+            </div>
+            <div>
+              <p>Businesses today need a strong search engine presence to be competitive, which means showing ads on Google Search results pages right when customers are looking to buy.</p>
+              <p>Fuel your website with high-quality traffic and watch your conversions explode. There are over 3 billion searches every day. These searches are full of people looking for answers and solutions to their problems. A percentage of these searches are problems that your business solves. Through the use of ppc management services, you can pull new customers to your business immediately.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  {#
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -394,7 +418,8 @@
       </div>
     </div> 
   </section>
+  #}
 
-  {{playbooks.book('Paid Search Advertising','Paid Search Advertising')}}
+  {{playbooks.consult('Lets Talk Search Advertising','Paid Search Advertising')}}
 
 {% endblock %}

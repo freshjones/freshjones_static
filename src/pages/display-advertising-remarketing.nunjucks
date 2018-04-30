@@ -17,12 +17,36 @@
         <h1 class="section-topic">Display Advertising and Remarketing</h1>
         <h2 class="section-heading">A picture is worth a thousand words</h2>
         <p class="section-lead">Keeping your business top of mind with captivating display ads</p>
-        <p>{{ button.link('/strategic-planning.html', 'I want more traffic') }}</p>
+        <p>{{ button.scrollto('schedule', 'Sounds Great, Lets Talk') }}</p>
       </div>
     </div>
   </section>
 
+  <section>
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div>
+        <div class="section-summary">
+          <div class="section-heading">Boost your online traffic with eye-catching display ads and remarketing</div>
+           <p class="section-lead mb3">Use display ads and remarketing to build awareness and keep your business top-of-mind.</p>
+          <div class="section-quote">
+             <div class="quote">
+              <div>
+                <p>"Users who are retargeted to are 70% more likely to convert."<br/><span class="source">(Source: Digital Information World)</span></p>
+              </div>
+            </div>
+            <div>
+              <p>There’s no doubt about it.</p>
+              <p>We’re all exposed to so many ads online that we’ve gone banner-blind, as such display ads need to work hard to be effective. A display ad that appears in the right location at the right time can be a very effective and affordable method of getting your business in front of the right people.</p>
+              <p>Use display ads as part of your marketing strategy. Conversion rate optimized display ads help you get the word out about your business, get potential customers attention, peak their interest and ensure they keep you in mind until they’re ready to make a purchase.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
 
+
+  {#
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -452,7 +476,8 @@
       </div>
     </div> 
   </section>
+  #}
 
-  {{playbooks.book('Display Advertising and Remarketing','Display Advertising and Remarketing')}}
+  {{playbooks.consult('Need Help With Display Advertising and Remarketing?','Display Advertising and Remarketing')}}
 
 {% endblock %}
