@@ -1,4 +1,5 @@
-<form method="POST" netlify>
+<form name="consulation" method="POST" netlify>
+  <input name="consulation" type="hidden" value="General Consulation - Homepage">
   <div>
     <label>Name</label>
     <input name="name" placeholder="Full Name" type="text" required>
