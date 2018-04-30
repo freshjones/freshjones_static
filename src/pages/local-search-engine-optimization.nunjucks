@@ -10,7 +10,7 @@
 {% endblock %}
 
 {% block main %} 
- 
+  
   <section class="hero-stark">
     <div class="wrap wrap-center">
       <div class="section-summary">
@@ -22,23 +22,30 @@
     </div>
   </section>
 
-  <section class="services-intro">
+  <section>
     <div class="wrap wrap-center wrap-center-narrow">
-      <div class="section-spaced">
+      <div>
         <div class="section-summary">
           <div class="section-heading">Boost Your Local SEO Performance</div>
-          <p>Keep your social media accounts active and encourage customers to engage with your business on social. An active social media presence that interacts with other users is a signal to Google that your company is legitimate.</p>
-
-          <p>It’s also a good signal to customers that you’re always readily available and highly responsive should they have any questions or problems.</p>
-
-          <p>As a small business owner juggling a million and one different hats, it’s easy to fall into any of the mistakes above – you’re no SEO pro after all.</p>
-
-          <p>But the reality is that search (especially local search for small businesses) is how new customers find your business. Spend the time to fix the most common local SEO mistakes you may be making, and you’ll see the benefits pour in.</p>
+           <p class="section-lead mb3">Search is now the most popular way consumers get information about local businesses like yours.</p>
+          <div class="section-quote">
+             <div class="quote">
+              <div>
+                <p>"Seven out of ten customers visit a business or make a purchase based on info they found online."<br/><span class="source">(Google)</span></p>
+              </div>
+            </div>
+            <div>
+            <p>Local SEO is the optimization of your digital business assets so you can be found in localized searches. With our local SEO service we'll help ensure that your business will be there when customers are searching online.</p>
+            <p>Mobile searching is now the way most people seek and discover local businesses. Google and other search engines have integrating local listings with customer testimonials and reviews, integrated maps with directions and show easy to find contact information. Search has become the go-to resource for local business information.</p>
+            <p>Investing in a local SEO strategy is a massive opportunity to add lasting value to your local business. Search engines have taken the lead as the local provider of business information, driving traffic and revenue for those able the seize the opportunity. </p>
+            </div>
+          </div>
         </div>
       </div>
     </div> 
   </section>
 
+  {#
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -388,6 +395,8 @@
     </div> 
   </section>
 
-  {{playbooks.book('Local SEO','Local SEO')}}
+  #}
+
+  {{playbooks.consult('Need help with local SEO? Lets talk.','Local SEO')}}
 
 {% endblock %}

@@ -13,6 +13,10 @@ $size-1: $size-default * 4 - 8px;
   color: #3fa208;
 }
 
+.black {
+  color: #000;
+}
+
 .gray, .grey {
   color: #9d9d9d;
 }
@@ -361,13 +365,20 @@ $size-1: $size-default * 4 - 8px;
   .flex {
     display: flex;
   }
+  .flex-columns {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+  }
   .flex-panels {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .flex-panels > div {
-    padding: 20px;
+  .flex-panels > div,
+  .flex-columns > div {
+    padding: 30px;
   }
   .flex-panel-1 {
     width: 8.33333%;

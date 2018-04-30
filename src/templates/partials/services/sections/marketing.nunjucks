@@ -35,7 +35,7 @@
             <div>
               <h3>Local Search</h3>
               <p>In today's mobile world everything starts with a search. Local search is how customers find small businesses. Increase your local businesses exposure, foot traffic or phone calls with local search optimization.</p>
-              <p>{{ button.link('/local-search.html', 'Learn More', 'link') }}</p>
+              <p>{{ button.link('/local-search-engine-optimization.html', 'Learn More', 'link') }}</p>
             </div>
           </div>
           <div>

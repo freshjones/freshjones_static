@@ -18,9 +18,6 @@
         <h2 class="section-heading">Save Time, Money and Resources</h2>
         <!-- <div class="section-heading">360&deg; Services, Under One Roof.</div> -->
         <p class="section-lead">Outsource your cloud hosting and management requirements.</p>
-        <p>
-          {{ button.link('/strategic-planning.html', 'Learn more') }}
-        </p>
       </div>
     </div>
   </section>

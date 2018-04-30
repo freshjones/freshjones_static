@@ -85,6 +85,14 @@
     display:flex;
   }
 
+  .flex-columns
+  {
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+  }
+
   .flex-panels
   {
     display:flex;
@@ -92,9 +100,10 @@
     justify-content: space-between;
   }
 
-  .flex-panels > div
+  .flex-panels > div,
+  .flex-columns > div
   {
-    padding:20px;
+    padding:30px;
   }
 
   $flex-column: 100%/12;
