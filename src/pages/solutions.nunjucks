@@ -120,7 +120,7 @@ FreshJones - Growth Solutions
   </div> 
 </section>
 
-
+{#
 <section class="knockout section-growth-playbook section-right">
   <div class="wrap">
     <div>
@@ -136,6 +136,7 @@ FreshJones - Growth Solutions
     </div>
   </div> 
 </section>
+#}
 
 <!--
 <section class="knockout">
