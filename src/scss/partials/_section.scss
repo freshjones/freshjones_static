@@ -1,16 +1,16 @@
 
 .section-heading
 {
-  font-size:150%;
-  font-weight:300;
+  font-size:200%;
+  font-weight:600;
   margin-bottom:$space-2;
   line-height:1.25;
 }
 
 .section-lead
 {
-  font-size:90%;
-  line-height:2;
+  //font-size:90%;
+  //line-height:2;
   margin:0;
 }
 .section-narrow
@@ -122,9 +122,6 @@ section.no-border
     background-position: right center;
   }
 
-  
-
-
   .section-right
   {
     background-position: left center;
@@ -148,7 +145,7 @@ section.no-border
 
   .section-heading
   {
-    font-size:42px;
+    font-size:250%;
   }
 
   .section-lead

@@ -312,9 +312,19 @@ $size-1: $size-default * 4 - 8px;
   text-align: left;
 }
 
+.flex-blocks > li {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .flex-blocks-noborder > li {
   border: none;
   box-shadow: none;
+}
+
+.flex-blocks-center > li {
+  align-items: center;
 }
 
 @media (min-width: 980px) {
@@ -325,12 +335,6 @@ $size-1: $size-default * 4 - 8px;
   .flex-blocks > li {
     flex: 1 1 20%;
     margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  .flex-blocks-center > li {
-    align-items: center;
   }
   .flex-blocks-nowrap {
     flex-wrap: nowrap;
@@ -519,8 +523,8 @@ html, body {
 
 body {
   font-family: 'Open Sans',sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.75;
   color: #333;
   overflow-x: hidden;
 }
@@ -590,6 +594,12 @@ h6, .h6 {
   }
 }
 
+@media (min-width: 768px) {
+  body {
+    font-size: 95%;
+  }
+}
+
 .container,
 .section-container {
   width: 90%;
@@ -613,15 +623,13 @@ h6, .h6 {
 }
 
 .section-heading {
-  font-size: 150%;
-  font-weight: 300;
+  font-size: 200%;
+  font-weight: 600;
   margin-bottom: 20px;
   line-height: 1.25;
 }
 
 .section-lead {
-  font-size: 90%;
-  line-height: 2;
   margin: 0;
 }
 
@@ -724,7 +732,7 @@ section.no-border {
     padding: 0;
   }
   .section-heading {
-    font-size: 42px;
+    font-size: 250%;
   }
   .section-lead {
     font-size: 115%;
@@ -1254,6 +1262,7 @@ footer .wordmark {
   min-height: 100vh;
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 
 .hero-stark .section-topic {
@@ -1985,7 +1994,7 @@ header .social-icons svg:hover {
 .home-intro .section-subheading {
   font-size: 14px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   color: #3fa208;
   list-style: none;
   margin: 0;
@@ -2011,6 +2020,7 @@ header .social-icons svg:hover {
 @media (min-width: 980px) {
   .home-intro .section-subheading {
     font-size: 16px;
+    justify-content: center;
   }
 }
 
@@ -2083,19 +2093,18 @@ header .social-icons svg:hover {
 }
 
 .services-list > div {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .services-list h3, .services-list .h3 {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 22px;
   margin: 0;
 }
 
 .services-list p {
   margin-top: 0;
-  font-size: 90%;
 }
 
 .services-list .link {
@@ -2130,7 +2139,6 @@ header .social-icons svg:hover {
     width: 30%;
     text-align: left;
     display: flex;
-    margin-bottom: 0;
     align-items: flex-start;
   }
   .services-list div div {
@@ -2138,6 +2146,12 @@ header .social-icons svg:hover {
   }
   .services-list div.icon {
     width: 15%;
+  }
+  .services-list h3, .services-list .h3 {
+    font-size: 18px;
+  }
+  .services-list p {
+    margin-top: 0;
   }
 }
 

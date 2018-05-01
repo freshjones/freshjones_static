@@ -15,7 +15,7 @@ body
   font-family: 'Open Sans',sans-serif;
   //font-weight:300;
   font-size: $size-default;
-  line-height:1.5;
+  line-height:1.75;
   color:#333;
   overflow-x: hidden;
   //background:$soft-white;
@@ -61,4 +61,12 @@ h6 { font-size: $sm-size-6; }
   h4 { font-size: $size-4; }
   h5 { font-size: $size-5; }
   h6 { font-size: $size-6; }
+}
+
+@include breakpoint($small) 
+{ 
+  body
+  {
+    font-size: 95%;
+  }
 }

@@ -13,22 +13,23 @@
 
 .services-list > div
 {
-  margin-bottom: $space-3;
+  margin-bottom: $space-4;
 }
 
 .services-list h3
 {
   text-transform:uppercase;
   font-weight:600;
-  font-size:16px;
+  font-size:22px;
   margin:0;
 }
 
 .services-list p
 {
   margin-top:0;
-  font-size:90%;
+  //font-size:90%;
 }
+
 
 .services-list .link
 {
@@ -67,7 +68,7 @@
     width: 30%;
     text-align: left;
     display:flex;
-    margin-bottom: 0;
+    //margin-bottom: 0;
     align-items: flex-start;
   }
 
@@ -80,6 +81,17 @@
   {
     width:15%;
   }
+
+  .services-list h3
+  {
+    font-size:18px;
+  }
+
+  .services-list p
+  {
+    margin-top: 0;
+  }
+
 
 
 }
