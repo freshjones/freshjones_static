@@ -17,11 +17,38 @@
         <h1 class="section-topic">Mobile SMS Marketing</h1>
         <h2 class="section-heading">Your customers are texting, why aren’t you?</h2>
         <p class="section-lead">Giving your business an edge with mobile marketing as part of your growth strategy.</p>
-        <p>{{ button.link('/strategic-planning.html', 'Learn more') }}</p>
       </div>
     </div>
   </section>
 
+  <section>
+    <div class="wrap wrap-center ">
+      <div>
+        <div class="section-summary">
+          <div class="section-heading align-center">Go where your customers are&hellip;on their phones</div>
+           <p class="section-lead mb3 align-center">A fast, convenient and personal way of connecting with your business is exactly what your customers want.</p>
+          <div class="section-quote section-quote-background">
+             <div class="quote pavlov-dog">
+              <div>
+                <p>"By 2018, chat app users will represent 80% of smartphone users."<br/><span class="source">(eMarketer)</span></p>
+              </div>
+            </div>
+            <div>
+              <p class="h3 bold">Remember Pavlov?</p>
+              <p>You know, the Russian dude with the dogs and the bells and the saliva...Eew! Well he could have saved himself a whole lotta hand sanitizer if mobile phones were around back in his day. Take one look at any one of us when our phones buzz, bleep or ding and it's easy to see we’re hopelessly conditioned to yank out our phones and see what's up. </p>
+              <p>We can’t help it, and honestly, we really don’t want to, mobile phones just make everything much more convenient, instantaneous and easy.</p>
+              <p>So why not use mobile marketing to reach your customers where they are…on their phones!</p>
+              <p>Use mobile marketing as part of your growth strategy and give your customers more convenience with updates, alerts or appointment reminders, drive more traffic to your store with sales offers, coupons and promotions or run contests, pledge donations and so much more.</p> 
+              <p>Give your business an edge and a service your customers will love…and one they find impossible to ignore.</p>
+              <p>Are you drooling yet? Nevermind, forget I asked...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  {# 
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -264,7 +291,8 @@
       </div>
     </div> 
   </section>
+  #}
 
-  {{playbooks.book('Mobile Marketing','Mobile Marketing')}}
+  {{playbooks.consult('Lets Talk SMS Marketing','Mobile Marketing')}}
 
 {% endblock %}

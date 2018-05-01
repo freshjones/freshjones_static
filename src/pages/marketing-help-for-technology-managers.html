@@ -2,7 +2,7 @@
 {% extends "layout.nunjucks" %}
 
 {% block title %}
-  FreshJones - Marketing Solutions for Technology Managers
+  FreshJones - MarTech Solutions for Technology Managers
 {% endblock %}
 
 {% block header %}
@@ -25,8 +25,8 @@
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
         <div class="section-summary">
-          <h1 class="section-heading">You're department is pretty busy these days&hellip;</h1>
-          <p class="section-lead mb2">&hellip;tech can help in every aspect of a business and as such all of your comapnies departments have tech requirements or projects they'd like to get done. As a technology manager its your job to determine how best to help each of your departments get the tools they need, ensure there isn't redundancy or overlap needs between departments, determine the best tool for each individual department while simulataneously considering the business as a whole, juggling your staff to build, install, configure and maintain these tools and that's all without mentioning budget, security, infrastructure, support, training etc, etc.&hellip;</p>
+          <h1 class="section-heading">You're department is pretty busy these days</h1>
+          <p class="section-lead mb2">Technology can help in every aspect of a business and as such all of your comapnies departments have tech requirements or projects they'd like to get done. As a technology manager its your job to determine how best to help each of your departments get the tools they need, ensure there isn't redundancy or overlap needs between departments, determine the best tool for each individual department while simulataneously considering the business as a whole, juggling your staff to build, install, configure and maintain these tools and that's all without mentioning budget, security, infrastructure, support, training etc, etc.&hellip;</p>
           <p class="section-lead mb2">We feel your pain, and we're happy to help. We have the experience and capabilities to help you strategically determine, implement and maintain the marketing technology requirements of your business. From corporate intranets, api-driven CRM integrations, enterprise level data-driven mobile and web applications we can help you deliver the solutions your business needs with the confidence and security of knowing that you've looked at things from all angles and made the right decisions.</p>
           <p class="section-lead mb2">We have the expertise and capabilities to work in a wide array of marketing technologies, we listen and help make recommendations and suggest potential solutions based on your unique business challenges and requirements. Our flexible agile project management methodology keeps your projects on-time and on-budget and allows you and your stakeholders to pivot and adjust things as projects progress instead of being locked into something at the beginning the project and dealing with endless change orders, added costs and overdue projects.</p>
           <p>{{ button.scrollto('schedule', 'Sound Good? Lets Talk') }}</p>
@@ -40,13 +40,11 @@
       <div>
         <div class="section-summary mb3">
           <div>
-            <h2 class="section-heading">Marketing Technology Capabilities</h2>
-            <p class="section-lead">Here's a list of the technologies and techniques we'll use to build and implement your marketing tech requirements.</p>
+            <h2 class="section-heading align-center">Marketing Technology Capabilities</h2>
+            <p class="section-lead align-center">Here's a list of the technologies and techniques we'll use to build and implement your marketing tech requirements.</p>
           </div>
         </div>
-        <div class="technology-list">
-          {% include 'partials/technologies.nunjucks' %}
-        </div>
+        {% include 'partials/technologies.nunjucks' %}
       </div>
     </div> 
   </section>

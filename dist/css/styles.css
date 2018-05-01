@@ -1851,6 +1851,9 @@ header .social-icons svg:hover {
   .section-cms-systems {
     background-image: url("/images/CMSSystems.jpg");
   }
+  .pavlov-dog {
+    background-image: url("/images/pavlov-dog.jpg");
+  }
 }
 
 .service-plugs h2, .service-plugs .h2 {
@@ -1941,8 +1944,25 @@ header .social-icons svg:hover {
 .section-quote .quote .source {
   font-size: 60%;
   color: #ccc;
-  display: inline-block;
+  display: inline;
   margin-left: 10px;
+}
+
+.section-quote-background > div {
+  padding-left: 60px;
+}
+
+.section-quote-background .quote {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+}
+
+.section-quote-background .quote > div {
+  background-color: rgba(255, 255, 255, 0.85);
+  line-height: 1.25;
+  padding: 20px 0;
 }
 
 .hero {
