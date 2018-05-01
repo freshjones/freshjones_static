@@ -1,6 +1,6 @@
 {% macro active(activePage='home') %}
     <a href="/" class="{%if activePage == 'home' %}active{% endif %}">Home</a>
-    <!-- <a href="/solutions" class="{%if activePage == 'solutions' %}active{% endif %}">Solutions</a> -->
+    <a href="/solutions.html" class="{%if activePage == 'solutions' %}active{% endif %}">Solutions</a>
     <a href="/services.html" class="{%if activePage == 'services' %}active{% endif %}">Services</a>
     <a href="/about.html" class="{%if activePage == 'about' %}active{% endif %}">About</a>
     <a href="/blog" class="{%if activePage == 'blog' %}active{% endif %}">Blog</a>
