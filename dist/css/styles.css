@@ -1748,6 +1748,8 @@ button, input, optgroup, select, textarea {
   display: block;
   padding: 3px;
   fill: #666;
+  width: 35px;
+  height: 35px;
 }
 
 .social-icons a:hover {
@@ -1756,6 +1758,8 @@ button, input, optgroup, select, textarea {
 
 header .social-icons a {
   padding: 5px;
+  width: 28px;
+  height: 28px;
 }
 
 header .social-icons li {
