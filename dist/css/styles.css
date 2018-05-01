@@ -880,6 +880,10 @@ nav a {
   height: 100%;
 }
 
+nav a.active {
+  color: #3fa208;
+}
+
 nav a svg {
   height: auto;
   width: 10px;
@@ -931,7 +935,7 @@ nav a.active
   color: #fff !important;
 }
 
-.show-subnav-active a {
+nav .show-subnav-active a {
   color: #fff;
 }
 
