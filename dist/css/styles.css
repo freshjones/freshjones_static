@@ -1935,7 +1935,7 @@ header .social-icons svg:hover {
   opacity: 0.8;
   background: #2690e1;
   /* Old browsers */
-  background: linear-gradient(135deg, #1a1a1a 50%, #030303 50%);
+  background: linear-gradient(135deg, #262626 50%, #0d0d0d 50%);
 }
 
 .hero .wrap {
