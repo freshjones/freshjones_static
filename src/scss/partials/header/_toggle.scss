@@ -1,12 +1,17 @@
 
 .menu-toggle
 {
+  padding:10px;
+  cursor: pointer;
+}
+
+.menu-toggle > div
+{
   display: flex;
   height: 19px;
   justify-content: space-between;
   flex-direction: column;
   width: 28px;
-  cursor: pointer;
 }
 
 .menu-toggle span

@@ -32,7 +32,9 @@
         <span class="wordmark">FreshJones</span>
       </a>
       <div class="menu-toggle">
-        <span></span><span></span><span></span>
+        <div>
+          <span></span><span></span><span></span>
+        </div>
       </div>
       <nav>
         <ul>
