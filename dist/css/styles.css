@@ -674,7 +674,15 @@ main section .wrap-center > div {
 }
 
 .section-divider {
-  display: none;
+  display: flex;
+  justify-content: center;
+}
+
+.section-divider > div {
+  background-color: #3fa208;
+  height: 5px;
+  width: 20%;
+  margin: 40px 0;
 }
 
 main section {
@@ -701,16 +709,6 @@ section.no-border {
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: right center;
-  }
-  .section-divider {
-    display: flex;
-    justify-content: center;
-  }
-  .section-divider > div {
-    background-color: #3fa208;
-    height: 5px;
-    width: 20%;
-    margin: 40px 0;
   }
   .section-right {
     background-position: left center;

@@ -71,9 +71,18 @@ main section .wrap-center > div
 
 .section-divider
 {
-  display:none;
+  display:flex;
+  justify-content: center;
 }
 
+.section-divider > div
+{
+  background-color: $green;
+  height:5px;
+  width: 20%;
+  margin:40px 0;
+}
+  
 .section-background
 {
   @extend .bg-light-gray;
@@ -113,19 +122,7 @@ section.no-border
     background-position: right center;
   }
 
-  .section-divider
-  {
-    display:flex;
-    justify-content: center;
-  }
-
-  .section-divider > div
-  {
-    background-color: $green;
-    height:5px;
-    width: 20%;
-    margin:40px 0;
-  }
+  
 
 
   .section-right
