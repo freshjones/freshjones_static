@@ -71,12 +71,14 @@
                 <p><a href="mailto:hello@freshjones.com">hello@freshjones.com</a></p>
               </div>
             </li>
+            {#
             <li class="flex">
               <div>
                 <h3 class="border-bottom">Social</h3>
                 {% include 'partials/social_icons/social-icons.nunjucks' %}
               </div>
             </li>
+            #}
           </ul>
         </div>
       </div>
