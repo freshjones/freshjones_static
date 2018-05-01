@@ -27,7 +27,7 @@
             <div>
               <h3>Website Development</h3>
               <p>Engineering content management systems, custom product and applications and ecommerce websites. Build a powerful optimized web experience or your business.</p>
-              <p>{{ button.link('/website-design-and-developent.html', 'Learn More', 'link') }}</p>
+              <p>{{ button.link('/website-design-and-development.html', 'Learn More', 'link') }}</p>
             </div>
           </div>
           <div>
@@ -55,7 +55,7 @@
             <div>
               <h3>Chatbots &amp; Voice Agents</h3>
               <p>Take advantage of conversational marketing with a chatbot or voice agent engineered to help convert more leads, influence purchasing decisions, automate sales or human resource processes and more.</p>
-              <p>{{ button.link('/chatbot-andvoice-agent-development.html', 'Learn More', 'link') }}</p>
+              <p>{{ button.link('/chatbot-and-voice-agent-development.html', 'Learn More', 'link') }}</p>
             </div>
           </div>
         </div>
