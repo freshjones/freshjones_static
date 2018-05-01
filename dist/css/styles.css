@@ -371,6 +371,10 @@ $size-1: $size-default * 4 - 8px;
   grid-gap: 10px;
 }
 
+.flex-columns > div {
+  margin-bottom: 40px;
+}
+
 @media (min-width: 980px) {
   .flex {
     display: flex;
