@@ -7,10 +7,11 @@ label
 
 input, select
 {
-    border: solid 1px #ccc;
-    padding: 10px;
-    width: 100%;
-    font-size: 14px;
+  appearance: none;
+  border: solid 1px #ccc;
+  padding: 10px;
+  width: 100%;
+  font-size: 14px;
 }
 
 form > div

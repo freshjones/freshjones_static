@@ -1342,6 +1342,9 @@ label {
 }
 
 input, select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border: solid 1px #ccc;
   padding: 10px;
   width: 100%;
@@ -1408,26 +1411,46 @@ button, input, optgroup, select, textarea {
 }
 
 .link {
-  padding: 0px 0px 0px 25px;
-  color: #3fa208;
   position: relative;
   display: inline-block;
+  cursor: pointer;
+}
+
+.link {
+  color: #fff;
+  background-color: #3fa208;
+  padding: 15px 30px 15px 50px;
+  border-radius: 30px;
 }
 
 .link > span {
   position: absolute;
   top: 50%;
-  left: 10px;
-  width: 30px;
-  height: 30px;
+  left: 25px;
+  width: 40px;
+  height: 40px;
   padding: 0;
   line-height: inherit;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
 
-.link > span path {
-  fill: #3fa208;
+@media (min-width: 980px) {
+  .link {
+    padding: 0px 0px 0px 25px;
+    background: none;
+    border-radius: 0;
+    border: none;
+    color: #3fa208;
+  }
+  .link > span {
+    left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  .link > span path {
+    fill: #3fa208;
+  }
 }
 
 .column-list div.icon {

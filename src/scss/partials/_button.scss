@@ -21,31 +21,54 @@
     transform: translate(-50%, -50%);
 }
 
+.link
+{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
 
 .link
 {
-  padding:0px 0px 0px 25px;
-  //border-radius:30px;
-  //border:solid 1px $green;
-  color:$green;
-  position: relative;
-  display: inline-block;
+  color:#fff;
+  background-color:$green;
+  padding:15px 30px 15px 50px;
+  border-radius:30px;
 }
 
 .link > span
 {
     position: absolute;
     top: 50%;
-    left: 10px;
-    width: 30px;
-    height: 30px;
+    left: 25px;
+    width: 40px;
+    height: 40px;
     padding: 0;
     line-height: inherit;
     transform: translate(-50%, -50%);
-  
 }
 
-.link > span path
-{
-  fill:$green;
+@include breakpoint($medium) { 
+
+  .link
+  {
+    padding:0px 0px 0px 25px;
+    background: none;
+    border-radius:0;
+    border:none;
+    color:$green;
+  }
+
+  .link > span
+  {
+    left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .link > span path
+  {
+    fill:$green;
+  }
+
 }
