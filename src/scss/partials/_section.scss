@@ -62,8 +62,8 @@ main section .wrap
 main section .wrap-center
 {
   justify-content: center;
-  text-align: center;
 }
+
 main section .wrap-center > div
 {
   width:100%;
@@ -71,16 +71,7 @@ main section .wrap-center > div
 
 .section-divider
 {
-  display:flex;
-  justify-content: center;
-}
-
-.section-divider > div
-{
-  background-color: $green;
-  height:5px;
-  width: 20%;
-  margin:40px 0;
+  display:none;
 }
 
 .section-background
@@ -121,6 +112,21 @@ section.no-border
     background-size: auto 100%;
     background-position: right center;
   }
+
+  .section-divider
+  {
+    display:flex;
+    justify-content: center;
+  }
+
+  .section-divider > div
+  {
+    background-color: $green;
+    height:5px;
+    width: 20%;
+    margin:40px 0;
+  }
+
 
   .section-right
   {

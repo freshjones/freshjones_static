@@ -23,38 +23,3 @@
   width: 60%;
 }
 
-/*
-main {
-  margin-top: $space-3 + $space-4;
-  margin-bottom: $space-2;
-}
-
-main section .container
-{
-  padding-top: $space-3;
-  padding-bottom: $space-3;
-}
-*/
-
-/*
-main section
-{
-  opacity: 0;
-  transition: opacity 1s, transform 500ms;
-  transform: translate3d(0,50px,0);
-}
-
-main section.visible { 
-  opacity: 1;
-  transform: translate3d(0,0,0);
-}
-
-
-
-@include breakpoint($medium) { 
-  main {
-    //margin-top: $space-3 + $space-4 + $space-2;
-  }
-}
-
-*/

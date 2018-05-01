@@ -1,8 +1,40 @@
+.story-content .statistics ul
+{
+  padding:0;
+  margin:0;
+  list-style:none;
+}
 
+.story-content .statistics li span
+{
+  text-transform: uppercase;
+  font-weight:bold;
+}
 
+.story-content .statistics ul li
+{
+  margin-bottom:25px;
+  white-space: nowrap;
+}
+
+.story-content .statistics ul li li
+{
+  margin-bottom:0;
+}
+
+.story-chroma .story-content .quote,
+.story-chroma .story-content .statistics span
+{
+  color:red;
+}
+
+.story-sfymca .story-content .quote,
+.story-sfymca .story-content .statistics span
+{
+  color:#ff6600;
+}
 
 @include breakpoint($medium) { 
-
 
   .story-content
   {
@@ -13,7 +45,6 @@
     border-top:10px solid #999;
   }
 
-
   .story-content > div
   {
     padding:20px;
@@ -21,10 +52,6 @@
 
   .story-content .statistics ul
   {
-    padding:0;
-    margin:0;
-    list-style:none;
-    text-transform: uppercase;
     font-size:70%;
     font-weight:bold;
   }
@@ -55,17 +82,6 @@
     font-weight:300;
   }
 
-  .story-content .statistics ul li
-  {
-    margin-bottom:25px;
-    white-space: nowrap;
-  }
-
-  .story-content .statistics ul li li
-  {
-    margin-bottom:0;
-  }
-
   .story-content .statistics ul ul
   {
     font-size:130%;
@@ -73,7 +89,6 @@
     text-transform: none;
     color:#666;
   }
-
 
   .story-stacked .story-content
   {
@@ -103,40 +118,16 @@
     background:none;
   }
 
-
-  .story-chroma 
+  .story-chroma .story-content
   {
-    
-    .story-content
-    {
-      border-top:10px solid red;
-    }
-
-    .story-content .quote,
-    .story-content .statistics span
-    {
-      color:red;
-    }
-
+    border-top:10px solid red;
   }
 
-  .story-sfymca
+  .story-sfymca .story-content
   {
-    
-    .story-content
-    {
-      border-top:10px solid #ff6600;
-    }
-    
-    .story-content .quote,
-    .story-content .statistics span
-    {
-      color:#ff6600;
-    }
-
+    border-top:10px solid #ff6600;
   }
-
-
+    
   .home-stories .section-summary
   {
     display: flex;
