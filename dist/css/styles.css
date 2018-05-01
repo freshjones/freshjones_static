@@ -375,6 +375,13 @@ $size-1: $size-default * 4 - 8px;
   margin-bottom: 40px;
 }
 
+.flex-columns h3, .flex-columns .h3 {
+  font-weight: 600;
+  line-height: 1.25;
+  font-size: 22px;
+  margin: 0;
+}
+
 @media (min-width: 980px) {
   .flex {
     display: flex;

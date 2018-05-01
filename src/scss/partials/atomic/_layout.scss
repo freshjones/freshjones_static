@@ -37,6 +37,14 @@
   margin-bottom: $space-3;
 }
 
+.flex-columns h3
+{
+  font-weight: 600;
+  line-height: 1.25;
+  font-size: 22px;
+  margin: 0;
+}
+
 @include breakpoint($medium) { 
 
   .flex
