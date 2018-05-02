@@ -16,12 +16,49 @@
       <div class="section-summary">
         <h1 class="section-topic">Social Media Advertising</h1>
         <h2 class="section-heading">There's 2.8 billion reasons to advertise on social media</h2>
-        <p class="section-lead">Keeping your business top of mind with captivating display ads</p>
-        <p>{{ button.link('/strategic-planning.html', 'Learn more') }}</p>
+        <p class="section-lead">Economical and targeted way of connecting your business with potential customers</p>
       </div>
     </div>
   </section>
 
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Don't miss out on an inexpensive and profitable method of achieving your business growth goals.</h1>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section>
+    <div class="wrap wrap-center ">
+      <div>
+        <div>
+         
+          <div class="section-quote section-quote-background">
+             <div class="quote pig-in-blanket">
+              <div>
+                <p>"Facebook ad revenue in the US is expected to outpace total print ad spending by 2019."<br/><span class="source">(eMarketer)</span></p>
+              </div>
+            </div>
+            <div>
+              <p class="h2 bold">Social media is like a big party</p>
+              <p>A big party albeit without those delicious little hot dogs wrapped in blankets.</p>
+              <p>There’s one for the ol’ facebook suggestion box&hellip;mini hot dogs for everyone!</p>
+              <p>I digress.</p>
+              <p>But even without the mini hotdogs…Social media can be a great party for your business to attend. With nearly 2.1 billion people active on social media there’s never been a better time to reach customers where they spend a ton of time.</p>
+              <p>Social media marketing is economical, extremely targeted, and can help connect your business with potential customers wherever they are in the buying process, from being completely unaware of a need, through to a purchase and then sharing your business with neighbors and friends.</p>
+              <p>Join the party and use social media advertising as part of your overall marketing strategy, from increasing visibility and awareness to quickly and effectively building leads, gaining customers and growing lifetime value, social media marketing is great for just about any growth goal your business is working to accomplish,</p> 
+              <p>Are you hungry yet?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  {#
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -656,7 +693,9 @@
       </div>
     </div> 
   </section>
+  
+  #}
 
-  {{playbooks.book('Social Media Advertising','Social Media Advertising')}}
+  {{playbooks.consult('Lets Talk Social Advertising','Social Media Advertising')}}
 
 {% endblock %}

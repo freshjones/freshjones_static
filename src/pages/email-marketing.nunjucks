@@ -22,6 +22,30 @@
     </div>
   </section>
 
+  <section>
+    <div class="wrap wrap-center ">
+      <div>
+        <div class="section-summary">
+          <div class="section-quote section-quote-background">
+             <div class="quote raven">
+              <div>
+                <p>"86% of consumers would like to receive promotional emails from companies they do business with at least monthly."<br/><span class="source">(Statista, 2015)</span></p>
+              </div>
+            </div>
+            <div>
+              <p class="h3 bold">Imagine if we needed ravens to communicate with our customers like in the <i>Game of Thrones</i>. </p>
+              <p>The skies would be full of birds and everyone would need a serious backup supply of wiper fluid. Thankfully, we have email.</p>
+              <p>Email has been around for some time and as such we’re very comfortable using it, we know how it works, what to expect from it. For the most part, we use social media to connect with the people we know and care about in our personal lives, but email is an essential tool we use everyday in our professional lives.</p>
+              <p>Take advantage of this by using email marketing and email marketing automation in your business. Email marketing gives you the ability to connect with your audience on a highly personal one-on-one level and to offer them valuable content and features to make their lives better, easier or more convenient. Email marketing automation gives your business the power to systematically send the right message to the right people in the right moment.</p>
+              <p>Why not start using email marketing and marketing automation in your business. Do more with less by launching a strategic sales and marketing automation process designed consistently and effortlessly help your business turn leads into customers and customers into promoters. </p>
+              <p>Now there’s something to crow about!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+  {#
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -519,7 +543,8 @@
       </div>
     </div> 
   </section>
+  #}
 
-  {{playbooks.book('Email Marketing','Email Marketing')}}
+  {{playbooks.consult('Lets Talk Email Marketing','Email Marketing')}}
 
 {% endblock %}
