@@ -16,13 +16,35 @@
       <div class="section-summary">
         <h1 class="section-topic">Print Advertising</h1>
         <h2 class="section-heading">Print ads to amplify your digital efforts.</h2>
-        <p class="section-lead">Be memorable and set your message apart with engaging print ads.
-</p>
-        <p>{{ button.link('/strategic-planning.html', 'Learn more') }}</p>
+        <p class="section-lead">Be memorable and set your message apart with engaging print ads.</p>
       </div>
     </div>
   </section>
 
+  <section>
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div>
+        <div>
+          <div class="section-quote">
+             <div class="quote">
+              <div>
+                <p>"People are 70% more likely to remember a business seen in print compared to online"<br/><span class="source">(TrueImpact)</span></p>
+              </div>
+            </div>
+            <div>
+              <div class="section-heading">Rethink Traditional</div>
+              <p class="section-lead mb2">People still love print, they trust print, they give print their full attention, they share and remember what they read in print. This makes print a great choice to help your business connect with potential customers.</p>
+              <p class="section-lead mb2">Incorporating print advertising into an overall integrated marketing strategy can help gain  recognition and exposure, build influence and trust and amplify your online marketing efforts. </p>
+              <p class="section-lead mb2">Effective print ads can deliver your message in an engaging, creative and memorable way that helps influence future purchasing decisions.</p>
+              <p class="section-lead mb2">Give your business an edge over your competition, use print ads to help customers choose your business when it matters most.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  {#
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -231,7 +253,8 @@
       </div>
     </div> 
   </section>
+  #}
 
-  {{playbooks.book('Print Advertising','Print Advertising')}}
+  {{playbooks.consult('Lets Talk Print Advertising','Print Advertising')}}
 
 {% endblock %}

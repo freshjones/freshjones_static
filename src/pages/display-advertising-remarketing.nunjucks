@@ -17,7 +17,6 @@
         <h1 class="section-topic">Display Advertising and Remarketing</h1>
         <h2 class="section-heading">A picture is worth a thousand words</h2>
         <p class="section-lead">Keeping your business top of mind with captivating display ads</p>
-        <p>{{ button.scrollto('schedule', 'Sounds Great, Lets Talk') }}</p>
       </div>
     </div>
   </section>

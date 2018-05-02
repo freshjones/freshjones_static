@@ -17,7 +17,6 @@
         <h1 class="section-topic">Paid Search Advertising</h1>
         <h2 class="section-heading">More calls &bull; More Foot Traffic &bull; More Web Visits</h2>
         <p class="section-lead">Use PPC advertising to amplify your marketing efforts and attract more customers.</p>
-        <p>{{ button.link('/strategic-planning.html', 'I want more traffic') }}</p>
       </div>
     </div>
   </section>

@@ -17,7 +17,6 @@
         <h1 class="section-topic">Outdoor Advertising</h1>
         <h2 class="section-heading">Go big with attention grabbing outdoor advertising</h2>
         <p class="section-lead">Go big with attention grabbing outdoor advertising.</p>
-        <p>{{ button.link('/strategic-planning.html', 'Learn more') }}</p>
       </div>
     </div>
   </section>
@@ -60,8 +59,8 @@
       </div>
     </div> 
   </section>
-
-<section class="services-intro">
+  {#
+  <section class="services-intro">
     <div class="wrap wrap-center wrap-full wrap-center-narrow">
       <div class="section-spaced">
         <div class="section-summary">
@@ -162,7 +161,8 @@
       </div>
     </div> 
   </section>
+  #}
 
-  {{playbooks.book('Outdoor Advertising','Outdoor Advertising')}}
+  {{playbooks.consult('Lets Talk Outdoor Advertising','Outdoor Advertising')}}
 
 {% endblock %}

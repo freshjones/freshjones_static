@@ -14,13 +14,9 @@
   <section class="hero-stark">
     <div class="wrap wrap-center">
       <div class="section-summary">
-        <div class="section-topic">Services</div>
+        <h1 class="section-topic">Mobile App Development</h1>
         <div class="section-heading">Engaging Mobile Apps</div>
-        <!-- <div class="section-heading">360&deg; Services, Under One Roof.</div> -->
         <p class="section-lead">Turn your idea into a reality or expand business value with an engaging mobile app.</p>
-        <p>
-          {{ button.link('#', 'Lets build an app!') }}
-        </p>
       </div>
     </div>
   </section>
@@ -34,7 +30,7 @@
   <div class="wrap wrap-center wrap-center-narrow">
     <div class="section-spaced">
       <div class="section-summary">
-        <h1 class="section-heading">Mobile App Development</h1>
+        <div class="section-heading">Eell-designed, easy to use mobile apps</div>
         <p class="section-lead">There’s no denying it, the statistics all confirm it, mobile usage is increasing at a rate that’s impossible to ignore. We use our smartphones for every possible intent from “want to know” to “want to buy moments” and everything in between. Whether you’re a startup with a new idea or a business looking to expand your reach and increase customer engagement building an well-designed, easy to use mobile app can be a great solution.</p>
       </div>
     </div>

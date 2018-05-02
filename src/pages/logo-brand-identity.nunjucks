@@ -17,11 +17,49 @@
         <h1 class="section-topic">Logo and Brand Identity</h1>
         <h2 class="section-heading">Make your business instantly recognizable</h2>
         <p class="section-lead">Prepare your business for success with a unique and memorable logo</p>
-        <p>{{ button.link('/strategic-planning.html', 'Learn more') }}</p>
       </div>
     </div>
   </section>
 
+  <section>
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div>
+        <div class="section-summary">
+          
+          <div class="section-quote">
+             <div class="quote">
+              <div>
+                <p>"Given 15 minutes to consume content, 66% of people would rather read something beautifully designed than something plain."<br/><span class="source">(Adobe)</span></p>
+              </div>
+            </div>
+            <div>
+              <div class="section-heading">Make a great first impression</div>
+              <p class="section-lead">An easy to recognize, relatable and memorable logo is an essential aspect of a growth-oriented business and a vital part of an <a href="/strategic-planning.html">integrated marketing plan</a>.</p>
+              <p>Your logo is often the first conversation your business will have with potential customers, communicating to them the type of experience they are likely to have with your company. A well-designed logo gives your business a opportunity to make a great first impression, to highlight its best qualities and to make it easy for customers to remember the great experience they had doing business with you.</p>
+              <p>Invest in your future with a unique and memorable logo and visual identity that will make you’ll look great, put your business ahead of the rest and make the rest of your marketing efforts a snap.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section>  
+    <div class="wrap wrap-half wrap-full">
+      <div>
+        <p class="m0 p0"><img src="/images/great-hill-partners-logo.jpg" /></p>
+      </div>
+      <div class="flex justify-center">
+        <div class="flex-panel-8">
+          <p class="section-lead bold  mb2">&quot;Beginning with a revitalization of our logo, FreshJones has worked with us to establish a visual identity system that clearly, consistently and effectively communicates the core values of the Great Hill brand to its key stakeholders.</p>
+          <p class="section-lead bold  mb2">They're easy to work with, they bring great ideas to the table and we know we can rely on them to deliver, even under pressure.&quot;</p>
+          <p>&mdash; Great Hill Partners</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  {#
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -236,7 +274,8 @@
       </div>
     </div> 
   </section>
+  #}
 
-  {{playbooks.book('Logo and Brand Identity','Logo and Brand Identity')}}
+  {{playbooks.consult('Lets Talk Logo and Brand Identity','Logo and Brand Identity')}}
 
 {% endblock %}

@@ -17,7 +17,6 @@
         <h1 class="section-topic">Email Marketing</h1>
         <h2 class="section-heading">Email is not dead. It's just all grown up.</h2>
         <p class="section-lead">Do more with less using email marketing and marketing automation.</p>
-        <p>{{ button.link('/strategic-planning.html', 'Learn more') }}</p>
       </div>
     </div>
   </section>

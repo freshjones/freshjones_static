@@ -14,14 +14,58 @@
   <section class="hero-stark">
     <div class="wrap wrap-center">
       <div class="section-summary">
-        <h1 class="section-topic">Sales and Marketing Collateral</h1>
+        <h1 class="section-topic">Sales Collateral Material</h1>
         <h2 class="section-heading">Bring Confidence to Your Next Sales Meetings</h2>
         <p class="section-lead">Support your sales team with professional sales and marketing collateral strategically designed to grow your business.</p>
-        <p>{{ button.link('/strategic-planning.html', 'Learn more') }}</p>
       </div>
     </div>
   </section>
 
+   <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <div class="section-heading">You’ve done the hard part&hellip;</div>
+          <p>Getting a meeting with a potential customer.</p>
+          <p>Now make a lasting impression with sales materials that will leave a lasting impression.</p>
+          <p> Whether you’re meeting face-to-face with your customers or presenting online, professional sales collateral can help convey confidence and build trust in your companies abilities. Quality sales material can ensure your business stays top-of-mind, and it can help influence decisions as potential customers go through the process of deciding to purchase. Your sales team will feel more capable and successful when they have great sales collateral to present and leave behind.</p>
+          <p>Expand brand awareness and brand equity as your message is distributed throughout your sales regions with modern professionally designed sales collateral material.</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Sales and Marketing Collateral Services</h1>
+          <p class="section-lead">Our sales and marketing collateral services are meant to work best as part of an overall integrated marketing plan, but are also offered as stand-alone services.</p>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-center">
+            <li>Advertising</li>
+            <li>annual reports</li>
+            <li>Brochures</li>
+            <li>Product data sheets</li>
+            <li>Sales/media kits</li>
+            <li>sales folders</li>
+            <li>Sales presentations</li>
+            <li>Trade show materials</li>
+            <li>Direct mail</li>
+            <li>PDF downloads</li>
+            <li>Outdoor Displays & Signage</li>
+            <li>Product packaging</li>
+            <li>Business cards & Stationery</li>
+            <li>Catalogs</li>
+            <li>Manuals</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+  
+  {#
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -198,7 +242,8 @@
       </div>
     </div> 
   </section>
+  #}
 
-  {{playbooks.book('Sales Collateral','Sales Collateral')}}
+  {{playbooks.consult('Lets Talks Sales Material','Sales Collateral Material')}}
 
 {% endblock %}

@@ -17,11 +17,34 @@
         <h1 class="section-topic">Promotional Materials</h1>
         <h2 class="section-heading">Don’t underestimate the power of FREE.</h2>
         <p class="section-lead">Include promotional products in your marketing mix for greater results</p>
-        <p>{{ button.link('/contact.html', 'Learn more') }}</p>
       </div>
     </div>
   </section>
 
+  <section>
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div>
+        <div>
+          <div class="section-quote">
+             <div class="quote">
+              <div>
+                <p>"Eighty-nine percent of consumers can recall the advertiser of a promotional product they’d received in the last two years."<br/><span class="source">(SageWorld)</span></p>
+              </div>
+            </div>
+            <div>
+              <div class="section-heading">Who can pass up a good giveaway?</div>
+              <p>Especially when that give away is something that promises to make our lives easier, or more fun or the envy of all our coworkers and colleagues.</p> 
+              <p>Promotional items are a great opportunity for a business to authentically connect with its customers and to show them how valued and appreciated they are.</p>
+              <p>A great promotional item is a thoughtful offer meant to provide its recipient with something they would consider valuable, something that would make them smile and want to do business with you. And in return, your business gains an economical and profitable tool to help grow your business.</p>
+              <p>Use promotional product campaigns as part of your integrated marketing plan and get far-reaching exposure for your brand, top-of-mind recall and word-of-mouth referrals, more loyal customers and more.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  {# 
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -310,7 +333,8 @@
       </div>
     </div> 
   </section>
+  #}
 
-  {{playbooks.book('Promotional Materials','Promotional Materials')}}
+  {{playbooks.consult('Lets Talk Promotional Items','Promotional Materials')}}
 
 {% endblock %}

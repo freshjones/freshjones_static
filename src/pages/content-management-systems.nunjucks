@@ -17,9 +17,6 @@
         <h1 class="section-topic">Content Management Systems</h1>
         <h2 class="section-heading">Manage and distribute your content with ease.</h2>
         <p class="section-lead">Take control of your site with a powerful easy-to-use CMS</p>
-        <p>
-          {{ button.link('/contact.html', 'Learn More') }}
-        </p>
       </div>
     </div>
   </section>

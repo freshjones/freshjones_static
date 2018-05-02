@@ -17,13 +17,34 @@
         <h1 class="section-topic">Direct Mail Marketing</h1>
         <h2 class="section-heading">Get your message in your customers hands</h2>
         <p class="section-lead">Use direct mail to build personal connections with your customers.</p>
-        <p>
-          {{ button.link('/contact.html', 'Learn More') }}
-        </p>
       </div>
     </div>
   </section>
 
+  <section>
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div>
+        <div>
+          <div class="section-quote">
+             <div class="quote">
+              <div>
+                <p>"79% of consumers will act on direct mail immediately, compared to only 45% who say they deal with email immediately."<br/><span class="source">(DMA)</span></p>
+              </div>
+            </div>
+            <div>
+              <div class="section-heading">Everyone likes getting mail.</div>
+              <p>Even the most phone-addicted among us light up when an interesting package shows up in the mailbox with our name on it.</p>
+              <p>And as a business what other method of deliver puts your message directly into the hands of your potential customers?</p>
+              <p>Direct mail is an excellent way to connect with your customers in ways that are personal, highly engaging, trust-building and memorable. People feel closer to things they can see and touch.</p>
+              <p>Using direct mail as part of your cohesive marketing strategy can help you driving more demand for your products and services, build more leads for your sales team and attract more customers and higher sales, all leading to one specific purpose...to grow your business.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  {#
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -283,7 +304,8 @@
       </div>
     </div> 
   </section>
+  #}
 
-  {{playbooks.book('Direct Mail Marketing','Direct Mail Marketing')}}
+  {{playbooks.consult('Lets Talk Direct Mail','Direct Mail Marketing')}}
 
 {% endblock %}

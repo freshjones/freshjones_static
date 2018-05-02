@@ -17,11 +17,59 @@
         <h1 class="section-topic">Trade Show Displays</h1>
         <h2 class="section-heading">Exhibit with confidence</h2>
         <p class="section-lead">Look great, feel confident and get the booth that everyone will be talking about</p>
-        <p>{{ button.link('/contact.html', 'Learn more') }}</p>
       </div>
     </div>
   </section>
 
+  <section>
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div>
+        <div class="section-summary">
+          
+          <div class="section-quote">
+             <div class="quote">
+              <div>
+                <p>"Good old-fashioned trade shows remain the top source for B2B lead generation, with 77% of marketers saying they generate a significant quantity of leads, and 82% saying they generate high-quality leads."<br/><span class="source">(MediaPost)</span></p>
+              </div>
+            </div>
+            <div>
+              <div class="section-heading">Make the most of your tradeshows</div>
+              <p class="section-lead">Trade shows are a great way to showcase your products or services, build your customer base and grow your business.</p>
+              <p class="bold">Just consider…</p>
+              <p>You’ve got a whole room filled with potential customers. </p>
+              <p>Make the most of each opportunity by ensuring your trade show booth is strategically designed to not only look great but to help you achieve your trade show goals.</p>
+              <p>Whether its pulling in more foot traffic or strengthening customer relationships, you want a trade show experience that will leave an impression that lasts far beyond each show.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="align-center">
+          <h1 class="section-heading">Tradeshow Design Services</h1>
+          <p class="section-lead">Our tradeshow services are meant to work best as part of an overall integrated marketing plan, but are also offered as stand-alone services </p>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-center">
+            <li>Tradeshow Booths</li>
+            <li>Banner stands  / Pop Up Tradeshow Booths</li>
+            <li>Tabletop Displays and runner design</li>
+            <li>Custom Booth design</li>
+          </ul>
+        </div>
+        <div class="align-center">
+          <p>Not sure which solution is right for you? Give us a call we’ll help you determine the best options for your needs.</p>
+          {{ button.scrollto('schedule', 'Lets get started') }}
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  {#
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -305,7 +353,8 @@
       </div>
     </div> 
   </section>
+  #}
 
-  {{playbooks.book('Tradeshow Displays','Tradeshow Displays')}}
+  {{playbooks.consult('Lets Talk Tradeshow Displays','Tradeshow Displays')}}
 
 {% endblock %}

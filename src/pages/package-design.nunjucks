@@ -17,11 +17,57 @@
         <h1 class="section-topic">Package Design</h1>
         <h2 class="section-heading">Packaging designed to jump off the shelf</h2>
         <p class="section-lead">Grab your customers attention with packaging design that sells.</p>
-        <p>{{ button.link('/strategic-planning.html', 'Learn more') }}</p>
       </div>
     </div>
   </section>
 
+  <section>
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div>
+        <div>
+          <div class="section-quote">
+             <div class="quote">
+              <div>
+                {# <p>"Almost 40% of overall consumers would share photos of packaging on social media if the packaging is interesting or gift-like."<br/><span class="source">(PackagingDesign)</span></p> #}
+                <p>"Businesses that give due attention to their packaging often report a 30% increase in consumer interest."<br/><span class="source">(PackagingDesign)</span></p>
+              </div>
+            </div>
+            <div>
+              <div class="section-heading">What if your product was the only option on the shelf.</div>
+              <p class="section-lead mb2 bold">That would be amazing right?</p> 
+              <p class="section-lead mb2">But the reality is that shelf-space is limited and customers have a multitude of similar positioned options to choose from. Packaging design can be the difference between being visible versus just blending in. Great packaging design can help new customers take notice of your product and can help influence their purchasing choice. It can also make your product instantly recognizable the next time a customer needs to make the same purchase.</p>
+              <p class="section-lead mb2">You’ve got a great brand and a great product, make sure they get the attention they deserve with packaging that’s strategically designed to make you stand out, look great, win more customers and deliver more sales.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div>
+        <div class="align-center">
+          <h1 class="section-heading">Package Design Services</h1>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-center">
+            <li>Folding Carton &amp; Paperboard</li>
+            <li>Labelling</li>
+            <li>Bag</li>
+            <li>Flexible &amp; Shrink</li>
+            <li>Blister &amp; Clamshell</li>
+            <li>Metal Aluminum</li>
+            <li>POP Displays</li>
+            <li>Product Photography</li>
+            <li>Pre-sale presentations</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  {#
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -300,7 +346,8 @@
       </div>
     </div> 
   </section>
+  #} 
 
-  {{playbooks.book('Package Design','Package Design')}}
+  {{playbooks.consult('Lets Talk Packaging Design','Packaging Design')}}
 
 {% endblock %}
