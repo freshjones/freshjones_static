@@ -820,15 +820,17 @@ p.nominalBounds = null;
 }).prototype = getMCSymbolPrototype(lib.CTA1, new cjs.Rectangle(-46.3,0,91.8,28.9), null);
 // stage content:
 (lib.HPCCOR4awa0618160x600Option1 = function(mode,startPosition,loop) {
-if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{start:0,core1:4,core2:9,core3:14,core4:19,end:24});
+if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{start:1,core1:4,core2:9,core3:14,core4:19,end:24});
 	// timeline functions:
 	this.frame_0 = function() {
 		pauseTime = 3000; 
-		var _this = this;
 		this.button_vendor.addEventListener("click", fl_ClickToGoToWebPage);
 		function fl_ClickToGoToWebPage() {
 			window.open("https://www.healthyplanetcanada.com/products/new-chapter.html");
 		}
+	}
+	this.frame_1 = function() {
+		var _this = this;
 		_this.stop();
 		setTimeout(function(){ 
 			_this.gotoAndPlay('core1') 
@@ -944,7 +946,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 		timeline.addTween(tween,tween2,tween3);
 	}
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(4).call(this.frame_4).wait(5).call(this.frame_9).wait(5).call(this.frame_14).wait(5).call(this.frame_19).wait(5).call(this.frame_24).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(3).call(this.frame_4).wait(5).call(this.frame_9).wait(5).call(this.frame_14).wait(5).call(this.frame_19).wait(5).call(this.frame_24).wait(10));
 	// Click Through
 	this.button_vendor = new lib.clickThrough();
 	this.button_vendor.name = "button_vendor";
