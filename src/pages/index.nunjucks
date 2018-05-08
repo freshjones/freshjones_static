@@ -4,7 +4,7 @@
 {% block main %} 
  
   <!-- hero -->
-  {% include 'partials/home/sections/hero.nunjucks' %}
+  {% include 'partials/home/sections/hero-video.nunjucks' %}
   <!-- intro -->
   {% include 'partials/home/sections/intro.nunjucks' %} 
   <!-- intro -->
