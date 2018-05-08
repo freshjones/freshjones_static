@@ -1977,6 +1977,7 @@ header .social-icons svg:hover {
   background-image: url("/images/home-hero-small.jpg");
   background-size: cover;
   color: #fff;
+  overflow: hidden;
 }
 
 .hero .overlay {
@@ -2344,7 +2345,7 @@ header .social-icons svg:hover {
 @media (min-width: 980px) {
   .service-stripe {
     border-top: 5px solid #3fa208;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.5);
     position: absolute;
     bottom: 0;
     width: 100%;
