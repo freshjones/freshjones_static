@@ -11,7 +11,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>HPC-COR4-awa-0618-728x90</title>
+<title>HPC-COR4-awa-0618-728x90-Alt</title>
 <!-- write your code here -->
 <script src="libs/createjs-2015.11.26.min.js"></script>
 <script>
@@ -19,23 +19,23 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"HPC_COR4_awa_0618_728x90_atlas_", frames: [[0,0,130,346],[132,348,130,346],[132,0,130,346],[0,348,130,346]]}
+		{name:"HPC_COR4_awa_0618_728x90_Alt_atlas_", frames: [[0,0,130,346],[0,348,130,346],[132,0,130,346],[132,348,130,346]]}
 ];
 // symbols:
 (lib.CABSTCENSimpler79100BotS = function() {
-	this.spriteSheet = ss["HPC_COR4_awa_0618_728x90_atlas_"];
+	this.spriteSheet = ss["HPC_COR4_awa_0618_728x90_Alt_atlas_"];
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 (lib.CAEWODENBotS = function() {
-	this.spriteSheet = ss["HPC_COR4_awa_0618_728x90_atlas_"];
+	this.spriteSheet = ss["HPC_COR4_awa_0618_728x90_Alt_atlas_"];
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 (lib.CAWMGAD01ENBotS = function() {
-	this.spriteSheet = ss["HPC_COR4_awa_0618_728x90_atlas_"];
+	this.spriteSheet = ss["HPC_COR4_awa_0618_728x90_Alt_atlas_"];
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.CAZYFLB01ENBareBotS = function() {
-	this.spriteSheet = ss["HPC_COR4_awa_0618_728x90_atlas_"];
+	this.spriteSheet = ss["HPC_COR4_awa_0618_728x90_Alt_atlas_"];
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -779,9 +779,9 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 		pauseTime = 3000; 
 		headlineTransition = 500; 
 		photoTransition = 500; 
-		headlinePhotoDelay = 0; 
+		headlinePhotoDelay = 500; 
 		yOut = -285.9;
-		yIn = -95.95;
+		yIn = -53.85;
 		yStart = 95;
 		var _this = this;
 		_this.stop();
@@ -810,14 +810,14 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 		var photoIn = 'core2_photo';
 		_this.stop();
 		_this[headline].alpha = 0;
-		_this[photoIn].alpha = 0;
-		//_this[photoOut].alpha = 1;
-		/* first lets fade the photo out */
-		//var tween = createjs.Tween.get(_this[photoOut])
-		//	.to({alpha: 0 }, photoTransition);
+		_this[photoIn].y = yStart;
+		_this[photoOut].y = yIn;
+		/* first lets slide the photo out */
+		var tween = createjs.Tween.get(_this[photoOut])
+			.to({y: yOut }, photoTransition);
 		/* and the new photo in */
 		var tween2 = createjs.Tween.get(_this[photoIn])
-			.to({alpha: 1 }, photoTransition);
+			.to({y: yIn }, photoTransition);
 		/* lastly we'll fade the headline in */
 		var tween3 = createjs.Tween.get(_this[headline])
 			.wait(headlinePhotoDelay)
@@ -826,7 +826,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 				_this.gotoAndPlay(label);
 			});
 		var timeline = new createjs.Timeline(); 
-		timeline.addTween(tween2,tween3);
+		timeline.addTween(tween,tween2,tween3);
 	}
 	this.frame_14 = function() {
 		var _this = this;
@@ -836,14 +836,14 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 		var photoIn = 'core3_photo';
 		_this.stop();
 		_this[headline].alpha = 0;
-		_this[photoIn].alpha = 0;
-		//_this[photoOut].alpha = 1;
-		/* first lets fade the photo out */
-		//var tween = createjs.Tween.get(_this[photoOut])
-		//	.to({alpha: 0 }, photoTransition);
+		_this[photoIn].y = yStart;
+		_this[photoOut].y = yIn;
+		/* first lets slide the photo out */
+		var tween = createjs.Tween.get(_this[photoOut])
+			.to({y: yOut }, photoTransition);
 		/* and the new photo in */
 		var tween2 = createjs.Tween.get(_this[photoIn])
-			.to({alpha: 1 }, photoTransition);
+			.to({y: yIn }, photoTransition);
 		/* lastly we'll fade the headline in */
 		var tween3 = createjs.Tween.get(_this[headline])
 			.wait(headlinePhotoDelay)
@@ -852,7 +852,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 				_this.gotoAndPlay(label);
 			});
 		var timeline = new createjs.Timeline(); 
-		timeline.addTween(tween2,tween3);
+		timeline.addTween(tween,tween2,tween3);
 	}
 	this.frame_19 = function() {
 		var _this = this;
@@ -862,14 +862,14 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 		var photoIn = 'core4_photo';
 		_this.stop();
 		_this[headline].alpha = 0;
-		_this[photoIn].alpha = 0;
-		//_this[photoOut].alpha = 1;
-		/* first lets fade the photo out */
-		//var tween = createjs.Tween.get(_this[photoOut])
-		//	.to({alpha: 0 }, photoTransition);
+		_this[photoIn].y = yStart;
+		_this[photoOut].y = yIn;
+		/* first lets slide the photo out */
+		var tween = createjs.Tween.get(_this[photoOut])
+			.to({y: yOut }, photoTransition);
 		/* and the new photo in */
 		var tween2 = createjs.Tween.get(_this[photoIn])
-			.to({alpha: 1 }, photoTransition);
+			.to({y: yIn }, photoTransition);
 		/* lastly we'll fade the headline in */
 		var tween3 = createjs.Tween.get(_this[headline])
 			.wait(headlinePhotoDelay)
@@ -878,7 +878,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 				_this.gotoAndPlay(label);
 			});
 		var timeline = new createjs.Timeline(); 
-		timeline.addTween(tween2,tween3);
+		timeline.addTween(tween,tween2,tween3);
 	}
 	this.frame_24 = function() {
 		var _this = this;
@@ -888,14 +888,14 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 		var photoIn = 'core1_photo';
 		_this.stop();
 		_this[headline].alpha = 0;
-		_this[photoIn].alpha = 0;
-		//_this[photoOut].alpha = 1;
-		/* first lets fade the photo out */
-		//var tween = createjs.Tween.get(_this[photoOut])
-		//	.to({alpha: 0 }, photoTransition);
+		_this[photoIn].y = yStart;
+		_this[photoOut].y = yIn;
+		/* first lets slide the photo out */
+		var tween = createjs.Tween.get(_this[photoOut])
+			.to({y: yOut }, photoTransition);
 		/* and the new photo in */
 		var tween2 = createjs.Tween.get(_this[photoIn])
-			.to({alpha: 1 }, photoTransition);
+			.to({y: yIn }, photoTransition);
 		/* lastly we'll fade the headline in */
 		var tween3 = createjs.Tween.get(_this[headline])
 			.wait(headlinePhotoDelay)
@@ -904,7 +904,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 				_this.gotoAndPlay(label);
 			});
 		var timeline = new createjs.Timeline(); 
-		timeline.addTween(tween2,tween3);
+		timeline.addTween(tween,tween2,tween3);
 	}
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(3).call(this.frame_4).wait(5).call(this.frame_9).wait(5).call(this.frame_14).wait(5).call(this.frame_19).wait(5).call(this.frame_24).wait(216));
@@ -925,7 +925,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 	this.core2_headline = new lib.Core2();
 	this.core2_headline.name = "core2_headline";
 	this.core2_headline.parent = this;
-	this.core2_headline.setTransform(368.7,15.5,1,1,0,0,0,0,0.2);
+	this.core2_headline.setTransform(372.7,15.5,1,1,0,0,0,0,0.2);
 	this.core2_headline._off = true;
 	this.timeline.addTween(cjs.Tween.get(this.core2_headline).wait(9).to({_off:false},0).to({_off:true},1).wait(230));
 	// Core3
@@ -946,29 +946,29 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 	this.core4_photo = new lib.ZYFL();
 	this.core4_photo.name = "core4_photo";
 	this.core4_photo.parent = this;
-	this.core4_photo.setTransform(327.7,-54.8,0.754,0.754,32,0,0,0.3,-0.1);
+	this.core4_photo.setTransform(335.3,95.1,0.754,0.754,32,0,0,0.3,-0.1);
 	this.core4_photo._off = true;
-	this.timeline.addTween(cjs.Tween.get(this.core4_photo).wait(19).to({_off:false},0).to({_off:true},1).wait(220));
+	this.timeline.addTween(cjs.Tween.get(this.core4_photo).wait(19).to({_off:false},0).to({_off:true},1).wait(4).to({_off:false,y:-53.8},0).to({_off:true},1).wait(215));
 	// BSTC
 	this.core3_photo = new lib.BSTC();
 	this.core3_photo.name = "core3_photo";
 	this.core3_photo.parent = this;
-	this.core3_photo.setTransform(326.4,-50.8,0.754,0.754,32,0,0,0,0.1);
+	this.core3_photo.setTransform(335,95.1,0.754,0.754,32,0,0,0,0.1);
 	this.core3_photo._off = true;
-	this.timeline.addTween(cjs.Tween.get(this.core3_photo).wait(14).to({_off:false},0).to({_off:true},1).wait(225));
+	this.timeline.addTween(cjs.Tween.get(this.core3_photo).wait(14).to({_off:false},0).to({_off:true},1).wait(4).to({_off:false,y:-53.8},0).to({_off:true},1).wait(220));
 	// WMGA
 	this.core2_photo = new lib.WMGA();
 	this.core2_photo.name = "core2_photo";
 	this.core2_photo.parent = this;
-	this.core2_photo.setTransform(314.3,-55.7,0.754,0.754,32,0,0,0,0.2);
+	this.core2_photo.setTransform(324.9,95.2,0.754,0.754,32,0,0,0,0.2);
 	this.core2_photo._off = true;
-	this.timeline.addTween(cjs.Tween.get(this.core2_photo).wait(9).to({_off:false},0).to({_off:true},1).wait(230));
+	this.timeline.addTween(cjs.Tween.get(this.core2_photo).wait(9).to({_off:false},0).to({_off:true},1).wait(4).to({_off:false,y:-53.7},0).to({_off:true},1).wait(225));
 	// EWOD
 	this.core1_photo = new lib.EWOD();
 	this.core1_photo.name = "core1_photo";
 	this.core1_photo.parent = this;
 	this.core1_photo.setTransform(310.4,-53.6,0.754,0.752,32,0,0,1.2,-0.5);
-	this.timeline.addTween(cjs.Tween.get(this.core1_photo).to({_off:true},9).wait(15).to({_off:false},0).to({_off:true},1).wait(215));
+	this.timeline.addTween(cjs.Tween.get(this.core1_photo).wait(9).to({_off:true},1).wait(14).to({_off:false,y:95.2},0).to({_off:true},1).wait(215));
 	// Click Through
 	this.button_vendor = new lib.clickThrough();
 	this.button_vendor.name = "button_vendor";
@@ -1009,7 +1009,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HPC_COR4_awa_0618_728x90_atlas_.png", id:"HPC_COR4_awa_0618_728x90_atlas_"}
+		{src:"images/HPC_COR4_awa_0618_728x90_Alt_atlas_.png", id:"HPC_COR4_awa_0618_728x90_Alt_atlas_"}
 	],
 	preloads: []
 };
