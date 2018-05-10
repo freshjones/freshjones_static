@@ -403,10 +403,10 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.initialize(mode,startPosition,loop,{});
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#5C2E91").ss(1,1,0,3).p("AjgijIHBAAIAAFHInBAAg");
-	this.shape.setTransform(0,0,3.556,18.321);
+	this.shape.graphics.f().s("#5C2E91").ss(1,1,0,3).p("EgMfgu3IY/AAMAAABdvI4/AAg");
+	this.shape.setTransform(80,300);
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
-}).prototype = getMCSymbolPrototype(lib.Frame, new cjs.Rectangle(-81,-301,162,602), null);
+}).prototype = getMCSymbolPrototype(lib.Frame, new cjs.Rectangle(-1,-1,162,602), null);
 (lib.ClipGroup = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 	// Layer 2 (mask)
@@ -819,11 +819,14 @@ p.nominalBounds = null;
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
 }).prototype = getMCSymbolPrototype(lib.CTA1, new cjs.Rectangle(-46.3,0,91.8,28.9), null);
 // stage content:
-(lib.HPCCOR4awa0618160x600Option1 = function(mode,startPosition,loop) {
+(lib.HPCCOR4awa0618160x600 = function(mode,startPosition,loop) {
 if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{start:1,core1:4,core2:9,core3:14,core4:19,end:24});
 	// timeline functions:
 	this.frame_0 = function() {
 		pauseTime = 3000; 
+		headlineTransition = 800; 
+		photoTransition = 300; 
+		headlinePhotoDelay = 300; 
 		this.button_vendor.addEventListener("click", fl_ClickToGoToWebPage);
 		function fl_ClickToGoToWebPage() {
 			window.open("https://www.healthyplanetcanada.com/products/new-chapter.html");
@@ -844,7 +847,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 		_this[headline].alpha = 0;
 		createjs.Tween
 			.get(_this[headline])
-			.to({alpha:1}, 1000)
+			.to({alpha:1}, headlineTransition)
 			.wait(pauseTime).call(function(){
 				_this.gotoAndPlay(label);
 			});
@@ -860,17 +863,18 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 		_this[photoIn].x = -125;
 		/* first lets slide the photo out */
 		var tween = createjs.Tween.get(_this[photoOut])
-			.to({x:160}, 500);
+			.to({x:160}, photoTransition);
 		/* and the new photo in */
 		var tween2 = createjs.Tween.get(_this[photoIn])
-			.to({x:21.5}, 500);
+			.to({x:21.5}, photoTransition);
 		/* lastly we'll fade the headline in */
-		var tween3 = createjs.Tween.get(_this[headline]).wait(400)
-			.to({alpha:1}, 1000)
+		var tween3 = createjs.Tween.get(_this[headline])
+			.wait(headlinePhotoDelay)
+			.to({alpha:1}, headlineTransition)
 			.wait(pauseTime).call(function(){
 				_this.gotoAndPlay(label);
 			});
-		var timeline = new createjs.Timeline({loop:-1}); 
+		var timeline = new createjs.Timeline(); 
 		timeline.addTween(tween,tween2,tween3);
 	}
 	this.frame_14 = function() {
@@ -884,17 +888,18 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 		_this[photoIn].x = -125;
 		/* first lets slide the photo out */
 		var tween = createjs.Tween.get(_this[photoOut])
-			.to({x:160}, 500);
+			.to({x:160}, photoTransition);
 		/* and the new photo in */
 		var tween2 = createjs.Tween.get(_this[photoIn])
-			.to({x:21.5}, 500);
+			.to({x:21.5}, photoTransition);
 		/* lastly we'll fade the headline in */
-		var tween3 = createjs.Tween.get(_this[headline]).wait(400)
-			.to({alpha:1}, 1000)
+		var tween3 = createjs.Tween.get(_this[headline])
+			.wait(headlinePhotoDelay)
+			.to({alpha:1}, headlineTransition)
 			.wait(pauseTime).call(function(){
 				_this.gotoAndPlay(label);
 			});
-		var timeline = new createjs.Timeline({loop:-1}); 
+		var timeline = new createjs.Timeline(); 
 		timeline.addTween(tween,tween2,tween3);
 	}
 	this.frame_19 = function() {
@@ -908,17 +913,18 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 		_this[photoIn].x = -125;
 		/* first lets slide the photo out */
 		var tween = createjs.Tween.get(_this[photoOut])
-			.to({x:160}, 500);
+			.to({x:160}, photoTransition);
 		/* and the new photo in */
 		var tween2 = createjs.Tween.get(_this[photoIn])
-			.to({x:21.5}, 500);
+			.to({x:21.5}, photoTransition);
 		/* lastly we'll fade the headline in */
-		var tween3 = createjs.Tween.get(_this[headline]).wait(400)
-			.to({alpha:1}, 1000)
+		var tween3 = createjs.Tween.get(_this[headline])
+			.wait(headlinePhotoDelay)
+			.to({alpha:1}, headlineTransition)
 			.wait(pauseTime).call(function(){
 				_this.gotoAndPlay(label);
 			});
-		var timeline = new createjs.Timeline({loop:-1}); 
+		var timeline = new createjs.Timeline(); 
 		timeline.addTween(tween,tween2,tween3);
 	}
 	this.frame_24 = function() {
@@ -932,48 +938,48 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 		_this[photoIn].x = -125;
 		/* first lets slide the photo out */
 		var tween = createjs.Tween.get(_this[photoOut])
-			.to({x:160}, 500);
+			.to({x:160}, photoTransition);
 		/* and the new photo in */
 		var tween2 = createjs.Tween.get(_this[photoIn])
-			.to({x:21.5}, 500);
+			.to({x:21.5}, photoTransition);
 		/* lastly we'll fade the headline in */
-		var tween3 = createjs.Tween.get(_this[headline]).wait(400)
-			.to({alpha:1}, 1000)
+		var tween3 = createjs.Tween.get(_this[headline])
+			.wait(headlinePhotoDelay)
+			.to({alpha:1}, headlineTransition)
 			.wait(pauseTime/2).call(function(){
 				_this.gotoAndPlay(label);
 			});
-		var timeline = new createjs.Timeline({loop:-1}); 
+		var timeline = new createjs.Timeline(); 
 		timeline.addTween(tween,tween2,tween3);
 	}
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(3).call(this.frame_4).wait(5).call(this.frame_9).wait(5).call(this.frame_14).wait(5).call(this.frame_19).wait(5).call(this.frame_24).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(3).call(this.frame_4).wait(5).call(this.frame_9).wait(5).call(this.frame_14).wait(5).call(this.frame_19).wait(5).call(this.frame_24).wait(2));
 	// Click Through
 	this.button_vendor = new lib.clickThrough();
 	this.button_vendor.name = "button_vendor";
 	this.button_vendor.parent = this;
 	this.button_vendor.setTransform(68.3,277.1,0.498,2.858);
 	new cjs.ButtonHelper(this.button_vendor, 0, 1, 2, false, new lib.clickThrough(), 3);
-	this.timeline.addTween(cjs.Tween.get(this.button_vendor).wait(34));
+	this.timeline.addTween(cjs.Tween.get(this.button_vendor).wait(26));
 	// Frame
 	this.instance = new lib.Frame();
 	this.instance.parent = this;
-	this.instance.setTransform(80,300);
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(34));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(26));
 	// NC Logo Larger
 	this.instance_1 = new lib.NCLogoLarger();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(80,57.5,1,1,0,0,0,80,57.5);
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(34));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(26));
 	// NC Logo Smaller
 	this.instance_2 = new lib.NCLogoSmaller("synched",0);
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(80,57);
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(34));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(26));
 	// NC Logo Smaller w/Tag
 	this.instance_3 = new lib.Symbol13("synched",0);
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(80,57);
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(34));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(26));
 	// HP Logo
 	this.instance_4 = new lib.Symbol20();
 	this.instance_4.parent = this;
@@ -981,41 +987,41 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 	this.instance_5 = new lib.HPLogo();
 	this.instance_5.parent = this;
 	this.instance_5.setTransform(80,507.7,0.923,0.923);
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5},{t:this.instance_4}]}).wait(34));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5},{t:this.instance_4}]}).wait(26));
 	// Headline
 	this.headline = new lib.Tagline();
 	this.headline.name = "headline";
 	this.headline.parent = this;
 	this.headline.setTransform(80,186.5);
-	this.timeline.addTween(cjs.Tween.get(this.headline).to({_off:true},4).wait(20).to({_off:false},0).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.headline).to({_off:true},4).wait(20).to({_off:false},0).wait(2));
 	// Core1
 	this.core1_headline = new lib.Core1();
 	this.core1_headline.name = "core1_headline";
 	this.core1_headline.parent = this;
 	this.core1_headline.setTransform(80,186.5);
 	this.core1_headline._off = true;
-	this.timeline.addTween(cjs.Tween.get(this.core1_headline).wait(4).to({_off:false},0).to({_off:true},5).wait(25));
+	this.timeline.addTween(cjs.Tween.get(this.core1_headline).wait(4).to({_off:false},0).to({_off:true},1).wait(21));
 	// Core2
 	this.core2_headline = new lib.Core2();
 	this.core2_headline.name = "core2_headline";
 	this.core2_headline.parent = this;
 	this.core2_headline.setTransform(80,186.7,1,1,0,0,0,0,14.2);
 	this.core2_headline._off = true;
-	this.timeline.addTween(cjs.Tween.get(this.core2_headline).wait(9).to({_off:false},0).to({_off:true},5).wait(20));
+	this.timeline.addTween(cjs.Tween.get(this.core2_headline).wait(9).to({_off:false},0).to({_off:true},1).wait(16));
 	// Core3
 	this.core3_headline = new lib.Core3();
 	this.core3_headline.name = "core3_headline";
 	this.core3_headline.parent = this;
 	this.core3_headline.setTransform(80,186.5);
 	this.core3_headline._off = true;
-	this.timeline.addTween(cjs.Tween.get(this.core3_headline).wait(14).to({_off:false},0).to({_off:true},5).wait(15));
+	this.timeline.addTween(cjs.Tween.get(this.core3_headline).wait(14).to({_off:false},0).to({_off:true},1).wait(11));
 	// Core4
 	this.core4_headline = new lib.Core4();
 	this.core4_headline.name = "core4_headline";
 	this.core4_headline.parent = this;
 	this.core4_headline.setTransform(80,200.7,1,1,0,0,0,0,14.2);
 	this.core4_headline._off = true;
-	this.timeline.addTween(cjs.Tween.get(this.core4_headline).wait(19).to({_off:false},0).to({_off:true},5).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.core4_headline).wait(19).to({_off:false},0).to({_off:true},1).wait(6));
 	// EWOD
 	this.core1_photo = new lib.EWOD();
 	this.core1_photo.name = "core1_photo";
@@ -1024,33 +1030,33 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{sta
 	this.instance_6 = new lib.CTA1();
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(80.5,551.2,1.06,1.06);
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.core1_photo,p:{x:21.9}}]}).to({state:[]},10).to({state:[{t:this.core1_photo,p:{x:-124.6}},{t:this.instance_6}]},14).to({state:[]},1).wait(9));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.core1_photo,p:{x:21.9}}]}).to({state:[]},2).to({state:[{t:this.core1_photo,p:{x:21.9}}]},2).to({state:[]},1).to({state:[{t:this.core1_photo,p:{x:21.9}}]},4).to({state:[]},1).to({state:[{t:this.core1_photo,p:{x:-124.6}},{t:this.instance_6}]},14).to({state:[]},1).wait(1));
 	// WMGA
 	this.core2_photo = new lib.WMGA();
 	this.core2_photo.name = "core2_photo";
 	this.core2_photo.parent = this;
 	this.core2_photo.setTransform(-125.1,245.1,0.9,0.9,0,0,0,-0.1,0.1);
 	this.core2_photo._off = true;
-	this.timeline.addTween(cjs.Tween.get(this.core2_photo).wait(9).to({_off:false},0).to({_off:true},1).wait(4).to({_off:false,x:21.4},0).to({_off:true},1).wait(19));
+	this.timeline.addTween(cjs.Tween.get(this.core2_photo).wait(9).to({_off:false},0).to({_off:true},1).wait(4).to({_off:false,x:21.4},0).to({_off:true},1).wait(11));
 	// BSTC
 	this.core3_photo = new lib.BSTC();
 	this.core3_photo.name = "core3_photo";
 	this.core3_photo.parent = this;
 	this.core3_photo.setTransform(-125,245,0.9,0.9);
 	this.core3_photo._off = true;
-	this.timeline.addTween(cjs.Tween.get(this.core3_photo).wait(14).to({_off:false},0).to({_off:true},1).wait(4).to({_off:false,x:21.5},0).to({_off:true},1).wait(14));
+	this.timeline.addTween(cjs.Tween.get(this.core3_photo).wait(14).to({_off:false},0).to({_off:true},1).wait(4).to({_off:false,x:21.5},0).to({_off:true},1).wait(6));
 	// ZYFL
 	this.core4_photo = new lib.ZYFL();
 	this.core4_photo.name = "core4_photo";
 	this.core4_photo.parent = this;
 	this.core4_photo.setTransform(-124.7,244.9,0.9,0.9,0,0,0,0.3,-0.1);
 	this.core4_photo._off = true;
-	this.timeline.addTween(cjs.Tween.get(this.core4_photo).wait(19).to({_off:false},0).to({_off:true},1).wait(4).to({_off:false,x:21.8},0).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.core4_photo).wait(19).to({_off:false},0).to({_off:true},1).wait(4).to({_off:false,x:21.8},0).to({_off:true},1).wait(1));
 	// Shop Now
 	this.instance_7 = new lib.CTA1();
 	this.instance_7.parent = this;
 	this.instance_7.setTransform(80.5,551.2,1.06,1.06);
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(34));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(26));
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(79.5,299.5,161,601);
 // library properties:
@@ -1136,7 +1142,7 @@ function handleComplete(evt,comp) {
 	for(i=0; i<ssMetadata.length; i++) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
-	exportRoot = new lib.HPCCOR4awa0618160x600Option1();
+	exportRoot = new lib.HPCCOR4awa0618160x600();
 	stage = new lib.Stage(canvas);
 	stage.enableMouseOver();	
 	//Registers the "tick" event listener.
