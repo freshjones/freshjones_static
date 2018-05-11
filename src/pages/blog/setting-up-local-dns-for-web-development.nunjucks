@@ -1,0 +1,66 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block title %}
+  FreshJones Blog - A dogs life takes practice
+{% endblock %}
+
+{% block header %}
+  {{header.active('blog')}}
+{% endblock %}
+
+{% block main %} 
+ 
+  <section class="hero-stark local-dns">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <div class="section-topic">FreshJones Blog</div>
+        <h1 class="section-heading">Setting Up Local DNS for Web Development</h1>
+        <div class="section-bar">
+          <div class="section-author">William Jones</div>
+          <div class="section-date">May 10th, 2018</div>
+        </div>
+      </div>
+    </div>
+    <div class="section-overlay"></div>
+  </section>
+  
+  <article class="blog-post">
+    <div class="container">
+      {#
+      <h2 class="blog-author"></h2>
+      <p class="blog-lead">If your dog is anything like ours then its difficult to image that such a life would be difficult or hard-work. In fact there are plenty of moments when all that napping, stretching, playing, eating&hellip;more napping&hellip;is down right envious.</p>
+      <p>But there are certain behaviors that come easy to our pups that takes real practice and effort for us humans.</p>
+      
+      <h2>Listen and care</h2>
+      <p>Well who really knows if they're listening or not, but the point is they'll sit with you quietly and patiently and listen to anything you have to tell them. You can share your thoughts, concerns and worries and make you feel instantly better, and they'll keep those thoughts just between the two of you.</p>
+      
+      <h2>No Judgment</h2>
+      <p>To the best of my knowledge my dog has never judged me. I feel free be be myself in front of my dog without hesitation, There's no fear of ridicule, awkward looks, eye rolling or put downs. Ok so she will shift her head to the side at times if I'm really being dorky so maybe there's a little "He's lost his mind" judgement in there somewhere but I'm ok with that.</p>
+      
+      <h2>Share Your Problems</h2>
+      <p>If we forget to feed our dog or don't let her outside when nature calls she's not afraid to let me know. She'll grump and nudge until we give her what she needs. She doesn't internalize it or brood on it until it eats her up inside and causes even more trouble. Nor does she just decide to be angry and moody and not let us know whats bothering her. She just tells us what she needs and we work it out...unless we've run out of food and then there might be a problem.</p>
+      
+      <h2>Apologies and Forgiveness</h2>
+      <p>I hate to admit it but I have stepped on my dogs paw...I've been busy in the kitchen, not paying attention and...YELP. I feel terrible about it and she runs away and doesn't quite understand what just happened but she never holds it against me for long. There are no lengthy grudges or residual animosity...only a sincere apology, kindness, total forgiveness and maybe a few extra treats.</p>
+
+      <h2>Trust is Earned</h2>
+      <p>Our dog relies on us with full trust and confidence and she expresses her gratitude and happiness with us all the time. If I were to damage that trust in someway...say perhaps by stepping on a certain someones paw. Then there might be a period of time where she becomes skeptical of my actions and I need to be kind and patient with her and let her know I made a mistake but that I love and care for her and that I'm worthy of her trust once more.</p>
+
+      <h2>Empathy</h2>
+      <p>There's something in a dogs eyes or their disposition that makes it feel like they understand what you're trying to express to them. They hear your concerns, fears and needs without even speaking and make you feel as though your not alone with those thoughts and that you've been understood.</p>
+
+      <h2>Final Thoughts</h2>
+      <p>Ok so the dog/human analogy only goes so far and butt scratching aside I can think of a million other ways to poke holes in the logic above. But the truth is the things above are hard and they take a lifetime to master and get good at and still it requires us to have humility and and apologize when we get something wrong or don't treat each other they way we should. And to accept apologies sincerely without further criticism and judgement and allow others the chance to redeem themselves learn from their mistakes and build stronger relationships.</p>
+
+      <p>My wife is a dog..whoops that sounds bad, let me try again...</p>
+
+      <p>My wife is a <span class="italic">dog in training</span>...yeah that doesn't sound any better, but its the tough truth. We're all dogs in training when it comes to this stuff.</p>
+
+      <p>I guess what I'm getting at is that we should all try to be a little more human and in the tough moments like the ones above try channeling your inner dog.</p>
+      #}
+    </div>
+  </article>
+
+
+{% endblock %}

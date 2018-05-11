@@ -2433,6 +2433,12 @@ header .social-icons svg:hover {
   background-repeat: no-repeat;
 }
 
+.local-dns {
+  background-image: url("/images/blog/how-to-use-local-dns-for-web-development.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .blog-post {
   margin: 100px 0;
   font-size: 125%;

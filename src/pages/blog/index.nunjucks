@@ -29,11 +29,23 @@
         <div class="blog-summary">
           <h2 class="blog-heading"><a href="/blog/living-like-a-dog-takes-practice.html">A dogs life takes practice.</a></h2>
           <h3 class="blog-author">April 18th, 2018</h3>
-          <p class="blog-lead">If your dog is anything like ours then its difficult to image that such a life would be difficult or hard-work. In fact there are plenty of moments when all that napping, stretching, playing, eating&hellip;more napping&hellip;is down right envious.</p>
-          <p>But there are certain behaviors that come easy to our pooches that we, as people (at least this person), struggle with on a regular basis.</p>
+          <p class="blog-lead">If your dog is anything like ours then its difficult to image that such a life would be difficult or hard-work. But there are certain behaviors that come easy to our pups that we humans...(at least this human), struggle with on a regular basis.</p>
           <p>{{ button.link('/blog/living-like-a-dog-takes-practice.html', 'Read Article', 'link') }}</p>
         </div>
       </article>
+
+      <article>
+        <div class="blog-image">
+          <img src="/images/blog/how-to-use-local-dns-for-web-development-small.jpg" alt="How to use local dns for web development" />
+        </div>
+        <div class="blog-summary">
+          <h2 class="blog-heading"><a href="/blog/setting-up-local-dns-for-web-development.html">Using local DNS for web development</a></h2>
+          <h3 class="blog-author">May 11th, 2018</h3>
+          <p class="blog-lead">If you're doing web development work or even need to access a staging or development server that isn't publicly accessible then you'll likely need to know how to set up local DNS. This post explains some of your options and how to set them up.</p>
+          <p>{{ button.link('/blog/setting-up-local-dns-for-web-development.html', 'Read Article', 'link') }}</p>
+        </div>
+      </article>
+
     </div>
   </section>
 
