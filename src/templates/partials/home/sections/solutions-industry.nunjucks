@@ -42,7 +42,7 @@
         <div>
           <div>
             <h3>Retail &amp; Distribution</h3>
-            <p>Addressing concerns such as consumer-focus, Conversion-rate optimization, personalized buying experiences, checkout flow, cost of aquisition.</p>
+            <p>Addressing concerns such as consumer-focus, Conversion-rate optimization, personalized buying experiences, checkout flow, cost of acquisition.</p>
             <p>{{ button.link('/marketing-help-for-retail-distribution-businesses.html', 'Learn More', 'link') }}</p>
           </div>
         </div>

@@ -11,7 +11,7 @@
       <div>
         <div>How Can We Help You?</div>
       </div>
-      <a class="section-scroll" data-section="capabilities">By Capabilties</a>
+      <a class="section-scroll" data-section="capabilities">By Capabilities</a>
       <a class="section-scroll" data-section="industry">By Industry</a>
       <a class="section-scroll"  data-section="department">By Department</a>
     </div>

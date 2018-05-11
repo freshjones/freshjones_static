@@ -20,7 +20,7 @@
         <div>
           <div>
             <h3>Technology Manager</h3>
-            <p>Your focus is overseeing the technocal aspects of your company, alignment with business goals, future growth, colaboration with other deparment needs, budgeting, efficiency, productivity, effectiveness.</p>
+            <p>Your focus is overseeing the technical aspects of your company, alignment with business goals, future growth, collaboration with other department needs, budgeting, efficiency, productivity, effectiveness.</p>
             <p>{{ button.link('/marketing-help-for-technology-managers.html', 'Learn More', 'link') }}</p>
           </div>
         </div>
@@ -34,14 +34,14 @@
         <div>
           <div>
             <h3>Small Business Owner</h3>
-            <p>As an SMB owner your responisble for your companies growth, keeping a close eye on your numbers comparing them to your goals, ensuring your stabilty and guiding future direction while overseeing daily operations.</p>
+            <p>As an SMB owner your responsible for your companies growth, keeping a close eye on your numbers comparing them to your goals, ensuring your stability and guiding future direction while overseeing daily operations.</p>
             <p>{{ button.link('/marketing-help-for-small-business-owners.html', 'Learn More', 'link') }}</p>
           </div>
         </div>
         <div>
           <div>
             <h3>In-house marketing team</h3>
-            <p>Your in-house marketing team has many roles and responsibilities it needs to fill, such as brand management, budget management, creative output, advertising specialists, coversion optimised design, SEO, web development and more.</p>
+            <p>Your in-house marketing team has many roles and responsibilities it needs to fill, such as brand management, budget management, creative output, advertising specialists, conversion optimized design, SEO, web development and more.</p>
             <p>{{ button.link('/marketing-help-for-in-house-marketing-teams.html', 'Learn More', 'link') }}</p>
           </div>
         </div>
