@@ -27,7 +27,7 @@
           <div>
             <div>
               <h3>Search Engine Optimization (SEO)</h3>
-              <p>Make sure your business isn't invisible online by makeing sure that when customers are searching your business is found. This has never been more important than in todays mobile-centric world.</p>
+              <p>Make sure your business isn't invisible online by making sure that when customers are searching your business is found. This has never been more important than in todays mobile-centric world.</p>
               <p>{{ button.link('/search-engine-optimization.html', 'Learn More', 'link') }}</p>
             </div>
           </div>

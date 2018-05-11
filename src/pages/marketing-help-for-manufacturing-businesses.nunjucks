@@ -30,7 +30,7 @@
 
           <p class="section-lead mb2">Our experience, knowledge and expertise will ensure your business is there when your customers are looking whether online or off.</p>
 
-          <p class="section-lead mb2">We always begin wih a strategic, customer-centric, data-driven mindset focusing on both long and short-term growth goals. Based on extensive market, competitive and customer analysis we'll work with you to develop and implement an industrial growth strategy to meet and exceed your businesses  goals and expectations. </p>
+          <p class="section-lead mb2">We always begin with a strategic, customer-centric, data-driven mindset focusing on both long and short-term growth goals. Based on extensive market, competitive and customer analysis we'll work with you to develop and implement an industrial growth strategy to meet and exceed your businesses  goals and expectations. </p>
           <p>{{ button.scrollto('schedule', 'Sound Good? Lets Talk') }}</p>
         </div>
       </div>
