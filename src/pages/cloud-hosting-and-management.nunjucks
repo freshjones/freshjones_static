@@ -67,7 +67,7 @@
           <div class="grid-3col grid-boxes">
             <div>Linux Hosting</div>
             <div>Configuration Management</div>
-            <div>CD/CI Pipedivne</div>
+            <div>CD/CI Pipeline</div>
             <div>Web Server and Database Setup</div>
             <div>SSH setup/configuration (LetsEncrypt)</div>
             <div>Cloud Backups</div>
@@ -118,7 +118,7 @@
         <div class="column-list">
           <div>
             <div>
-              <h3>Flexiblilty and scalablability</h3>
+              <h3>Flexibility and scalability</h3>
               <p>easily add new storage or scale as your business need increase</p>
             </div>
           </div>
