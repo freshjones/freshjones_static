@@ -58,7 +58,7 @@
           </div>
           <div>
             <label>Phone</label>
-            <input name="tel" pattern="[\(]?\d{3}[\)]?[ ]?\d{3}[\-| ]?\d{4}" placeholder="Phone Number (999) 999-9999" type="tel" required>
+            <input name="tel" pattern="\d{0,1}[-| ]?[\(]?\d{3}[\)]?[-| ]?\d{3}[\-| ]?\d{4}" placeholder="Phone Number 1 (999) 999-9999" type="tel" required>
           </div>
           {% if comments %}
           <div>
