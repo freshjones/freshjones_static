@@ -5,13 +5,17 @@ label
     color: #333;
 }
 
-input, select
+input, select, textarea
 {
   appearance: none;
   border: solid 1px #ccc;
   padding: 10px;
   width: 100%;
   font-size: 14px;
+}
+
+textarea {
+    resize: none;
 }
 
 form > div

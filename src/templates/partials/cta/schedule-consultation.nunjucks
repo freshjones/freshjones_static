@@ -17,13 +17,8 @@
     <input name="company" placeholder="Company Name" type="text" required>
   </div>
   <div>
-    <label>I'm Interested in:</label>
-    <select>
-      <option value="Integrated Marketing">Full-service Integrated Marketing</option>
-      <option value="Web + Mobile">Web + Mobile</option>
-      <option value="Marketing + Sales">Marketing + Sales</option>
-      <option value="Brand + Creative">Brand + Creative</option>
-    </select>
+    <label>I'm Interested in Discussing:</label><br/>
+    <textarea name="comments"></textarea>
   </div>
   <div>
     <input name="Submit" value="Schedule My Consultation" type="submit">

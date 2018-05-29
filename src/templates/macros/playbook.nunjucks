@@ -31,7 +31,7 @@
 </section>
 {% endmacro %}
 
-{% macro consult(title='Schedule a Consultation',about='') %}
+{% macro consult(title='Schedule a Consultation',about='',comments=false) %}
 <section class="knockout solutions-schedule section-background">
   <div class="wrap">
     <div class="flex-panels">
@@ -60,6 +60,12 @@
             <label>Phone</label>
             <input name="tel" pattern="[\(]?\d{3}[\)]?[ ]?\d{3}[\-| ]?\d{4}" placeholder="Phone Number (999) 999-9999" type="tel" required>
           </div>
+          {% if comments %}
+          <div>
+            <label>I'm Interested in Discussing:</label><br/>
+            <textarea name="comments"></textarea>
+          </div>
+          {% endif %}
           <div>
             <input name="Submit" value="Lets Schedule a Call" type="submit">
           </div>
