@@ -7,7 +7,7 @@
         <p>Our {{ description }} playbook will help you determine how we can help meet your business requirements, how we design our services to achieve or exceed your goals, how our services are priced and your estimated investment.</p>
       </div>
       <div class="flex-panel-6">
-        <form name="playbook" method="POST" netlify>
+        <form name="playbook" method="POST" netlify-honeypot="fj_contact_info" netlify>
           <input name="playbook" type="hidden" value="{{ title }}">
           <div>
             <label>Name</label>
@@ -20,6 +20,9 @@
           <div>
             <label>Email</label>
             <input name="email" placeholder="Email Address" type="email" required>
+          </div>
+          <div class="fj_contact_info">
+            <input name="fj_contact_info" />
           </div>
           <div>
             <input name="Submit" value="Send Me The Playbook" type="submit">
@@ -42,7 +45,7 @@
         <p class="bold">Would that be worth a 1/2 hour of your time?</p>
       </div>
       <div class="flex-panel-6">
-        <form name="consultation" method="POST" netlify>
+        <form name="consultation" method="POST" netlify-honeypot="fj_contact_info" netlify>
           <input name="consultation-call" type="hidden" value="{{ about }}">
           <div>
             <label>Name</label>
@@ -66,6 +69,9 @@
             <textarea name="comments"></textarea>
           </div>
           {% endif %}
+          <div class="fj_contact_info">
+            <input name="fj_contact_info" />
+          </div>
           <div>
             <input name="Submit" value="Lets Schedule a Call" type="submit">
           </div>

@@ -341,8 +341,8 @@
           <p class="bold">Would that be worth a 1/2 hour of your time?</p>
         </div>
         <div class="flex-panel-6">
-          <form>
-            <input name="consultation-call" type="hidden" value="{{ about }}">
+          <form name="openy-development" method="POST" netlify-honeypot="fj_contact_info" netlify>
+            <input name="consultation-call" type="hidden" value="Open-Y Development">
             <div>
               <label>Name</label>
               <input name="name" placeholder="Full Name" type="text" required>
@@ -358,6 +358,9 @@
             <div>
               <label>Phone</label>
               <input name="tel" pattern="\d{0,1}[-| ]?[\(]?\d{3}[\)]?[-| ]?\d{3}[\-| ]?\d{4}" placeholder="Phone Number 1 (999) 999-9999" type="tel" required>
+            </div>
+            <div class="fj_contact_info">
+              <input name="fj_contact_info" />
             </div>
             <div>
               <input name="Submit" value="Lets Schedule a Call" type="submit">

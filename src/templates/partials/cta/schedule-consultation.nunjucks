@@ -1,4 +1,4 @@
-<form name="consulation" method="POST" netlify>
+<form name="consulation" method="POST" netlify-honeypot="fj_contact_info" netlify>
   <input name="consulation" type="hidden" value="General Consulation - Homepage">
   <div>
     <label>Name</label>
@@ -20,7 +20,9 @@
     <label>I'm Interested in Discussing:</label><br/>
     <textarea name="comments"></textarea>
   </div>
-  <div data-netlify-recaptcha></div>
+  <div class="fj_contact_info">
+    <input name="fj_contact_info" />
+  </div>
   <div>
     <input name="Submit" value="Schedule My Consultation" type="submit">
   </div>
