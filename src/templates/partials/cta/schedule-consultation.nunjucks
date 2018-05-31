@@ -20,6 +20,7 @@
     <label>I'm Interested in Discussing:</label><br/>
     <textarea name="comments"></textarea>
   </div>
+  <div data-netlify-recaptcha></div>
   <div>
     <input name="Submit" value="Schedule My Consultation" type="submit">
   </div>
