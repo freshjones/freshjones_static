@@ -33,7 +33,7 @@
           <p>{{ button.link('/blog/living-like-a-dog-takes-practice.html', 'Read Article', 'link') }}</p>
         </div>
       </article>
-
+      {#
       <article>
         <div class="blog-image">
           <img src="/images/blog/how-to-use-local-dns-for-web-development-small.jpg" alt="How to use local dns for web development" />
@@ -45,7 +45,7 @@
           <p>{{ button.link('/blog/setting-up-local-dns-for-web-development.html', 'Read Article', 'link') }}</p>
         </div>
       </article>
-
+      #}
     </div>
   </section>
 
