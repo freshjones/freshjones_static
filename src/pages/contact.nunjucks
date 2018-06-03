@@ -52,7 +52,7 @@
           <p>We love working with growing companies. Whether your just researching, have more questions or in a "help I need it now" situation we want to hear from you. Let’s begin with a discovery call to discuss your needs.</p>
         </div>
         <div class="flex-panel-6">
-          <form name="contact" method="POST" netlify>
+          <form name="contact" method="POST" netlify-honeypot="fj_contact_info" netlify>
             <input name="consulation" type="hidden" value="General Consulation - Homepage">
             <div>
               <label>Name</label>
@@ -73,6 +73,9 @@
             <div>
               <label>I'm Interested in Discussing:</label><br/>
               <textarea name="comments"></textarea>
+            </div>
+            <div class="fj_contact_info">
+              <input name="fj_contact_info" />
             </div>
             <div>
               <input name="Submit" value="Send" type="submit">
