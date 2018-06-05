@@ -1,9 +1,654 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FreshJones - Responsive Web Design</title><link rel="stylesheet" href="/css/styles.css"><link rel="icon" href="/images/favicon.ico" type="image/vnd.microsoft.icon"><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+  FreshJones - Responsive Web Design
+</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/images/favicon.ico" type="image/vnd.microsoft.icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-PV9WFHG');</script></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PV9WFHG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div class="mobile-nav"><div class="toggle"></div><div class="nav"><a href="/"><img alt="FreshJones" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4yLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQogICB2aWV3Qm94PSIwIDAgMjM1LjQgMTc2IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyMzUuNCAxNzY7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQogIC5zdDB7ZGlzcGxheTpub25lO30NCiAgLnN0MXtmaWxsOiMzZmEyMDg7fQ0KPC9zdHlsZT4NCjxpbWFnZSBzdHlsZT0iZGlzcGxheTpub25lO292ZXJmbG93OnZpc2libGU7ZW5hYmxlLWJhY2tncm91bmQ6bmV3ICAgIDsiIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjgwMCIgeGxpbms6aHJlZj0iRUQ4MDE0MDVDMDFGOThBOS5qcGVnIiAgdHJhbnNmb3JtPSJtYXRyaXgoMC4zNzM4IDAgMCAwLjM3MzggLTk4LjY3OTIgLTY0LjgyNzkpIj4NCjwvaW1hZ2U+DQo8ZyBjbGFzcz0ic3QwIj4NCiAgDQogICAgPGltYWdlIHN0eWxlPSJkaXNwbGF5OmlubGluZTtvdmVyZmxvdzp2aXNpYmxlO2VuYWJsZS1iYWNrZ3JvdW5kOm5ldyAgICA7IiB3aWR0aD0iMTg3IiBoZWlnaHQ9IjU5IiB4bGluazpocmVmPSJFRDgwMTQwNUMwMUY5OEFCLnBuZyIgIHRyYW5zZm9ybT0ibWF0cml4KDMuOTg0NCAwIDAgMy45NTUxIC0xMi43MiAtMTkuMTQ2NykiPg0KICA8L2ltYWdlPg0KPC9nPg0KPGc+DQogIDxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xMjUuMSw1MS45YzE2LjItMS4zLDI2LjgsMiw0MS41LDMuN2MxNC4zLDEuNywyNS42LTMuNiwzNS4xLTExLjhjLTEuNy0wLjYtMy40LTEuMy01LjItMi4xDQogICAgYy0yOC0xMy42LTU0LjktMjQuNC04MC43LTguM2MtOS44LDYuMS0xNS4xLDExLjgtMjQuNCwyNi45YzAsMCwzLjMtMC43LDguMy0yLjZDMTA3LjEsNTQuOCwxMTUuNCw1Mi43LDEyNS4xLDUxLjl6Ii8+DQogIDxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0yMDkuMSw0NS41YzItNS44LDMuNi0xMS42LDQuNS0xNy42YzAuOC00LjgtMS42LDQuMi01LjYsMTIuNkMxOTQuNyw3MC4yLDE4MC40LDgxLDE0OS4yLDg2DQogICAgYy0yNy4xLDQuNC00OC42LTEwLjQtNTguMS0xOC41QzcyLDcyLjcsNTYuOCw4My45LDQ2LjYsOTcuMmMtMTIuNSwxNi4zLTE2LjcsMzUuMy0xMy40LDUzLjNjLTYuMi0xOS44LTMtNDEuNywxMS4xLTYwLjINCiAgICBjMTAuMS0xMy4yLDI0LjMtMjIuNyw0MC4yLTI4YzAtMC4yLDAuMS0wLjQsMC4xLTAuNWMtMC4xLDAtMC4xLDAuMS0wLjEsMC4xYzItNi4xLDMuNC05LjYsNS0xMi41YzAuNS0xLjEsMC44LTEuNywwLjgtMS43bDAuNC0wLjMNCiAgICBjMS43LTIuNiwzLjgtNSw3LjEtOWMxMi43LTE1LjIsMjcuNi0yMC43LDQyLjgtMjAuOUMxMjYsNi41LDEwNy44LDAsODgsMEMzOS40LDAsMCwzOS40LDAsODhzMzkuNCw4OCw4OCw4OA0KICAgIGM0My41LDAsNzkuNi0zMS42LDg2LjctNzMuMWMtNywyLjgtMTQuNSw0LjktMjIuNSw2LjFjLTguNywxLjMtMTYuNiwwLjctMjMuNy0xYzIuNywwLDUuNS0wLjIsOC40LTAuNmMxNS4yLTIuMiwyOC4zLTcuOSwzOS4xLTE2DQogICAgYzAtMC4xLDAtMC4zLDAtMC40YzExLjEtOCwxOS45LTE4LjQsMjYuMy0zMC4xYzEyLjktMi45LDI0LTkuNCwzMS45LTIyLjVDMjM5LjIsMzAsMjI3LjgsNDYuMSwyMDkuMSw0NS41eiIvPg0KPC9nPg0KPC9zdmc+DQo="></a><a href="/" class="active">Home</a> <a href="/solutions.html" class="">Solutions</a> <a href="/services.html" class="">Services</a> <a href="/about.html" class="">About</a> <a href="/blog" class="">Blog</a> <a href="/contact.html" class="">Contact</a></div></div><main><header><div class="contact-info"><ul class="container"><li class="phone"><a href="tel:1-413-475-1810"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 180.9 180" style="enable-background:new 0 0 180.9 180;" xml:space="preserve"><path d="M40.9,0c7.6,12.5,15.3,24.9,22.9,37.4c3.6,5.9,3.4,8.3-1.6,13.1c-4.3,4.1-9.1,7.8-13.6,11.7c-6.1,5.5-7.1,7.9-3.2,15.1
+    })(window,document,'script','dataLayer','GTM-PV9WFHG');</script>
+</head>
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PV9WFHG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <div class="mobile-nav">
+    <div class="toggle"></div>
+    <div class="nav">
+      <a href="/"><img alt="FreshJones" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4yLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQogICB2aWV3Qm94PSIwIDAgMjM1LjQgMTc2IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyMzUuNCAxNzY7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQogIC5zdDB7ZGlzcGxheTpub25lO30NCiAgLnN0MXtmaWxsOiMzZmEyMDg7fQ0KPC9zdHlsZT4NCjxpbWFnZSBzdHlsZT0iZGlzcGxheTpub25lO292ZXJmbG93OnZpc2libGU7ZW5hYmxlLWJhY2tncm91bmQ6bmV3ICAgIDsiIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjgwMCIgeGxpbms6aHJlZj0iRUQ4MDE0MDVDMDFGOThBOS5qcGVnIiAgdHJhbnNmb3JtPSJtYXRyaXgoMC4zNzM4IDAgMCAwLjM3MzggLTk4LjY3OTIgLTY0LjgyNzkpIj4NCjwvaW1hZ2U+DQo8ZyBjbGFzcz0ic3QwIj4NCiAgDQogICAgPGltYWdlIHN0eWxlPSJkaXNwbGF5OmlubGluZTtvdmVyZmxvdzp2aXNpYmxlO2VuYWJsZS1iYWNrZ3JvdW5kOm5ldyAgICA7IiB3aWR0aD0iMTg3IiBoZWlnaHQ9IjU5IiB4bGluazpocmVmPSJFRDgwMTQwNUMwMUY5OEFCLnBuZyIgIHRyYW5zZm9ybT0ibWF0cml4KDMuOTg0NCAwIDAgMy45NTUxIC0xMi43MiAtMTkuMTQ2NykiPg0KICA8L2ltYWdlPg0KPC9nPg0KPGc+DQogIDxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xMjUuMSw1MS45YzE2LjItMS4zLDI2LjgsMiw0MS41LDMuN2MxNC4zLDEuNywyNS42LTMuNiwzNS4xLTExLjhjLTEuNy0wLjYtMy40LTEuMy01LjItMi4xDQogICAgYy0yOC0xMy42LTU0LjktMjQuNC04MC43LTguM2MtOS44LDYuMS0xNS4xLDExLjgtMjQuNCwyNi45YzAsMCwzLjMtMC43LDguMy0yLjZDMTA3LjEsNTQuOCwxMTUuNCw1Mi43LDEyNS4xLDUxLjl6Ii8+DQogIDxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0yMDkuMSw0NS41YzItNS44LDMuNi0xMS42LDQuNS0xNy42YzAuOC00LjgtMS42LDQuMi01LjYsMTIuNkMxOTQuNyw3MC4yLDE4MC40LDgxLDE0OS4yLDg2DQogICAgYy0yNy4xLDQuNC00OC42LTEwLjQtNTguMS0xOC41QzcyLDcyLjcsNTYuOCw4My45LDQ2LjYsOTcuMmMtMTIuNSwxNi4zLTE2LjcsMzUuMy0xMy40LDUzLjNjLTYuMi0xOS44LTMtNDEuNywxMS4xLTYwLjINCiAgICBjMTAuMS0xMy4yLDI0LjMtMjIuNyw0MC4yLTI4YzAtMC4yLDAuMS0wLjQsMC4xLTAuNWMtMC4xLDAtMC4xLDAuMS0wLjEsMC4xYzItNi4xLDMuNC05LjYsNS0xMi41YzAuNS0xLjEsMC44LTEuNywwLjgtMS43bDAuNC0wLjMNCiAgICBjMS43LTIuNiwzLjgtNSw3LjEtOWMxMi43LTE1LjIsMjcuNi0yMC43LDQyLjgtMjAuOUMxMjYsNi41LDEwNy44LDAsODgsMEMzOS40LDAsMCwzOS40LDAsODhzMzkuNCw4OCw4OCw4OA0KICAgIGM0My41LDAsNzkuNi0zMS42LDg2LjctNzMuMWMtNywyLjgtMTQuNSw0LjktMjIuNSw2LjFjLTguNywxLjMtMTYuNiwwLjctMjMuNy0xYzIuNywwLDUuNS0wLjIsOC40LTAuNmMxNS4yLTIuMiwyOC4zLTcuOSwzOS4xLTE2DQogICAgYzAtMC4xLDAtMC4zLDAtMC40YzExLjEtOCwxOS45LTE4LjQsMjYuMy0zMC4xYzEyLjktMi45LDI0LTkuNCwzMS45LTIyLjVDMjM5LjIsMzAsMjI3LjgsNDYuMSwyMDkuMSw0NS41eiIvPg0KPC9nPg0KPC9zdmc+DQo=" /></a>
+      
+      
+    <a href="/" class="active">Home</a>
+    <a href="/solutions.html" class="">Solutions</a>
+    <a href="/services.html" class="">Services</a>
+    <a href="/about.html" class="">About</a>
+    <a href="/blog" class="">Blog</a>
+    <a href="/contact.html" class="">Contact</a>
+
+    </div>
+</div>
+
+  
+  
+  
+  <main>
+    
+    
+  
+  <header>
+    <div class="contact-info">
+      <ul class="container">
+        <li class="phone"><a href="tel:1-413-475-1810">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 180.9 180" style="enable-background:new 0 0 180.9 180;" xml:space="preserve">
+          <path d="M40.9,0c7.6,12.5,15.3,24.9,22.9,37.4c3.6,5.9,3.4,8.3-1.6,13.1c-4.3,4.1-9.1,7.8-13.6,11.7c-6.1,5.5-7.1,7.9-3.2,15.1
             c3.7,6.8,7.9,13.6,13,19.3c13.5,15,29.3,27.6,46.2,38.6c7.1,4.6,9.3,4.1,14.7-2.4c3.5-4.2,6.7-8.7,10.4-12.8
             c4.8-5.5,7.6-5.9,13.8-2.2c12.5,7.3,24.9,14.7,37.3,22c0,2.3,0,4.7,0,7c-5.4,14.9-15.2,25.5-30.5,30.7c-2.5,0.8-5,1.6-7.5,2.3
             c-4.7,0-9.3,0-14,0c-4.6-1.2-9.3-2.3-13.8-3.8C84.2,166,59.6,146.4,38,123C21.2,104.9,9.9,83.7,3.4,59.8
-            C-3.9,32.9,5.8,16.1,27.3,3.1C29.2,2,31.1,1,32.9,0C35.6,0,38.2,0,40.9,0z"/></svg><span>(413) 475-1810</span></a></li><li class="email"><a href="mailto:hello@freshjones.com"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 180.9 180" style="enable-background:new 0 0 180.9 180;" xml:space="preserve"><g><polygon points="0.8,27.4 88.8,87.8 180.9,27.4  "/><polygon points="180.2,41.3 89.5,101.8 0.8,42.4 0.8,149 180.9,149 180.9,40.8  "/></g></svg><span>hello@freshjones.com</span></a></li></ul></div><div class="container"><a class="logo" href="/"><img alt="FreshJones" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4yLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQogICB2aWV3Qm94PSIwIDAgMjM1LjQgMTc2IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyMzUuNCAxNzY7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQogIC5zdDB7ZGlzcGxheTpub25lO30NCiAgLnN0MXtmaWxsOiMzZmEyMDg7fQ0KPC9zdHlsZT4NCjxpbWFnZSBzdHlsZT0iZGlzcGxheTpub25lO292ZXJmbG93OnZpc2libGU7ZW5hYmxlLWJhY2tncm91bmQ6bmV3ICAgIDsiIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjgwMCIgeGxpbms6aHJlZj0iRUQ4MDE0MDVDMDFGOThBOS5qcGVnIiAgdHJhbnNmb3JtPSJtYXRyaXgoMC4zNzM4IDAgMCAwLjM3MzggLTk4LjY3OTIgLTY0LjgyNzkpIj4NCjwvaW1hZ2U+DQo8ZyBjbGFzcz0ic3QwIj4NCiAgDQogICAgPGltYWdlIHN0eWxlPSJkaXNwbGF5OmlubGluZTtvdmVyZmxvdzp2aXNpYmxlO2VuYWJsZS1iYWNrZ3JvdW5kOm5ldyAgICA7IiB3aWR0aD0iMTg3IiBoZWlnaHQ9IjU5IiB4bGluazpocmVmPSJFRDgwMTQwNUMwMUY5OEFCLnBuZyIgIHRyYW5zZm9ybT0ibWF0cml4KDMuOTg0NCAwIDAgMy45NTUxIC0xMi43MiAtMTkuMTQ2NykiPg0KICA8L2ltYWdlPg0KPC9nPg0KPGc+DQogIDxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xMjUuMSw1MS45YzE2LjItMS4zLDI2LjgsMiw0MS41LDMuN2MxNC4zLDEuNywyNS42LTMuNiwzNS4xLTExLjhjLTEuNy0wLjYtMy40LTEuMy01LjItMi4xDQogICAgYy0yOC0xMy42LTU0LjktMjQuNC04MC43LTguM2MtOS44LDYuMS0xNS4xLDExLjgtMjQuNCwyNi45YzAsMCwzLjMtMC43LDguMy0yLjZDMTA3LjEsNTQuOCwxMTUuNCw1Mi43LDEyNS4xLDUxLjl6Ii8+DQogIDxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0yMDkuMSw0NS41YzItNS44LDMuNi0xMS42LDQuNS0xNy42YzAuOC00LjgtMS42LDQuMi01LjYsMTIuNkMxOTQuNyw3MC4yLDE4MC40LDgxLDE0OS4yLDg2DQogICAgYy0yNy4xLDQuNC00OC42LTEwLjQtNTguMS0xOC41QzcyLDcyLjcsNTYuOCw4My45LDQ2LjYsOTcuMmMtMTIuNSwxNi4zLTE2LjcsMzUuMy0xMy40LDUzLjNjLTYuMi0xOS44LTMtNDEuNywxMS4xLTYwLjINCiAgICBjMTAuMS0xMy4yLDI0LjMtMjIuNyw0MC4yLTI4YzAtMC4yLDAuMS0wLjQsMC4xLTAuNWMtMC4xLDAtMC4xLDAuMS0wLjEsMC4xYzItNi4xLDMuNC05LjYsNS0xMi41YzAuNS0xLjEsMC44LTEuNywwLjgtMS43bDAuNC0wLjMNCiAgICBjMS43LTIuNiwzLjgtNSw3LjEtOWMxMi43LTE1LjIsMjcuNi0yMC43LDQyLjgtMjAuOUMxMjYsNi41LDEwNy44LDAsODgsMEMzOS40LDAsMCwzOS40LDAsODhzMzkuNCw4OCw4OCw4OA0KICAgIGM0My41LDAsNzkuNi0zMS42LDg2LjctNzMuMWMtNywyLjgtMTQuNSw0LjktMjIuNSw2LjFjLTguNywxLjMtMTYuNiwwLjctMjMuNy0xYzIuNywwLDUuNS0wLjIsOC40LTAuNmMxNS4yLTIuMiwyOC4zLTcuOSwzOS4xLTE2DQogICAgYzAtMC4xLDAtMC4zLDAtMC40YzExLjEtOCwxOS45LTE4LjQsMjYuMy0zMC4xYzEyLjktMi45LDI0LTkuNCwzMS45LTIyLjVDMjM5LjIsMzAsMjI3LjgsNDYuMSwyMDkuMSw0NS41eiIvPg0KPC9nPg0KPC9zdmc+DQo="> <span class="wordmark">FreshJones</span></a><div class="menu-toggle"><div><span></span><span></span><span></span></div></div><nav><ul><li><a href="/" class="">Home</a></li><li class="show-subnav"><a href="/solutions.html" class="">Solutions <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 160.3 99.7" style="enable-background:new 0 0 160.3 99.7;" xml:space="preserve"><polygon points="80.1,60.6 19.6,0 0,19.6 80.1,99.7 160.3,19.6 140.7,0 "/></svg></a><div class="subnav-panel"><div><ul><li><a href="/solutions.html">Growth Solutions</a></li><li class="subnav-drop-down-item"><span>By Role</span><ul><li><a href="/marketing-help-for-small-business-owners.html">Small Business Owner</a></li><li><a href="/marketing-help-for-executives.html">C-Suite Executive</a></li><li><a href="/marketing-help-for-technology-managers.html">Technology Manager</a></li><li><a href="/marketing-help-for-marketing-managers.html">Marketing Manager</a></li><li><a href="/marketing-help-for-in-house-marketing-teams.html">In-House Marketing Team</a></li><li><a href="/marketing-help-for-advertising-agencies.html">Advertising Agency</a></li></ul></li><li class="subnav-drop-down-item"><span>By Industry</span><ul><li><a href="/marketing-help-for-manufacturing-businesses.html">Manufacturing</a></li><li><a href="/marketing-help-for-higher-education-institutions.html">Higher Education</a></li><li><a href="/marketing-help-for-non-profit-organizations.html">Non-Profit</a></li><li><a href="/marketing-help-for-financial-service-companies.html">Financial Services</a></li><li><a href="/marketing-help-for-retail-distribution-businesses.html">Retail &amp; Distribution</a></li></ul></li></ul></div></div></li><li class="show-subnav"><a href="/services.html" class="active">Services <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 160.3 99.7" style="enable-background:new 0 0 160.3 99.7;" xml:space="preserve"><polygon points="80.1,60.6 19.6,0 0,19.6 80.1,99.7 160.3,19.6 140.7,0 "/></svg></a><div class="subnav-panel"><div><ul><li class="subnav-drop-down-item"><a href="/web-mobile-services.html">Web + Mobile</a><ul><li class="subnav-drop-down-item"><a href="/content-management-systems.html">Content Management Systems</a><ul><li><a href="/drupal-website-development.html">Drupal CMS Development</a></li><!-- <li><a href="/wordpress-website-development.html">WordPress CMS Development</a></li> --><!-- <li><a href="/laravel-website-development.html">Custom Laravel CMS Development</a></li> --><li><a href="/open-y-development.html">Open-Y Platform Development</a></li></ul></li><li><a href="/website-design-and-development.html">Website Development</a></li><li><a href="/mobile-first-responsive-web-design.html">Mobile-first Web Design</a></li><li><a href="/ecommerce-websites.html">eCommerce Websites</a></li><li><a href="/mobile-application-development.html">Mobile Appications</a></li><li><a href="/cloud-hosting-and-management.html">Cloud Hosting and Management</a></li><li><a href="/website-maintenance-and-training.html">Website Maintenance and Training</a></li><li><a href="/chatbot-and-voice-agent-development.html">Chatbot and Voice Agent</a></li></ul></li><li class="subnav-drop-down-item"><a href="/marketing-sales-services.html">Marketing + Sales</a><ul><li><a href="/strategic-planning.html">Strategic Planning</a></li><li><a href="/search-engine-optimization.html">Search Engine Optimization (SEO)</a></li><li><a href="/local-search-engine-optimization.html">Local Search</a></li><li><a href="/paid-search-advertising.html">Paid Search Advertising</a></li><li><a href="/display-advertising-remarketing.html">Display Advertising and Remarketing</a></li><li><a href="/mobile-marketing.html">Mobile Marketing</a></li><li><a href="/social-media-advertising.html">Social Media Advertising</a></li><li><a href="/email-marketing.html">Email Marketing</a></li></ul></li><li class="subnav-drop-down-item"><a href="/branding-creative-services.html">Brand + Creative</a><ul><li><a href="/sales-support-collateral.html">Sales Support Collateral</a></li><li><a href="/outdoor-advertising.html">Outdoor Advertising</a></li><li><a href="/trade-show-displays.html">Trade Show Displays</a></li><li><a href="/logo-brand-identity.html">Logo &amp; Brand Identity</a></li><li><a href="/print-advertising.html">Print Advertising</a></li><li><a href="/direct-mail-marketing.html">Direct Mail Marketing</a></li><li><a href="/package-design.html">Package Design</a></li><li><a href="/promotional-materials.html">Promotional Material</a></li></ul></li></ul></div></div></li><li><a href="/about.html" class="">About</a></li><li><a href="/blog" class="">Blog</a></li><li><a href="/contact.html" class="">Contact</a></li></ul></nav></div></header><section class="hero-stark"><div class="wrap wrap-center"><div class="section-summary"><h1 class="section-topic">Mobile-first Web Design</h1><h2 class="section-heading">Make your site work on any device</h2><p class="section-lead">Responsive mobile-first websites built for all devices and orientations using industry-standard best practices</p></div></div></section><section><div><img src="/images/ResponsiveWebDesign.jpg"></div></section><section><div class="wrap wrap-center wrap-center-narrow"><div><div class="section-summary"><div class="section-heading">Be there when customers are searching</div><p class="section-lead mb3">A great mobile experience is no longer an option in today's mobile-first world</p><div class="section-quote"><div class="quote"><div><p>"Google says 61% of users are unlikely to return to a mobile site they had trouble accessing and 40% visit a competitor’s site instead."<br><span class="source">(MicKinsey & Company)</span></p></div></div><div><p>Whether we’re at our desk, on a train, or waiting in line at the grocery store, we expect to be able to look for and find the information we want...fast and without any hassle, and we have zero patience or tolerance for any business that isn’t able to deliver.</p><p>We’ll bounce to a different site faster than a rocket full of monkeys!</p><p>This is important for your business given that every time a customer wants to know, go, do, try or buy anything they typically start with a google search on a mobile phone or tablet.</p><p>Google recently <a href="https://webmasters.googleblog.com/2018/03/rolling-out-mobile-first-indexing.html" target="_blank">announced</a> that because most searches are now done on mobile devices that they've started to rank search results exclusively on their ability to provide a great mobile-first website. In other words no matter what device your customers are using, Google shows them results based on their mobile index. If your business isn't mobile-first you might not show up in those searches.</p><p>Give your business a competitive edge with responsive mobile-first web design. Build a site that people find enjoyable, easy to use and one that Google loves, helping you earn more customers and grow your business.</p></div></div></div></div></div></section><section class="knockout"><div class="wrap wrap-left"><div class="service-plugs"><h2 class="section-heading">Design and Develop Your Mobile-First Website</h2><div class="service-plug"><h3>Responsive Web Design</h3><p>We build all of our websites using <a href="https://developers.google.com/search/mobile-sites/mobile-seo/responsive-design" target="_blank">google recommended</a> responsive web design. With responsive web design, each of your web page layout and content change depending on what device and screen size each person is using. This makes sure your site looks great no matter how its being viewed and it does it all without needing to create a separate mobile-version of your website.</p></div><div class="service-plug"><h3>Mobile-first SEO</h3><p>We can help optimize your website to make sure it ranks in Googles mobile-first index. We'll use Google recommended user experience best practices and techniques to help make sure your providing your users with a great web experience, and because of that your mobile-first index rankings increase. We'll shoot for a 90 or better score on <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">page speed insights</a>, we'll optimize for readability and easy of navigation, put schema structured data in place and much more.</p></div></div></div><div class="right-image"><img src="/images/ResponsiveServices.png"></div></section><section class=""><div class="wrap wrap-center"><div><div><h2 class="section-heading mb3">Advantages of a mobile-first website</h2><div class="section-long-list"><div><div><h3>Great User Experience</h3><p>You want your users to have a great experience and be able to find what they need on your site when they need it whatever device they are on</p></div><div><h3>Increased Search Rankings</h3><p>You want your site to rank higher in search engines and understand that a site optimized for mobile use is part of the SEO ranking factor</p></div><div><h3>Brand Affinity</h3><p>Customers are more likely to repeat purchase if they have an excellent user experience, making it quick, easy and enjoyable for them to get need when they need it.</p></div></div><div><div><h3>Better Engagement</h3><p>You want to keep you users engaged with the content on your site where ever they are</p></div><div><h3>Competitive Edge</h3><p>Users get frustrated if they can't easily access or view content and are likely to go to your competitors site to get what they are looking for instead</p></div><div><h3>Reach More People</h3><p>More than half of all searches begin on a mobile phone and you want to ensure your content is fast and easy to access on those devices</p></div></div><div><div><h3>Higher Traffic</h3><p>You want to increase traffic to your site and know that more people will find and visit your content if its designed and optimized for all devices</p></div><div><h3>Consistent Touch Points</h3><p>You want to ensure your business has a consistent look no matter how visitors are coming to your site</p></div><div><h3>Local Advantages</h3><p>You want more calls or traffic to your physical locations and know that people who search for a local business on a mobile phone call or visit the store with 24 hours</p></div></div></div></div></div></div></section><section class="knockout"><div class="wrap wrap-center wrap-center-narrow"><div class="section-spaced"><div class="section-summary"><h2 class="section-heading">Why let us help build your mobile-first website</h2><div class="section-numbered-list"><div><div><h5>1</h5><p>You want to make sure your site offers a great user experience</p></div><div><h5>2</h5><p>You want to make sure your site is highly performant</p></div><div><h5>3</h5><p>You don't have the time to learn the design and technical skills required</p></div></div><div><div><h5>4</h5><p>You want to make sure your site is optimized for speed</p></div><div><h5>5</h5><p>You want to make sure your site uses modern up-to-date industry standard best practices</p></div><div><h5>6</h5><p>You want to make sure your site is optimized for accessibility</p></div></div></div><div><p class="h3 white bold">Most importantly, you have a business to run!</p></div></div></div></div></section><section><div class="wrap wrap-center"><div><div><div class="section-quote"><div class="quote"><div><p>"There are 27.8 billion more queries performed on mobile than desktop."<br><span class="source">(Google)</span></p></div></div><div><div class="section-heading">Mobile SEO vs. Desktop SEO</div><p class="section-lead mb2 bold">Sure, but my customers still only use desktop</p><p class="section-lead mb2">Perhaps that's true, some industries particularly B2B, may not be predominantly mobile users yet, but there's a good chance they will be soon. In fact, 58% of all searches in Google are now done from a mobile device. Adding to that, regardless of B2B or B2C industries most buyer journey's, things we want to know, do, try or buy, all begin with a search on a mobile device.</p><p class="section-lead mb2">And this is an upward trend.</p><p class="section-lead mb2">In order to remain a dominant power in search, Google works hard to give its users what they want which is fast accurate results on any device any where. Which means they are <a href="https://webmasters.googleblog.com/2018/03/rolling-out-mobile-first-indexing.html" target="_blank">heavily focused</a> mobile-first. And that means its important for your business to do the same or risk being penalized on search rankings.</p><p class="section-lead mb2">Needless to say, mobile-first is the future of SEO.</p></div></div></div></div></div></section><section><div class="wrap wrap-center"><div><div><div><div><p class="section-heading green">"89% of B2B researchers use the Internet during the B2B research process."</p><p class="gray section-lead">&mdash; Statista</p></div></div></div></div></div></section><section class="integrated"><div class="wrap wrap-full wrap-center wrap-center-narrow"><div class="section-spaced"><div class="section-summary"><h2 class="section-heading">Our Mobile-first Design and Development Process</h2></div><div><ul class="flex-blocks flex-blocks-nowrap"><li><div><div class="number">1</div><h3>Discovery &amp; Strategy</h3><p>No two companies are alike, so we'll get to know you, your business and the challenges and problems you face. We'll listen to things you've tried so far, what's worked and what hasn't and where we can fit in and help. We'll put together a complete plan to meet your unique challenges and goals based on your specific business needs.</p></div></li><li><div><div class="number">2</div><h3>Content Strategy</h3><p>We’ll work with you to create target personas and arrange and organize your content to provide the best user experience. As SEO and content marketing strategists, we can help determine what pages are most important to your audiences and how to best address their needs across the complete buyers journey and beyond to advocacy.</p></div></li><li><div><div class="number">3</div><h3>Design and UI/UX</h3><p>Our designers will with you to develop a web design that not only matches your brand aesthetics and your identity standards, but brings our knowledge of user interface and user experience to the fore-front. You'll see and choose from multiple different concepts and be able to interact with each design on different devices and screen sizes, we'll help guide you in the right direction, point out pros and cons of each particular feature and determine the best design direction to move forward with.</p></div></li><li><div><div class="number">3</div><h3>Develop and Optimize</h3><p>Once you've determined a design direction our front-end developers will use the latest layout and development techniques such as HTML5, CSS3 and javascript to build your mobile-first website in a best practices approach. We'll test our code for accuracy, optimize for high scores against tools such as page speed insights, yslow and woorank. We'll use automated tests to check your site on multiple browsers, OS and screens ensuring your users will have a consistent experience with whatever device they're using.</p></div></li><li><div><div class="number">4</div><h3>Monitor, Test and Improve</h3><p>When your site is ready, we’ll handle all the hosting and launch details to ensure a smooth transition from your existing website to your new Drupal CMS. You will not experience any downtime, your old site will be archived and 301 redirected as necessary, analytics will be benchmarked and carried forward. From here we’ll help monitor the site, look for ways to help you improve your users experience and keep your site up-to-date and secure with any security patches or updates.</p></div></li></ul></div></div></div></section><section class="section-background"><div class="wrap wrap-center"><div><div><h2 class="section-heading mb3">Why consider FreshJones for your mobile-first website?</h2><p>Here are a number of reasons to consider FreshJones for your mobile-first website design, but the most important reason? We're nice people, we'll work hard to get the results you're looking for and we'll make the process fun and enjoyable .</p><div class="section-long-list"><div><div><h3>Experience</h3><p>We've been building responsive, mobile-first websites since 2013. Our engineers stay current with the latest industry standard best practices and follow Google recommended guidelines in developing great mobile-first user experiences that search engines and your customers will love.</p></div><div><h3>Strategy</h3><p>Everything we do begins with a strategic mindset. We're firm believers in data-driven decision making and will always bring good ideas and suggested and recommended solutions to the table for consideration.</p></div><div><h3>Content</h3><p>Part of providing your users with a relevant engaging web experience is giving them valuable and useful content. As SEO and user experience experts we can help you develop a content strategy better inform and keep your visitors engaged in your website, increasing your users dwell time, lowering bounce rates and improving conversions.</p></div><div><h3>Design</h3><p>Design in engrained into everything we do, whether it's graphic design, user experience or user interface design, we'll always work hard to provide you and your visitors with the best visual and functional experience.</p></div><div><h3>Quality</h3><p>We take quality very seriously. Whether its in the design or the development process quality is baked into everything we do. We stay up-to-date with the latest best practices in design and development practices, we practive object-oriented and functional programming methodologies, we run both unit and integration tests, all our sites are version controlled, with proper backup and restore strategies.</p></div></div><div><div><h3>Development</h3><p>Our in-house technical capabilities are both broad and deep. We are knowledgable, and skilled in the latest mobile-first, responsively designed front-end development applications, including modern HTML5, CSS3 and Javascript ES5/6 layout and design techniques.</p></div><div><h3>Data-driven and goal oriented</h3><p>We strongly believe that developing a mobile-first website that's powerful and effective as a growth building tool for your business takes effort and time. We develop a data-driven, goal-oriented mindset for all of our programs and projects and we help you analyze your data and performance indicators and use that data to make informed decisions about how we can improve and optimize our efforts incrementally over time to provide the best possible return on your investment.</p></div><div><h3>Support</h3><p>It would be difficult to beat our level of hands-on support. We're always a phone call or email away, you'll be speaking directly with a technician and we take your issues or problems very seriously.</p></div><div><h3>Project Management</h3><p>We are capable of working in either a waterfall or agile project management style. We prefer to work in an agile method because it allows our clients full control and accessibility to their project during development, creating many incremental feedback loops that allow the project to naturally progress in the most goal-oriented direction as opposed to being locked into a big non-movable plan at the beginning of the project.</p></div></div></div></div></div></div></section><section class="knockout"><div class="wrap wrap-center"><div><div class="section-summary"><div><h2 class="section-heading">What Makes a Great Mobile-first Website?</h2><p>We'll make sure your mobile-first website has the following attributes</p></div></div><div class="section-divider"><div></div></div><div class="column-list"><div><div><p class="bold">Responsive</p><p>Fast</p><p>Works fluidly on any device</p><p>Works on any orientation</p><p>Start with mobile first</p><p>There is no more fold - let pages scroll</p><p>Responsive images</p><p>Responsive videos</p></div></div><div><div><p class="bold">Great User Experience</p><p>Optimized for readability and legibility accessibility</p><p>Easily clickable buttons</p><p>Prioritize content Consider what's most important</p><p>Use screen real estate effectively</p><p>Consider user interaction</p><p>Optimal reading widths</p><p>Important info at the top engagement and hierarchy</p><p>Intuitive UI elements</p><p>Design for touch and gestures</p></div></div><div><div><p class="bold">High Performance</p><p>break points based on content not on devices</p><p>Optimized code</p><p>Optimized Imagery</p><p>Fast on all devices</p><p>Change the order of content blocks on smaller screens</p><p>Remove modals on phones and use scroll instead</p></div></div></div></div></div></section><section class=""><div class="wrap wrap-center wrap-center-narrow"><div><div class="section-summary"><h2 class="section-heading align-left">What you'll get with mobile-first web design</h2><p class="align-left">You'll get a website that your users and search engines love. You'll experience higher rankings and search pages which will in turn give you more traffic, more leads and more customers and sales. You'll get more for your paid marketing efforts by providing your users with a great experience. Google factors into account the quality of your webpages when determining how much you pay for clicks on your ads, the better your quality score is the more likely your ad will be placed higher on the page and the less you'll need to pay for that placement.</p><p class="align-left">You'll be getting an edge over your competition, most users who do not get what they were expecting when visiting a site, or users that have a bad experience trying to navigate or find the information they need will immediately leave your site and head directly to one of your competitors to find the information they need. You can avoid this by making sure your site is the trusted authority in your field of expertise and that potential customers can easily find relevant and valuable content that helps them see you as the answer to their problems.</p><p class="align-left">You'll be building brand affinity and top-of-mind awareness and loyalty in your customers minds about how easy and enjoyable your website experience was. This is important when they're ready to make a purchase, your business will be the one they remember and click on first, and it will be the one they come back for repeat purchases and the one they'll recommend to friends and neighbors.</p></div></div></div></section><section class="knockout solutions-schedule section-background"><div class="wrap"><div class="flex-panels"><div class="section-summary flex-panel-6"><h2>Sound Good? Lets Talk Mobile-first Web Design</h2><p class="bold">Let's get to know each other.</p><p>We'll ask you some questions and listen to your specific challenges. We'll find out what you've tried so far, what's worked for you in the past and what hasn't. Lastly we'll let you know how we might be able to help and see if you'd like to take a next step.</p><p class="bold">Would that be worth a 1/2 hour of your time?</p></div><div class="flex-panel-6"><form name="consultation" method="POST" netlify-honeypot="fj_contact_info" netlify><input name="consultation-call" type="hidden" value="Mobile-first Web Design"><div><label>Name</label> <input name="name" placeholder="Full Name" type="text" required></div><div><label>Company</label> <input name="company" placeholder="Company Name" type="text" required></div><div><label>Email</label> <input name="email" placeholder="Email Address" type="email" required></div><div><label>Phone</label> <input name="tel" pattern="\d{0,1}[-| ]?[\(]?\d{3}[\)]?[-| ]?\d{3}[\-| ]?\d{4}" placeholder="Phone Number 1 (999) 999-9999" type="tel" required></div><div class="fj_contact_info"><input name="fj_contact_info"></div><div><input name="Submit" value="Lets Schedule a Call" type="submit"></div></form></div></div></div></section></main><footer><section class="certifications"><div class="container"><div><img src="/images/hubspot-inbound-certified.png"></div><div><img src="/images/hubspot-inbound-sales-certified.png"></div><div><img src="/images/google-ad-words-certified.png"></div><div><img src="/images/clickminded-seo-certified.png"></div></div></section><section><div class="container"><ul class="footer"><li><ul><li><div class="wordmark"><span>Fresh</span><span>Jones</span></div></li><li><span>14 Miner Street</span><br><span>Greenfield</span>, <span>MA</span> <span>01301</span></li><li><a href="tel:4134751810">(413) 475-1810</a></li><li><a href="/contact.html">Directions</a></li></ul></li><li><ul><li class="list-heading"><a href="/solutions.html">Growth Solutions</a></li><li><a href="/marketing-help-for-manufacturing-businesses.html">Manufacturing</a></li><li><a href="/marketing-help-for-higher-education-institutions.html">Higher Education</a></li><li><a href="/marketing-help-for-non-profit-organizations.html">Non-Profit</a></li><li><a href="/marketing-help-for-financial-service-companies.html">Financial Services</a></li><li><a href="/marketing-help-for-retail-distribution-businesses.html">Retail & Distribution</a></li></ul></li><li><ul><li class="list-heading"><a href="/services.html">Growth Services</a></li><li><a href="/web-mobile-services.html">Web + Mobile</a></li><li><a href="/marketing-sales-services.html">Marketing + Sales</a></li><li><a href="/branding-creative-services.html">Brand + Creative</a></li></ul></li><li><ul><li><a href="/about.html">About</a></li><li><a href="/blog">Blog</a></li><li><a href="/contact.html">Contact</a></li></ul></li></ul></div></section><section><div class="container"><ul class="copyright"><li>&copy; 2018 FreshJones</li><li>Full Service Design and Marketing Agency in Western Massachusetts</li></ul></div></section></footer><script src="/js/vendor.js"></script><script src="/js/main.js"></script></body></html>
+            C-3.9,32.9,5.8,16.1,27.3,3.1C29.2,2,31.1,1,32.9,0C35.6,0,38.2,0,40.9,0z"/>
+          </svg><span>(413) 475-1810</span></a></li>
+        <li class="email"><a href="mailto:hello@freshjones.com"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 180.9 180" style="enable-background:new 0 0 180.9 180;" xml:space="preserve">
+        <g>
+          <polygon points="0.8,27.4 88.8,87.8 180.9,27.4  "/>
+          <polygon points="180.2,41.3 89.5,101.8 0.8,42.4 0.8,149 180.9,149 180.9,40.8  "/>
+        </g>
+        </svg><span>hello@freshjones.com</span></a></li>
+        
+      </ul>
+    </div>
+    <div class="container">
+      <a class="logo" href="/">
+        <img alt="FreshJones" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4yLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQogICB2aWV3Qm94PSIwIDAgMjM1LjQgMTc2IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyMzUuNCAxNzY7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQogIC5zdDB7ZGlzcGxheTpub25lO30NCiAgLnN0MXtmaWxsOiMzZmEyMDg7fQ0KPC9zdHlsZT4NCjxpbWFnZSBzdHlsZT0iZGlzcGxheTpub25lO292ZXJmbG93OnZpc2libGU7ZW5hYmxlLWJhY2tncm91bmQ6bmV3ICAgIDsiIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjgwMCIgeGxpbms6aHJlZj0iRUQ4MDE0MDVDMDFGOThBOS5qcGVnIiAgdHJhbnNmb3JtPSJtYXRyaXgoMC4zNzM4IDAgMCAwLjM3MzggLTk4LjY3OTIgLTY0LjgyNzkpIj4NCjwvaW1hZ2U+DQo8ZyBjbGFzcz0ic3QwIj4NCiAgDQogICAgPGltYWdlIHN0eWxlPSJkaXNwbGF5OmlubGluZTtvdmVyZmxvdzp2aXNpYmxlO2VuYWJsZS1iYWNrZ3JvdW5kOm5ldyAgICA7IiB3aWR0aD0iMTg3IiBoZWlnaHQ9IjU5IiB4bGluazpocmVmPSJFRDgwMTQwNUMwMUY5OEFCLnBuZyIgIHRyYW5zZm9ybT0ibWF0cml4KDMuOTg0NCAwIDAgMy45NTUxIC0xMi43MiAtMTkuMTQ2NykiPg0KICA8L2ltYWdlPg0KPC9nPg0KPGc+DQogIDxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xMjUuMSw1MS45YzE2LjItMS4zLDI2LjgsMiw0MS41LDMuN2MxNC4zLDEuNywyNS42LTMuNiwzNS4xLTExLjhjLTEuNy0wLjYtMy40LTEuMy01LjItMi4xDQogICAgYy0yOC0xMy42LTU0LjktMjQuNC04MC43LTguM2MtOS44LDYuMS0xNS4xLDExLjgtMjQuNCwyNi45YzAsMCwzLjMtMC43LDguMy0yLjZDMTA3LjEsNTQuOCwxMTUuNCw1Mi43LDEyNS4xLDUxLjl6Ii8+DQogIDxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0yMDkuMSw0NS41YzItNS44LDMuNi0xMS42LDQuNS0xNy42YzAuOC00LjgtMS42LDQuMi01LjYsMTIuNkMxOTQuNyw3MC4yLDE4MC40LDgxLDE0OS4yLDg2DQogICAgYy0yNy4xLDQuNC00OC42LTEwLjQtNTguMS0xOC41QzcyLDcyLjcsNTYuOCw4My45LDQ2LjYsOTcuMmMtMTIuNSwxNi4zLTE2LjcsMzUuMy0xMy40LDUzLjNjLTYuMi0xOS44LTMtNDEuNywxMS4xLTYwLjINCiAgICBjMTAuMS0xMy4yLDI0LjMtMjIuNyw0MC4yLTI4YzAtMC4yLDAuMS0wLjQsMC4xLTAuNWMtMC4xLDAtMC4xLDAuMS0wLjEsMC4xYzItNi4xLDMuNC05LjYsNS0xMi41YzAuNS0xLjEsMC44LTEuNywwLjgtMS43bDAuNC0wLjMNCiAgICBjMS43LTIuNiwzLjgtNSw3LjEtOWMxMi43LTE1LjIsMjcuNi0yMC43LDQyLjgtMjAuOUMxMjYsNi41LDEwNy44LDAsODgsMEMzOS40LDAsMCwzOS40LDAsODhzMzkuNCw4OCw4OCw4OA0KICAgIGM0My41LDAsNzkuNi0zMS42LDg2LjctNzMuMWMtNywyLjgtMTQuNSw0LjktMjIuNSw2LjFjLTguNywxLjMtMTYuNiwwLjctMjMuNy0xYzIuNywwLDUuNS0wLjIsOC40LTAuNmMxNS4yLTIuMiwyOC4zLTcuOSwzOS4xLTE2DQogICAgYzAtMC4xLDAtMC4zLDAtMC40YzExLjEtOCwxOS45LTE4LjQsMjYuMy0zMC4xYzEyLjktMi45LDI0LTkuNCwzMS45LTIyLjVDMjM5LjIsMzAsMjI3LjgsNDYuMSwyMDkuMSw0NS41eiIvPg0KPC9nPg0KPC9zdmc+DQo=" />
+        <span class="wordmark">FreshJones</span>
+      </a>
+      <div class="menu-toggle">
+        <div>
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/" class="">Home</a></li>
+          <li class="show-subnav"><a href="/solutions.html" class="">Solutions <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 160.3 99.7" style="enable-background:new 0 0 160.3 99.7;" xml:space="preserve"><polygon points="80.1,60.6 19.6,0 0,19.6 80.1,99.7 160.3,19.6 140.7,0 "/></svg></a>
+            <div class="subnav-panel">
+              <div><ul>
+  <li><a href="/solutions.html">Growth Solutions</a></span></li>
+  <li class="subnav-drop-down-item"><span >By Role</span>
+    <ul>
+      <li><a href="/marketing-help-for-small-business-owners.html">Small Business Owner</a></li>
+      <li><a href="/marketing-help-for-executives.html">C-Suite Executive</a></li>
+      <li><a href="/marketing-help-for-technology-managers.html">Technology Manager</a></li>
+      <li><a href="/marketing-help-for-marketing-managers.html">Marketing Manager</a></li>
+      <li><a href="/marketing-help-for-in-house-marketing-teams.html">In-House Marketing Team</a></li>
+      <li><a href="/marketing-help-for-advertising-agencies.html">Advertising Agency</a></li>
+    </ul>
+  </li>
+  <li class="subnav-drop-down-item"><span >By Industry</span>
+    <ul>
+      <li><a href="/marketing-help-for-manufacturing-businesses.html">Manufacturing</a></li>
+      <li><a href="/marketing-help-for-higher-education-institutions.html">Higher Education</a></li>
+      <li><a href="/marketing-help-for-non-profit-organizations.html">Non-Profit</a></li>
+      <li><a href="/marketing-help-for-financial-service-companies.html">Financial Services</a></li>
+      <li><a href="/marketing-help-for-retail-distribution-businesses.html">Retail &amp; Distribution</a></li>
+    </ul>
+  </li>
+</ul>
+</div>
+            </div>
+          </li>
+          <li class="show-subnav"><a href="/services.html" class="active">Services <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 160.3 99.7" style="enable-background:new 0 0 160.3 99.7;" xml:space="preserve"><polygon points="80.1,60.6 19.6,0 0,19.6 80.1,99.7 160.3,19.6 140.7,0 "/></svg></a>
+            <div class="subnav-panel">
+              <div><ul>
+  <li class="subnav-drop-down-item"><a href="/web-mobile-services.html">Web + Mobile</a>
+    <ul>
+      <li  class="subnav-drop-down-item"><a href="/content-management-systems.html">Content Management Systems</a>
+        <ul>
+          <li><a href="/drupal-website-development.html">Drupal CMS Development</a></li>
+          <!-- <li><a href="/wordpress-website-development.html">WordPress CMS Development</a></li> -->
+          <!-- <li><a href="/laravel-website-development.html">Custom Laravel CMS Development</a></li> -->
+          <li><a href="/open-y-development.html">Open-Y Platform Development</a></li>
+        </ul>
+      </li>
+      <li><a href="/website-design-and-development.html">Website Development</a></li>
+      <li><a href="/mobile-first-responsive-web-design.html">Mobile-first Web Design</a></li>
+      <li><a href="/ecommerce-websites.html">eCommerce Websites</a></li>
+      <li><a href="/mobile-application-development.html">Mobile Appications</a></li>
+      <li><a href="/cloud-hosting-and-management.html">Cloud Hosting and Management</a></li>
+      <li><a href="/website-maintenance-and-training.html">Website Maintenance and Training</a></li>
+      <li><a href="/chatbot-and-voice-agent-development.html">Chatbot and Voice Agent</a></li>
+    </ul>
+  </li>
+  <li class="subnav-drop-down-item"><a href="/marketing-sales-services.html">Marketing + Sales</a>
+    <ul>
+      <li><a href="/strategic-planning.html">Strategic Planning</a></li>
+      <li><a href="/search-engine-optimization.html">Search Engine Optimization (SEO)</a></li>
+      <li><a href="/local-search-engine-optimization.html">Local Search</a></li>
+      <li><a href="/paid-search-advertising.html">Paid Search Advertising</a></li>
+      <li><a href="/display-advertising-remarketing.html">Display Advertising and Remarketing</a></li>
+      <li><a href="/mobile-marketing.html">Mobile Marketing</a></li>
+      <li><a href="/social-media-advertising.html">Social Media Advertising</a></li>
+      <li><a href="/email-marketing.html">Email Marketing</a></li>
+    </ul>
+  </li>
+  <li class="subnav-drop-down-item"><a href="/branding-creative-services.html">Brand + Creative</a>
+    <ul>
+      <li><a href="/sales-support-collateral.html">Sales Support Collateral</a></li>
+      <li><a href="/outdoor-advertising.html">Outdoor Advertising</a></li>
+      <li><a href="/trade-show-displays.html">Trade Show Displays</a></li>
+      <li><a href="/logo-brand-identity.html">Logo &amp; Brand Identity</a></li>
+      <li><a href="/print-advertising.html">Print Advertising</a></li>
+      <li><a href="/direct-mail-marketing.html">Direct Mail Marketing</a></li>
+      <li><a href="/package-design.html">Package Design</a></li>
+      <li><a href="/promotional-materials.html">Promotional Material</a></li>
+    </ul>
+  </li>
+</ul>
+</div>
+            </div>
+          </li>
+          <li><a href="/about.html" class="">About</a></li>
+          <li><a href="/blog" class="">Blog</a></li>
+          <li><a href="/contact.html" class="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+     
+  
+  <section class="hero-stark">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Mobile-first Web Design</h1>
+        <h2 class="section-heading">Make your site work on any device</h2>
+        <p class="section-lead">Responsive mobile-first websites built for all devices and orientations using industry-standard best practices</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div><img src="/images/ResponsiveWebDesign.jpg" /></div> 
+  </section>
+
+  <section>
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div>
+        <div class="section-summary">
+          <div class="section-heading">Be there when customers are searching</div>
+           <p class="section-lead mb3">A great mobile experience is no longer an option in today's mobile-first world</p>
+          <div class="section-quote">
+             <div class="quote">
+              <div>
+                <p>"Google says 61% of users are unlikely to return to a mobile site they had trouble accessing and 40% visit a competitor’s site instead."<br/><span class="source">(MicKinsey & Company)</span></p>
+              </div>
+            </div>
+            <div>
+
+              <p> Whether we’re at our desk, on a train, or waiting in line at the grocery store, we expect to be able to look for and find the information we want...fast and without any hassle, and we have zero patience or tolerance for any business that isn’t able to deliver. </p>
+              <p>We’ll bounce to a different site faster than a rocket full of monkeys!</p>
+              <p>This is important for your business given that every time a customer wants to know, go, do, try or buy anything they typically start with a google search on a mobile phone or tablet.</p>
+              <p>Google recently <a href="https://webmasters.googleblog.com/2018/03/rolling-out-mobile-first-indexing.html" target="_blank">announced</a> that because most searches are now done on mobile devices that they've started to rank search results exclusively on their ability to provide a great mobile-first website. In other words no matter what device your customers are using, Google shows them results based on their mobile index. If your business isn't mobile-first you might not show up in those searches.</p>
+              <p>Give your business a competitive edge with responsive mobile-first web design. Build a site that people find enjoyable, easy to use and one that Google loves, helping you earn more customers and grow your business.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="knockout">
+    <div class="wrap wrap-left">
+      <div class="service-plugs">
+        <h2 class="section-heading">Design and Develop Your Mobile-First Website</h2>
+        <div class="service-plug">
+          <h3>Responsive Web Design</h3>
+          <p>We build all of our websites using <a href="https://developers.google.com/search/mobile-sites/mobile-seo/responsive-design" target="_blank">google recommended</a> responsive web design. With responsive web design, each of your web page layout and content change depending on what device and screen size each person is using. This makes sure your site looks great no matter how its being viewed and it does it all without needing to create a separate mobile-version of your website.</p>
+        </div>
+        <div class="service-plug">
+          <h3>Mobile-first SEO</h3>
+          <p>We can help optimize your website to make sure it ranks in Googles mobile-first index. We'll use Google recommended user experience best practices and techniques to help make sure your providing your users with a great web experience, and because of that your mobile-first index rankings increase. We'll shoot for a 90 or better score on <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">page speed insights</a>, we'll optimize for readability and easy of navigation, put schema structured data in place and much more.</p>
+        </div>
+      </div>
+    </div>
+    <div class="right-image">
+      <img src="/images/ResponsiveServices.png"/>
+    </div>
+  </section>
+
+
+
+  <section class="">
+    <div class="wrap wrap-center">
+      <div >
+        <div >
+          <h2 class="section-heading mb3">Advantages of a mobile-first website</h2>
+          <div class="section-long-list">
+            <div>
+              <div>
+                <h3>Great User Experience</h3>
+                <p>You want your users to have a great experience and be able to find what they need on your site when they need it whatever device they are on</p>
+              </div>
+              <div>
+                <h3>Increased Search Rankings</h3>
+                <p>You want your site to rank higher in search engines and understand that a site optimized for mobile use is part of the SEO ranking factor</p>
+              </div>
+              <div>
+                <h3>Brand Affinity</h3>
+                <p>Customers are more likely to repeat purchase if they have an excellent user experience, making it quick, easy and enjoyable for them to get need when they need it.</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h3>Better Engagement</h3>
+                <p>You want to keep you users engaged with the content on your site where ever they are</p>
+              </div>
+              <div>
+                <h3>Competitive Edge</h3>
+                <p>Users get frustrated if they can't easily access or view content and are likely to go to your competitors site to get what they are looking for instead</p>
+              </div>
+              <div>
+                <h3>Reach More People</h3>
+                <p>More than half of all searches begin on a mobile phone and you want to ensure your content is fast and easy to access on those devices</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h3>Higher Traffic</h3>
+                <p> You want to increase traffic to your site and know that more people will find and visit your content if its designed and optimized for all devices</p>
+              </div>
+              <div>
+                <h3>Consistent Touch Points</h3>
+                <p>You want to ensure your business has a consistent look no matter how visitors are coming to your site</p>
+              </div>
+              <div>
+                <h3>Local Advantages</h3>
+                <p>You want more calls or traffic to your physical locations and know that people who search for a local business on a mobile phone call or visit the store with 24 hours</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+
+  <section class="knockout">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h2 class="section-heading">Why let us help build your mobile-first website</h2>
+          <div class="section-numbered-list">
+            <div>
+              <div>
+                <h5>1</h5>
+                <p>You want to make sure your site offers a great user experience</p>
+              </div>
+              <div>
+                <h5>2</h5>
+                <p>You want to make sure your site is highly performant</p>
+              </div>
+              <div>
+                <h5>3</h5>
+                <p>You don't have the time to learn the design and technical skills required</p>
+              </div>
+            </div>
+            <div>
+              
+              <div>
+                <h5>4</h5>
+                <p>You want to make sure your site is optimized for speed</p>
+              </div>
+              <div>
+                <h5>5</h5>
+                <p>You want to make sure your site uses modern up-to-date industry standard best practices</p>
+              </div>
+              <div>
+                <h5>6</h5>
+                <p>You want to make sure your site is optimized for accessibility</p>
+              </div>
+            </div>
+
+          </div>
+          <div>
+            <p class="h3 white bold">Most importantly, you have a business to run!</p>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section>
+    <div class="wrap wrap-center">
+      <div>
+        <div>
+          <div class="section-quote">
+             <div class="quote">
+              <div>
+                <p>"There are 27.8 billion more queries performed on mobile than desktop."<br/><span class="source"> (Google)</span></p>
+              </div>
+            </div>
+            <div>
+              <div class="section-heading">Mobile SEO vs. Desktop SEO</div>
+              <p class="section-lead mb2 bold">Sure, but my customers still only use desktop</p>
+               <p class="section-lead mb2">Perhaps that's true, some industries particularly B2B, may not be predominantly mobile users yet, but there's a good chance they will be soon. In fact, 58% of all searches in Google are now done from a mobile device. Adding to that, regardless of B2B or B2C industries most buyer journey's, things we want to know, do, try or buy, all begin with a search on a mobile device.</p>
+              <p class="section-lead mb2 ">And this is an upward trend.</p>
+              <p class="section-lead mb2">In order to remain a dominant power in search, Google works hard to give its users what they want which is fast accurate results on any device any where. Which means they are <a href="https://webmasters.googleblog.com/2018/03/rolling-out-mobile-first-indexing.html" target="_blank">heavily focused</a> mobile-first. And that means its important for your business to do the same or risk being penalized on search rankings.</p>
+              <p class="section-lead mb2">Needless to say, mobile-first is the future of SEO.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section>
+    <div class="wrap wrap-center">
+      <div>
+        <div>
+          <div>
+            <div>
+              <p class="section-heading green">"89% of B2B researchers use the Internet during the B2B research process."</p>
+              <p class="gray section-lead">&mdash; Statista</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="integrated">
+    <div class="wrap wrap-full wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h2 class="section-heading">Our Mobile-first Design and Development Process</h2>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap">
+            <li>
+              <div>
+                <div class="number">1</div>
+                <h3>Discovery &amp; Strategy</h3>
+                <p>No two companies are alike, so we'll get to know you, your business and the challenges and problems you face. We'll listen to things you've tried so far, what's worked and what hasn't and where we can fit in and help. We'll put together a complete plan to meet your unique challenges and goals based on your specific business needs.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="number">2</div>
+                <h3>Content Strategy</h3>
+                <p>We’ll work with you to create target personas and arrange and organize your content to provide the best user experience. As SEO and content marketing strategists, we can help determine what pages are most important to your audiences and how to best address their needs across the complete buyers journey and beyond to advocacy.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="number">3</div>
+                <h3>Design and UI/UX</h3>
+                <p>Our designers will with you to develop a web design that not only matches your brand aesthetics and your identity standards, but brings our knowledge of user interface and user experience to the fore-front. You'll see and choose from multiple different concepts and be able to interact with each design on different devices and screen sizes, we'll help guide you in the right direction, point out pros and cons of each particular feature and determine the best design direction to move forward with.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="number">3</div>
+                <h3>Develop and Optimize</h3>
+                <p>Once you've determined a design direction our front-end developers will use the latest layout and development techniques such as HTML5, CSS3 and javascript to build your mobile-first website in a best practices approach. We'll test our code for accuracy, optimize for high scores against tools such as page speed insights, yslow and woorank. We'll use automated tests to check your site on multiple browsers, OS and screens ensuring your users will have a consistent experience with whatever device they're using.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="number">4</div>
+                <h3>Monitor, Test and Improve</h3>
+                <p>When your site is ready, we’ll handle all the hosting and launch details to ensure a smooth transition from your existing website to your new Drupal CMS. You will not experience any downtime, your old site will be archived and 301 redirected as necessary, analytics will be benchmarked and carried forward. From here we’ll help monitor the site, look for ways to help you improve your users experience and keep your site up-to-date and secure with any security patches or updates.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="section-background">
+    <div class="wrap wrap-center">
+      <div >
+        <div >
+          <h2 class="section-heading mb3">Why consider FreshJones for your mobile-first website?</h2>
+          <p>Here are a number of reasons to consider FreshJones for your mobile-first website design, but the most important reason? We're nice people, we'll work hard to get the results you're looking for and we'll make the process fun and enjoyable .</p>
+          <div class="section-long-list">
+            <div>
+              <div>
+                <h3>Experience</h3>
+                <p>We've been building responsive, mobile-first websites since 2013. Our engineers stay current with the latest industry standard best practices and follow Google recommended guidelines in developing great mobile-first user experiences that search engines and your customers will love.</p>
+              </div>
+              <div>
+                <h3>Strategy</h3>
+                <p>Everything we do begins with a strategic mindset. We're firm believers in data-driven decision making and will always bring good ideas and suggested and recommended solutions to the table for consideration.</p>
+              </div>
+              <div>
+                <h3>Content</h3>
+                <p>Part of providing your users with a relevant engaging web experience is giving them valuable and useful content. As SEO and user experience experts we can help you develop a content strategy better inform and keep your visitors engaged in your website, increasing your users dwell time, lowering bounce rates and improving conversions.</p>
+              </div>
+              <div>
+                <h3>Design</h3>
+                <p>Design in engrained into everything we do, whether it's graphic design, user experience or user interface design, we'll always work hard to provide you and your visitors with the best visual and functional experience.</p>
+              </div>
+              <div>
+                <h3>Quality</h3>
+                <p>We take quality very seriously. Whether its in the design or the development process quality is baked into everything we do. We stay up-to-date with the latest best practices in design and development practices, we practive object-oriented and functional programming methodologies, we run both unit and integration tests, all our sites are version controlled, with proper backup and restore strategies.</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h3>Development</h3>
+                <p>Our in-house technical capabilities are both broad and deep. We are knowledgable, and skilled in the latest mobile-first, responsively designed front-end development applications, including modern HTML5, CSS3 and Javascript ES5/6 layout and design techniques.</p>
+              </div>
+              <div>
+                <h3>Data-driven and goal oriented</h3>
+                <p>We strongly believe that developing a mobile-first website that's powerful and effective as a growth building tool for your business takes effort and time. We develop a data-driven, goal-oriented mindset for all of our programs and projects and we help you analyze your data and performance indicators and use that data to make informed decisions about how we can improve and optimize our efforts incrementally over time to provide the best possible return on your investment.</p>
+              </div>
+              <div>
+                <h3>Support</h3>
+                <p>It would be difficult to beat our level of hands-on support. We're always a phone call or email away, you'll be speaking directly with a technician and we take your issues or problems very seriously.</p>
+              </div>
+              <div>
+                <h3>Project Management</h3>
+                <p>We are capable of working in either a waterfall or agile project management style. We prefer to work in an agile method because it allows our clients full control and accessibility to their project during development, creating many incremental feedback loops that allow the project to naturally progress in the most goal-oriented direction as opposed to being locked into a big non-movable plan at the beginning of the project. </p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="knockout">
+    <div class="wrap wrap-center">
+      <div>
+        <div class="section-summary">
+          <div>
+            <h2 class="section-heading">What Makes a Great Mobile-first Website?</h2>
+            <p>We'll make sure your mobile-first website has the following attributes</p>
+          </div>
+        </div>
+        <div class="section-divider">
+          <div></div>
+        </div>
+        <div class="column-list">
+          <div>
+            <div>
+              <p class="bold">Responsive</p>
+              <p>Fast</p>
+              <p>Works fluidly on any device</p>
+              <p>Works on any orientation</p>
+              <p>Start with mobile first</p>
+              <p>There is no more fold - let pages scroll</p>
+              <p>Responsive images </p>
+              <p>Responsive videos</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <p class="bold">Great User Experience</p>
+              <p>Optimized for readability and legibility accessibility</p>
+              <p>Easily clickable buttons</p>
+              <p>Prioritize content Consider what's most important</p>
+              <p>Use screen real estate effectively</p>
+              <p>Consider user interaction</p>
+              <p>Optimal reading widths</p>
+              <p>Important info at the top engagement and hierarchy</p>
+              <p>Intuitive UI elements</p>
+              <p>Design for touch and gestures</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <p class="bold">High Performance</p>
+              <p>break points based on content not on devices</p>
+              <p>Optimized code</p>
+              <p>Optimized Imagery</p>
+              <p>Fast on all devices</p>
+              <p>Change the order of content blocks on smaller screens</p>
+              <p>Remove modals on phones and use scroll instead</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <section class="">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div>
+        <div class="section-summary">
+          <h2 class="section-heading align-left">What you'll get with mobile-first web design</h2>
+          <p class="align-left">You'll get a website that your users and search engines love. You'll experience higher rankings and search pages which will in turn give you more traffic, more leads and more customers and sales. You'll get more for your paid marketing efforts by providing your users with a great experience. Google factors into account the quality of your webpages when determining how much you pay for clicks on your ads, the better your quality score is the more likely your ad will be placed higher on the page and the less you'll need to pay for that placement.</p>
+          <p class="align-left">You'll be getting an edge over your competition, most users who do not get what they were expecting when visiting a site, or users that have a bad experience trying to navigate or find the information they need will immediately leave your site and head directly to one of your competitors to find the information they need. You can avoid this by making sure your site is the trusted authority in your field of expertise and that potential customers can easily find relevant and valuable content that helps them see you as the answer to their problems.</p>
+          <p class="align-left">You'll be building brand affinity and top-of-mind awareness and loyalty in your customers minds about how easy and enjoyable your website experience was. This is important when they're ready to make a purchase, your business will be the one they remember and click on first, and it will be the one they come back for repeat purchases and the one they'll recommend to friends and neighbors.</p>  
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  
+<section class="knockout solutions-schedule section-background">
+  <div class="wrap">
+    <div class="flex-panels">
+      <div class="section-summary flex-panel-6">
+        <h2>Sound Good? Lets Talk Mobile-first Web Design</h2>
+        <p class="bold">Let's get to know each other.</p>
+        <p>We'll ask you some questions and listen to your specific challenges. We'll find out what you've tried so far, what's worked for you in the past and what hasn't. Lastly we'll let you know how we might be able to help and see if you'd like to take a next step.</p>
+        <p class="bold">Would that be worth a 1/2 hour of your time?</p>
+      </div>
+      <div class="flex-panel-6">
+        <form name="consultation" method="POST" netlify-honeypot="fj_contact_info" netlify>
+          <input name="consultation-call" type="hidden" value="Mobile-first Web Design">
+          <div>
+            <label>Name</label>
+            <input name="name" placeholder="Full Name" type="text" required>
+          </div>
+          <div>
+            <label>Company</label>
+            <input name="company" placeholder="Company Name" type="text" required>
+          </div>
+          <div>
+            <label>Email</label>
+            <input name="email" placeholder="Email Address" type="email" required>
+          </div>
+          <div>
+            <label>Phone</label>
+            <input name="tel" pattern="\d{0,1}[-| ]?[\(]?\d{3}[\)]?[-| ]?\d{3}[\-| ]?\d{4}" placeholder="Phone Number 1 (999) 999-9999" type="tel" required>
+          </div>
+          
+          <div class="fj_contact_info">
+            <input name="fj_contact_info" />
+          </div>
+          <div>
+            <input name="Submit" value="Lets Schedule a Call" type="submit">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div> 
+</section>
+
+
+
+
+  </main>
+  <footer><section class="certifications">
+  <div class="container">
+    <div><img src="/images/hubspot-inbound-certified.png"></div>
+    <div><img src="/images/hubspot-inbound-sales-certified.png"></div>
+    <div><img src="/images/google-ad-words-certified.png"></div>
+    <div><img src="/images/clickminded-seo-certified.png"></div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <ul class="footer">
+      <li>
+        <ul>
+          <li>
+            <div class="wordmark">
+              <span>Fresh</span><span>Jones</span>
+            </div>
+          </li>
+          <li>
+            <span>14 Miner Street</span><br />
+            <span>Greenfield</span>,
+            <span>MA</span>
+            <span>01301</span>
+          </li>
+          <li><a href="tel:4134751810">(413) 475-1810</a></li>
+          <li><a href="/contact.html">Directions</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li class="list-heading"><a href="/solutions.html">Growth Solutions</a></li>
+          <li><a href="/marketing-help-for-manufacturing-businesses.html">Manufacturing</a></li>
+          <li><a href="/marketing-help-for-higher-education-institutions.html">Higher Education</a></li>
+          <li><a href="/marketing-help-for-non-profit-organizations.html">Non-Profit</a></li>
+          <li><a href="/marketing-help-for-financial-service-companies.html">Financial Services</a></li>
+          <li><a href="/marketing-help-for-retail-distribution-businesses.html">Retail & Distribution</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li class="list-heading"><a href="/services.html">Growth Services</a></li>
+          <li><a href="/web-mobile-services.html">Web + Mobile</a></li>
+          <li><a href="/marketing-sales-services.html">Marketing + Sales</a></li>
+          <li><a href="/branding-creative-services.html">Brand + Creative</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <ul class="copyright">
+      <li >&copy; 2018 FreshJones</li>
+      <li>Full Service Design and Marketing Agency in Western Massachusetts</li>
+    </ul>
+  </div>
+</section>
+</footer>
+  <script src="/js/vendor.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
