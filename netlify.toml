@@ -2,3 +2,7 @@
 [[redirects]]
   from = "/blog/setting-up-local-dns-for-web-development.html"
   to = "/blog/editing-hosts-file-for-web-development.html"
+
+[[redirects]]
+  from = "/blog/setting-up-local-dns-for-web-development"
+  to = "/blog/editing-hosts-file-for-web-development"
