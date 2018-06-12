@@ -1,0 +1,4 @@
+# A basic redirects rule
+[[redirects]]
+  from = "/blog/setting-up-local-dns-for-web-development.html"
+  to = "/blog/editing-hosts-file-for-web-development.html"
