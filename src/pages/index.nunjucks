@@ -7,18 +7,6 @@
   {% include 'partials/home/sections/hero-video.nunjucks' %}
   <!-- intro -->
   {% include 'partials/home/sections/intro.nunjucks' %} 
-  <!-- intro -->
-  {% include 'partials/home/sections/intro-alt.nunjucks' %}
-  <!-- integrated -->
-  {% include 'partials/home/sections/ourpartners.nunjucks' %}
-  <!-- integrated -->
-  {% include 'partials/home/sections/when-to-consider-us.nunjucks' %}
-  <!-- services -->
-  {% include 'partials/home/sections/services.nunjucks' %}
-  <!-- stories -->
-  {% include 'partials/home/sections/success-stories.nunjucks' %}
-  <!-- solutions -->
-  {% include 'partials/home/sections/solutions-industry.nunjucks' %}
 
   <section class="bg-open-ymca section-right">
     <div class="wrap wrap-right">
@@ -35,6 +23,21 @@
       </div>
     </div> 
   </section>
+  
+  <!-- intro -->
+  {% include 'partials/home/sections/intro-alt.nunjucks' %}
+  <!-- integrated -->
+  {% include 'partials/home/sections/ourpartners.nunjucks' %}
+  <!-- integrated -->
+  {% include 'partials/home/sections/when-to-consider-us.nunjucks' %}
+  <!-- services -->
+  {% include 'partials/home/sections/services.nunjucks' %}
+  <!-- stories -->
+  {% include 'partials/home/sections/success-stories.nunjucks' %}
+  <!-- solutions -->
+  {% include 'partials/home/sections/solutions-industry.nunjucks' %}
+
+  
   
   <!-- solutions -->
   {% include 'partials/home/sections/solutions-role.nunjucks' %}

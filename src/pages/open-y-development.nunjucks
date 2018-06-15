@@ -6,7 +6,7 @@
 {% endblock %}
 
 {% block header %}
-  {{header.active('services')}}
+  {{header.active('openy')}}
 {% endblock %}
 
 {% block main %}
