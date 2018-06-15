@@ -8,7 +8,10 @@
           <li>Marketing</li>
           <li>Creative</li>
         </ul>
-        <p class="section-lead">FreshJones is a full service creative agency and digital marketing firm located in Western Massachusetts. We help people gain traction and build momentum in their business that fuels growth. We do this through listening, caring and collaborating with you to strategically develop customer-focused, data-driven integrated marketing solutions that are uniquely suited to your specific business.</p>
+        <p class="section-lead">FreshJones is a full service creative agency and digital marketing firm in Western Massachusetts. We help people gain traction and build momentum in their business that fuels growth. Offering <a href="/mobile-first-responsive-web-design.html">mobile-first web design</a>, <a href="/search-engine-optimization.html">search optimization</a> and <a href="/local-search-engine-optimization.html">local SEO</a>, <a href="/marketing-sales-services.html">digital marketing</a>, <a href="/ecommerce-websites.html">ecommerce sites</a> and <a href="/drupal-website-development.html">Drupal and Wordpress development</a>.</p>
+
+        <p class="section-lead pt2">We do this through listening, caring and collaborating with you to strategically develop customer-focused, data-driven integrated marketing solutions that are uniquely suited to your specific business.</p>
+
       </div>
       <div>
         {{ button.scrollto('action', 'Get to Know Us') }}
