@@ -46,9 +46,13 @@
 
       <h2>How does a Hosts file work?</h2>
 
-      <p>Suppose you want to visit a web page, you type the domain name into a browser and hit Enter. </p>
+      <p>Suppose you want to visit a a certain web page. You just type the domain name into a browser and hit Enter. </p>
 
-      <p>What happens is that your browser initiates a search to find the address of the server hosting the domain name you are looking for. That request starts at your local computer’s Hosts file, if a domain and matching ip address aren’t found, then the request goes out to external DNS servers until the address is found and returned back to your browser which can then use that address to serve up the web site you wanted. Cool.</p>
+      <p>What happens behind the scene is that your browser starts a lookup search to find the address of the server hosting the web page you're looking for. That request starts at your local computer’s Hosts file, if a domain and matching ip address aren’t found there, then the request goes out to external DNS servers until the address is found and returned back to your browser which it can then use to serve up the web page you want to view.</p>
+    
+      <p><img src="/images/blog/how-a-hosts-file-works.png" /></p>
+
+      <p>Cool</p>
 
       <p>So now that we know that the browser will use the information it finds the local Hosts file before looking to external DNS sources, we can use our local Hosts file to point any domain name we want to any ip address we want. </p>
 
@@ -58,7 +62,7 @@
 
       <p>On a Mac you need to open a Terminal window and type the following to begin editing your Hosts file:</p>
 
-      <p>sudo nano /etc/hosts</p>
+      <code>sudo nano /etc/hosts</code>
 
       <p>You’ll likely need to enter your users password, and then you’ll be able to edit your hosts file.</p>
 
@@ -118,7 +122,7 @@
 
       <p>And then update your Vagrantfile like so:</p>
 
-      <p># If a hostsfile manager plugin is installed, add all server names as aliases.<br/>
+      <p class="code"># If a hostsfile manager plugin is installed, add all server names as aliases.<br/>
       #aliases = get_vhost_aliases(vconfig) - [config.vm.hostname]<br/>
       if Vagrant.has_plugin?('vagrant-hostsupdater')<br/>
         config.hostsupdater.aliases = [www.freshjones.com]<br/>
@@ -126,7 +130,7 @@
 
       <p>You’ll need to ensure your VM has a hostname and is using a private network</p>
 
-      <p>config.vm.hostname = "app.freshjones.local"<br/>
+      <p class="code">config.vm.hostname = "app.freshjones.local"<br/>
       config.vm.network :private_network, ip: "192.168.33.10"</p>
 
       <p>That’s it, vagrant up and your host file will have been modified to include your aliases. Vagrant halt and they’ll be removed.</p>

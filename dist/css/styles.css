@@ -1999,6 +1999,13 @@ header .social-icons svg:hover {
   padding: 20px 0;
 }
 
+.code, code {
+  padding: 8px;
+  border: solid 1px #f4e6bb;
+  background: #fbf6e7;
+  color: #586e7d;
+}
+
 .hero {
   background-color: #333;
   background-image: url("/images/home-hero-small.jpg");
