@@ -2006,6 +2006,80 @@ header .social-icons svg:hover {
   color: #586e7d;
 }
 
+.chatbot {
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+  width: 360px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #fff;
+  padding: 5px;
+  border-top: solid 1px #ccc;
+  border-left: solid 1px #ccc;
+  border-right: solid 1px #ccc;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chatbot-close {
+  text-align: right;
+  padding-right: 10px;
+  text-transform: uppercase;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.chatbot-content {
+  padding: 10px;
+  overflow-y: scroll;
+  height: 100%;
+  flex: 1 1 auto;
+  height: 250px;
+  width: 365px;
+}
+
+.chatbot-response {
+  text-align: right;
+}
+
+.chatbot-response,
+.chatbot-request {
+  margin-bottom: 5px;
+}
+
+.chatbot-response div,
+.chatbot-request div {
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.chatbot-response div {
+  background-color: blue;
+  color: white;
+}
+
+.chatbot-request div {
+  background-color: #efefef;
+  border: solid 1px #ccc;
+}
+
+.chatbot-message {
+  padding: 10px;
+}
+
+.chatbot-collapsed {
+  min-height: auto;
+}
+
+.chatbot-collapsed .chatbot-message,
+.chatbot-collapsed .chatbot-content {
+  display: none;
+}
+
 .hero {
   background-color: #333;
   background-image: url("/images/home-hero-small.jpg");

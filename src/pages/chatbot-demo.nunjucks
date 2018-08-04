@@ -1,0 +1,102 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block title %}
+  FreshJones - Chatbot Demo
+{% endblock %}
+
+{% block header %}
+  {{header.active('contact')}}
+{% endblock %}
+
+{% block scripts %}
+  {#
+  <script src="https://js.pusher.com/4.2/pusher.min.js"></script>
+
+  <script>
+
+    // Enable pusher logging - don't include this in production
+    Pusher.logToConsole = true;
+
+    var pusher = new Pusher('7c246ba518d6ca5b0cb7', {
+      cluster: 'us2',
+      encrypted: true
+    });
+
+    var channel = pusher.subscribe('my-channel');
+    channel.bind('my-event', function(data) {
+      $('.chatbot-content').append('<div class="chatbot-response"><div>' + data.message + '</div></div>');
+    });
+  </script>
+  #}
+
+{% endblock %}
+
+{% block main %} 
+    {#
+  <div class="chatbot">
+    <div class="chatbot-close">Close</div>
+    <div class="chatbot-content">
+      <div class="chatbot-response"><div>Ready to schedule a demo?</div></div>
+    </div>
+    <div class="chatbot-message">
+      <input class="chatbot-message-input" name="message" value="" placeholder="Type a message"/>
+    </div>
+  </div>
+  #}
+  <section class="hero-stark contact-hero">
+    <div class="wrap wrap-center">
+      <div class="section-summary">
+        <h1 class="section-topic">Chatbot Demo</h1>
+        <h2 class="section-heading mb0">Ready to Talk Chatbots?</h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-action solutions-action section-background">
+    <div class="wrap">
+      <div class="flex-panels">
+        <div class="section-summary flex-panel-6">
+          <h2>Let’s have a conversation!</h2>
+          <p>We’ll get together, ask some questions and learn more about your business. We’ll listen to your
+specific challenges and discover your business requirements and goals. We’ll demonstrate how a chatbot can help your
+business meet those needs and lastly we’ll make some recommendations on how we might work together and get you
+started with your own chatbot!</p>
+        </div>
+        <div class="flex-panel-6">
+          <form name="contact" method="POST" netlify-honeypot="fj_contact_info" netlify>
+            <input name="consulation" type="hidden" value="Chatbot Demonstration">
+            <div>
+              <label>Name</label>
+              <input name="name" placeholder="Full Name" type="text" required>
+            </div>
+            <div>
+              <label>Email</label>
+              <input name="email" placeholder="Email Address" type="email" required>
+            </div>
+            <div>
+              <label>Telephone</label>
+              <input name="tel" pattern="\d{0,1}[-| ]?[\(]?\d{3}[\)]?[-| ]?\d{3}[\-| ]?\d{4}" placeholder="Phone Number 1 (999) 999-9999" type="tel" required>
+            </div>
+            <div>
+              <label>Company</label>
+              <input name="company" placeholder="Company Name" type="text" required>
+            </div>
+            <div>
+              <label>Comments:</label><br/>
+              <textarea name="comments"></textarea>
+            </div>
+            <div class="fj_contact_info">
+              <input name="fj_contact_info" />
+            </div>
+            <div>
+              <input name="Submit" value="Schedule a Demonstration" type="submit">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+{% endblock %}
