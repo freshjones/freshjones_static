@@ -12,19 +12,26 @@
     });
 
     $('.chatbot-message-input').keypress(function(event){
+        var _this = $(this);
+
       if(event.keyCode == 13){
 
-        if(!$(this).val())
+        if(!_this.val())
             return;
 
-        $('.chatbot-content').append('<div class="chatbot-request"><div>' + $(this).val() + '</div></div>');
-        $(this).val('');
-
+        $('.chatbot-content').append('<div class="chatbot-request"><div>' + _this.val() + '</div></div>');
+     
         $.ajax({
-            url: 'http://localhost:9000/',
+            url: 'https://dxw110s3a1.execute-api.us-east-1.amazonaws.com/latest',
             type: "POST",
             contentType: 'application/json',
-            data: JSON.stringify({ "user" : "me!" })
+            dataType: "json",
+            data: JSON.stringify({ "message" : _this.val() }),
+            success: function(data){
+                $('.chatbot-content').append('<div class="chatbot-response"><div>' + data.message + '</div></div>');
+                $(".chatbot-content").scrollTop($(".chatbot-content")[0].scrollHeight);
+                _this.val('');
+            }
         });
 
       }

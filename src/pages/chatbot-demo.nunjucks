@@ -9,31 +9,9 @@
   {{header.active('contact')}}
 {% endblock %}
 
-{% block scripts %}
-  {#
-  <script src="https://js.pusher.com/4.2/pusher.min.js"></script>
-
-  <script>
-
-    // Enable pusher logging - don't include this in production
-    Pusher.logToConsole = true;
-
-    var pusher = new Pusher('7c246ba518d6ca5b0cb7', {
-      cluster: 'us2',
-      encrypted: true
-    });
-
-    var channel = pusher.subscribe('my-channel');
-    channel.bind('my-event', function(data) {
-      $('.chatbot-content').append('<div class="chatbot-response"><div>' + data.message + '</div></div>');
-    });
-  </script>
-  #}
-
-{% endblock %}
 
 {% block main %} 
-    {#
+
   <div class="chatbot">
     <div class="chatbot-close">Close</div>
     <div class="chatbot-content">
@@ -43,7 +21,7 @@
       <input class="chatbot-message-input" name="message" value="" placeholder="Type a message"/>
     </div>
   </div>
-  #}
+
   <section class="hero-stark contact-hero">
     <div class="wrap wrap-center">
       <div class="section-summary">
