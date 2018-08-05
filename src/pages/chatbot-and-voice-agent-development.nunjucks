@@ -10,7 +10,17 @@
 {% endblock %}
 
 {% block main %} 
- 
+  
+  <div class="chatbot">
+    <div class="chatbot-close">Close</div>
+    <div class="chatbot-content">
+      <div class="chatbot-response"><div>Ready to schedule a demo?</div></div>
+    </div>
+    <div class="chatbot-message">
+      <input class="chatbot-message-input" name="message" value="" placeholder="Type a message"/>
+    </div>
+  </div>
+  
   <section class="hero-stark">
     <div class="wrap wrap-center">
       <div class="section-summary">
