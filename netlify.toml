@@ -1,8 +1,24 @@
 # A basic redirects rule
 [[redirects]]
-  from = "/blog/setting-up-local-dns-for-web-development.html"
-  to = "/blog/editing-hosts-file-for-web-development.html"
+    from = "/blog/setting-up-local-dns-for-web-development.html"
+    to = "/blog/editing-hosts-file-for-web-development.html"
 
 [[redirects]]
-  from = "/blog/setting-up-local-dns-for-web-development"
-  to = "/blog/editing-hosts-file-for-web-development"
+    from = "/blog/setting-up-local-dns-for-web-development"
+    to = "/blog/editing-hosts-file-for-web-development"
+
+[[redirects]]
+    from = "/open-y"
+    to = "/open-y-development"
+
+[[redirects]]
+    from = "/openy"
+    to = "/open-y-development"
+
+[[redirects]]
+    from = "/chatbots"
+    to = "/chatbot-and-voice-agent-development"
+
+[[redirects]]
+    from = "/chatbot"
+    to = "/chatbot-and-voice-agent-development"
