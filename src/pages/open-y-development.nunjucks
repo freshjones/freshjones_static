@@ -19,7 +19,7 @@
       </div>
     </div>
   </section>
-
+  {#
   <section class="services-intro">
     <div class="wrap wrap-center wrap-center-narrow">
       <div class="section-spaced">
@@ -31,15 +31,95 @@
       </div>
     </div> 
   </section>
+  #}
 
   <section class="bg-openy-intro knockout section-right">
     <div class="wrap wrap-center-narrow">
       <div class="section-spaced">
         <div class="section-summary">
           <div class="section-heading">The content management system for YMCA's</div>
-          <p>The advantages of an Open Y website are numerous, its open-source and free to use, with no licensing fees, its extendible and customizable, capable of handling any requirement your YMCA has, from multilingual support, sophisticated publishing workflows and microsites. Not to mention there is a huge worldwide community of developers working constantly to keep things up-to-date and secure. </p>
+          <p>The advantages of an Open Y website are numerous, its open-source, brand-compliant, modern and mobile responsive and free to use, with no licensing fees, its extendible and customizable, capable of handling any requirement your YMCA has, from multilingual support, sophisticated publishing workflows and microsites. Not to mention there is a huge worldwide community of developers working constantly to keep things up-to-date and secure. </p>
           <p>With the Open Y platform you and your staff can easily administer and manage all aspects of your website’s content and capabilities. Giving you complete control over how and when your content is scheduled, approved and launched.</p>
           <p>If your YMCA needs a powerful website, consider a strategically-built, expertly designed Open Y website.</p>
+          <p>{{ button.scrollto('openy', 'Sound Good? Lets Talk') }}</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+
+  <section class="services-intro">
+    <div class="wrap wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">How we can help with your Open Y Website</h1>
+          <p class="section-lead">We have extensive experience with the Open Y platform and building Drupal 8 websites, the following are some of the ways in which we can help make your Open Y website experience a great one.</p>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-center">
+            <li>Planning, Strategy and Consultation</li>
+            <li>Content Strategy, Development or Migrations</li>
+            <li>Open Y Platform Installation, Setup &amp; Configuration</li>
+            <li>Custom Theme Design and Implementation</li>
+            <li>Custom Functionality</li>
+            <li>Custom 3rd Party Integrations</li>
+            <li>Multi-site, multi-lingual installations</li>
+            <li>Secure Hosting and Management</li>
+            <li>Security, Web Maintenance &amp; Updates</li>
+            <li>Search Engine Optimization</li>
+            <li>Digital Marketing and Membership Growth</li>
+            <li>In-person Training, Support &amp; Consultation</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+  <section class="integrated">
+    <div class="wrap wrap-full wrap-center wrap-center-narrow">
+      <div class="section-spaced">
+        <div class="section-summary">
+          <h1 class="section-heading">Our Open-Y Process</h1>
+          <p class="section-lead">The Open Y Platform is a powerful tool and as it can be a challenge to use it to its fullest potential. We'll work with you and help guide you though the process every step of the way from initial planning through training and maintenance.</p>
+        </div>
+        <div>
+          <ul class="flex-blocks flex-blocks-nowrap">
+            <li>
+              <div>
+                <div class="number">1</div>
+                <h3>Understand Your Y and Make a Plan</h3>
+                <p>No two Y's are exactly alike. We'll get to know you're particular YMCA, how many locations you have, whether or not you have camps, child services or other special interest sites. We'll help you determine the look and feel of your site and whether or not custom design is something you'll need. We'll determine if you're YMCA will need any additional functionality beyond the Open-Y Platform. And lastly we'll decide where the site will be hosted.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="number">2</div>
+                <h3>Content Development</h3>
+                <p>We'll work with you to help arrange and organize your content to provide your users with the best possible user experience. We're SEO and content marketing strategists so we can help determine what pages are most important to your users, whether or not you are addressing your audiences needs from awareness through membership and advocacy.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="number">3</div>
+                <h3>Design and Develop</h3>
+                <p>We'll install the Open Y Platform and make any theme or template adjustments based on your design requirements. We'll also build and install any custom functionality requirements your particular YMCA might require, such as integration with DAXCO, YWEB or Christianson registration systems.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="number">4</div>
+                <h3>Launch, Monitor and Improve</h3>
+                <p>When your ready, we'll help handle all the launch details to ensure a smooth transition from your existing website to your new Open Y site. Your members will not experience any downtime. From here we'll monitor the site, look for ways to help you improve your users experience, keep your site up-to-date and secure with any Drupal security patches.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="number">5</div>
+                <h3>Training and Consultation</h3>
+                <p>The open Y Platform is powerful and complex. We make it easy by providing in-person training sessions. So you and your staff with have the opportunity to really get to know and understand the Open Y System. Ask questions and feel confident about using the tool to its fullest potential. Have questions afterwards? No problem we're a phone call or an email away and are alway happy to help you work through a sticky situation or trouble shoot a problem you're having.</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div> 
@@ -255,82 +335,6 @@
 
   </section>
 
-  <section class="integrated">
-    <div class="wrap wrap-full wrap-center wrap-center-narrow">
-      <div class="section-spaced">
-        <div class="section-summary">
-          <h1 class="section-heading">Our Open-Y Process</h1>
-          <p class="section-lead">The Open Y Platform is a powerful tool and as it can be a challenge to use it to its fullest potential. We'll work with you and help guide you though the process every step of the way from initial planning through training and maintenance.</p>
-        </div>
-        <div>
-          <ul class="flex-blocks flex-blocks-nowrap">
-            <li>
-              <div>
-                <div class="number">1</div>
-                <h3>Understand Your Y and Make a Plan</h3>
-                <p>No two Y's are exactly alike. We'll get to know you're particular YMCA, how many locations you have, whether or not you have camps, child services or other special interest sites. We'll help you determine the look and feel of your site and whether or not custom design is something you'll need. We'll determine if you're YMCA will need any additional functionality beyond the Open-Y Platform. And lastly we'll decide where the site will be hosted.</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <div class="number">2</div>
-                <h3>Content Development</h3>
-                <p>We'll work with you to help arrange and organize your content to provide your users with the best possible user experience. We're SEO and content marketing strategists so we can help determine what pages are most important to your users, whether or not you are addressing your audiences needs from awareness through membership and advocacy.</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <div class="number">3</div>
-                <h3>Design and Develop</h3>
-                <p>We'll install the Open Y Platform and make any theme or template adjustments based on your design requirements. We'll also build and install any custom functionality requirements your particular YMCA might require, such as integration with DAXCO, YWEB or Christianson registration systems.</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <div class="number">4</div>
-                <h3>Launch, Monitor and Improve</h3>
-                <p>When your ready, we'll help handle all the launch details to ensure a smooth transition from your existing website to your new Open Y site. Your members will not experience any downtime. From here we'll monitor the site, look for ways to help you improve your users experience, keep your site up-to-date and secure with any Drupal security patches.</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <div class="number">5</div>
-                <h3>Training and Consultation</h3>
-                <p>The open Y Platform is powerful and complex. We make it easy by providing in-person training sessions. So you and your staff with have the opportunity to really get to know and understand the Open Y System. Ask questions and feel confident about using the tool to its fullest potential. Have questions afterwards? No problem we're a phone call or an email away and are alway happy to help you work through a sticky situation or trouble shoot a problem you're having.</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div> 
-  </section>
-
-  <section class="services-intro">
-    <div class="wrap wrap-center wrap-center-narrow">
-      <div class="section-spaced">
-        <div class="section-summary">
-          <h1 class="section-heading">How we can help with your Open Y Website</h1>
-          <p class="section-lead">We have extensive experience with the Open Y platform and building Drupal 8 websites, the following are some of the ways in which we can help make your Open Y website experience a great one.</p>
-        </div>
-        <div>
-          <ul class="flex-blocks flex-blocks-center">
-            <li>Planning, Strategy and Consultation</li>
-            <li>Content Strategy, Development or Migrations</li>
-            <li>Open Y Platform Installation, Setup &amp; Configuration</li>
-            <li>Custom Theme Design and Implementation</li>
-            <li>Custom Functionality</li>
-            <li>Custom 3rd Party Integrations</li>
-            <li>Multi-site, multi-lingual installations</li>
-            <li>Secure Hosting and Management</li>
-            <li>Security, Web Maintenance &amp; Updates</li>
-            <li>Search Engine Optimization</li>
-            <li>Digital Marketing and Membership Growth</li>
-            <li>In-person Training, Support &amp; Consultation</li>
-          </ul>
-        </div>
-      </div>
-    </div> 
-  </section>
 
   <section class="knockout solutions-openy section-background">
     <div class="wrap">
